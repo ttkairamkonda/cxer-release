@@ -12,7 +12,14 @@ CxER is an LLM ensemble framework that evaluates whether ASR outputs preserve **
 cxer-release/
 │
 ├── evaluate_asr.py                  # Compute WER, BERTDist, SemDist, CxER from judge outputs
-├── graphs.ipynb                     # All analysis: tables, figures, inter-rater agreement
+│
+├── analysis/
+│   ├── figure1_wer_scatter.py       # Figure 1 — per-utterance WER vs CxER label scatter
+│   ├── figure2_metric_comparison.py # Figure 2 — grouped bar chart across all metrics
+│   ├── table1_finetuning_paradox.py # Table 1 — 25th-percentile threshold analysis
+│   ├── table2_inter_rater_agreement.py  # Table 2 / Appendix C — Cohen's κ, Fleiss' κ
+│   ├── table3_prompt_robustness.py  # Table 3 — per-prompt F1 and Fleiss' κ
+│   └── table4_error_type_analysis.py    # Table 4 / Appendix B — per-class κ, Krippendorff's α
 │
 ├── asr/
 │   └── scripts/
@@ -165,17 +172,18 @@ Produces per-file WER, BERTDist (1 − BERTScore F1), SemDist, and CxER for all 
 
 ### Step 3 — Analysis, tables, and figures
 
-Open `graphs.ipynb`. Cells are organized as follows:
+Each result in the paper has a dedicated script under `analysis/`. Run from the repo root:
 
-| Cells | Output |
-|---|---|
-| 00–09 | Metric comparison; `ccer_improvement_gap.png` (Figure 2) |
-| 10–15 | WER scatter plots; `wer_whisper_only_atcosim_test_vertical.png` (Figure 1) |
-| 16 | **Finetuning Paradox** — 25th-percentile threshold analysis (Table 1) |
-| 25 | **Build 500-sample annotation sheet** — merges three judges, stratified sampling |
-| 28–31 | Inter-rater agreement, Cohen's κ, weighted κ (Table 2, Appendix C) |
-| 33–34 | Per-class error type agreement and evaluation (Table 4, Appendix B) |
-| 41–42 | Prompt robustness: per-prompt F1 and Fleiss' κ (Table 3) |
+```bash
+python analysis/figure1_wer_scatter.py        # Figure 1  → eval_plots/wer_whisper_only_atcosim_test_vertical.png
+python analysis/figure2_metric_comparison.py  # Figure 2  → eval_plots/ccer_improvement_gap.png
+python analysis/table1_finetuning_paradox.py  # Table 1   — prints Finetuning Paradox threshold analysis
+python analysis/table2_inter_rater_agreement.py  # Table 2 / Appendix C — Cohen's κ, Fleiss' κ
+python analysis/table3_prompt_robustness.py   # Table 3   → prompt_robustness_analysis/
+python analysis/table4_error_type_analysis.py # Table 4 / Appendix B — per-class Krippendorff's α
+```
+
+All scripts read from `eval_cache/` and `annotations/` which are pre-populated. Re-running is safe.
 
 ### Step 4 — Prompt robustness experiment
 
@@ -191,7 +199,7 @@ Then run each model across all 4 prompt variants:
 python judge/scripts/prompt_perturbation.py
 ```
 
-Outputs written to `prompt_robustness_outputs/{cot_v3,compressed,no_examples,lenient}/`. Analysis is in notebook cells 41–42.
+Outputs written to `prompt_robustness_outputs/{cot_v3,compressed,no_examples,lenient}/`. Analysis is in `analysis/table3_prompt_robustness.py`.
 
 ### Step 5 — Error type annotation (fine-grained)
 
