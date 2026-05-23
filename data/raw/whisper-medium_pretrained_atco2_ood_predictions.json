@@ -1,0 +1,3486 @@
+[
+  {
+    "reference": "oscar kilo foxtrot alfa oscar taxi to holding point runway 27 via alfa charlie",
+    "hypothesis": "oscar kilo foxtrot alpha oscar taxi to holding point runway 27 via alpha charlie"
+  },
+  {
+    "reference": "ok quality 4091 ruzyne tower information lima qnh 1014 time check 37 cleared to liege baltu 4 alfa departure initial climb 5000 feet and squawk 1000",
+    "hypothesis": "ok quality 4091 ruzhne tower information lima qnh 1014 time check 37 cleared to liege bal 24 a departure initial climb 5000 ft and squawk 1000 ft"
+  },
+  {
+    "reference": "oscar kilo echo lima alfa confirm proceeding to tango bravo 402",
+    "hypothesis": "carkela e l a confirm proceeding to tango b 402"
+  },
+  {
+    "reference": "csa one delta zulu descend flight level 100 no speed restrictions",
+    "hypothesis": "csa one dz descend flight level 100 no speed restrictions"
+  },
+  {
+    "reference": "descending flight level 100 free speed csa one delta zulu",
+    "hypothesis": "i am setting fl 108 free speed csa one l dozzles"
+  },
+  {
+    "reference": "oscar kilo triple hotel please confirm one more holding",
+    "hypothesis": "afk tribal hotel please confirm one more holding"
+  },
+  {
+    "reference": "oscar kilo hotel hotel hotel affirm one holding and then it should be possible to follow ils runway 06",
+    "hypothesis": "fh one h then it should be possible to follow lsr 6"
+  },
+  {
+    "reference": "roger thank you",
+    "hypothesis": "roger thank you"
+  },
+  {
+    "reference": "ruzyne tower hello again euro wings one tango kilo",
+    "hypothesis": "rosin tower logan you are wings 110 kts"
+  },
+  {
+    "reference": "euro wings one tango kilo ruzyne tower good afternoon go ahead",
+    "hypothesis": "you are being flung tango kilo ruzhne tower good afternoon go ahead"
+  },
+  {
+    "reference": "just a question do you think there any chance to get runway 24 for departure",
+    "hypothesis": "just a question do you think there is a chance for us to get runway 24 for departure"
+  },
+  {
+    "reference": "unfortunately with delay because there are 5 aircraft on runway 06 landing",
+    "hypothesis": "unfortunately with delay because daw 5 aircraft on runway 6 landing"
+  },
+  {
+    "reference": "ok copy thank you",
+    "hypothesis": "okay copy thank you"
+  },
+  {
+    "reference": "warsaw radar bel avia 870 good evening flight level 350 inbound bigu",
+    "hypothesis": "warsaw rwy 870 good evening flight level 350 inbound big loop"
+  },
+  {
+    "reference": "ryan air 92 bravo quebec turn right heading 090",
+    "hypothesis": "rana 90 c wt right heading 90"
+  },
+  {
+    "reference": "90 degrees ryan air 92 bravo quebec",
+    "hypothesis": "90 degrees f 1992 b c"
+  },
+  {
+    "reference": "sky travel 2827 and there is closed echo airspace below flight level 100 so if you wish to avoid class echo airspace next descend in 20 miles",
+    "hypothesis": "skytrow 2827 there is class aqua airspace below fl 100 so if you wish to avoid class aqua airspace next descent in 20 miles"
+  },
+  {
+    "reference": "oscar kilo charlie alfa papa squawk 7000 good bye",
+    "hypothesis": "karkot chalasa pap kuk 7000 goodbye"
+  },
+  {
+    "reference": "squawk 7000 good bye oscar kilo charlie alfa papa",
+    "hypothesis": "cook so thanks for the advice ok enjoy your flight"
+  },
+  {
+    "reference": "oscar kilo echo lima alfa climb to flight level 70",
+    "hypothesis": "cerkel echolima a climb to fl 70"
+  },
+  {
+    "reference": "oscar kilo bravo alfa lima request shortcut to vlasim if possible",
+    "hypothesis": "oscar good evening draa 5 request shortcut to laschem if possible"
+  },
+  {
+    "reference": "oscar uniform romeo turn left heading 270 cleared for ils approach runway 24",
+    "hypothesis": "scr rlt left heading 270 clear foil as approach runway 24"
+  },
+  {
+    "reference": "turn left to 70 cleared for ils runway 24 oscar uniform romeo",
+    "hypothesis": "turn left 270 clear for ils runway 24 screen in front of you"
+  },
+  {
+    "reference": "say again the departure we for us",
+    "hypothesis": "2nd the departure please go ahead"
+  },
+  {
+    "reference": "it is baltu 4 alfa to climb 5000 feet",
+    "hypothesis": "it is bal 2 for alpha to climb 5000 feet"
+  },
+  {
+    "reference": "lufthansa 9 tango papa contact praha radar 120 decimal 275 bye bye",
+    "hypothesis": "lh 9 t contact praha radar 120.275 bye bye"
+  },
+  {
+    "reference": "lufthansa 9 tango papa 20275 bye",
+    "hypothesis": "and f lieutenant roger 2027 bye bye"
+  },
+  {
+    "reference": "time air 690 juliett contact ruzyne tower 134 decimal 560 hezky vecer ahoj",
+    "hypothesis": "we will find r 690 j contact ruzneta v 134 10 m f 6 good evening"
+  },
+  {
+    "reference": "134560 time air 690 juliett bye diky",
+    "hypothesis": "134560 over time 69028 alright ok"
+  },
+  {
+    "reference": "oscar kilo bravo alfa lima after bukap descend to 3000 feet cleared rnp approach runway 27 report established",
+    "hypothesis": "oskb after book up descend to 3000 ft cleared rmt approach runway 27 report established"
+  },
+  {
+    "reference": "sierra papa foxtrot lima foxtrot contact wien radar 125 decimal 175 good bye",
+    "hypothesis": "serrapapa foxtrot lima foxtrot contact wiener radar 125.175 goodbye"
+  },
+  {
+    "reference": "oscar kilo tango oscar papa proceed direct lanux",
+    "hypothesis": "oscar que lo tengo oscar papa procede directo la nux"
+  },
+  {
+    "reference": "direct lanux oscar kilo tango oscar papa",
+    "hypothesis": "direct lanox oskar kiltek oskar papa"
+  },
+  {
+    "reference": "praha radar oscar kilo uniform tango charlie dobry den passing 3900 climbing flight level 70 inbound vlasim ready for ifr",
+    "hypothesis": "daraida rostra kiloveni from tegelchary good day passing 3900 climbing fl 70 inbound wlaschim ready for ifr"
+  },
+  {
+    "reference": "oscar kilo uniform tango charlie dobry den praha radar identified",
+    "hypothesis": "of course i will inform tango charlie good day prague radar identified"
+  },
+  {
+    "reference": "climb flight level 70 and cleared to destination benesov via flight plan route",
+    "hypothesis": "climb fl 70 and clear to destination bnr"
+  },
+  {
+    "reference": "ifr flight starts now time 1314",
+    "hypothesis": "afr flight starts now time 1314"
+  },
+  {
+    "reference": "klm 1350",
+    "hypothesis": "german 350"
+  },
+  {
+    "reference": "sorry go ahead",
+    "hypothesis": "sorry guys"
+  },
+  {
+    "reference": "yeah contact radar 120275 ahoj",
+    "hypothesis": "contact radar 120.275 ahoy"
+  },
+  {
+    "reference": "120275 ahoj klm 1350",
+    "hypothesis": "atc 275 follow you kla 1350"
+  },
+  {
+    "reference": "lufthansa 9 tango papa contact praha radar 120 decimal 275 good bye",
+    "hypothesis": "lznr tnp contact praha radar 120.1027 bye bye"
+  },
+  {
+    "reference": "120275 bye bye 9 tango papa",
+    "hypothesis": "120.275 bye bye and i think about that"
+  },
+  {
+    "reference": "oscar kilo kilo kilo whiskey descend to 5000 feet qnh 1016",
+    "hypothesis": "oscar kilo kilo viscous descend to 5000 ft kilo and h 1016"
+  },
+  {
+    "reference": "oscar kilo mike delta hotel pass your message",
+    "hypothesis": "car kmh passing message"
+  },
+  {
+    "reference": "is it ok for you if we maintain 4 nautical miles left hand track all the way down to benesov",
+    "hypothesis": "is it ok for you if we maintain 4 nm left of track all the way down to benesan"
+  },
+  {
+    "reference": "oscar kilo charlie alfa papa if able increase speed approaching traffic",
+    "hypothesis": "atc charlie alpha papa is able to increase speed approaching traffic"
+  },
+  {
+    "reference": "euro wings 7 alfa bravo turn right heading 210 cleared ils approach runway 24 report established",
+    "hypothesis": "ew 7 ab right heading 210 cleared ils approach on way 24 report established"
+  },
+  {
+    "reference": "ding 210 cleared for the ils 24 report established euro wings 7 alfa bravo",
+    "hypothesis": "change 210 cleared for the ils 24 report established you are in 7 ab"
+  },
+  {
+    "reference": "speed bird 855 praha radar identified climb flight level 160",
+    "hypothesis": "p 855 pha radar identified flight level 160"
+  },
+  {
+    "reference": "160 speed bird 855",
+    "hypothesis": "160 speed straight 855"
+  },
+  {
+    "reference": "oscar kilo mike charlie charlie runway 27 cleared for low approach wind 320 degrees 5 knots after low approach continue straight ahead climb to 3000 feet",
+    "hypothesis": "otterko mike charlie charlie runway 27 cleared for low approach wind 320 degrees 5 knots after low approach continue straight ahead qm 23 does not fit"
+  },
+  {
+    "reference": "ruzyne tower csa one delta zulu dobry podvecer established localizer 24",
+    "hypothesis": "ruezina tower csa one delta zulu good evening established localizer 24"
+  },
+  {
+    "reference": "dobry den csa one delta zulu ruzyne tower runway 24 cleared to land wind 220 degrees 14 knots",
+    "hypothesis": "good day this is one tazulu ruznje tavr runway 24 cleared to land wind 220 degrees 14 knots"
+  },
+  {
+    "reference": "are cleared to land runway 24 csa one delta zulu",
+    "hypothesis": "p 2 l runway 24 csa one dot azure"
+  },
+  {
+    "reference": "oscar kilo uniform tango charlie re release from frequency flying information service available at 126 decimal one praha information dobry den",
+    "hypothesis": "laskar kilo uniform tango chali release from frequency flight information service available at 126 one paraguayan information dobry den"
+  },
+  {
+    "reference": "oscar kilo kilo echo alfa praha radar identified climb flight level 100 ifr flight starts now time 05 cleared to destination via flight plan route",
+    "hypothesis": "oskrke praha radar identified qnh 100 ifr flight at now time 5 qd via flb"
+  },
+  {
+    "reference": "oscar kilo charlie tango papa line up runway 24 and wait",
+    "hypothesis": "spc tango papa line up runway 24 nw"
+  },
+  {
+    "reference": "line up runway 24 and wait oscar kilo charlie tango papa",
+    "hypothesis": "line up 184 and wait for the next flight charging up and coming"
+  },
+  {
+    "reference": "csa 918 taxi holding point runway 24 to the right via delta bravo",
+    "hypothesis": "if the plane is in the air holding point runway 24 to the right via delta bravo"
+  },
+  {
+    "reference": "taxi delta bravo holding .24 csa 918",
+    "hypothesis": "taxi delta bravo ringpoint 24 csa 901.8"
+  },
+  {
+    "reference": "romeo alfa 01817 your flight plan was suspended i am sending delay message",
+    "hypothesis": "n 1817 your flight plan was suspended i am sending delay message"
+  },
+  {
+    "reference": "118 decimal 1650",
+    "hypothesis": "118.650"
+  },
+  {
+    "reference": "that s it bye bye",
+    "hypothesis": "let us see bye bye"
+  },
+  {
+    "reference": "dream team 404 kilo taxi charlie lima and quebec behind follow me car to stand sierra 3",
+    "hypothesis": "dream team 404 kt charlie lima and quebec behind full me car to stand 3"
+  },
+  {
+    "reference": "and klm 73 whiskey reduce speed 160 knots till 4 dme",
+    "hypothesis": "n 773 w reduce speed 160 knots 14 knots"
+  },
+  {
+    "reference": "60 to 4 dme klm 73 whiskey",
+    "hypothesis": "60 to 40 make an attempt to make it"
+  },
+  {
+    "reference": "silesia 762 continue charlie lima quebec quebec 5 behind follow me stand mike one bravo",
+    "hypothesis": "cys sm 62 continue charnoway wyma quebec quebec 5 behind for me stand m one bravo"
+  },
+  {
+    "reference": "ryan air one bravo alfa stand 57 qnh 1012 request engine start",
+    "hypothesis": "roni one b we are off the stand 5 7 qnh 1012 request engine start"
+  },
+  {
+    "reference": "ruzyne tower ups 295 ils 249 miles",
+    "hypothesis": "ruez de dar eps 2905 ils 249 off"
+  },
+  {
+    "reference": "good evening ups 295 ruzyne tower runway 24 cleared to land wind 230 degrees 13 knots",
+    "hypothesis": "good evening qps 295 roosting tower runway 24 clear to land wind 230 degrees 130"
+  },
+  {
+    "reference": "runway 24 cleared to land ups 295",
+    "hypothesis": "i want 24 cleared to land eps 295"
+  },
+  {
+    "reference": "oscar kilo papa romeo mike turn right heading 060",
+    "hypothesis": "oscar klp i will mile my external right heading 60"
+  },
+  {
+    "reference": "060 right turn oscar papa romeo mike",
+    "hypothesis": "60 right turn oscar papa romeo mike"
+  },
+  {
+    "reference": "emirates 139 taxi via foxtrot cross runway 12 golf juliett stand 14 alfa",
+    "hypothesis": "emirates 139 taxi via pugstrup cross runway 12 g juliette stand 14 a"
+  },
+  {
+    "reference": "taxi via foxtrot cross runway 12 golf juliett stand 14 alfa emirates 139",
+    "hypothesis": "monsanto fox cross runway 12 to g stand 14 alpemont 139"
+  },
+  {
+    "reference": "oscar mike papa turn right heading 020 cleared ils approach runway 06 speed maximum 160 knots",
+    "hypothesis": "scrm pattern right heading 20 cleared to approach runway 6 speed max 16 knots"
+  },
+  {
+    "reference": "right heading 020 cleared ils approach 06 and maximum 160 speed confirm",
+    "hypothesis": "right heading 20 clear to approach 6 and maximum 160 speed confirm"
+  },
+  {
+    "reference": "i do confirm",
+    "hypothesis": "have you confirmed"
+  },
+  {
+    "reference": "kilo lima papa victor standby for runway 09 for now follow tumka 4 charlie arrival due to departure from brno",
+    "hypothesis": "we call lima papa victor standby for runway 90 for now follow tumka 4 c arrival due to departure from the runway"
+  },
+  {
+    "reference": "oscar kilo tango uniform romeo praha radar hello identified climb to flight level 70 and standby for ifr",
+    "hypothesis": "oscar qo tango uniform romeo praha radar hello identified climb to flight level 70 and standby for ifr"
+  },
+  {
+    "reference": "climbing to flight level 70 oscar kilo tango uniform romeo",
+    "hypothesis": "climbing to flight level 70 scu you are here for a run now"
+  },
+  {
+    "reference": "oscar tango charlie roger",
+    "hypothesis": "let us cut the good child leader joe"
+  },
+  {
+    "reference": "oscar kilo kilo kilo whiskey information mike qnh 1016 tumka 4 charlie arrival",
+    "hypothesis": "oskar kilo kilo kilovisky information mike qnh 1016 tumka 4 charlie arrival"
+  },
+  {
+    "reference": "radar csa one delta zulu established",
+    "hypothesis": "radar cc one doc stop the push"
+  },
+  {
+    "reference": "csa one delta zulu roger contact ruzyne tower 134 decimal 560",
+    "hypothesis": "csa one d contact ruz 134.560"
+  },
+  {
+    "reference": "34560 csa one delta zulu pekny den",
+    "hypothesis": "34560 dca one doz ok ok"
+  },
+  {
+    "reference": "air france 108 zulu standby now descend to descend flight level 70",
+    "hypothesis": "airfield 1080 standby now descent to descent flight 70"
+  },
+  {
+    "reference": "air france 108 zulu",
+    "hypothesis": "roger i am on my way too"
+  },
+  {
+    "reference": "good evening lufthansa 8 hotel romeo passing 2500 climbing 5000",
+    "hypothesis": "good evening lrw passing 2005 climbing 5 tons"
+  },
+  {
+    "reference": "lufthansa 8 hotel romeo praha radar good evening identified",
+    "hypothesis": "lhr good evening identified"
+  },
+  {
+    "reference": "climb to flight level 160",
+    "hypothesis": "climb to flight level 160"
+  },
+  {
+    "reference": "lufthansa 8 hotel romeo climb flight level 160",
+    "hypothesis": "this is our e tota climb to glider level 16 sir"
+  },
+  {
+    "reference": "oscar kilo delta sierra india turn left heading 100",
+    "hypothesis": "oscar 2 sierra india turn left heading 100"
+  },
+  {
+    "reference": "left heading 100 oscar kilo delta sierra india",
+    "hypothesis": "left heading 100 i will just go kill the train yeah"
+  },
+  {
+    "reference": "oscar kilo india foxtrot romeo contact praha radar 127 decimal 580 bye",
+    "hypothesis": "oscar crowe india foxrt contact praha radar 127.580 bye"
+  },
+  {
+    "reference": "ruzyne tower trans europe 421 dobry vecer establish localizer 24",
+    "hypothesis": "good evening this is transio f 210 good evening this is localizer 2 4"
+  },
+  {
+    "reference": "trans europe 421 dobry vecer ruzyne tower continue approach runway 24",
+    "hypothesis": "trans 0 p 41 good evening tower continue right cze 24"
+  },
+  {
+    "reference": "continue approach runway 24 trans europe 421",
+    "hypothesis": "starting air flow runway 24 channel 421"
+  },
+  {
+    "reference": "oscar kilo mike charlie charlie after the low approach climb straight ahead 4000 feet",
+    "hypothesis": "oscar kilo mike charlie charlie after a low approach climb straight ahead 4000 ft"
+  },
+  {
+    "reference": "after approach climb straight ahead 4000 feet oscar kilo mike charlie charlie",
+    "hypothesis": "after approach climb straight and then report to us"
+  },
+  {
+    "reference": "tower good morning quality 4089 fully established on the runway 09",
+    "hypothesis": "tower good morning qt 4089 this is wg 7 cmon nice to have you here"
+  },
+  {
+    "reference": "quality 4089 turany tower good morning runway 09 cleared to land wind is calm",
+    "hypothesis": "quality 4089 to runway 90 good morning runway 9 cleared to land wind is calm"
+  },
+  {
+    "reference": "klm 73 whiskey maintain present heading for vectoring for ils approach runway 24 and reduce your speed now below 260 knots",
+    "hypothesis": "kmsaw may i have your presiding for vectoring i will approach runway 24 and reduce your speed now below 260 knots"
+  },
+  {
+    "reference": "sky travel 35 juliett turn right heading 180 vectoring for spacing",
+    "hypothesis": "skytrol 35 to the left and right heading 180 vectoring for phasing"
+  },
+  {
+    "reference": "turning right heading 180 sky travel 35 juliett",
+    "hypothesis": "atc heading 180 skytrow 35 j"
+  },
+  {
+    "reference": "oscar kilo alfa papa india vacate via taxiway whiskey cross runway 26 and continue to the airclub",
+    "hypothesis": "oskar if you want to call up i will indicate that x ray wsk cross runway 26 and continue to the air club"
+  },
+  {
+    "reference": "vacate via whiskey cross 26 and vacate via the airclub oscar kilo papa india",
+    "hypothesis": "pk 5 this is cx 26 and pk 5 the aeroflot clear up on the tia"
+  },
+  {
+    "reference": "tower dobre dopoledne ryan air one juliett uniform becoming fully established ils runway 24 speed maximum 180",
+    "hypothesis": "tower dobra dobro ndr one juliet uniform be coming fully established ils runway 24 speed max 180"
+  },
+  {
+    "reference": "ryan air one juliett uniform dobry den continue approach",
+    "hypothesis": "runner vangeli zonyfung good day continue to the right"
+  },
+  {
+    "reference": "continue approach ryan air one juliett uniform",
+    "hypothesis": "continue to approach and i will let you know as you go"
+  },
+  {
+    "reference": "ups 295 established",
+    "hypothesis": "ebs 295 established"
+  },
+  {
+    "reference": "ups 295 contact tower frequency 134560 bye",
+    "hypothesis": "ups 295 contact tower frequency 134560 bye"
+  },
+  {
+    "reference": "ups 295 good night",
+    "hypothesis": "just turn up good night"
+  },
+  {
+    "reference": "ryan air 7 romeo mike route reaching and holding runway 24 we are ready for departure",
+    "hypothesis": "f 7 r switch in holding point on way 24 we are ready for the pass"
+  },
+  {
+    "reference": "ryan air 7 romeo mike line up runway 24",
+    "hypothesis": "rensselaer klai nap 24"
+  },
+  {
+    "reference": "line up and wait runway 24 ryan air 7 romeo mike",
+    "hypothesis": "stand up and wait on 24497 rm"
+  },
+  {
+    "reference": "oscar kilo papa mike bravo descend flight level 100",
+    "hypothesis": "oscar kilo papa mike bravo return flight level 100"
+  },
+  {
+    "reference": "level 100 oscar kilo papa mike bravo",
+    "hypothesis": "ok i will call you back bye"
+  },
+  {
+    "reference": "ryan air one bravo alfa startup is approved",
+    "hypothesis": "trainer wbaa startup disapproved"
+  },
+  {
+    "reference": "startup approved ryan air one bravo alfa",
+    "hypothesis": "that will probably go on a while but other than that ."
+  },
+  {
+    "reference": "ryan air 73 alfa hotel turn left heading 360",
+    "hypothesis": "ryanair 730 a turn left heading 360"
+  },
+  {
+    "reference": "ryan air 73 alfa hotel",
+    "hypothesis": "dor 73 over and out"
+  },
+  {
+    "reference": "oscar kilo mike charlie charlie praha radar dobry den you are identified flight level 70 after baltu proceed to benesov",
+    "hypothesis": "oskar call my charlie charlie praha radar you are identified flight level 7 0 after baltu proceed to beneshov"
+  },
+  {
+    "reference": "oscar kilo kilo uniform november proceed direct baltu",
+    "hypothesis": "oscar kilo kilo info november proceed direct baltu"
+  },
+  {
+    "reference": "proceed direct baltu oscar kilo kilo uniform november",
+    "hypothesis": "pursuit arc let us know if you have found number"
+  },
+  {
+    "reference": "jump run 803 vacate to the left taxi charlie alfa stand western apron",
+    "hypothesis": "champaign 803 vacate to the left taxi c alfast and western ipern"
+  },
+  {
+    "reference": "oscar kilo foxtrot alfa sierra approaching zulu",
+    "hypothesis": "i will just keep the fog down for now i will approach in a bit later"
+  },
+  {
+    "reference": "oscar kilo foxtrot alfa sierra squawk 7000 and good bye",
+    "hypothesis": "oskar klf fas squawk 7000 and good bye"
+  },
+  {
+    "reference": "squawk 7000 good bye oscar foxtrot sierra",
+    "hypothesis": "i will go 7000 ft ok roger that"
+  },
+  {
+    "reference": "oscar kilo whiskey november lima information exprite vacating via bravo and taxi to foxtrot bravo affirm",
+    "hypothesis": "krakow wnl formation xt vacating wb taxi to fox baa"
+  },
+  {
+    "reference": "radar dobre odpoledne sky travel 432 papa passing 1900 climbing to 5000",
+    "hypothesis": "yd 4 nsq 32 bv think 1900 coming to 5000"
+  },
+  {
+    "reference": "sky travel 432 papa dobre odpoledne praha radar identified climb flight level 160",
+    "hypothesis": "skyder 432 papa doberdorf polatne praha radar identified climb flight level 160"
+  },
+  {
+    "reference": "climb to flight level 160 sky travel 432 papa",
+    "hypothesis": "ground avalavel 160 skydiver 432 provide ."
+  },
+  {
+    "reference": "via charlie zulu hotel echo",
+    "hypothesis": "we are in the middle of a river"
+  },
+  {
+    "reference": "heli charlie zulu next report zulu one local traffic helicopter on hook mission over chalet",
+    "hypothesis": "lichali zulu next report zulu one l classic helicopter on the hook mission over shali"
+  },
+  {
+    "reference": "hotel foxtrot oscar echo one at 6000 feet",
+    "hypothesis": "hotel potatric oscar eco one at 6000 ft"
+  },
+  {
+    "reference": "foxtrot oscar report echo 2 for runway 25",
+    "hypothesis": "fox os report echo 24925"
+  },
+  {
+    "reference": "2 bravo sierra to the left taxi with",
+    "hypothesis": "to the left taxi with"
+  },
+  {
+    "reference": "hotel hotel xray go around",
+    "hypothesis": "atx 2 go around"
+  },
+  {
+    "reference": "hotel xray",
+    "hypothesis": "3 clear"
+  },
+  {
+    "reference": "hotel echo xray taxi to juliett parking approved",
+    "hypothesis": "hotel is correct fred taxi to gvm parking approved"
+  },
+  {
+    "reference": "hotel bravo 3049 sion tower good afternoon",
+    "hypothesis": "n 3049 h good afternoon"
+  },
+  {
+    "reference": "and sion tower the hotel xray quebec we just continue toward the grande dixence",
+    "hypothesis": "and the cirt the hxk will just continue toward ground exam"
+  },
+  {
+    "reference": "hotel xray quebec roger frequency change approved talk to you later",
+    "hypothesis": "atc qjf return to approach tot"
+  },
+  {
+    "reference": "tango 7 charlie lima mike sion",
+    "hypothesis": "langen 7 charlie we are on my action"
+  },
+  {
+    "reference": "number 2 looking out for number one hotel hotel",
+    "hypothesis": "number 2 look down for number one hop below please"
+  },
+  {
+    "reference": "hotel echo xray wind 230 degrees 6 knots runway 25 cleared to land",
+    "hypothesis": "hotel echo x ray wind 230 degrees 6 knots runway 25 cleared to land"
+  },
+  {
+    "reference": "hotel hotel lima november whiskey 5500 feet climbing",
+    "hypothesis": "nab 5500 ft climbing"
+  },
+  {
+    "reference": "hotel bravo whiskey zulu hotel sion tower report",
+    "hypothesis": "pta whiskey zulu hotel sun tower report to ."
+  },
+  {
+    "reference": "looking out hotel oscar delta",
+    "hypothesis": "lufthansa hotel rosso"
+  },
+  {
+    "reference": "hotel golf alfa report upon route",
+    "hypothesis": "atg report up en route"
+  },
+  {
+    "reference": "sion tower at departure echo 2 for turn bravo papa zulu",
+    "hypothesis": "c hr just passing equip 3 voce over looking over papazouli"
+  },
+  {
+    "reference": "heli charlie zulu roger report ground completed",
+    "hypothesis": "the hiz roger report crown completed"
+  },
+  {
+    "reference": "1012 runway 27 bye bye",
+    "hypothesis": "9012 187 bye bye"
+  },
+  {
+    "reference": "hotel echo xray wind 270 degrees 5 knots runway 25 cleared to land",
+    "hypothesis": "hotel echo x ray wind 270 degrees 5 knots runway 25 cleared to land"
+  },
+  {
+    "reference": "hotel bravo kilo echo xray exercises is approved",
+    "hypothesis": "nbkeq exercise is approved"
+  },
+  {
+    "reference": "hotel alfa papa you may leave the frequency bye bye",
+    "hypothesis": "hotel alpha bye bye you may leave the frequency bye bye"
+  },
+  {
+    "reference": "hotel alfa lima echo 14600 feet",
+    "hypothesis": "hotel alfa lima echo 14 taxi 600 c"
+  },
+  {
+    "reference": "hotel delta lima report echo 2",
+    "hypothesis": "d al report eco 2"
+  },
+  {
+    "reference": "report base for runway 07 or report hotel november",
+    "hypothesis": "report base for runway 7 or report until november"
+  },
+  {
+    "reference": "hotel charlie whiskey wind 230 degrees 8 knots runway 25 just stop and go",
+    "hypothesis": "hotel sherwood wind 230 degrees 8 knots runway 25 cleared to stop and go"
+  },
+  {
+    "reference": "frequency change approved a toute a l heure",
+    "hypothesis": "frequency change roof total"
+  },
+  {
+    "reference": "hotel echo xray number one runway 25",
+    "hypothesis": "txn one r 25"
+  },
+  {
+    "reference": "sierra alfa papa sion ground hello",
+    "hypothesis": "it is the papa passion granelo"
+  },
+  {
+    "reference": "hotel echo xray wind 2609 knots runway 25 cleared for touch and go",
+    "hypothesis": "eicw 26 aw.9 on runway 25 cleared for touch and go"
+  },
+  {
+    "reference": "touch and go runway 25 hotel echo xray",
+    "hypothesis": "atc you are on a 25 we are very close to the ground"
+  },
+  {
+    "reference": "foxtrot lima delta join downwind runway 25",
+    "hypothesis": "poxlmad join the nw 25"
+  },
+  {
+    "reference": "tourning downwind runway 25 foxtrot lima delta",
+    "hypothesis": "turning downwind downwind 25 foxo cme delta"
+  },
+  {
+    "reference": "mosquito 60 echo ready to check",
+    "hypothesis": "mosquitoes 6 the laco ready to change"
+  },
+  {
+    "reference": "it was for mosquito 15 bravo",
+    "hypothesis": "etouard this is for a mosquito 15 bravo"
+  },
+  {
+    "reference": "yes mosquito 15 bravo are you turning base now",
+    "hypothesis": "yes mosquito 15 bravo are you turning base now"
+  },
+  {
+    "reference": "turning base now mosquito 15 bravo",
+    "hypothesis": "turning base now posk to 15 bravo"
+  },
+  {
+    "reference": "sie sierra golf kilo stop please hold position sorry sir hold position call you back",
+    "hypothesis": "sierra golf kilo stop please hold position sorry sir hold position call you back"
+  },
+  {
+    "reference": "yes we are approaching 2000 feet left downwind",
+    "hypothesis": "we are pushing the 4000 feet left downwind"
+  },
+  {
+    "reference": "next final 25 hotel charlie juliett",
+    "hypothesis": "next final 25 hotel charlie julius"
+  },
+  {
+    "reference": "sion tower afternoon established",
+    "hypothesis": "attention tower navteca established"
+  },
+  {
+    "reference": "nav checker 511 tower hello again report going around",
+    "hypothesis": "njr 511 t hello again report going around"
+  },
+  {
+    "reference": "luxor 22 hotel sion bonjour",
+    "hypothesis": "deoxyvation 22 h bonjour"
+  },
+  {
+    "reference": "hotel echo xray number one report final",
+    "hypothesis": "static ois number one report final"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "n 145 n 145 clear to expect"
+  },
+  {
+    "reference": "hotel echo xray roger taxi holding point bravo and report ready",
+    "hypothesis": "roger interaction ipan bravo i will report to you later"
+  },
+  {
+    "reference": "roger did you do a planification",
+    "hypothesis": "richard did you do a flight notification"
+  },
+  {
+    "reference": "hotel bravo golf kilo echo 14000 feet",
+    "hypothesis": "ground 0 go to the next call watch 5000 4000 700 feet"
+  },
+  {
+    "reference": "golf kilo thank you continue descend report echo 2",
+    "hypothesis": "golf kilo thank you continue descent report equal 2"
+  },
+  {
+    "reference": "nav checker 511 go around climbing 57000 feet",
+    "hypothesis": "now check out pipeline in that door on climbing at 740"
+  },
+  {
+    "reference": "nav checker 511 roger what is next profile",
+    "hypothesis": "lfd q 511 roger what is the next profile"
+  },
+  {
+    "reference": "heli charlie zulu we have the traffic in sight",
+    "hypothesis": "the challenge is that we have the traffic in sight"
+  },
+  {
+    "reference": "roger able confirm behind",
+    "hypothesis": "roger able confirm behind"
+  },
+  {
+    "reference": "hotel papa mike report downwind runway 25",
+    "hypothesis": "hotel papa mike report downwind runway 25"
+  },
+  {
+    "reference": "roger downwind 25 hotel papa mike",
+    "hypothesis": "go downwind 25 ok bye bye"
+  },
+  {
+    "reference": "roger hotel foxtrot kilo report whiskey qnh 1023",
+    "hypothesis": "roger hotel foxtrot kilo report to wskqh 1023"
+  },
+  {
+    "reference": "hotel golf kilo you may leave frequency bye bye",
+    "hypothesis": "hotel golf kilo you may leave frequency bye bye"
+  },
+  {
+    "reference": "tango 213 taxi to parking is approved",
+    "hypothesis": "amo 313 taxi to parking is approved"
+  },
+  {
+    "reference": "3426 joining right hand downwind runway 25 grass",
+    "hypothesis": "3426 joining right hand on wind runway 25 grass"
+  },
+  {
+    "reference": "3426250 degrees 12 knots grass 25 landing on discretion",
+    "hypothesis": "3426 250 degrees 12 knots grass 25 landing on the stretch"
+  },
+  {
+    "reference": "landing on my discretion 3426",
+    "hypothesis": "that is my discretion 3426"
+  },
+  {
+    "reference": "say again can you 3 by 5 heli hotel yankee",
+    "hypothesis": "say again i will tell you 3 by 5 really i do not know"
+  },
+  {
+    "reference": "heli hotel yankee qnh 1017 report hotel echo or golf echo at your discretion",
+    "hypothesis": "heli hotel yankee gnih 1017 report hotel echo or golf echo at your discretion"
+  },
+  {
+    "reference": "nav checker 511 reporting 11000 feet",
+    "hypothesis": "nabch 501 reporting 10000 feet"
+  },
+  {
+    "reference": "thank you nav checker 511 you can contact geneva delta on frequency 119 decimal 175",
+    "hypothesis": "thank you navtec 511 you can contact geneva delta on frequency 119.175"
+  },
+  {
+    "reference": "sion november 716 alfa sierra alpine jet ready for taxi",
+    "hypothesis": "see you on november 716 alpha sierra alpine jet ready for taxi"
+  },
+  {
+    "reference": "november alfa sierra taxi to holding point delta",
+    "hypothesis": "member fasia taxi to ring point d"
+  },
+  {
+    "reference": "holding point november 716 alfa sierra",
+    "hypothesis": "landing point delta november 716 alpha sierra"
+  },
+  {
+    "reference": "limajet 249 lima copy line up and wait runway 25",
+    "hypothesis": "kia 2490 copy line up and wait runway 25"
+  },
+  {
+    "reference": "line up and wait 25 lima xray juliett",
+    "hypothesis": "line up and wait 25 leaving with the juliet"
+  },
+  {
+    "reference": "hotel echo xray report echo one runway 25 qnh 1017",
+    "hypothesis": "hotel echo x ray report echo one runway 25 qnh 1017"
+  },
+  {
+    "reference": "qnh 1017 runway 25 wilco hotel echo xray",
+    "hypothesis": "nh 1017 runway 25 will go on telecoil"
+  },
+  {
+    "reference": "hotel echo xray final 25 for touch and go",
+    "hypothesis": "eec final 25 contact chanclau"
+  },
+  {
+    "reference": "vista jet 467 we expect to descend",
+    "hypothesis": "yes 467 we expect you to do the same"
+  },
+  {
+    "reference": "november golf papa read back correct report for taxi",
+    "hypothesis": "you are on your way to gol papa readback correct report for taxi"
+  },
+  {
+    "reference": "hotel echo xray final 25 for touch and go",
+    "hypothesis": "txf 254 touch and go"
+  },
+  {
+    "reference": "hotel papa mike perfect thank you very much",
+    "hypothesis": "hotel papa mike perfect thank you very much"
+  },
+  {
+    "reference": "thank you very much hotel papa mike",
+    "hypothesis": "goodbye everyone have a good night"
+  },
+  {
+    "reference": "sion ground bonjour hotel bravo kilo xray",
+    "hypothesis": "cean bonjour bravo you can go ahead"
+  },
+  {
+    "reference": "hotel bravo papa golf bravo bonjour monsieur report echo one runway 25 qnh 1019",
+    "hypothesis": "atgb bonjour monsieur report eco one runway 25 qnh 1019"
+  },
+  {
+    "reference": "hotel bravo kilo papa echo 210 degrees 4 knots runway 25 cleared takeoff report november whiskey",
+    "hypothesis": "ron kilo papa echo 210 degrees 4 knots runway 25 cleared takeoff report november wiski"
+  },
+  {
+    "reference": "heli hotel yankee wind 240 degrees 15 knots 5225 landing on discretion",
+    "hypothesis": "ilyotl yankee winds 240 degrees 15 knots fato 25 landing on discretion"
+  },
+  {
+    "reference": "landing on discretion 5225 hotel yankee",
+    "hypothesis": "i think i just pressed the photo 25 on the new york city"
+  },
+  {
+    "reference": "hotel echo xray number one report final",
+    "hypothesis": "then i will call you x ray number one report final"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "n one report final ready for expiry"
+  },
+  {
+    "reference": "nav checker 511 report passing 13000 feet and climb",
+    "hypothesis": "nav checker 511 report passing 13000 feet incline"
+  },
+  {
+    "reference": "wilco",
+    "hypothesis": "cool"
+  },
+  {
+    "reference": "hotel golf bravo straight in 25 number one",
+    "hypothesis": "hotel gostravo straight in 25 number one"
+  },
+  {
+    "reference": "b air 951 stand by call you back",
+    "hypothesis": "dir 9051 standby call you back"
+  },
+  {
+    "reference": "affirm nav checker 5 papa one",
+    "hypothesis": "and have a check off of that one"
+  },
+  {
+    "reference": "roger",
+    "hypothesis": "roger"
+  },
+  {
+    "reference": "papa mike vacate to the left and then straight ahead until further advised",
+    "hypothesis": "papa vang vacate to the left and then straight ahead until further advice"
+  },
+  {
+    "reference": "the left and then straight ahead hotel papa mike",
+    "hypothesis": "to the left and then straight ahead onto the platform"
+  },
+  {
+    "reference": "tango 365 sion tower good morning air taxi holding point",
+    "hypothesis": "parkour 365 have a good morning air taxi holding point"
+  },
+  {
+    "reference": "golf runway 07 qnh 1018",
+    "hypothesis": "goal 407 can h 1018"
+  },
+  {
+    "reference": "instruction golf runway 07 qnh 1018 tango 365",
+    "hypothesis": "intersection call runway 7 qnh 1019 then go to the south"
+  },
+  {
+    "reference": "passing 130078528",
+    "hypothesis": "basing mountain 3000 ft runway 25"
+  },
+  {
+    "reference": "swiss air force 528 contact swiss radar 124 decimal 225 good bye",
+    "hypothesis": "swiss air force 528 contact swiss radar 124.225 goodbye"
+  },
+  {
+    "reference": "124225 air force 528 aurevoir",
+    "hypothesis": "124.225 z 5281"
+  },
+  {
+    "reference": "124 decimal 225 b air 951 good bye",
+    "hypothesis": "124.225 bn 951 goodbye"
+  },
+  {
+    "reference": "foxtrot delta uniform report november whiskey wind 270 degrees 10 knots runway 25 cleared for takeoff",
+    "hypothesis": "fox delta uniform report november risk event 270 10 kt runway 25 clear for takeoff"
+  },
+  {
+    "reference": "cleared for takeoff 25 foxtrot delta uniform thanks november whiskey",
+    "hypothesis": "please please for takeoff 25 from stratford unifor and thanks for the service"
+  },
+  {
+    "reference": "departure own discretion 25 next 07 sorry for leaving heli hotel yankee",
+    "hypothesis": "departure on distraction 23 next 7 sorry next 40 we will be right at them"
+  },
+  {
+    "reference": "tango 365 entering val d heren 4300 feet climbing qnh 10176",
+    "hypothesis": "motc entering valdevons 4003 and seek climbing qnh 141 c"
+  },
+  {
+    "reference": "affirmation nav checker 511 good afternoon",
+    "hypothesis": "a 480 we have checked a 3 good afternoon"
+  },
+  {
+    "reference": "nav checker 511 hello",
+    "hypothesis": "red tractor 511 hello"
+  },
+  {
+    "reference": "hotel echo xray downwind 25 for touch and go",
+    "hypothesis": "hotel ecole xt begin downwind 25 for touch and go"
+  },
+  {
+    "reference": "hotel golf bravo is echo 2 at 3300 feet",
+    "hypothesis": "othelgorsk fw is e 2s 3300 c"
+  },
+  {
+    "reference": "golf bravo straight in 25 number one",
+    "hypothesis": "go to bravo straight in 25 number one"
+  },
+  {
+    "reference": "number one golf bravo",
+    "hypothesis": "number 123 and go"
+  },
+  {
+    "reference": "hotel echo xray downwind 25 for touch and go",
+    "hypothesis": "otelico it is pay downwind 25 for touch and go"
+  },
+  {
+    "reference": "hotel hotel victor taxi is approved thank you sir bonne soiree",
+    "hypothesis": "matalhau tell victor taxi is approved thank you sir bonne soiree"
+  },
+  {
+    "reference": "charlie zulu direction montana confirm",
+    "hypothesis": "soy zulu direction montalac enfant"
+  },
+  {
+    "reference": "affirmatif montana",
+    "hypothesis": "i am going to go back up"
+  },
+  {
+    "reference": "merci 220 degrees 3 knots 4207 qnh 1018 departure own discretion crossing climbing montana is approved",
+    "hypothesis": "murphy 220 degrees 3 knots fato 7 qnh 1018 departure on discretion crossing climbing montana is approved"
+  },
+  {
+    "reference": "lima mike juliett 249 lima climb flight level 140 maintain contact geneva arrival 136255",
+    "hypothesis": "lmag 249 lmag climb fl 140 and maintain contact geneva arrival 136.255"
+  },
+  {
+    "reference": "merci au plaisir aurevoir",
+    "hypothesis": "have fun bye"
+  },
+  {
+    "reference": "no sorry you have to refound the flight plan sir",
+    "hypothesis": "now sir you have to refile the flight plan sir"
+  },
+  {
+    "reference": "ok we won t see company quickly to refound no problem technic",
+    "hypothesis": "ok we will ask your company quickly to refound no problem mate same mistake thank you"
+  },
+  {
+    "reference": "426 redue 2 by 5",
+    "hypothesis": "426 3 du 2 x 5"
+  },
+  {
+    "reference": "runway 25 call you passing 13000 feet 5 thank you",
+    "hypothesis": "runway 25 calling busting 13000 feet thank you"
+  },
+  {
+    "reference": "hotel echo xray wind 250 degrees 18 knots runway 25 cleared touch and go",
+    "hypothesis": "hotel ecole x ray wind 250 degrees 180 knots runway 25 cleared to touch and go"
+  },
+  {
+    "reference": "runway 25 cleared touch and go hotel echo xray",
+    "hypothesis": "r 25 clear for touching go to telecoil 5"
+  },
+  {
+    "reference": "thank you qnh is 1023",
+    "hypothesis": "thank you colleges 1023"
+  },
+  {
+    "reference": "papa mike parking is tango 10 but it is with the knots facing to the east so if able make 180 and to park back at parking 10",
+    "hypothesis": "papa mike parking istanbul 10 but it is with the north facing to the east so if i will make 180 to park back at parking 10"
+  },
+  {
+    "reference": "november hotel juliett the preceding traffic is joining downwind wind one correction 260 degrees",
+    "hypothesis": "november hotel dji the pressing traffic is joining downwind wind one caution 260 degrees"
+  },
+  {
+    "reference": "19 knots runway 25 cleared for takeoff report passing 13000 feet and climb",
+    "hypothesis": "one another knots on a 25 grid 4 takeoff report passing 13000 feet in climb"
+  },
+  {
+    "reference": "report on final bramois hotel yankee",
+    "hypothesis": "3 process final braumor g one 6"
+  },
+  {
+    "reference": "echo xray number one report final",
+    "hypothesis": "correct fair number one report final"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "number 145 nqx 5"
+  },
+  {
+    "reference": "355 you may leave frequency a toute",
+    "hypothesis": "55 you may leave frequency at 2"
+  },
+  {
+    "reference": "a toute 355",
+    "hypothesis": "235"
+  },
+  {
+    "reference": "next is bravo nav checker 511",
+    "hypothesis": "next is bravo now check off high 5 man"
+  },
+  {
+    "reference": "nav checker 511 roger qnh 1017 reported in and go",
+    "hypothesis": "checker 511 roger qnh still 1017 reporting to go"
+  },
+  {
+    "reference": "tango 366 final runway 25",
+    "hypothesis": "fango 366 final runway 25"
+  },
+  {
+    "reference": "thank you sir continue approach",
+    "hypothesis": "thank you sir continue approach"
+  },
+  {
+    "reference": "continue approach tango 366",
+    "hypothesis": "continue pult stenner 266"
+  },
+  {
+    "reference": "hotel lima tango roger standby i coordinate with military sector",
+    "hypothesis": "lht roger standby coordinate with the military inspector"
+  },
+  {
+    "reference": "november alfa sierra wind 250 degrees 9 knots runway 25 cleared for takeoff report 13000 feet climbing",
+    "hypothesis": "denver alpha sierra wind 250 degrees 9 knots runway 25 cleared for takeoff report the 13000 feet climbing"
+  },
+  {
+    "reference": "sion tower good afternoon helicopter hotel bravo zulu yes india juliett is passing india ready for departure 5225 and then left turn and climbing direction vernayaz",
+    "hypothesis": "good afternoon airbrawl zulu ilya juliet parking area ready for departure fato 25 and then left turn and climbing direction la maya"
+  },
+  {
+    "reference": "nav checker 511 report passing 13000 feet and climb 417000 feet",
+    "hypothesis": "n 511 repurposing 13000 ft in the climb for 17000 ft"
+  },
+  {
+    "reference": "wilco nav checker climbing 17000 will report",
+    "hypothesis": "bukit kho and navtiga climbing 17000 ft report"
+  },
+  {
+    "reference": "sion tower bonjour b air 95 now establish on the ils runway 25",
+    "hypothesis": "pas pr 95 establish on the ils runway 25"
+  },
+  {
+    "reference": "hotel echo xray descending 25 for full stop",
+    "hypothesis": "pedec we will be landing 25 for full stop"
+  },
+  {
+    "reference": "passing 10010000 feet in descent in the western sector mosquito 15 bravo",
+    "hypothesis": "passing 10000 feet in descent in the west sector mosquito 1510"
+  },
+  {
+    "reference": "mosquito 15 bravo correct and keep an eyes for glider activity north of the field",
+    "hypothesis": "skidwan 5 r correct and keep an eye for glider activity north of the field"
+  },
+  {
+    "reference": "heli charlie zulu wind 270 degrees 9 knots crossing runway access 5225 landing on discretion",
+    "hypothesis": "i will leave charlie zulu wind 270 degrees 9 nautical crossing runway axis and photo 25 9 nautical question"
+  },
+  {
+    "reference": "crossing to landing 5225 landing on discretion heli charlie zulu",
+    "hypothesis": "kos 3 gas one gas one tor good night good night good night good night"
+  },
+  {
+    "reference": "tango 335 frequency change approved good bye",
+    "hypothesis": "tango 335 frequency change approved goodbye"
+  },
+  {
+    "reference": "good bye",
+    "hypothesis": "goodbye"
+  },
+  {
+    "reference": "foxtrot lima delta taxi to holding point bravo runway 25",
+    "hypothesis": "oxford lima delta taxi to olympon bravo runway 25"
+  },
+  {
+    "reference": "point bravo runway 25 foxtrot lima delta",
+    "hypothesis": "nw 25 also give me a delta"
+  },
+  {
+    "reference": "helicopter heli victor oscar good afternoon",
+    "hypothesis": "i am going to put the visor off so i can get a picture"
+  },
+  {
+    "reference": "victor oscar good afternoon",
+    "hypothesis": "you thought you had a great run"
+  },
+  {
+    "reference": "we are not ready now foxtrot lima delta",
+    "hypothesis": "we are not ready now"
+  },
+  {
+    "reference": "hotel charlie juliett you passed echo 2 continue for direct approach as number one report final 25",
+    "hypothesis": "charlie juliet you have passed take off 2 continue for direct approach of number one report final 25"
+  },
+  {
+    "reference": "next final 25 hotel charlie juliett",
+    "hypothesis": "next final 25 also charlie 2 d"
+  },
+  {
+    "reference": "vista jet 467 sion",
+    "hypothesis": "vista jet 467 sense"
+  },
+  {
+    "reference": "go ahead",
+    "hypothesis": "go ahead man"
+  },
+  {
+    "reference": "hotel echo xray final 25 for touch and go",
+    "hypothesis": "tx 35 n 25 what is the time group"
+  },
+  {
+    "reference": "foxtrot lima delta hold position and make your run up at your present position qnh 1015",
+    "hypothesis": "office at lima dalta hot position and make your run up at your present position qnh 1015"
+  },
+  {
+    "reference": "nav checker 511 established",
+    "hypothesis": "and up chicago 5 4 one this is published"
+  },
+  {
+    "reference": "nav checker 511511 thank you report 10 miles",
+    "hypothesis": "nav check f 511 thank you report 10 miles"
+  },
+  {
+    "reference": "reported 10 miles nav checker 511",
+    "hypothesis": "the vortex is one m one now check out 501"
+  },
+  {
+    "reference": "break break mosquito 15 bravo 250 degrees 10 knots runway 25 cleared to land",
+    "hypothesis": "brake brake mosquito 15 over 250 degrees 10 knots hal 25 clear to land"
+  },
+  {
+    "reference": "cleared to land runway 25 mosquito 15 bravo",
+    "hypothesis": "we have to land on the 25 we will keep the land flat by you"
+  },
+  {
+    "reference": "india lima you may leave a toute",
+    "hypothesis": "indian may i have a leave at all"
+  },
+  {
+    "reference": "thank you very much hotel golf kilo",
+    "hypothesis": "thank you very much hop it off you know"
+  },
+  {
+    "reference": "hotel echo xray wind calm runway 25 cleared touch and go",
+    "hypothesis": "otterico x ray wind calm runway 25 clear to touch and go"
+  },
+  {
+    "reference": "runway 25 cleared touch and go",
+    "hypothesis": "on way to 5 mister can not go"
+  },
+  {
+    "reference": "hotel echo xray",
+    "hypothesis": "so you subscribe"
+  },
+  {
+    "reference": "heli charlie zulu report position altitude",
+    "hypothesis": "and let us try the zulu report position altitude"
+  },
+  {
+    "reference": "le golf de montana 3200",
+    "hypothesis": "le golfe de montana at 6000 ft over"
+  },
+  {
+    "reference": "roger the traffic is now just exactly in the middle between echo one echo 24600 feet",
+    "hypothesis": "roger the traffic is now just exactly in the middle between echo and echo 2 4600 feet"
+  },
+  {
+    "reference": "bravo juliett tango alfa holding point delta 25 we are fully ready",
+    "hypothesis": "robert chile tango alpha holding point depth 25 we are fully ready"
+  },
+  {
+    "reference": "hotel tango alfa report passing 13000 feet wind 260 degrees 10 knots runway 25 cleared for takeoff",
+    "hypothesis": "rotel 10 g far report passing 13000 ft wind 260 10 kts runway 25 clear for takeoff"
+  },
+  {
+    "reference": "cleared takeoff 25 next report the 13000 feet hotel tango alfa",
+    "hypothesis": "takeoff 25 next report 13000 ft hzt"
+  },
+  {
+    "reference": "charlie papa to confirm you proceed to chermignon",
+    "hypothesis": "i can not confirm you proceed to chamignon"
+  },
+  {
+    "reference": "foxtrot lima delta sion bonjour qnh 1023 wind calm runway 25 cleared for takeoff report november whiskey",
+    "hypothesis": "rock shrott lima delta tnh 1023 wind calm runway 25 cleared for takeoff report november wsk"
+  },
+  {
+    "reference": "hotel echo xray number one report final",
+    "hypothesis": "delico x ray number one report final"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "so one report final we will tell you quick bye"
+  },
+  {
+    "reference": "9 juliett lima 3 miles final departure",
+    "hypothesis": "100 ft final approach"
+  },
+  {
+    "reference": "9 juliett lima wind 240 degrees 17 knots runway 25 cleared to land",
+    "hypothesis": "mike juliet lima wind 240 degrees 17 knots runway 25 cleared to land"
+  },
+  {
+    "reference": "runway 25 cleared to land 9 juliett lima",
+    "hypothesis": "on our 2 parter so that is major that is him up"
+  },
+  {
+    "reference": "clouds 400 feet for landing",
+    "hypothesis": " .1400 feet we are landing ."
+  },
+  {
+    "reference": "takeoff runway 257 miles from sion maximum 11000 feet vista jet 467",
+    "hypothesis": "takeoff runway 25 will report 7 miles from the sea on maximum 11000 feet this is 246"
+  },
+  {
+    "reference": "vista jet 467",
+    "hypothesis": "atc france 6 f"
+  },
+  {
+    "reference": "tango 313 sion ground hello again taxi approved",
+    "hypothesis": "tango 313 strong run here again taxi approved"
+  },
+  {
+    "reference": "hotel echo xray wind 260 degrees 10 knots runway 25 cleared to land",
+    "hypothesis": "deleco x ray wind 260 degrees 10 knots runway 25 cleared to land"
+  },
+  {
+    "reference": "cleared to land runway 25 hotel echo xray",
+    "hypothesis": "i will be to land runway 25 with the request bye"
+  },
+  {
+    "reference": "takeoff sierra number one",
+    "hypothesis": "ecox fera number one"
+  },
+  {
+    "reference": "number one hotel echo xray",
+    "hypothesis": "number one authentic course sir"
+  },
+  {
+    "reference": "november alfa sierra line up runway 25",
+    "hypothesis": "november alpha sierra line up runway 25"
+  },
+  {
+    "reference": "hello tower helicopter india juliett hello again we are descending croix de coeur 6000 feet 6800 feet descend to left 52",
+    "hypothesis": "f tw good afternoon hello again we are descending from the 6800 feet descent for landing"
+  },
+  {
+    "reference": "india juliett report hotel sierra or golf sierra qnh 1017",
+    "hypothesis": "njd report hotel sierra or golf sierra qnh 1017"
+  },
+  {
+    "reference": "nav checker 511 good afternoon",
+    "hypothesis": "n 511 good afternoon"
+  },
+  {
+    "reference": "nav checker 511 we are on the way to your airfield and i would like to know what is the actual ground base you have in your area",
+    "hypothesis": "yes that is it we are on the way to your airfield and i would like to know what is the actual cloud base you have in your area"
+  },
+  {
+    "reference": "uniform golf wind 240 degrees 14 knots runway 25 clear takeoff right turn out climb approved report leaving",
+    "hypothesis": "uniform galf wind 2000 degrees 14 knots runway 25 clear to take off right turn out climb approved report leaving"
+  },
+  {
+    "reference": "cleared to takeoff right turn out and report leaving uniform golf",
+    "hypothesis": "takeoff right turn out and report leaving uniform gloves"
+  },
+  {
+    "reference": "hotel echo xray downwind 25 for touch and go",
+    "hypothesis": "tx danui 25 rotation go"
+  },
+  {
+    "reference": "foxtrot delta uniform line up and wait via intersection alfa qnh 1017",
+    "hypothesis": "fox delta you are from lineup and wait via intersection aqnh 1010"
+  },
+  {
+    "reference": "lufthansa mike which parking",
+    "hypothesis": "i do not know which parking"
+  },
+  {
+    "reference": "lufthansa mike continue for what 20 meters and then will be 1st a yellow light to the right",
+    "hypothesis": "mike continue for about 2 0 meters and then we will be 1st yellow line to the right"
+  },
+  {
+    "reference": "35 tango hotel alfa whiskey",
+    "hypothesis": "cleared to touch and go tel"
+  },
+  {
+    "reference": "ok approximately 15 minutes before starting thank you",
+    "hypothesis": "okay approximately 15 minutes but start speed thank you"
+  },
+  {
+    "reference": "b air 951 startup approved runway 25 qnh 1012 report ready for taxi",
+    "hypothesis": "nbr 9 f 51 startup approved runway 25 qh 1012 report ready for taxi"
+  },
+  {
+    "reference": "approved qnh 1012 report ready for taxi b air 952",
+    "hypothesis": "approved qnh 1012 report ready for taxi br 952"
+  },
+  {
+    "reference": "hotel echo xray recleared full stop landing runway 25",
+    "hypothesis": "kota cleared full stop landing on the 25"
+  },
+  {
+    "reference": "recleared full stop runway 25 echo xray",
+    "hypothesis": "i will push up on the side of the runway"
+  },
+  {
+    "reference": "hotel echo xray report downwind wind calm runway 25 cleared for takeoff",
+    "hypothesis": "hotel ecoe report downwind wind calm on a 25 clear takeoff"
+  },
+  {
+    "reference": "hotel papa mike one speed visual control make 118 backtrack to vacate at alfa",
+    "hypothesis": "hotel papa v wind speed is in the control make a 180 and backtrack to vacate at alpha"
+  },
+  {
+    "reference": "hotel echo xray number one report final",
+    "hypothesis": "txn one report final"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "114.5 nec"
+  },
+  {
+    "reference": "we have the traffic in sight nav checker 511",
+    "hypothesis": "we have the traffic in sight i will check our path and i will watch"
+  },
+  {
+    "reference": "roger",
+    "hypothesis": "i am sure"
+  },
+  {
+    "reference": "when passing 10000 feet to 4000 feet mosquito 15 bravo",
+    "hypothesis": "and passing 10000 feet to 100000 feet proceed to rasav"
+  },
+  {
+    "reference": "15 bravo thank you",
+    "hypothesis": "15 roger thank you"
+  },
+  {
+    "reference": "heli oscar zulu frequency change approved schone",
+    "hypothesis": "l e oscar 0 frequency 10 approved turn in"
+  },
+  {
+    "reference": "beste schone heli oscar zulu",
+    "hypothesis": "that is a nice oil lift as well"
+  },
+  {
+    "reference": "taxi going around nav checker 511",
+    "hypothesis": "check is going around check out 511"
+  },
+  {
+    "reference": "charlie zulu seaching hotel sierra for landing fato 25",
+    "hypothesis": "lizzolo traffic n 7 from landing fato 25"
+  },
+  {
+    "reference": "charlie zulu wind 25 which is at 14 knots fato 25 landing on discretion",
+    "hypothesis": "charlie zulu wind 2503.14 knots fato 25 landing on discretion"
+  },
+  {
+    "reference": "landing on discretion fato 25 charlie zulu",
+    "hypothesis": "d dt c 4225 c 4225"
+  },
+  {
+    "reference": "we are not ready now foxtrot lima delta",
+    "hypothesis": "we are not ready now for 2nd deload"
+  },
+  {
+    "reference": "roger station calling please pass your message",
+    "hypothesis": "order station calling please pass your message"
+  },
+  {
+    "reference": "sion victor oscar hook mission completed now landing victor call you before departure",
+    "hypothesis": "vw vw completed now landing with 2 gdu 54 departure"
+  },
+  {
+    "reference": "victor oscar roger talk to you later",
+    "hypothesis": "pidavska hoxha talk to you later"
+  },
+  {
+    "reference": "thank you",
+    "hypothesis": "you"
+  },
+  {
+    "reference": "helicopter tango oscar you may leave the frequency bye bye",
+    "hypothesis": "copter tangos you may leave the frequency bye bye"
+  },
+  {
+    "reference": "tango oscar leave the frequency bye bye",
+    "hypothesis": "red light green light"
+  },
+  {
+    "reference": "nav checker 511 further climb is approved",
+    "hypothesis": "n 511 further climb is approved"
+  },
+  {
+    "reference": "further climb approved again nav checker 511",
+    "hypothesis": "f 250 after your power"
+  },
+  {
+    "reference": "nav checker 511 contact sion approach 126 decimal 825 talk to you later",
+    "hypothesis": "mk 511 contact c 4126825 talk to you later"
+  },
+  {
+    "reference": "126825 talk to you later nav checker 511",
+    "hypothesis": "126825 from tn after casal one"
+  },
+  {
+    "reference": "delta whiskey",
+    "hypothesis": "alpha whiskey"
+  },
+  {
+    "reference": "wind 250 degrees 22 knots runway 25 cleared to land",
+    "hypothesis": "wind 25 degrees 22 knots runway 25 clear to land"
+  },
+  {
+    "reference": "cleared to land hotel delta whiskey",
+    "hypothesis": "cleared to land on tnf"
+  },
+  {
+    "reference": "hotel yankee saint martin 65000 feet for landing fato",
+    "hypothesis": "i will be on foot 5 m 6 ft i will be on the runway downwind downwind downwind"
+  },
+  {
+    "reference": "heli hotel yankee report hotel echo golf echo qnh 1017",
+    "hypothesis": "the yy report total encore go fhq 92017"
+  },
+  {
+    "reference": "sion heli hotel bravo zulu charlie zulu we just upon val d annivier low altitude for hook mission established for one low altitude",
+    "hypothesis": "atc charlie the luthe southbound val d anniguet low altitude for the hook mission set up in neco one low altitude"
+  },
+  {
+    "reference": "hotel hotel yankee wind calm fato 25 landing own discretion",
+    "hypothesis": "hotel hotel yankee wind calm fato 25 land on discussion"
+  },
+  {
+    "reference": "tango 365 sion tower hello qhn 1023 report hotel november runway 25 in use",
+    "hypothesis": "c 365 sion tower ath 1023 report hotel november runway 25 in use"
+  },
+  {
+    "reference": "sion 23 runway 25 next hotel november for 365",
+    "hypothesis": "atc runway 25 thanks for telling the way before ship 365"
+  },
+  {
+    "reference": "foxtrot lima delta wind 250 degrees 12 knots runway 25 cleared touch and go",
+    "hypothesis": "rockford lima delta wind 250 degrees 120 runway 25 cleared to touch and go"
+  },
+  {
+    "reference": "november hotel juliett vacate next left intersection golf and then taxi to holding point delta",
+    "hypothesis": "november osj vacate next left intersection galf and then taxi to honorable d"
+  },
+  {
+    "reference": "read back correct startup is approved qnh 1014",
+    "hypothesis": "build back correct and the startup is approved qnh 1014"
+  },
+  {
+    "reference": "tango 313 colonel du sallest at 8000 feet requested change",
+    "hypothesis": "tango 313 gds 3000 request a change"
+  },
+  {
+    "reference": "c est rentre you may leave frequency merci bonne soiree",
+    "hypothesis": "you are welcome you are my liftoff thank you have a good day"
+  },
+  {
+    "reference": "leaving merci a toi et bonne soiree tango 313",
+    "hypothesis": "leading merci a toi et bonne soiree"
+  },
+  {
+    "reference": "hotel echo xray number one",
+    "hypothesis": "hotel echo x ray number one"
+  },
+  {
+    "reference": "number one hotel echo xray",
+    "hypothesis": "number one atc"
+  },
+  {
+    "reference": "hotel bravo kilo charlie juliett echo 150084800 feet",
+    "hypothesis": "hbkc echo one 5800 ft"
+  },
+  {
+    "reference": "hello charlie juliett next report echo 2",
+    "hypothesis": "charlie juliette next report eccatu"
+  },
+  {
+    "reference": "hotel echo xray wind 26 degrees 9 knots runway 25 cleared for touch and go",
+    "hypothesis": "tx wind 26 at 90 kts runway 25 cleared for touching"
+  },
+  {
+    "reference": "cleared for touch and go runway 25 hotel echo xray",
+    "hypothesis": "atc we will need to fly with the replace flight"
+  },
+  {
+    "reference": "sion tower hotel bravo kilo echo xray",
+    "hypothesis": "atc hbkex 3"
+  },
+  {
+    "reference": "hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified",
+    "hypothesis": "od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified"
+  },
+  {
+    "reference": "berne tower hello again helicopter hotel bravo zulu whiskey juliett uttigen 2300",
+    "hypothesis": "atc you have a helicopter on the route 2 which is still your 2nd sticker 2300 ft requesting runway 29 cleared to land"
+  },
+  {
+    "reference": "hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh 1027",
+    "hypothesis": "atc via rute zulu qnh 1027"
+  },
+  {
+    "reference": "hotel golf papa leaving ctr direction november",
+    "hypothesis": "i will take off i will follow you keep your direct command"
+  },
+  {
+    "reference": "hotel golf papa frequency change approved",
+    "hypothesis": "autogolf papa frequency change approved"
+  },
+  {
+    "reference": "hotel yankee xray make one orbit to the left report completed",
+    "hypothesis": "otel yankee x ray make one orbit to the left report completed"
+  },
+  {
+    "reference": "hotel bravo kilo golf november berne tower hello qnh 1027 enter via route zulu runway 32 in use traffic rega helicopter just abeam gerzensee leaving direction thun indicating 4500 feet not verified opposite",
+    "hypothesis": "atkgn burn tower hello qnh 1027 enter via ruzulu runway 32 new traffic rega helicopter just a beam gap is leaving direction 2 indicating 4500 feet not verified opposite"
+  },
+  {
+    "reference": "hotel golf papa make a 180 stay clear of the runway taxi to holding point foxtrot",
+    "hypothesis": "telgo papa makr 180 stay clear of the runway taxi to holding point foxrot"
+  },
+  {
+    "reference": "hotel golf delta wind 040 degrees 7 knots runway 14 cleared for takeoff",
+    "hypothesis": "hgd wind 40 degrees 7 knots runway 14 cleared for takeoff"
+  },
+  {
+    "reference": "hotel golf oscar wind 070 degrees 10 knots runway 14 cleared touch and go",
+    "hypothesis": "hgos wind 70 degrees 10 knots runway 14 cleared to touch and go"
+  },
+  {
+    "reference": "hotel golf oscar number 2 number one short final runway 14",
+    "hypothesis": "hotel golf oscar number 2 number one short final runway 14"
+  },
+  {
+    "reference": "we have the traffic in sight rega 10 we leave the control zone schone namittag",
+    "hypothesis": "we have the traffic in sight we have also easy control so turn around and talk"
+  },
+  {
+    "reference": "rega 10 frequency change approved schone nami",
+    "hypothesis": "recon 10 frequency change approved c nw"
+  },
+  {
+    "reference": "hotel november xray 95 crossing is approved qnh 1022",
+    "hypothesis": "after november x ray is identified the crossing is approved qnh 1022"
+  },
+  {
+    "reference": "delta oscar victoria you are still on the bern arrival frequency",
+    "hypothesis": "delta oscar victor you are still on the burn arrival frequency"
+  },
+  {
+    "reference": "hotel golf papa continue on the runway vacate via charlie then taxi your discretion blue sector",
+    "hypothesis": "hotel golfapa continue on the runway vacate via charlie then taxi you to squashen blue sector"
+  },
+  {
+    "reference": "hotel delta lima via bravo then taxi your discretion blue sector if it is full green 4 is available",
+    "hypothesis": "hotel delta lima via bravo then taxi u discussion blue sector if it is full green 4 is available"
+  },
+  {
+    "reference": "oscar oscar papa charlie kilo it s for ifr fly to echo bravo charlie india we have information delta it is for startup and ifr clearance",
+    "hypothesis": "oscar oscar papa charlie kilo it is for ifr flight to eco bravo charlie india we have information delta it is for startup and ifr clearance"
+  },
+  {
+    "reference": "sierra november expect landing clearance shortly traffic on the runways departing 3 top on to the west",
+    "hypothesis": "tura november expect landing clearance shortly traffic on the runway is departing 32 up onto the west"
+  },
+  {
+    "reference": "hotel bravo november bravo hotel crossing direction grenchen 4500 feet is approved qnh 1026",
+    "hypothesis": "atnbh crossing try direction grenchen 4500 ft approved qnh 1026"
+  },
+  {
+    "reference": "thank you break break hotel golf oscar helicopter on your right hand side we will cross behind you",
+    "hypothesis": "thank you brake brake ktkf helicopter on your right hand side will cross behind you"
+  },
+  {
+    "reference": "hotel golf oscar",
+    "hypothesis": "inside now at the moment"
+  },
+  {
+    "reference": "hotel bravo kilo golf yankee from november good afternoon next report breaking off a city circling 321",
+    "hypothesis": "atc kg from nantawi good afternoon next report braking off for ct circling 32"
+  },
+  {
+    "reference": "heli oscar bravo are you ready for expedition crossing otherwise you have to hold on",
+    "hypothesis": "lv oscar bravo are you ready for expeditions crossing otherwise you have to hold on ground"
+  },
+  {
+    "reference": "departure with hotel bravo charlie quebec sierra out of 500480",
+    "hypothesis": "turn departure with jtb charlie cleared to clear out of 5480"
+  },
+  {
+    "reference": "hotel bravo charlie quebec sierra when departure low defined climb to flight level 90",
+    "hypothesis": "optabravo charlie quebec 0 bdt identified climb to flight level 90"
+  },
+  {
+    "reference": "hotel golf oscar lift control lima route sierra wind 040 degrees 13 knots runway 32 cleared for takeoff",
+    "hypothesis": "autel golf oscar leave control on my route sira wind 40 degrees 13 knots runway 32 clear for takeoff"
+  },
+  {
+    "reference": "hotel golf oscar charlie wait to proceed at least one miles out of track",
+    "hypothesis": "so telgo oscar are you aware that you proceed at least one mile south of track"
+  },
+  {
+    "reference": "hotel hotel golf next left via delta to blue sector",
+    "hypothesis": "hotel golf next left via lta to blue sector"
+  },
+  {
+    "reference": "say again heli lima juliett",
+    "hypothesis": "again have a little bit of a trip ahead"
+  },
+  {
+    "reference": "heli lima juliett join mid left heli circuit 32 land at own discretion swiss helicopter wind 040 degrees 10 knots",
+    "hypothesis": "heli lima juliet join mid left heli circuit 32 land at own discretion swiss helicopter wind 40 degrees 10 knots"
+  },
+  {
+    "reference": "hotel kilo delta now to whiskey one is approved if you remain outside romeo 82",
+    "hypothesis": "hotel kilo delta now to whiskey one is approved if you remain outside romeo 82"
+  },
+  {
+    "reference": "hotel golf papa is calling confirm",
+    "hypothesis": "hotel ghost papa is calling confirm"
+  },
+  {
+    "reference": "ja that is copied roger hold position",
+    "hypothesis": "that is copied roger hold position"
+  },
+  {
+    "reference": "takeoff golf oscar upwind 2100 feet request left hand circuit runway 06 for another and last touch and go",
+    "hypothesis": "staggolf oskar upwind at 2100 ft request left hand circuit runway 6 for another and last touch and go"
+  },
+  {
+    "reference": "hotel golf oscar make left hand circuit is approved runway 14",
+    "hypothesis": "with the goal of oscar make left hand circuit is approved runway 14"
+  },
+  {
+    "reference": "hotel bravo juliett leave out on route whiskey wind 030 degrees 10 knots runway 32 cleared for takeoff",
+    "hypothesis": "atb to red lift up on the route whiskey wind 30 degrees 10 knots runway 32 cleared for takeoff"
+  },
+  {
+    "reference": "heli india echo hotel whiskey 3600 feet",
+    "hypothesis": "heli india co hotel with the 3600 feet"
+  },
+  {
+    "reference": "heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots",
+    "hypothesis": "linde eco land on this question the swiss helicopter wind 70 degree 6 knots"
+  },
+  {
+    "reference": "hotel golf november wind 060 degrees 9 knots runway 14 cleared to land",
+    "hypothesis": "ngn wind 60 degrees 9 knots runway 14 cleared to land"
+  },
+  {
+    "reference": "hotel oscar yankee any time direct lyss approved traffic rescue helicopter passing muhleberg inbound to inselspital",
+    "hypothesis": "otelos krienki anytime direct lease approved traffic rescue helicopter passing muhlenberg inbound to inselspital"
+  },
+  {
+    "reference": "proceeding direct to lyss hotel oscar yankee and looking out for helicopter near inselspital",
+    "hypothesis": "proceeding direct to lise hotel of karyekia looking out for the helicopter here in the hospital"
+  },
+  {
+    "reference": "one.0 standby",
+    "hypothesis": ".0 standby"
+  },
+  {
+    "reference": "delta alfa uniform the field is at your 20 clock position 4 miles confirm in sight",
+    "hypothesis": "delta alpha uniform the field is at your 20 clock position 4 miles confirm in sight"
+  },
+  {
+    "reference": "affirm we descend flight and we are ready for visual delta alfa uniform",
+    "hypothesis": "affirm field is in sight and we are ready for visual data for uniform"
+  },
+  {
+    "reference": "delta alfa uniform further descend at your discretion cleared visual approach runway 32",
+    "hypothesis": "dal further descend at your discretion clear visual approach runway 32"
+  },
+  {
+    "reference": "cleared for visual approach 32 delta alfa uniform",
+    "hypothesis": "super visual approach 3 2 3 over and over"
+  },
+  {
+    "reference": "delta alfa uniform radar service terminated contact tower 121 decimal 025",
+    "hypothesis": "atc contact tower 121.025"
+  },
+  {
+    "reference": "radar terminates and 121025 bis spater delta alfa uniform",
+    "hypothesis": "radar terminates and 121.25 bis spater d t u f"
+  },
+  {
+    "reference": "good night",
+    "hypothesis": "is that"
+  },
+  {
+    "reference": "hotel bravo sierra charlie tango bern tower hello taxi via kilo to terminal north",
+    "hypothesis": "atc charlie tango burntower hello taxi via kilo to terminal north"
+  },
+  {
+    "reference": "bern tower hello again hotel bravo kilo golf november zulu 5000 feet descending information charlie for landing by route zulu",
+    "hypothesis": "pertrauva de la weekend hotel bravo kilo golf november overhead zulu at 5000 ft descending information charlie for landing flyer route zulu"
+  },
+  {
+    "reference": "hotel bravo kilo golf november bern tower qnh 1026 and arrival route zulu to join final runway 32",
+    "hypothesis": "atc gnt 1026 enter wsz to join final runway 32"
+  },
+  {
+    "reference": "hotel november lima for the time being remain on this frequency",
+    "hypothesis": " nl for the time being remain on this frequency"
+  },
+  {
+    "reference": "hotel whiskey echo now 3200 feet and leave the command for 7000 frequency change approved",
+    "hypothesis": "otteriske go now 3400 feet and you are leaving the control zone fox 7 town frequently chained roost"
+  },
+  {
+    "reference": "hotel whiskey alfa taxi to holding point bravo runway 14",
+    "hypothesis": "whiskey alpha taxi to holding point bravo runway 15"
+  },
+  {
+    "reference": "yeah of course than you can expect vfr circuits after touch and go report taking off romeo circling",
+    "hypothesis": "of course then you can expect vfr circuits after touching off we plot braking off for omsc"
+  },
+  {
+    "reference": "hotel bravo sierra golf romeo bern tower into control by route november join mid left downwind runway 14 qnh 1027",
+    "hypothesis": "hbzrb bnt enter control fly route n join mid left downwind runway 14 qnh 1027"
+  },
+  {
+    "reference": "bern approach hotel bravo kilo bravo victor",
+    "hypothesis": "borner fraud hotel bravo kilo bravo exit"
+  },
+  {
+    "reference": "kilo bravo victor bern",
+    "hypothesis": "kilo brawa we are going to burn"
+  },
+  {
+    "reference": "hotel golf sierra can offer you only one touch and go then upon route whiskey due to it s launch time there are no circuits approved",
+    "hypothesis": "hotel golf sierra i can offer you only one touch and go and then aupanroute whiskey due to its lunchtime no circuits approved"
+  },
+  {
+    "reference": "heli whiskey charlie hotel echo 3000 feet",
+    "hypothesis": "air lubiske charlie otel echo 3000 ft"
+  },
+  {
+    "reference": "heli whiskey charlie",
+    "hypothesis": "let us get started"
+  },
+  {
+    "reference": "hotel india alfa until 4 miles maintain 100 knots or greater",
+    "hypothesis": "hotel india alpha until 4 miles maintain 100 knots or greater"
+  },
+  {
+    "reference": "hotel oscar yankee request orbit to the right for spacing",
+    "hypothesis": "i will then also react to your request north to the right 456"
+  },
+  {
+    "reference": "hotel oscar yankee orbit right approved",
+    "hypothesis": "hold to those grand corbit right approved"
+  },
+  {
+    "reference": "hotel tango uniform do you intend to canceled the ifr flight before fribourg",
+    "hypothesis": "hotel tango uniform do you intend to cancel the ifr flight before fribourg"
+  },
+  {
+    "reference": "swiss radar 135680 next 7508 bye bye",
+    "hypothesis": "swiss radar 135 680 mx 7508 bye bye"
+  },
+  {
+    "reference": "hotel bravo papa november lima this bern tower contact thun on 123 decimal 255",
+    "hypothesis": "hotel bravo papa november lima this is bern tower contact toon on 123.255"
+  },
+  {
+    "reference": "hotel echo lima frequency change approved thank you good bye",
+    "hypothesis": "hotel echo lima frequency change approved thank you good bye"
+  },
+  {
+    "reference": "heli charlie papa traffic landing aircraft soon departing runway 32 air bound route echo opposite",
+    "hypothesis": "charlie papa traffic singleton aircraft soon departing with retreat 2 aubameyang take co position"
+  },
+  {
+    "reference": "quadriga 163 foxtrot descend to flight level 70",
+    "hypothesis": "quadriga 163 fox descend to fl 70"
+  },
+  {
+    "reference": "roger hotel golf papa",
+    "hypothesis": "alright we are going to go bye bye"
+  },
+  {
+    "reference": "hotel golf papa frequency change approved good bye",
+    "hypothesis": "papa frequency change approved goodbye"
+  },
+  {
+    "reference": "ok good bye hotel golf papa",
+    "hypothesis": "goodbye"
+  },
+  {
+    "reference": "hotel oscar qnh 103 taxi 32 intersection foxtrot",
+    "hypothesis": "atc qnh 103 taxi to intersection fox"
+  },
+  {
+    "reference": "tango 331 number one is now on the right base",
+    "hypothesis": "tango 331 number one is now on the right base"
+  },
+  {
+    "reference": "hotel golf yankee rodger clearance after touch and go is available",
+    "hypothesis": "atc thank you roger clearance after touch and go is available"
+  },
+  {
+    "reference": "november mike alfa roger and you are recleared straight in ils approach 14",
+    "hypothesis": "femper mia roger that and you are cleared straight in ils approach 14"
+  },
+  {
+    "reference": "hotel echo echo please control zone via route zulu wind 040 degrees 7 knots runway 14 cleared for takeoff",
+    "hypothesis": "hotel echo echo leave control zone via route zulu wind 40 degrees 7 knots runway 14 cleared for takeoff"
+  },
+  {
+    "reference": "hotel golf sierra roger i understood one touch and go than one circuit again touch and go then whiskey",
+    "hypothesis": "atc i understood one touch and code then one circuit again touch and code and whiskey"
+  },
+  {
+    "reference": "papa foxtrot approaching bern city request to make an orbid over the bundeshaus",
+    "hypothesis": "papafox dot approaching bern city request to make an orbit over the bundeshaus"
+  },
+  {
+    "reference": "papa foxtrot that is approved",
+    "hypothesis": "papa fox that is approved"
+  },
+  {
+    "reference": "orbit approved hotel papa foxtrot",
+    "hypothesis": "hobby approved tota"
+  },
+  {
+    "reference": "hotel golf november wind 010 degrees 10 knots runway 14 cleared to land",
+    "hypothesis": "hgn wind 10 10 knots runway 14 cleared to land"
+  },
+  {
+    "reference": "november mike alfa vectoring for a short approach turn left heading 240",
+    "hypothesis": "nmaa vectoring for a shorter approach turn left heading 240"
+  },
+  {
+    "reference": "fraction 576 hotel descend to 4000 feet cleared arp approach runway 14 report airborne track established",
+    "hypothesis": "and fraction 576 descend to 4000 ft cleared rmp approach runway 14 report inbound track established"
+  },
+  {
+    "reference": "hotel quebec mike i confirm cleared to land runway 14",
+    "hypothesis": "ok mike i confirm cleared to land runway 24"
+  },
+  {
+    "reference": "we will taxi to sector blue when ready hotel charlie november",
+    "hypothesis": "we will taxi to sector blue when ready hotel trolley in effect"
+  },
+  {
+    "reference": "november mike alfa vacate via charlie and how long do you stay",
+    "hypothesis": "november mike alpha vacate via charlie and how long do you stay"
+  },
+  {
+    "reference": "roger bravo 3043 affirm climb maximum 5500 feet",
+    "hypothesis": "hb 3043 affirm climb maximum 5500 feet"
+  },
+  {
+    "reference": "hotel golf echo do you want to stay at level 100 or are you able to descend",
+    "hypothesis": "qfac do you want to stay at level 100 or are you able to descend"
+  },
+  {
+    "reference": "hotel charlie papa below flight level 100",
+    "hypothesis": "fd pap bil on flight 11 answer it"
+  },
+  {
+    "reference": "hotel charlie papa frequency change approved bis spater",
+    "hypothesis": "rotate high power frequency change approved bis spater"
+  },
+  {
+    "reference": "startup approved runway 12 qnh 1021 to destination morning 30 departure flight level 100 and squawk 1000 swiss air force 042",
+    "hypothesis": "start approved runway 14 qh 1021 to destination morning 30 departure flight of 100 and squawk 1000 swiss air force 42"
+  },
+  {
+    "reference": "swiss air force 042 read back correct",
+    "hypothesis": "atc you are set for 42 re pac correct"
+  },
+  {
+    "reference": "hotel golf november on downwind runway 32 to full stop",
+    "hypothesis": "ok go to november and then we will fly runway 32 for full stop"
+  },
+  {
+    "reference": "hotel yankee xray wind 030 degrees 8 knots runway 32 cleared to land",
+    "hypothesis": "hotel yankee x ray wind 30 degrees 8 knots runway 32 cleared to land"
+  },
+  {
+    "reference": "runway 32 clear to land hotel xray",
+    "hypothesis": "runway 32 stand by hop tail and fix way"
+  },
+  {
+    "reference": "heli oscar alfa traffic wise the runway 32 is available but the wind is 100 degrees with 10 knots",
+    "hypothesis": "helioscar alpha traffic wise the runway 32 is available but the wind is 100 degrees with 10 knots"
+  },
+  {
+    "reference": "hotel victor bravo roger behind traffic on final backtrack runway 14 behind",
+    "hypothesis": "hotel victor bravo roger behind traffic on final backtrack runway 14 behind"
+  },
+  {
+    "reference": "delta papa delta roger identified the crossing is approved qnh 1021",
+    "hypothesis": "delta papa delta roger identified the crossing is approved qnh 1021"
+  },
+  {
+    "reference": "tower bern hotel bravo kilo golf november blue parking vfr local as plan route whiskey information november request taxi",
+    "hypothesis": "tower burn hotel bravo kilo goes november blue parking vfr local alpant root whiskey information november request taxi"
+  },
+  {
+    "reference": "hotel papa golf turning base runway 32",
+    "hypothesis": "hold the papa golf turning base runway 32 c"
+  },
+  {
+    "reference": "hotel papa golf wind 040 degrees 8 knots runway 32 cleared to land",
+    "hypothesis": "hotel papa golf wind 40 degrees 8 knots runway 32 cleared to land"
+  },
+  {
+    "reference": "32 cleared to land hotel papa golf",
+    "hypothesis": "327 tota papa governor"
+  },
+  {
+    "reference": "hotel bravo lima victor bravo bern tower hello taxi to holding point bravo runway 14 qnh 1027",
+    "hypothesis": "nlvb bla taxi to oiling point bra runway 14 qnh 1027"
+  },
+  {
+    "reference": "hotel hotel bravo 7000 feet",
+    "hypothesis": "hotel hotel braumus have a tough flight"
+  },
+  {
+    "reference": "hotel hotel bravo thank you",
+    "hypothesis": "hotel hotel bravo thank you"
+  },
+  {
+    "reference": "tango 318 roger you can already change frequency have a nice day",
+    "hypothesis": "tango 318 roger you can already change frequency have a nice day"
+  },
+  {
+    "reference": "hotel oscar foxtrot whiskey 4500 feet request to leave frequency",
+    "hypothesis": "op de los focs drop wisc 4500 ft request to leave frequency"
+  },
+  {
+    "reference": "hotel oscar foxtrot frequency change approved",
+    "hypothesis": "rotor oscar fox what frequency change approved"
+  },
+  {
+    "reference": "hotel echo lima affirm remain on my frequency you are still within the tma",
+    "hypothesis": "alter ecoline my firm remain on my frequency we are still within the tma"
+  },
+  {
+    "reference": "hotel bravo charlie juliett bern tower traffic single engined just departed runway 14 outbound route sierra opposite and to compose my route sierra to join right downwind runway 14 qnh 1027",
+    "hypothesis": "nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbdh 1027 nbd"
+  },
+  {
+    "reference": "oscar charlie kilo descend to 5000 feet qnh 1021",
+    "hypothesis": "lkd 5000 ft qh 1021"
+  },
+  {
+    "reference": "sun turk quebec sierra descend to flight level 70 expect clearance 4 airwork about 3 miles before oskup",
+    "hypothesis": "atc descend to fl 70 expect clearance for airwork about 3 miles before roscoepe"
+  },
+  {
+    "reference": "hotel whiskey alfa wind is calm runway 14 cleared for takeoff",
+    "hypothesis": "hotel whiskey alpha wind is calm runway 14 cleared for takeoff"
+  },
+  {
+    "reference": "hotel golf yankee we appreciate the shortcut",
+    "hypothesis": "tell golgec we appreciate the short cut"
+  },
+  {
+    "reference": "hotel golf yankee roger report your program in bern",
+    "hypothesis": "the gulf yankee rocher report your program in burn"
+  },
+  {
+    "reference": "hotel delta lima runway vacated on delta",
+    "hypothesis": "hotel delta lima runway vacate this on delta"
+  },
+  {
+    "reference": "roger taxi to blue parking",
+    "hypothesis": "not a taxi to blue parking"
+  },
+  {
+    "reference": "blue parking hotel delta lima",
+    "hypothesis": "taxi blue parking call d limo"
+  },
+  {
+    "reference": "hotel golf oscar wind check 020 degrees 11 knots can you still accept 14",
+    "hypothesis": "golf oscar wind check 20 degrees 11 knots can you still accept 14"
+  },
+  {
+    "reference": "hotel golf papa number 2 number one is the company on now left hand base and still 2 helicopters low altitude over the city",
+    "hypothesis": "opel golf bappa number 2 number one is the company on now left hand base and still 2 helicopters low altitude over the city"
+  },
+  {
+    "reference": "looking up for helicopter and number one not in sight at the moment and a number 2 papa golf papa",
+    "hypothesis": "looking up for helicopter and number one not in sight at the moment and number 2 how to go fapa"
+  },
+  {
+    "reference": "hotel golf sierra after echo one join right hand base runway 32 as number one and expect left hand circuit",
+    "hypothesis": "atg sierra after echo one join right hand base runway 32 as number one and expect the left hand circuit"
+  },
+  {
+    "reference": "november mike alfa expect the ils 14 with romeo circling to runway 32",
+    "hypothesis": "nma expect the ils 14 with the romeo circling to run with you"
+  },
+  {
+    "reference": "hotel lima sierra during night time visual departure is not possible",
+    "hypothesis": "hotel lima sierra during night time visual departure is not possible"
+  },
+  {
+    "reference": "hotel romeo oscar roger crossing direction echo at 4000 feet is approved qnh bern 1025",
+    "hypothesis": "hotel romeosca roger crossing direction echo at 4000 ft is approved qnh burn 1025"
+  },
+  {
+    "reference": "papa golf yankee descend to 4000 feet cleared rnp approach 14 report established final course",
+    "hypothesis": "not the golf yankee descent to 4000 ft cleared rmp approach 14 report established final course"
+  },
+  {
+    "reference": "hotel delta charlie advise traffic is now clear of you and frequency change approved",
+    "hypothesis": "hotel delta charlie advise traffic is now clear off you frequency change approved"
+  },
+  {
+    "reference": "riga quebec lima traffic single engine at your 100 clock position 4 miles crossing from left to right at 5500 feet",
+    "hypothesis": "riga quebec lima traffic single engine at your 100 clock position 4 miles crossing from left to right at 5500 feet"
+  },
+  {
+    "reference": "hotel quebec yankee crossing completed frequency change approved good bye",
+    "hypothesis": "atc gain keep crossing completed frequency change approved goodbye"
+  },
+  {
+    "reference": "hotel bravo juliett wind 040 degrees 6 knots runway 32 cleared to land",
+    "hypothesis": "hbj wind 40 degrees 6 knots runway 32 cleared to land"
+  },
+  {
+    "reference": "hotel golf papa frequency change approved bis spater ciao",
+    "hypothesis": "autocall papa frequency change approved bis spater ciao"
+  },
+  {
+    "reference": "number one in sight hotel golf oscar",
+    "hypothesis": "number one is right touch the tower proceed"
+  },
+  {
+    "reference": "golf oscar roger turn base behind he will do a go around over threshold",
+    "hypothesis": "governor oscar roger turn base behind you we will do a go around over threshold"
+  },
+  {
+    "reference": "hotel kilo delta the advised traffic is now over whiskey one",
+    "hypothesis": "otelkilo delta the advise traffic is now over with ski one"
+  },
+  {
+    "reference": "hotel golf oscar traffic rega helicopter just passed hotel echo joining the left hand heli circuit direction 14",
+    "hypothesis": "hg oscar traffic rega helicopter just past hg joining the left hand heli circuit direction 14"
+  },
+  {
+    "reference": "helicopter in sight shall we proceed normally hotel golf oscar",
+    "hypothesis": "helicopter on site shall i proceed normally how does all this offer"
+  },
+  {
+    "reference": "hotel golf oscar at mid downwind make an orbit to the left report completed",
+    "hypothesis": "other golfos car and mid town winds make an orbit to the left report completed"
+  },
+  {
+    "reference": "hotel hotel oscar roger say again the number of the glider",
+    "hypothesis": "lotte lotte los garachos again the number of the glider"
+  },
+  {
+    "reference": "hotel bravo zulu sierra november berne tower enter via route hotel whiskey qnh 1018",
+    "hypothesis": "hbz sierra november burn tower enter via route hv qnh 1018"
+  },
+  {
+    "reference": "hotel golf papa unknown vfr traffic a helicopter at your 110 clock position 2 miles same altitude opposite direction",
+    "hypothesis": "hgp unknown vfr traffic helicopter at your 110 clock position 2 miles same altitude opposite direction"
+  },
+  {
+    "reference": "long approach hotel papa bravo",
+    "hypothesis": "long approach hbp"
+  },
+  {
+    "reference": "hotel mike november line up in sequence",
+    "hypothesis": "all making their way in the line up in sequence"
+  },
+  {
+    "reference": "hotel bravo zulu oscar bravo berne tower enter control zone via route whiskey and say your program again",
+    "hypothesis": "the bravo solo is the bravo bernd tower under control via 0 2 w and cro program again"
+  },
+  {
+    "reference": "hotel charlie quebec breaking off to the left",
+    "hypothesis": "total equal break break and off to the left"
+  },
+  {
+    "reference": "hotel charlie quebec roger",
+    "hypothesis": "hotel charlie quebec roger"
+  },
+  {
+    "reference": "hotel bravo juliett traffic a husky is approaching gerzensee right now behind you and same direction",
+    "hypothesis": "0 bribe juliet traffic husky is approaching here today right now behind you and same direction"
+  },
+  {
+    "reference": "hotel bravo sierra charlie papa berne tower is it for startup or for taxi",
+    "hypothesis": "atc bntao proceed for startup or for taxi"
+  },
+  {
+    "reference": "zulu sierra go ahead",
+    "hypothesis": "gdr go ahead"
+  },
+  {
+    "reference": "are you aware that you are now inside the ctr of berne",
+    "hypothesis": "are you aware that you are now inside the ctr of burn"
+  },
+  {
+    "reference": "we have the traffic in sight as well hotel hotel oscar",
+    "hypothesis": "traffic in sight you are clear to land"
+  },
+  {
+    "reference": "hotel hotel oscar",
+    "hypothesis": "hotel hotel oscar"
+  },
+  {
+    "reference": "frequency change approved bye bye have a nice evening hotel quebec mike",
+    "hypothesis": "qt change of course bye bye have a nice evening haute cote mike"
+  },
+  {
+    "reference": "hotel whiskey echo for the time being not available i will call you back",
+    "hypothesis": "hotel whiskey echo for the time being not available i will call you back"
+  },
+  {
+    "reference": "number one in sight hotel whiskey echo",
+    "hypothesis": "number one is the air potential"
+  },
+  {
+    "reference": "hotel whiskey echo thank you follow behind",
+    "hypothesis": "operator thank you follow behind"
+  },
+  {
+    "reference": "hotel bravo charlie golf india taxi to blue station to fuel station approved from blue parking",
+    "hypothesis": "atc to blue station approved from blue parking"
+  },
+  {
+    "reference": "heli tango whiskey negative it s fine if you want you can monitor the frequency but it s up to you if you stay outside of ctr all the time",
+    "hypothesis": "alitango is skin negative it is fine if you want you can monitor the frequency but it is up to you if you stay outside of ctr all the time"
+  },
+  {
+    "reference": "hotel bravo tango echo echo leaving ctr",
+    "hypothesis": "hbt leaving cta"
+  },
+  {
+    "reference": "hotel echo echo frequency change approved good bye",
+    "hypothesis": "hotel eqeqo frequency change approved goodbye"
+  },
+  {
+    "reference": "12nd",
+    "hypothesis": "12nd"
+  },
+  {
+    "reference": "sure no worries it is fine for me but just for the next time then maybe not get a confusion",
+    "hypothesis": "sure no worries it is fine for me but just for the next time then maybe not to get the confusion"
+  },
+  {
+    "reference": "ok",
+    "hypothesis": "okay"
+  },
+  {
+    "reference": "hotel golf november zimi is not available anymore romeo 82 is now active do you want to proceed to sava instead",
+    "hypothesis": "the governor of ember team is not available anymore romeo 8 2 is now active do you want to proceed to sava instead"
+  },
+  {
+    "reference": "roger break break heli delta quebec after hotel whiskey cross via berne city then hotel echo",
+    "hypothesis": "roger break break ali delta quebec after hotel whiskey cross via burn city 10 hec"
+  },
+  {
+    "reference": "delta charlie kilo victor india tower hello qnh 1027 startup approved runway 32 cleared destination malta via the mebox 3 bravo departure",
+    "hypothesis": "delta charlie kilo victor india tower hello qnh 1027 star approved runway 32 cleared destination malta via the maybox 3 b departure"
+  },
+  {
+    "reference": "zulu 141 transition climb initially 5000 feet squawk 2760",
+    "hypothesis": "zulu 141 transition climb initially 5000 feet squawk 2760"
+  },
+  {
+    "reference": "november mike alfa vacate via charlie and how long do you stay",
+    "hypothesis": "november mike alpha vacate via charlie and how long do you stay"
+  },
+  {
+    "reference": "hotel hotel lima echo we are at dme approach runway 24 circling 06 report established",
+    "hypothesis": "atc lima euclid we are in the emi approach runway 24 circling 6 report established"
+  },
+  {
+    "reference": "hotel india victor after whiskey 2 join wide right base runway 10 number one",
+    "hypothesis": "hotel india victor after whiskey 2 join right base runway 10 number one"
+  },
+  {
+    "reference": "turkish 27 xray tower 1181 bye bye",
+    "hypothesis": "px 27 x tower 1181 bye bye"
+  },
+  {
+    "reference": "europa 94 kilo mike contact ground 121 decimal 905 good bye",
+    "hypothesis": "airdrop on 9.4 km contact ground 11.905 goodbye"
+  },
+  {
+    "reference": "alitalia 571 apron hello push back and startup is approved",
+    "hypothesis": "alitalia 571 mainstream hello pushback and startup is approved"
+  },
+  {
+    "reference": "bravo kilo hotel romeo tower grutzli say again taxiway kilo cross runway 28 and contact apron 121 decimal 755",
+    "hypothesis": "kilo kilo kilo kilo kilo kilo kilo kilo cross runway 28 and contact the apron 12 on this 755"
+  },
+  {
+    "reference": "hotel bravo sierra delta foxtrot tower hello line up runway 10",
+    "hypothesis": "atc d f tower line up runway 10"
+  },
+  {
+    "reference": "vista jet 437 turn left via taxiway alfa echo 6 hold short runway 16",
+    "hypothesis": "vista jet 437 turn left via taxiway alpha e 6 hold short runway 16"
+  },
+  {
+    "reference": "swiss 2067 contact apron 121 decimal 855",
+    "hypothesis": "swiss 2067 connect apron 121.855"
+  },
+  {
+    "reference": "121 decimal 855 swiss 2067",
+    "hypothesis": "121 that is mla 855 cleared to 6 7"
+  },
+  {
+    "reference": "emirates 88 wind 0403 is 9 knots runway 10 cleared for takeoff",
+    "hypothesis": "emirates 8 hw 40 increase 9 knots runway 10 cleared to takeoff"
+  },
+  {
+    "reference": "cleared for takeoff 10 emirates 88",
+    "hypothesis": "qb takeoff 10 emirates 88"
+  },
+  {
+    "reference": "swiss ambulance 61 wind 030 degrees 4 knots runway 32 cleared takeoff",
+    "hypothesis": "so 7161 wind 30 degrees 49.732 clear takeoff"
+  },
+  {
+    "reference": "hi 32 cleared takeoff swiss ambulance 61",
+    "hypothesis": "on a 32 cleared takeoff c 616"
+  },
+  {
+    "reference": "alitalia 571070312 knots runway 10 cleared to takeoff",
+    "hypothesis": "italy 571 703 is 12 knots runway 10 cleared to take off"
+  },
+  {
+    "reference": "hotel india victor whiskey 3500 feet",
+    "hypothesis": "hotel india victor whiskey 3500 ft"
+  },
+  {
+    "reference": "hotel india victor danke",
+    "hypothesis": "and i will let you know when to thank you"
+  },
+  {
+    "reference": "klm 94 foxtrot on echo 7 hold short of runway 16",
+    "hypothesis": "klm 94 v on e 7 hold short of runway 16"
+  },
+  {
+    "reference": "swiss 1076 taxi via link 3 echo 7 hold short of runway 16",
+    "hypothesis": "with 1076 taxi via link 3 echo 7 hold short of runway 16"
+  },
+  {
+    "reference": "fraction 250 foxtrot descend flight level 90",
+    "hypothesis": "fraction 250 f try to descend 590"
+  },
+  {
+    "reference": "tower guten morgen swiss 197 heavy rnp 14 established",
+    "hypothesis": "tower good morning fis 197 heavy rmt 14 established"
+  },
+  {
+    "reference": "swiss 197 tower guten morgen wind 080 degrees 12 knots gusting 19 runway 14 cleared to land vacate hotel 2",
+    "hypothesis": "swiss 197 t good morning wind 80 degrees 12 knots gusting one niner runway 14 cleared to land ok total 2"
+  },
+  {
+    "reference": "i guess 630 taxi via november echo 7 hold short of runway 16",
+    "hypothesis": "iga 630 taxi via n 7 hold short of runway 16"
+  },
+  {
+    "reference": "hotel bravo charlie hotel xray grutzli hold position call you back",
+    "hypothesis": "hbx i see you i will call you back"
+  },
+  {
+    "reference": "delta india victor contact apron 121 decimal 755 tschuss",
+    "hypothesis": "tota and direct the contact date runway 121.75 bye"
+  },
+  {
+    "reference": "singapore 346 contact apron 121 decimal 855",
+    "hypothesis": "report v 46 contact apron 121.855"
+  },
+  {
+    "reference": "finn air 5 delta lima vacated own discretion wind 140 degrees 5 knots runway 14 cleared to land",
+    "hypothesis": "f 5 d located on discretion wind 140 degrees 5 knots runway 14 cleared to land"
+  },
+  {
+    "reference": "swiss 289 the wind 320 degrees 3 knots runway 14 you are cleared to land",
+    "hypothesis": "289 other wind 3 to the degree 3 knots runway 14 euclid island"
+  },
+  {
+    "reference": "zurich tower hotel bravo papa oscar echo",
+    "hypothesis": "british airways hold for bravo papa oscar echo"
+  },
+  {
+    "reference": "hotel bravo papa oscar echo zurich tower go ahead",
+    "hypothesis": "otobrata papa oscar equals rake tower go ahead"
+  },
+  {
+    "reference": "lot 420 contact ground 121 decimal 905 good bye",
+    "hypothesis": "b 420 contact ground 121.905 goodbye"
+  },
+  {
+    "reference": "turkish 6 foxtrot lima is in hello taxi 2nd right via inner foxtrot and mike to stand bravo 32",
+    "hypothesis": "36 f lima hello taxi 2nd right via inder foxdot and mike to stand bravo 32"
+  },
+  {
+    "reference": "ground hello royal air maroc 352 stand echo 46 fully ready",
+    "hypothesis": "ground hello we are m 3252 stand 8.46 we will erase"
+  },
+  {
+    "reference": "foxtrot lima hello again taxiway juliett cross runway 28 contact apron 121 decimal 755 good day",
+    "hypothesis": "lh hello again taxiway 28 cross runway 28 contact apron 121.755 good day"
+  },
+  {
+    "reference": "taxiway juliett cross runway 28 after crossing 121755 turkish 6 foxtrot lima",
+    "hypothesis": "air hacu we will cross runway 28 after closing 121.755.30 pick up certain and leave as soon as possible"
+  },
+  {
+    "reference": "thank you",
+    "hypothesis": "thank you"
+  },
+  {
+    "reference": "200 turkish 6329 wind 070 degrees 13 gusting 20 knots runway one",
+    "hypothesis": "turkish 6329 wind 70 degrees 13 gusting 20 knots runway one"
+  },
+  {
+    "reference": "oscar charlie kilo contact tower 118 decimal one good bye",
+    "hypothesis": "oscar charlie kilo contact tower 118.101 goodbye"
+  },
+  {
+    "reference": "hotel yankee hotel wind 040 degrees 11 knots runway 10 cleared to land",
+    "hypothesis": "yenki hotel wind 40 degrees 11 knots runway 10 cleared to land"
+  },
+  {
+    "reference": "runway 10 cleared to land hotel yankee hotel",
+    "hypothesis": "radar by 103 excellent"
+  },
+  {
+    "reference": "hotel whiskey whiskey affirm vacate next right into taxi way hotel 2 and contact apron 121 decimal 855",
+    "hypothesis": "hotel whisky whisky affirm vacate next right into taxiway hotel 2 and contact apron one to one desmond 855"
+  },
+  {
+    "reference": "vista jet 492 no landing vacated own discretion",
+    "hypothesis": "wcf 912 on landing vacated only crush"
+  },
+  {
+    "reference": "oscar charlie kilo contact departure 125 decimal 955 good bye",
+    "hypothesis": "oscar charlie kilo contact departure 125.955 bye bye"
+  },
+  {
+    "reference": "125955 oscar papa charlie kilo",
+    "hypothesis": "125.9.5.5"
+  },
+  {
+    "reference": "air nostrum 80 quebec yankee contact apron 121 decimal 855",
+    "hypothesis": "n 80 qy contact apron 121.855"
+  },
+  {
+    "reference": "dagobert 1553 roger are you able to depart from intersection echo",
+    "hypothesis": "d 1553 r are you able to be depart from intersection eko"
+  },
+  {
+    "reference": "hotel bravo papa hotel delta unknown vfr traffic without altitude indications 120 clock 2 miles crossing left to right",
+    "hypothesis": "hotel bravo papa hotel delica unknown vfr traffic without altitude indication 120 clock 2 miles crossing left to right"
+  },
+  {
+    "reference": "air nostrum 80 quebec yankee tower hello wind 070 degrees right 09 runway 14 cleared to land",
+    "hypothesis": "kino strum 80 kt tower hello wind 70 degrees 10 knots runway 14 cleared to land"
+  },
+  {
+    "reference": "swiss air force 521 tower grutzi and runway 34 and taxi left via lima holding point runway 10",
+    "hypothesis": "swiss air force 521 tower grezi enter runway 34 and taxi left via liemann holding point rwy 10"
+  },
+  {
+    "reference": "turkish 3 whiskey quebec taxi via echo and echo 7 hold short of runway 16",
+    "hypothesis": "dirt is 3 wsk taxi via echo and echo 7 hold short of runway 16"
+  },
+  {
+    "reference": "echo one charlie go ahead",
+    "hypothesis": "parking on charlie go ahead"
+  },
+  {
+    "reference": "echo one charlie cleared to madrid runway 32 ready 3 november climb 5000 feet squawk 3002",
+    "hypothesis": "alpha one charlie b 3 runway 32 vebit 3 november climb 5000 ft squawk 3002"
+  },
+  {
+    "reference": "hotel uniform uniform contact departure and schone tag",
+    "hypothesis": "rotation of uniform contact departure in shared tower"
+  },
+  {
+    "reference": "departure hotel uniform uniform schone tag",
+    "hypothesis": "gzu uniform uniform nice day"
+  },
+  {
+    "reference": "hotel hotel xray vacacated at 0 and to the right and contact apron 121 decimal 755 bye bye",
+    "hypothesis": "lhxr vacate at the roof and to the right and contact apron 121.755 sorry"
+  },
+  {
+    "reference": "hotel lima hotel wind 010 degrees 10 knots runway 10 cleared to land",
+    "hypothesis": "hotel lima hotel wind 10 degrees 101 from way 10 cleared to land"
+  },
+  {
+    "reference": "sun express 3 wind 160 degrees 4 knots runway 28 cleared for takeoff",
+    "hypothesis": "sun express 316 cedric grace 4 knots runway 28 cleared for takeoff"
+  },
+  {
+    "reference": "air canada 7216 when did you see the lights",
+    "hypothesis": "canada 7216 when did you see the lights"
+  },
+  {
+    "reference": "hotel sierra kilo wind 030 degrees 11 knots runway 2 cleared takeoff",
+    "hypothesis": "80 km in 30 degrees one minute around the turkish tegu"
+  },
+  {
+    "reference": "hello bravo whiskey zulu papa tower hello into control zone route echo clearance limit echo 2",
+    "hypothesis": "on the roadways ski zulu papa tower hello enter controls on route echo clearance limit echo 2"
+  },
+  {
+    "reference": "swiss 218 romeo can we vacate via hotel 2",
+    "hypothesis": "atc 218 you can vacate via hotel 2"
+  },
+  {
+    "reference": "swiss 218 romeo affirm vacated as convenient",
+    "hypothesis": "this is 218 r from the ktas convenient"
+  },
+  {
+    "reference": "swiss 332 behind challenger line up to 8 behind",
+    "hypothesis": "this is 332 behind challenger line up 28 behind"
+  },
+  {
+    "reference": "zurich tower legend 1202 good afternoon established ils 14",
+    "hypothesis": "tower l 1200 good afternoon established ils 14"
+  },
+  {
+    "reference": "legend 1202 tower hello wind 160 degrees 4 knots runway 14 cleared to land vacate at own discretion",
+    "hypothesis": "patching 1202 tower allow wind 160 degrees 4 knots runway 14 close the line located on discretion"
+  },
+  {
+    "reference": "cleared to land runway 14 and vacate at own discretion legend 1202",
+    "hypothesis": "just land runway 14 on the cape town discretion legend one to go to the chute"
+  },
+  {
+    "reference": "hotel bravo charlie lima hotel via echo line up and wait runway 10",
+    "hypothesis": "atc lh via echo line up and fades runway 10"
+  },
+  {
+    "reference": "zurich tower hello then arrow jet 601 on foxtrot",
+    "hypothesis": " to recover and then i will just hit one on fox"
+  },
+  {
+    "reference": "arrow jet 601 tower on foxtrot cross runway 10 contact apron 121 decimal 755 sorry",
+    "hypothesis": "h 601 t and foxro cross runway 10 connect apron 121.755 roger that"
+  },
+  {
+    "reference": "on foxtrot cross runway 1012175",
+    "hypothesis": "one +one +one +11012175"
+  },
+  {
+    "reference": "alitalia 572",
+    "hypothesis": "alitalia 572 573"
+  },
+  {
+    "reference": "jump run 802 climb to flight level 150",
+    "hypothesis": "ch 802 climb to fl 150"
+  },
+  {
+    "reference": "well there s marchall on it s way and in zurich it is handled like this all the time but it s any 2nd with you",
+    "hypothesis": "well there is a marshal on its way and in zurich it is handled like this all the time but it is any 2nd with you"
+  },
+  {
+    "reference": "fraction 103 mike wind 140 degrees 4 knots runway 28 cleared for takeoff",
+    "hypothesis": "faction 103 m q 140 degrees 4 knots runway 28 cleared for takeoff"
+  },
+  {
+    "reference": "hotel bravo victor roger after whiskey one proceed direct sierra",
+    "hypothesis": "bvw after wsg one proceed direct to sarah"
+  },
+  {
+    "reference": "wilco hotel bravo victor",
+    "hypothesis": "winko what a lovely picture"
+  },
+  {
+    "reference": "swiss 18 line up and wait runway 10",
+    "hypothesis": "trison it line up and wait runway 10"
+  },
+  {
+    "reference": "line up and wait runway 10 swiss 18",
+    "hypothesis": "stand up and wait for me 10 612"
+  },
+  {
+    "reference": "legend 1202 hello again on juliett approaching runway 28",
+    "hypothesis": "atc 1202 hello again on julieto pushing runway 28"
+  },
+  {
+    "reference": "legend 1202 tower hello again cross runway 281 juliett connect apron 121 decimal 755 good bye",
+    "hypothesis": "legend 1202 tower hello again cross runway 28 on joliet connect apron one to one.755 goodbye"
+  },
+  {
+    "reference": "wind check for runway 1434 degrees 2 knots",
+    "hypothesis": "wind check for runway 14 340 degrees 2 knots"
+  },
+  {
+    "reference": "fraction 498 alfa hold position there will be crossing traffic i call you back",
+    "hypothesis": "fraction 4998 i will follow position there will be crossing traffic i will call you back"
+  },
+  {
+    "reference": "ready to touchdown",
+    "hypothesis": "right right stop stop"
+  },
+  {
+    "reference": "47 on juliett",
+    "hypothesis": "747 on juliet"
+  },
+  {
+    "reference": "sun turk 947 tower taxiway juliett cross runway 28 contact apron 121 decimal 755 bye",
+    "hypothesis": "sanddurk 947 t taxiway juliet cross runway 28 contact apron 121.755 bye"
+  },
+  {
+    "reference": "royal air maroc 352 zurich tower good afternoon line up runway 10 report ready",
+    "hypothesis": "royal mroc 3520 tower good afternoon line up runway 100 report ready"
+  },
+  {
+    "reference": "roger then taxi via all alfa and echo on taxiway echo hold short runway 10",
+    "hypothesis": "roger then taxiway a and e on taxiway e hold short runway 10"
+  },
+  {
+    "reference": "united 135 wind 030 degrees 10 knots runway 28 cleared takeoff",
+    "hypothesis": "united 135 wind 30 degrees 10 knots runway 28 clear to take off"
+  },
+  {
+    "reference": "swiss 204 kilo departure bye",
+    "hypothesis": "flaps 15 so 4 kts i can not see the plane"
+  },
+  {
+    "reference": "departure good bye swiss 204 kilo",
+    "hypothesis": "patrick bye bye this is 4"
+  },
+  {
+    "reference": "united 135 apron hello push back and startup is approved",
+    "hypothesis": "united 135 say hello pushback and startup is approved"
+  },
+  {
+    "reference": "swiss 92 identified climb to flight level 120 and report passing altitude",
+    "hypothesis": "swiss 92 identified climb to flight level 120 and report passing altitude"
+  },
+  {
+    "reference": "hello air nostrum 87 whiskey bravo zurich tower line up runway 10",
+    "hypothesis": "hello n 870 w zurich tower lineup rwy 10"
+  },
+  {
+    "reference": "singapore 346 contact apron 121 decimal 755 bye bye",
+    "hypothesis": "pct 46 contact data from 121.755 bye bye"
+  },
+  {
+    "reference": "oscar echo india tango hotel tower on taxiway kilo cross runway 28 contact apron 121 decimal 755 bye bye",
+    "hypothesis": "moscow tango hotel tower on taxiway kilo cross runway 28 connect apron one to one decimal 755 bye bye"
+  },
+  {
+    "reference": "foxtrot sierra foxtrot 584 papa tower hello again actually hold position shortly",
+    "hypothesis": "foxat here foxat 584 papa tower hello again actually hold position shortly"
+  },
+  {
+    "reference": "copy 77 taxi on zulu and bravo hold short runway 16",
+    "hypothesis": "rb 77 taxi on zulu and bravo hold short runway 16"
+  },
+  {
+    "reference": "hotel bravo yankee juliett golf good afternoon behind you lining up pg 24 line up runway 28 behind",
+    "hypothesis": "hotel yenki good afternoon behind you lining up pc 24 line up runway 28 behind"
+  },
+  {
+    "reference": "hotel 465 tower hello line up runway 10",
+    "hypothesis": "that is a 465 t line up runway 10"
+  },
+  {
+    "reference": "delta hotel golf wind 050 degrees 12 knots gusting 17 runway 14 cleared to land",
+    "hypothesis": "delta hotel golf wind 50 degrees 12 knots gusting 17 runway 14 cleared to land"
+  },
+  {
+    "reference": "cleared to land runway 14 delta hotel golf",
+    "hypothesis": "atc you have not yet walked through the runway please proceed"
+  },
+  {
+    "reference": "united 135 tower hello behind lufthansa line up runway 28 behind",
+    "hypothesis": "united 135 tower hello behind lufthansa line up runway 28 behind"
+  },
+  {
+    "reference": "united 135 behind lufthansa line up runway",
+    "hypothesis": "united 135 behind the console line up and wait"
+  },
+  {
+    "reference": "november 4 charlie golf contact tower 118 decimal 105",
+    "hypothesis": "n 4 gt contact tower 180.7 enter the bus"
+  },
+  {
+    "reference": "tango kilo alfa wind 040 degrees 10 knots on the 10 cleared for takeoff",
+    "hypothesis": "tango kilo alpha wind 40 degrees 10 knots runway 10 cleared for takeoff"
+  },
+  {
+    "reference": "hotel oscar echo the 2nd traffic is now to overhead whiskey one opposite",
+    "hypothesis": "hotel oscar echo the 2nd traffic is now just overhead with ski one opposite"
+  },
+  {
+    "reference": "tower hello again air portugal 926 approaching right 28 kilo",
+    "hypothesis": "tower hello again pn 926 approaching right way thank you"
+  },
+  {
+    "reference": "air portugal 926 at kilo cross runway 28 then contact the apron 121 decimal 755",
+    "hypothesis": "apu 926 a kilo cross from meto 8 and contact apu 121 755"
+  },
+  {
+    "reference": "sierra papa foxtrot bravo alfa tower hello hold position i ll call you back",
+    "hypothesis": "so apa fox apa tower hello hold position i will call you back"
+  },
+  {
+    "reference": "delta tango tango taxi via alfa echo 6 hold short of runway 16",
+    "hypothesis": "dtt taxi via a 6 hold short of runway 16"
+  },
+  {
+    "reference": "hotel delta charlie your re at the ctr frequency change approved bye bye",
+    "hypothesis": "otelotl trolley you are at city air frequency change approved bye bye"
+  },
+  {
+    "reference": "rega one in case you still with me you may leave the frequency",
+    "hypothesis": "rega one in case you are still with me you may lift the frequency"
+  },
+  {
+    "reference": "hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one",
+    "hypothesis": "hbkhuqnh 1024 taxi to holding position papa one"
+  },
+  {
+    "reference": "and report ready for departure once your re clear after inbound hotel delta lima",
+    "hypothesis": "and report ready for departure once you are clear of the inbound hotel delta lima"
+  },
+  {
+    "reference": "air nostrum 78 juliett mike 020 degrees 13",
+    "hypothesis": "for air nostrum 7 hmx 23 13 kt"
+  },
+  {
+    "reference": "qatari 02 mike on taxiway juliett cross runway 10 contact apron 121 decimal 755 good bye",
+    "hypothesis": "qatar is over to my contact this is juliette cross runway 10 contact apron 121.755 goodbye"
+  },
+  {
+    "reference": "air portugal 931 charlie contact departure good bye",
+    "hypothesis": "air portugal 931 charlie contact departure goodbye"
+  },
+  {
+    "reference": "departure bye air portugal 931 charlie thank you",
+    "hypothesis": "portugal 91 thank you"
+  },
+  {
+    "reference": "tower guten morgen air canada 7216 heavy with you we re established 6 miles 14",
+    "hypothesis": "jtgm air canada 7216 heavy with you we are established 6 miles 14"
+  },
+  {
+    "reference": "air canada 7216 tower good morning wind 350 degrees 3 knots runway 14 cleared to land",
+    "hypothesis": "canada 7216 tower good morning wind 3500 degrees 3 knots runway 14 cleared to land"
+  },
+  {
+    "reference": "dagobert 1553 to confirm on taxiway echo hold short runway 10",
+    "hypothesis": "tkb 155 ft confirm on taxiway echo hold short runway 10"
+  },
+  {
+    "reference": "tango charlie november kilo alfa apron hello turn left via alfa yankee 210 foxtrot 73",
+    "hypothesis": "langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower langen tower"
+  },
+  {
+    "reference": "royal air maroc 352 contact apron 121 decimal 855 good bye",
+    "hypothesis": "royal amarok 352 contact sarah capron 121.855 goodbye"
+  },
+  {
+    "reference": "121 decimal 855 good bye royal air maroc 352",
+    "hypothesis": "121.855 with bia d 52"
+  },
+  {
+    "reference": "hotel delta lima contact apron 121 decimal 855",
+    "hypothesis": "hotel das lima contact apron 121.9.5.5"
+  },
+  {
+    "reference": "air nostrum 78 juliett mike direct hello wind 180 degrees 4 knots runway 14 cleared to land",
+    "hypothesis": "notr 780 l mike 30 k wind 180 degrees 4 knots from yvonne for clutherland"
+  },
+  {
+    "reference": "cleared to land 14 air nostrum 78 juliett mike",
+    "hypothesis": "we are going to land 14 and that is the same as you will invite"
+  },
+  {
+    "reference": "holding point runway 31 via foxtrot and cross runway \u20ac04 trans 21 correction 13 juliett thank you",
+    "hypothesis": "on the point runway 31 we have foxtrot and cross runway 4 your trans 31 correction 13 do your thing"
+  },
+  {
+    "reference": "13 juliett correction position 2 foxtrot",
+    "hypothesis": "13 unit correction position 2 foxtrot"
+  },
+  {
+    "reference": "2 foxtrot euro trans 13 juliett",
+    "hypothesis": "t fox +0 chance 122 let us ."
+  },
+  {
+    "reference": "elite jet 201 and via foxtrot line up 31 report ready",
+    "hypothesis": "topjet 201 and via foxr lineup 31 report ready"
+  },
+  {
+    "reference": "euro trans 13 juliett request push and start",
+    "hypothesis": "neutron 13 request push and start"
+  },
+  {
+    "reference": "good evening euro trans 13 juliett startup and push back approved position to foxtrot squawk 4425",
+    "hypothesis": "good evening here is trans 13 juliet start up and pushback approved position 2 foxtrot squawk 4425"
+  },
+  {
+    "reference": "squawk 4425 and start and push pre approved position fox 2 foxtrot",
+    "hypothesis": "squawk 445 and starting position approved position 2 fox 5"
+  },
+  {
+    "reference": "stefanik tower top jet 401 dobry den apron charlie in front of the hangar ready for startup cleared destination ostrava lima on board qnh 1017",
+    "hypothesis": "stechang tower d 4 one adobri jen ipoh and cali in front of the hangar ready for start up cleared for destination osterawa lima oberg qnh 1017"
+  },
+  {
+    "reference": "stefanik tower oscar mike charlie india alfa final runway 13 oscar mike charlie india alfa",
+    "hypothesis": "panic tower oscar mike czerny in the a final runway 13 oscar mike czerny in the a"
+  },
+  {
+    "reference": "oscar mike charlie india alfa runway 13 cleared to land wind 130 degrees 8 knots",
+    "hypothesis": "oscar mayak channel india a runway 13 cleared to land wind 130 degrees 8 knots"
+  },
+  {
+    "reference": "stefanik tower oscar mike charlie india alfa request",
+    "hypothesis": "stefanik taurus come actualy in the a request"
+  },
+  {
+    "reference": "yes go ahead",
+    "hypothesis": "yes go ahead"
+  },
+  {
+    "reference": "tel 603 taxi to holding point runway 13 via delta foxtrot",
+    "hypothesis": "taxi to holding point runway 13 via d f"
+  },
+  {
+    "reference": "oscar kilo alfa golf lima squad 46746",
+    "hypothesis": "oscar kilo alpha golv leemanskuk 46746"
+  },
+  {
+    "reference": "6746",
+    "hypothesis": "i am going to call it"
+  },
+  {
+    "reference": "november one alfa would be more affordable euro trans 13 juliett thank you",
+    "hypothesis": "and then one alpha would be most suitable your transfer 1320 thank you"
+  },
+  {
+    "reference": "time air 397 foxtrot call me on tower frequency please",
+    "hypothesis": "10 3 i am in touch with columbia tower frequency please"
+  },
+  {
+    "reference": "roger",
+    "hypothesis": "thank you very much"
+  },
+  {
+    "reference": "stefanik tower pekne popoludnie tatra 613 establish ils 31",
+    "hypothesis": "f tower we are heading to the runway tat 613 is established ls 31"
+  },
+  {
+    "reference": "tatra 613 dobre popoludnie stefanik tower runway 31 cleared to land wind 300 degrees 19 knots maximum 33 knots",
+    "hypothesis": "tatr 613 good afternoon stefanik tavr runway 31 cleared to land wind 300 degrees 19 knots maximum 33 knots"
+  },
+  {
+    "reference": "runway 31 clear to land tatra 613",
+    "hypothesis": "runway 31 clear to n t a t r a 613"
+  },
+  {
+    "reference": "and after landing vacate via delta",
+    "hypothesis": "and after landing vacate via delta"
+  },
+  {
+    "reference": "after landing via delta 613",
+    "hypothesis": "landing via lota 613"
+  },
+  {
+    "reference": "delta bravo bravo line up runway 31 report ready for departure",
+    "hypothesis": "dbsl runway 31 report ready for departure"
+  },
+  {
+    "reference": "delta bravo bravo lining up runway 31 we are ready for departure",
+    "hypothesis": "delta bravo bravo lining up runway 31 we are ready for departure"
+  },
+  {
+    "reference": "roger",
+    "hypothesis": "roger"
+  },
+  {
+    "reference": "startup push back approved position to foxtrot squawk \u20ac4407 trans 13 juliett",
+    "hypothesis": "startup pushback approved position 2 foxford squawk 4407 nu tw juliet"
+  },
+  {
+    "reference": "runway 31 cleared to land we copied top jet 704",
+    "hypothesis": "runway 31 cleared to land winkopit object 704"
+  },
+  {
+    "reference": "euro trans 5335 approaching fox 16 ready for departure",
+    "hypothesis": "u 5335 approaching fox one section ready for departure"
+  },
+  {
+    "reference": "euro trans 13 juliett startup approved own discretion",
+    "hypothesis": "u town 3 juliet stadler put down discussion"
+  },
+  {
+    "reference": "startup own discretion euro trans 13 juliett",
+    "hypothesis": "stand up on discretion u turn for 3 juliet"
+  },
+  {
+    "reference": "top jet 402 via delta foxtrot 1033",
+    "hypothesis": "project 402 via d foxd stand 33"
+  },
+  {
+    "reference": "delta foxtrot 1033 top jet 402",
+    "hypothesis": "delta foxtrot 1033 this is 40 roger"
+  },
+  {
+    "reference": "stefanik tower good day austrian 1411 ils 31",
+    "hypothesis": "stefanic taukodeus trend 1411 ils 31"
+  },
+  {
+    "reference": "euro trans 13 juliett taxi to holding point runway 04 via alfa delta",
+    "hypothesis": "e trs 13 j taxi to aldington runway 4 via alpha d"
+  },
+  {
+    "reference": "alfa delta holding .04 trans 13 juliett",
+    "hypothesis": "alpha delta holding .04 you can transform re do it"
+  },
+  {
+    "reference": "stefanik tower dobry den burg 692 lima stop established runway 316.5 dme",
+    "hypothesis": "staffordic zag dobryden hamburg 692 lima establish tail as runway 31 6.5 to me"
+  },
+  {
+    "reference": "air hamburg 692 lima stefanik tower dobry den",
+    "hypothesis": "erhamburg 690 to lima stefanic tower dobry den"
+  },
+  {
+    "reference": "wind 220 degrees 5 knots variable between 170 and 230 degrees maximum 10 minimum 3 runway 31 cleared to land",
+    "hypothesis": "wind 220 degrees 5 knots variable between 170 and 230 degrees maximum 10 minimum 3 runway 31 clear to land"
+  },
+  {
+    "reference": "oscar mike echo lima echo taxi between anchors via foxtrot",
+    "hypothesis": "oscar mike eko lima eko taxi between hengers via foxtrot"
+  },
+  {
+    "reference": "taxi between anchors via foxtrot oscar mike echo lima echo",
+    "hypothesis": "taxi with hangar it is via fox 12 taxi to flma fox"
+  },
+  {
+    "reference": "taxi holding .31 via foxtrot cross runway 04 slovak government 004",
+    "hypothesis": "taxi holding .31 f xc cross runway 4 follow government 4"
+  },
+  {
+    "reference": "dark blue 54 romeo stefanik tower dobre rano runway 31 cleared to land wind 080 degrees 6 knots",
+    "hypothesis": "dark blue 54 r stefanik tower dobregano runway 31 cleared to land wind 0 80 degrees 6 knots"
+  },
+  {
+    "reference": "right 31 cleared to land dark blue 54 romeo",
+    "hypothesis": "flight 31 cleared to land arw 54 ml"
+  },
+  {
+    "reference": "oscar golf echo continue to final runway 22 traffic is just now before shortly before landing",
+    "hypothesis": "oscar golf echo continue to final runway 22 traffic is just now before shortly before landing"
+  },
+  {
+    "reference": "b air 712 taxi via delta line up runway 04",
+    "hypothesis": "beard 712 taxi via delta line number one we are 04"
+  },
+  {
+    "reference": "via delta line up 04 b air 712",
+    "hypothesis": "maya delta line up 4 pier 712"
+  },
+  {
+    "reference": "stefanik tower dobry den elite jet 801 crossing 2 right base runway 13",
+    "hypothesis": "stefanic tower dobryen top to day one crossing to right base on 113"
+  },
+  {
+    "reference": "looking out for a traffic oscar mike kilo lima lima",
+    "hypothesis": "looking out for the traffic kotk lima lima"
+  },
+  {
+    "reference": "roger just traffic is on your 110 clock one mile",
+    "hypothesis": "roger just dressing is on your 110 clock one mile"
+  },
+  {
+    "reference": "qnh 1018 after keep the proceeding to victor",
+    "hypothesis": "qnh 1018 after qnh proceeding to victor"
+  },
+  {
+    "reference": "cleared to land runway 31 and please say again the wind",
+    "hypothesis": "cleared to land runway 31 n please say again the wind"
+  },
+  {
+    "reference": "280 degrees 11 knots maximum 18 minimum 6 knots",
+    "hypothesis": "280 degrees 11 knots maximum 18 minimum 6 knots"
+  },
+  {
+    "reference": "push and start approved on position 3 foxtrot on squawk \u20ac4402 trans 13 juliett",
+    "hypothesis": "position start approved and position 3 foxtrot and squawk 4402 you are trans 132 good"
+  },
+  {
+    "reference": "oscar golf echo roger descend to traffic altitude 1500 feet",
+    "hypothesis": "oscar golf eko roger descend to traffic altitude 1500 feet"
+  },
+  {
+    "reference": "start descending 1500 feet altitude oscar mike alfa golf echo",
+    "hypothesis": "descending 1500 feet altitude of kmg"
+  },
+  {
+    "reference": "elite jet 704 taxi via delta to apron charlie",
+    "hypothesis": "tomchit 704 taxi via d to a tomchit"
+  },
+  {
+    "reference": "slovak airforce 7445 frequency change approved dopocutia pekny let",
+    "hypothesis": "f 745 frequency change approach good flight"
+  },
+  {
+    "reference": "dobre popoludnie stefanik tower b air 941 ils 31",
+    "hypothesis": "ok i will call you back stefanik tower b 941 ils 31"
+  },
+  {
+    "reference": "b air 941 stefanik tower pekne popoludnie wind 310 degrees 8 knots variable between 270 and 330 degrees runway 31 cleared to land",
+    "hypothesis": "b one 941 stefanik tower nice afternoon wind 310 degrees 8 knots variable between 270 and 330 degrees runway 31 cleared to land"
+  },
+  {
+    "reference": "runway 31 cleared to land b air 941",
+    "hypothesis": "runway 31 cleared to land b 9401"
+  },
+  {
+    "reference": "2036 thanks for your help 13 juliett start and push and start call you for taxi",
+    "hypothesis": "2036 thanks for your help 13 j starting position start call you for taxi"
+  },
+  {
+    "reference": "roger squawk 4404",
+    "hypothesis": "roger let us call 4404"
+  },
+  {
+    "reference": "right so then yeah tovka one kilo would be much better euro trans 13 juliett thank you",
+    "hypothesis": "alright so then yeah tnk one k would be much better your tnk 13 d thank you"
+  },
+  {
+    "reference": "euro trans 13 juliett roger so recleared via tovka one kilo departure of runway 31 initial climb 5000 feet",
+    "hypothesis": "e trs 13 jr so recleared via tofka one kilo departure of runway 31 initial climb 5000 ft"
+  },
+  {
+    "reference": "recleared at tovka one kilo departure runway 3 initial climb 5000 feet and request push and start euro trans 13 juliett",
+    "hypothesis": "we have cleared the tosca one k departure runway 31 and we should climb 5000 ft and request push and start u turns 12 d"
+  },
+  {
+    "reference": "euro trans 13 juliett push and start approved facing foxtrot and squawk 4403",
+    "hypothesis": "e t 13 jpst approved facing foxtrot and scog 4403"
+  },
+  {
+    "reference": "roger position start approved position 5 foxtrot and squawk 4423 for wizz air 6276",
+    "hypothesis": "roger position start approved position 50 10 sq 423 for w 6276"
+  },
+  {
+    "reference": "stefanik tower ahoj top jet 202 established final track rnp 31",
+    "hypothesis": "stefanic tower ahoj top jet 202 establish final track rmt 31"
+  },
+  {
+    "reference": "top jet 202 stefanik tower dobry den wind 310 degrees 21 knots runway 31 clear to land",
+    "hypothesis": "tomzet 202 stefanink tower dobry den wind 310 degrees 21 knots runway 31 cleared to land"
+  },
+  {
+    "reference": "runway 31 cleared to land top jet 202",
+    "hypothesis": "rwy 31 cleared to land top to 22"
+  },
+  {
+    "reference": "stefanik tower oscar mike echo lima echo altitude 6000 feet and descending to 2000 feet",
+    "hypothesis": "stefanic tower os ele altitude 6000 feet and descending to 2000 feet"
+  },
+  {
+    "reference": "we would be at about victor in 40 seconds and requesting approach information information quebec qnh 1020",
+    "hypothesis": "we will be at the port victor in 40 seconds and request an approach information clearback qnh 1020"
+  },
+  {
+    "reference": "november 49 xray lima taxi via delta line up 04 report ready",
+    "hypothesis": "l 490 xr lima taxi via delta line up 4 report ready"
+  },
+  {
+    "reference": "via delta line up 04 call you when ready november 49 xray lima",
+    "hypothesis": "wdol lineup 4 call you when ready and remember for my next flight"
+  },
+  {
+    "reference": "stefanik tower slovak government 004 dobre rano",
+    "hypothesis": "stefanic good morning command 0 f good morning"
+  },
+  {
+    "reference": "slovak government 004 stefanik tower dobre rano",
+    "hypothesis": "slovak government 4 she is fighting tower good morning"
+  },
+  {
+    "reference": "our stand information lima 1007 ready for startup clearance destination kosice",
+    "hypothesis": "n 1007 ready for start up clearance destination kosice"
+  },
+  {
+    "reference": "slovak government 004 information mike time 57 qnh 1008 cleared to kosice from runway 13 via nitra one yankee departure initially climb altitude 5000 feet startup approved squawk 6746",
+    "hypothesis": "slovak government 4 information mike time 57 qnh 1008 cleared to kosice from runway 13 via n one departure initial climb v 5000 ft startup approved squawk 6746"
+  },
+  {
+    "reference": "cleared to land runway 16 right china southern 301",
+    "hypothesis": "clear to land runway 16 r china southern 301"
+  },
+  {
+    "reference": "sydney tower good evening singapore 7298 is 16 right",
+    "hypothesis": "sydney tower good evening singapore 7298 is 16 r"
+  },
+  {
+    "reference": "tower good day rex 6464",
+    "hypothesis": "target ior 6451"
+  },
+  {
+    "reference": "rex 6464 sydney tower good afternoon",
+    "hypothesis": "direct 6464 sydney tower good afternoon"
+  },
+  {
+    "reference": "sydney tower good morning jetstar 746 established",
+    "hypothesis": "sydney tower good morning jetstar 746 established"
+  },
+  {
+    "reference": "jetstar 746 sydney tower",
+    "hypothesis": "10 746 city tower"
+  },
+  {
+    "reference": "tower united 2012 is just outside gala for 16 right",
+    "hypothesis": "tower united 2812 is just outside of igaula for 16 r"
+  },
+  {
+    "reference": "continue approach for connie 835 answer with mike i think we ll be able if we can make it it s probably going to be golf or golf one for connie 835",
+    "hypothesis": "continue approach for c 835 and sir we would like i think the earliest we can make is probably going to be golf or golf one for c 835"
+  },
+  {
+    "reference": "connie 835 copy",
+    "hypothesis": "juliet 3 5 copy"
+  },
+  {
+    "reference": "twin jet 50 on a short delay waiting on our release from the back",
+    "hypothesis": "injects 5 0 one just short delay waiting on release from debate"
+  },
+  {
+    "reference": "sydney tower evening qantas 7701 now at 3 international",
+    "hypothesis": "sydney tower evening concert 7701 we are for the international"
+  },
+  {
+    "reference": "tower connie 835 on the ils 163",
+    "hypothesis": "tower county 835 on the ils 168"
+  },
+  {
+    "reference": "turning air cross 923 heavy",
+    "hypothesis": "sitting down qnh 923 heavy"
+  },
+  {
+    "reference": "contract 923 heavy sydney tower good day",
+    "hypothesis": "and with 923 heavies in maytagaday"
+  },
+  {
+    "reference": "16 right cleared to land jet ex 7434",
+    "hypothesis": "16 r cleared land jx 7434"
+  },
+  {
+    "reference": "sydney tower good day qlink 402",
+    "hypothesis": "sydney tower good day q link 402"
+  },
+  {
+    "reference": "qlink 402 sydney tower good morning",
+    "hypothesis": "killing 402 sydney tower good morning"
+  },
+  {
+    "reference": "tower good day jetstar 763",
+    "hypothesis": "tower g day just 7 6 3"
+  },
+  {
+    "reference": "jetstar 763 sydney to",
+    "hypothesis": "cessna 766 r sini eta"
+  },
+  {
+    "reference": "tower jetstar 763",
+    "hypothesis": "any tower to star 763"
+  },
+  {
+    "reference": "jetstar 763 sydney ciao",
+    "hypothesis": "jetstar 766 city tower"
+  },
+  {
+    "reference": "sydney tower good evening jetstar 671 final runway 34 left",
+    "hypothesis": "the target"
+  },
+  {
+    "reference": "hello sydney good evening jetstar 475 climbing flight level 280",
+    "hypothesis": "b good evening flight number 475 climbing flight level 280"
+  },
+  {
+    "reference": "tower good morning singapore 7274 heavy ils 13016 right",
+    "hypothesis": "sabra good morning singapore 7274 heavy ils runway 16 r"
+  },
+  {
+    "reference": "sydney tower rex 6472",
+    "hypothesis": "city tower rec 6472"
+  },
+  {
+    "reference": "rex 6472 sydney tower",
+    "hypothesis": "rec 6470 to icineka"
+  },
+  {
+    "reference": "runway 34 left cleared to land quantas 146",
+    "hypothesis": "runway 34 l cleared to land qantas 146"
+  },
+  {
+    "reference": "runway 16 right cleared to land jetstar 508",
+    "hypothesis": "165 cleared to land just 508"
+  },
+  {
+    "reference": "cleared to land runway 165 qjet 1504",
+    "hypothesis": "flaps 11 runway 16 r qj 1504"
+  },
+  {
+    "reference": "roger continue approach expect to land vacate golf dynasty 051",
+    "hypothesis": "roger continue approach expand after landing vacate go then stick to 51"
+  },
+  {
+    "reference": "tower good day new zealand 2317 charlie 34 left",
+    "hypothesis": "tower good day new zealand 231 establish runway 34 l"
+  },
+  {
+    "reference": "sydney tower good evening dynasty 0557 miles runway 0 s runway 34 left",
+    "hypothesis": "sydney tower good evening this is 557 around way 34 l"
+  },
+  {
+    "reference": "runway 16 right cleared to land pass 767",
+    "hypothesis": "runway 16 r cleared to land at das 767"
+  },
+  {
+    "reference": "runway 34 left cleared to land runway 643",
+    "hypothesis": "runway 34 l cleared to land corner 642"
+  },
+  {
+    "reference": "roger cleared to land runway 34 left exit on the high speed on right",
+    "hypothesis": "alright cleared to land runway 34 l exit on the high speed on the right"
+  },
+  {
+    "reference": "korean air 121 wind 240 degrees 5 knots runway 16 right cleared to land",
+    "hypothesis": "green at 121 with 240 degrees on n 16 front clear to land"
+  },
+  {
+    "reference": "runway 16 right cleared to land korean air 121 heavy",
+    "hypothesis": "runway 16 r clear to land runway 121 heavy"
+  },
+  {
+    "reference": "tower american 73 heavy 10 miles 3 voila",
+    "hypothesis": "tower american 73 heavy 10 miles 34 l"
+  },
+  {
+    "reference": "hello american 73 heavy sydney tower good morning",
+    "hypothesis": "american 23 heavy city tower good morning"
+  },
+  {
+    "reference": "tower good afternoon emirates 9242 cleared ils 34 left 7 miles final",
+    "hypothesis": "good afternoon i am airbus miner 242 ils 24 l 7 miles honey"
+  },
+  {
+    "reference": "emirates 9242 heavy sydney tower good afternoon continue approach",
+    "hypothesis": "airbus 902 42 heavy city tower good afternoon 10 year approach"
+  },
+  {
+    "reference": "16 right cleared to land qantas 7702",
+    "hypothesis": "16 r cleared land qnh 7702"
+  },
+  {
+    "reference": "runway 16 right cleared to land holding .79",
+    "hypothesis": "lw 16 r clear to land on the .79"
+  },
+  {
+    "reference": "sydney tower rex 6175",
+    "hypothesis": "city tower rec 6175"
+  },
+  {
+    "reference": "rex 6175 sydney tower good afternoon",
+    "hypothesis": "prac 6175 sydney hotel good afternoon"
+  },
+  {
+    "reference": "cleared to land runway 16 right call us 7221",
+    "hypothesis": "cleared for land runway 16 r qnh 7221"
+  },
+  {
+    "reference": "runway 16 right cleared to land velocity 803",
+    "hypothesis": "we are on 6 rockland land we will see you at 3"
+  },
+  {
+    "reference": "275 and 4 knots qantas 446",
+    "hypothesis": "275 at 4 knots qnh 446"
+  },
+  {
+    "reference": "tower good afternoon china southern 301 established ils 16 right",
+    "hypothesis": "tower good afternoon china sun 301 establish ils 16 r"
+  },
+  {
+    "reference": "china southern 301 heavy sydney tower good afternoon",
+    "hypothesis": "27301 heavy check each out good afternoon"
+  },
+  {
+    "reference": "tower good evening qatari 6 tango papa ils 34 left",
+    "hypothesis": "good evening kc 6 t als 3 p"
+  },
+  {
+    "reference": "qatari 6 tango papa heavy sydney tower good day continue approach",
+    "hypothesis": "katari 6 t require heavy sydney tower g day continue approach"
+  },
+  {
+    "reference": "rex 6868 contact departure",
+    "hypothesis": "ric 6868 contact fanchard"
+  },
+  {
+    "reference": "departure rex 6868",
+    "hypothesis": "departure is wreck 68 68"
+  },
+  {
+    "reference": "sydney tower jetstar 767",
+    "hypothesis": "cinetower interstar 767"
+  },
+  {
+    "reference": "jetstar 767 sydney tower",
+    "hypothesis": "2767 cyt"
+  },
+  {
+    "reference": "runway 16 right cleared to land qantas 444",
+    "hypothesis": "16 r cleared to land corner is 444"
+  },
+  {
+    "reference": "good day qantas 994",
+    "hypothesis": "good night tac cross the line 94"
+  },
+  {
+    "reference": "qantas 994 tower good day",
+    "hypothesis": "this is the end of the snow covered area"
+  },
+  {
+    "reference": "jetstar 912 contact departure",
+    "hypothesis": "d 912 contact the punch"
+  },
+  {
+    "reference": "jetstar 912",
+    "hypothesis": "pista 912"
+  },
+  {
+    "reference": "sydney tower good morning american 73 ils 34 left",
+    "hypothesis": "sunna tower good morning american 73 ils 34 l"
+  },
+  {
+    "reference": "runway 16 right cleared to land malaysian 123",
+    "hypothesis": "rwy 16 r cleared to land malaysia 123"
+  },
+  {
+    "reference": "16 right cleared to land rex 6134",
+    "hypothesis": "16 r cleared to land rec 6134"
+  },
+  {
+    "reference": "sydney tower evening qantas 7528 heavy",
+    "hypothesis": "sydney tower evening qnh 7528 heavy"
+  },
+  {
+    "reference": "qantas 7528 heavy sydney tower",
+    "hypothesis": "174.28 heavy cinetop"
+  },
+  {
+    "reference": "sydney tower good day china eastern 7561 establish our localizer runway 16 right",
+    "hypothesis": "cnt good day china 87561 except it is on the localizer runway 16 r"
+  },
+  {
+    "reference": "sydney tower good day jetstar 522",
+    "hypothesis": "city tn just south of r 22"
+  },
+  {
+    "reference": "jetstar 522 sydney tower",
+    "hypothesis": "just 15 22 22"
+  },
+  {
+    "reference": "qlink 42 delta runway 34 left cleared for takeoff",
+    "hypothesis": "kiwi 42 d runway 34 l cleared for takeoff"
+  },
+  {
+    "reference": "16 right cleared to land qantas 6158",
+    "hypothesis": "16 r cleared lanc 106 to 158"
+  },
+  {
+    "reference": "16 right cleared to land and understood qantas 498",
+    "hypothesis": "16 r cleared to land and understood qnh 498"
+  },
+  {
+    "reference": "16 right cleared to land qlink 206 delta",
+    "hypothesis": "16 r cleared to land killing 206"
+  },
+  {
+    "reference": "continue approach runway 16 right china eastern 7791",
+    "hypothesis": "continue approach runway 16 r 108.7791"
+  },
+  {
+    "reference": "jetstar 409 approved route to bravo 4",
+    "hypothesis": "jet step 409 approved draw through to bravo 4"
+  },
+  {
+    "reference": "approved bravo 4 thank you jetstar 409",
+    "hypothesis": "alpha 3 bravo 4 thank you jetstar 409"
+  },
+  {
+    "reference": "vacate golf runway 34 left cleared to land air china 613",
+    "hypothesis": "k 8 g runway 3 f cleared to land hnr 613"
+  },
+  {
+    "reference": "tower american 73 approaching igala runway 16 right 8 ils",
+    "hypothesis": "tower american 73 approaching iguagala on the 16 r ils"
+  },
+  {
+    "reference": "sydney tower good day qantas 529",
+    "hypothesis": "city clear to fly with a spa 29"
+  },
+  {
+    "reference": "qantas 529 sydney tower",
+    "hypothesis": "contour spar 29 it is in detail"
+  },
+  {
+    "reference": "china southern 326 contact departure",
+    "hypothesis": "china 7326 contact departure"
+  },
+  {
+    "reference": "contact departure china southern 326",
+    "hypothesis": "contact departure ch 1326"
+  },
+  {
+    "reference": "runway 16 right cleared to land qantas 7701",
+    "hypothesis": "runway 16 r cleared to land qnh 7701"
+  },
+  {
+    "reference": "bauhinia 2018 contact departure good night",
+    "hypothesis": "bamiu 201 a contact the parget good night"
+  },
+  {
+    "reference": "contact departure good night bauhinia 2018",
+    "hypothesis": "contact departure is good night lh 2018"
+  },
+  {
+    "reference": "jetstar 784 contact departure",
+    "hypothesis": "just 784 contact touch"
+  },
+  {
+    "reference": "jetstar 784 good morning",
+    "hypothesis": "jetstar 794 good morning"
+  },
+  {
+    "reference": "tower viet nam 773 good morning",
+    "hypothesis": "tower vietnam 773 good morning"
+  },
+  {
+    "reference": "viet nam 773 heavy sydney tower good morning continue approach threshold wind 270 degrees 7 knots",
+    "hypothesis": "vietnam 773 heavy city tower good morning continue approach threshold wind 270 degrees 7 knots"
+  },
+  {
+    "reference": "runway 34 left cleared to land vacate bravo 3 jetstar 520",
+    "hypothesis": "runway 34 l squizzle in vacate private 3 cleared to start 520"
+  },
+  {
+    "reference": "sydney tower good afternoon fedex 77 heavy inbound ils runway 16 right",
+    "hypothesis": "cindy sarah good afternoon fennec 77 heavy inbound ils runway 16 r"
+  },
+  {
+    "reference": "fedex 77 heavy sydney tower good day",
+    "hypothesis": "677 navy city care good"
+  },
+  {
+    "reference": "tower bauhinia 2017 established ils 34 left",
+    "hypothesis": "tower bom 2017 this is tower lsd 4 l"
+  },
+  {
+    "reference": "qantas 426 wind 260 degrees 8 knots runway 16 right cleared to land",
+    "hypothesis": "closed 426 wind 260 degrees 8 knots runway 16 right cleared to land"
+  },
+  {
+    "reference": "runway 16 right cleared to land 426",
+    "hypothesis": "runway 16 r cleared to land that is 426"
+  },
+  {
+    "reference": "runway 34 left cleared to land then request above 32 bravo 4 if available jetstar 409",
+    "hypothesis": "airway 34 l cleared to land then request to roll through to bravo 4 if available jetstar 409"
+  },
+  {
+    "reference": "sydney tower srilankan 606 back with you ils 16 right",
+    "hypothesis": "dinh 606 b with you ils 16 r"
+  },
+  {
+    "reference": "sydney tower qantas 642",
+    "hypothesis": "sydney tower conor 642"
+  },
+  {
+    "reference": "qantas 642 sydney tower good day",
+    "hypothesis": "1642 sydney tower good day"
+  },
+  {
+    "reference": "jetstar 761 wind is calm runway 16 right cleared to land",
+    "hypothesis": "cessna 761 wind is calm runway 165 cleared for land"
+  },
+  {
+    "reference": "cleared to land 16 right jetstar 761",
+    "hypothesis": "we will land 16 r jet 761"
+  },
+  {
+    "reference": "continue approach 3411 vacate via alfa 2 singapore 231",
+    "hypothesis": "continue approach 34 l and vacate by a 2s 231"
+  }
+]

@@ -1,0 +1,1351 @@
+reference,hypothesis,error_class,judge_llama,judge_qwen,judge_deepseek,human1
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,callsign,0,1,1,1
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,altitude,1,1,1,1
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,heading,0,0,0,0
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,runway,0,0,0,0
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,frequency,0,0,0,0
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,clearance,0,0,0,0
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,navigation,0,0,0,0
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,weather,0,0,0,0
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,other,0,0,0,0
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,callsign,0,0,0,1
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,altitude,0,0,0,0
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,heading,0,0,0,0
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,runway,0,0,1,1
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,frequency,0,0,0,0
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,clearance,1,0,0,0
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,navigation,0,0,0,1
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,weather,0,0,0,0
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,other,0,1,0,0
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,callsign,1,1,1,1
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,altitude,0,0,0,0
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,heading,0,0,0,0
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,runway,0,0,0,0
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,frequency,1,1,1,1
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,clearance,1,0,0,0
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,navigation,0,1,0,0
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,weather,0,0,0,0
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,other,0,0,1,1
+16 right cleared to land qantas 7702,16 right clear land qatari 702,callsign,1,1,1,1
+16 right cleared to land qantas 7702,16 right clear land qatari 702,altitude,0,0,0,0
+16 right cleared to land qantas 7702,16 right clear land qatari 702,heading,0,0,0,0
+16 right cleared to land qantas 7702,16 right clear land qatari 702,runway,0,0,0,0
+16 right cleared to land qantas 7702,16 right clear land qatari 702,frequency,0,0,0,0
+16 right cleared to land qantas 7702,16 right clear land qatari 702,clearance,0,0,0,0
+16 right cleared to land qantas 7702,16 right clear land qatari 702,navigation,0,0,0,0
+16 right cleared to land qantas 7702,16 right clear land qatari 702,weather,0,0,0,0
+16 right cleared to land qantas 7702,16 right clear land qatari 702,other,0,0,0,0
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,callsign,1,1,1,1
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,altitude,0,0,0,0
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,heading,0,0,0,0
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,runway,0,0,0,0
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,frequency,0,0,0,0
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,clearance,0,0,0,0
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,navigation,0,1,1,1
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,weather,0,0,0,0
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,other,0,0,0,0
+who is calling,woos calling,callsign,1,1,1,0
+who is calling,woos calling,altitude,0,0,0,0
+who is calling,woos calling,heading,0,0,0,0
+who is calling,woos calling,runway,0,0,0,0
+who is calling,woos calling,frequency,0,0,0,0
+who is calling,woos calling,clearance,0,0,0,0
+who is calling,woos calling,navigation,0,0,0,0
+who is calling,woos calling,weather,0,0,0,0
+who is calling,woos calling,other,0,0,0,1
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,callsign,1,1,1,1
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,altitude,0,0,0,0
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,heading,0,0,0,0
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,runway,0,0,0,0
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,frequency,0,0,0,0
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,clearance,0,0,0,0
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,navigation,0,0,0,0
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,weather,0,0,0,0
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,other,0,0,0,1
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,callsign,1,1,1,1
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,altitude,0,0,0,0
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,heading,0,0,0,0
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,runway,0,0,0,0
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,frequency,0,0,0,0
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,clearance,0,0,0,0
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,navigation,0,0,0,0
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,weather,0,0,0,0
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,other,0,1,0,1
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,callsign,1,1,1,1
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,altitude,0,0,0,0
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,heading,0,0,0,0
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,runway,0,1,1,1
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,frequency,0,0,0,0
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,clearance,0,0,0,0
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,navigation,0,0,0,0
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,weather,0,0,0,0
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,other,0,0,0,1
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,callsign,1,1,1,1
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,altitude,0,0,0,0
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,heading,0,0,0,0
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,runway,0,1,0,0
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,frequency,0,0,0,0
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,clearance,0,0,1,1
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,navigation,0,0,0,0
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,weather,0,1,1,1
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,other,0,0,0,0
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,callsign,1,1,1,1
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,altitude,0,0,0,0
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,heading,0,0,0,0
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,runway,0,0,0,0
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,frequency,0,0,0,0
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,clearance,0,0,0,0
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,navigation,0,0,0,0
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,weather,0,0,0,0
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,other,0,1,1,1
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,callsign,1,1,1,1
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,altitude,0,0,0,0
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,heading,0,0,0,0
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,runway,0,1,1,0
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,frequency,0,0,0,0
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,clearance,0,0,0,0
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,navigation,0,0,1,1
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,weather,0,0,0,0
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,other,0,1,1,1
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,callsign,1,1,1,1
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,altitude,0,0,0,0
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,heading,0,0,0,0
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,runway,0,0,0,0
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,frequency,0,0,0,0
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,clearance,0,0,0,0
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,navigation,0,0,0,0
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,weather,0,0,0,0
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,other,0,0,0,0
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,callsign,0,0,1,0
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,altitude,0,1,1,0
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,heading,0,0,0,0
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,runway,0,0,0,0
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,frequency,0,0,0,0
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,clearance,0,0,0,0
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,navigation,1,1,0,1
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,weather,0,0,0,0
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,other,0,0,0,1
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,callsign,1,1,1,1
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,altitude,0,0,0,0
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,heading,0,0,0,0
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,runway,0,0,0,0
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,frequency,0,0,0,0
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,clearance,0,1,1,1
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,navigation,0,0,0,0
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,weather,0,0,0,0
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,other,0,0,0,0
+alitalia five seven two,i tell you five seven two five seven three,callsign,1,1,1,1
+alitalia five seven two,i tell you five seven two five seven three,altitude,0,0,0,0
+alitalia five seven two,i tell you five seven two five seven three,heading,0,0,0,0
+alitalia five seven two,i tell you five seven two five seven three,runway,0,0,0,0
+alitalia five seven two,i tell you five seven two five seven three,frequency,0,0,0,0
+alitalia five seven two,i tell you five seven two five seven three,clearance,0,0,0,0
+alitalia five seven two,i tell you five seven two five seven three,navigation,0,0,0,0
+alitalia five seven two,i tell you five seven two five seven three,weather,0,0,0,0
+alitalia five seven two,i tell you five seven two five seven three,other,0,0,0,0
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,callsign,0,1,1,0
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,altitude,0,0,0,0
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,heading,0,0,0,0
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,runway,0,1,1,1
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,frequency,0,0,0,0
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,clearance,1,0,0,0
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,navigation,0,0,0,0
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,weather,0,0,0,0
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,other,0,0,1,1
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,callsign,1,0,1,1
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,altitude,0,0,0,0
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,heading,0,0,0,0
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,runway,0,1,1,1
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,frequency,0,0,0,0
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,clearance,0,0,0,0
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,navigation,0,0,0,1
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,weather,0,0,0,0
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,other,0,0,0,0
+calibra,two nine wizz kilibreap clearem,callsign,1,1,1,0
+calibra,two nine wizz kilibreap clearem,altitude,0,0,0,0
+calibra,two nine wizz kilibreap clearem,heading,0,0,0,0
+calibra,two nine wizz kilibreap clearem,runway,0,0,0,0
+calibra,two nine wizz kilibreap clearem,frequency,0,0,0,0
+calibra,two nine wizz kilibreap clearem,clearance,0,1,0,0
+calibra,two nine wizz kilibreap clearem,navigation,0,0,0,0
+calibra,two nine wizz kilibreap clearem,weather,0,0,0,0
+calibra,two nine wizz kilibreap clearem,other,0,0,0,1
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,callsign,1,1,1,1
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,altitude,0,0,0,0
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,heading,0,0,0,0
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,runway,0,0,0,0
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,frequency,0,0,0,0
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,clearance,0,0,0,0
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,navigation,0,0,0,0
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,weather,0,0,0,0
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,other,0,0,0,1
+turn right foxtrot hotel csa three zero three,the drive for a town six,callsign,1,1,1,1
+turn right foxtrot hotel csa three zero three,the drive for a town six,altitude,0,0,0,0
+turn right foxtrot hotel csa three zero three,the drive for a town six,heading,0,0,1,1
+turn right foxtrot hotel csa three zero three,the drive for a town six,runway,0,0,0,0
+turn right foxtrot hotel csa three zero three,the drive for a town six,frequency,0,0,0,0
+turn right foxtrot hotel csa three zero three,the drive for a town six,clearance,0,0,0,0
+turn right foxtrot hotel csa three zero three,the drive for a town six,navigation,0,0,0,1
+turn right foxtrot hotel csa three zero three,the drive for a town six,weather,0,0,0,0
+turn right foxtrot hotel csa three zero three,the drive for a town six,other,0,0,1,0
+you need to backtrack yes,you need to bactrak yes,callsign,0,0,0,0
+you need to backtrack yes,you need to bactrak yes,altitude,0,0,0,0
+you need to backtrack yes,you need to bactrak yes,heading,0,0,0,0
+you need to backtrack yes,you need to bactrak yes,runway,0,0,0,0
+you need to backtrack yes,you need to bactrak yes,frequency,0,0,0,0
+you need to backtrack yes,you need to bactrak yes,clearance,0,0,0,0
+you need to backtrack yes,you need to bactrak yes,navigation,0,0,0,0
+you need to backtrack yes,you need to bactrak yes,weather,0,0,0,0
+you need to backtrack yes,you need to bactrak yes,other,1,1,1,1
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,callsign,0,1,1,1
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,altitude,0,0,0,0
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,heading,0,0,0,0
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,runway,0,0,1,1
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,frequency,0,0,0,0
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,clearance,1,1,0,1
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,navigation,0,0,0,0
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,weather,0,0,0,0
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,other,0,0,1,0
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,callsign,1,1,1,1
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,altitude,0,0,1,0
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,heading,0,0,0,0
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,runway,0,0,0,0
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,frequency,0,0,0,0
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,clearance,0,0,0,0
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,navigation,0,1,1,0
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,weather,0,0,0,0
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,other,0,1,1,1
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,callsign,1,1,1,1
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,altitude,0,0,0,0
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,heading,0,0,0,0
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,runway,0,0,0,0
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,frequency,0,0,0,0
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,clearance,0,1,1,0
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,navigation,0,0,0,0
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,weather,0,1,1,0
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,other,0,0,0,0
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,callsign,1,1,1,1
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,altitude,0,0,0,0
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,heading,0,0,0,0
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,runway,0,0,0,0
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,frequency,0,0,0,0
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,clearance,0,0,0,0
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,navigation,0,0,0,0
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,weather,0,0,0,0
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,other,0,0,0,0
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,callsign,1,1,1,1
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,altitude,0,0,0,0
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,heading,0,0,0,0
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,runway,0,0,0,0
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,frequency,0,0,0,0
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,clearance,0,0,0,0
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,navigation,0,1,0,0
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,weather,0,0,0,0
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,other,0,0,0,0
+continue approach,bateria approach,callsign,0,1,0,0
+continue approach,bateria approach,altitude,0,0,0,0
+continue approach,bateria approach,heading,0,0,0,0
+continue approach,bateria approach,runway,0,0,0,0
+continue approach,bateria approach,frequency,0,0,0,0
+continue approach,bateria approach,clearance,1,0,1,0
+continue approach,bateria approach,navigation,0,0,0,0
+continue approach,bateria approach,weather,0,0,0,0
+continue approach,bateria approach,other,0,0,0,1
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,callsign,1,1,1,1
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,altitude,0,0,0,0
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,heading,0,0,0,0
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,runway,0,0,0,0
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,frequency,0,0,0,0
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,clearance,0,0,0,0
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,navigation,0,0,0,0
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,weather,0,0,0,0
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,other,0,0,0,0
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,callsign,1,1,1,1
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,altitude,0,0,0,0
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,heading,0,0,0,0
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,runway,0,1,1,1
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,frequency,0,0,0,0
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,clearance,0,0,1,0
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,navigation,0,0,0,0
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,weather,0,0,0,0
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,other,0,1,0,1
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,callsign,0,0,0,0
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,altitude,0,0,0,0
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,heading,0,0,0,0
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,runway,1,1,1,0
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,frequency,0,0,0,0
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,clearance,0,0,0,0
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,navigation,0,0,0,0
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,weather,0,0,0,0
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,other,0,0,0,1
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,callsign,1,1,1,0
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,altitude,0,0,0,0
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,heading,0,0,0,0
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,runway,0,0,0,0
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,frequency,0,1,0,1
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,clearance,0,0,0,0
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,navigation,0,0,0,0
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,weather,0,0,0,0
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,other,0,0,0,0
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,callsign,1,1,1,1
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,altitude,0,0,0,0
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,heading,0,0,0,0
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,runway,0,0,0,0
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,frequency,0,0,0,0
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,clearance,0,0,0,0
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,navigation,0,0,0,0
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,weather,0,0,0,0
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,other,0,1,0,1
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,callsign,1,1,1,1
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,altitude,0,0,0,0
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,heading,0,0,0,0
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,runway,0,0,0,0
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,frequency,0,0,0,0
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,clearance,0,1,1,0
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,navigation,0,0,0,0
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,weather,0,0,0,0
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,other,0,0,0,0
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,callsign,1,1,1,1
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,altitude,0,0,0,0
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,heading,0,0,0,0
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,runway,0,1,0,1
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,frequency,0,0,0,0
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,clearance,1,0,0,1
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,navigation,0,0,0,0
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,weather,0,1,0,1
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,other,0,0,1,0
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,callsign,1,1,1,1
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,altitude,0,0,0,0
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,heading,0,0,0,0
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,runway,0,0,0,0
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,frequency,0,0,0,0
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,clearance,0,0,0,0
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,navigation,0,0,0,0
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,weather,0,1,0,1
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,other,0,0,0,0
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,callsign,1,1,1,1
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,altitude,0,0,0,0
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,heading,0,0,0,0
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,runway,0,0,0,0
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,frequency,0,0,0,0
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,clearance,0,0,0,0
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,navigation,0,0,0,0
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,weather,0,0,0,0
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,other,0,1,1,0
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,callsign,1,1,1,1
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,altitude,0,0,0,0
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,heading,0,0,0,0
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,runway,0,0,0,0
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,frequency,0,0,0,0
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,clearance,0,0,0,0
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,navigation,0,0,0,0
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,weather,0,0,0,0
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,other,0,1,0,0
+sierra alfa papa sion ground hello,papa passon ground hello,callsign,1,1,1,1
+sierra alfa papa sion ground hello,papa passon ground hello,altitude,0,0,0,0
+sierra alfa papa sion ground hello,papa passon ground hello,heading,0,0,0,0
+sierra alfa papa sion ground hello,papa passon ground hello,runway,0,0,0,0
+sierra alfa papa sion ground hello,papa passon ground hello,frequency,0,0,0,0
+sierra alfa papa sion ground hello,papa passon ground hello,clearance,0,0,0,0
+sierra alfa papa sion ground hello,papa passon ground hello,navigation,0,0,0,0
+sierra alfa papa sion ground hello,papa passon ground hello,weather,0,0,0,0
+sierra alfa papa sion ground hello,papa passon ground hello,other,0,0,0,0
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,callsign,1,1,1,1
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,altitude,0,0,0,0
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,heading,0,0,0,0
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,runway,0,1,0,1
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,frequency,0,0,0,0
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,clearance,0,1,0,1
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,navigation,0,0,0,0
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,weather,0,0,0,0
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,other,0,1,1,0
+malev eight two five,oly way two five,callsign,1,1,1,1
+malev eight two five,oly way two five,altitude,0,0,0,0
+malev eight two five,oly way two five,heading,0,0,0,0
+malev eight two five,oly way two five,runway,0,0,0,0
+malev eight two five,oly way two five,frequency,0,0,0,0
+malev eight two five,oly way two five,clearance,0,0,0,0
+malev eight two five,oly way two five,navigation,0,0,0,0
+malev eight two five,oly way two five,weather,0,0,0,0
+malev eight two five,oly way two five,other,0,0,0,0
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,callsign,1,1,1,1
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,altitude,0,0,0,0
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,heading,0,0,0,0
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,runway,0,0,0,0
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,frequency,0,0,0,0
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,clearance,0,0,0,0
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,navigation,0,0,0,0
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,weather,0,0,0,0
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,other,0,0,0,0
+ru,abrir a,callsign,0,0,0,0
+ru,abrir a,altitude,1,0,0,0
+ru,abrir a,heading,0,0,0,0
+ru,abrir a,runway,0,0,0,0
+ru,abrir a,frequency,0,0,0,0
+ru,abrir a,clearance,0,0,0,0
+ru,abrir a,navigation,0,0,0,0
+ru,abrir a,weather,0,0,0,0
+ru,abrir a,other,0,1,1,1
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,callsign,1,1,1,1
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,altitude,0,0,0,0
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,heading,0,0,0,0
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,runway,0,0,0,0
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,frequency,0,0,0,0
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,clearance,0,0,0,0
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,navigation,0,0,0,0
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,weather,0,0,0,0
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,other,0,0,0,1
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,callsign,1,1,1,1
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,altitude,0,0,0,0
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,heading,0,0,0,0
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,runway,0,0,0,0
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,frequency,0,0,0,1
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,clearance,0,0,0,0
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,navigation,0,0,0,0
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,weather,0,0,0,0
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,other,0,0,0,0
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,callsign,1,1,0,0
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,altitude,0,0,0,0
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,heading,0,0,0,0
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,runway,0,0,0,0
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,frequency,0,1,0,0
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,clearance,0,0,0,0
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,navigation,0,0,0,0
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,weather,0,0,0,0
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,other,0,1,1,1
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,callsign,1,1,1,0
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,altitude,0,0,0,0
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,heading,0,0,0,0
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,runway,0,0,0,0
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,frequency,0,0,0,0
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,clearance,0,1,0,0
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,navigation,0,0,0,1
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,weather,0,0,0,0
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,other,0,1,1,1
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,callsign,1,1,1,1
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,altitude,0,0,0,0
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,heading,0,0,0,0
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,runway,1,0,1,1
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,frequency,0,0,0,0
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,clearance,0,1,0,0
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,navigation,0,0,0,0
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,weather,0,0,0,0
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,other,0,1,0,0
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,callsign,1,1,1,1
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,altitude,0,0,0,0
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,heading,0,0,0,0
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,runway,0,0,0,1
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,frequency,0,0,0,0
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,clearance,0,1,0,1
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,navigation,0,0,0,0
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,weather,0,1,1,1
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,other,0,0,0,0
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,callsign,1,1,1,1
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,altitude,0,0,0,0
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,heading,0,0,0,0
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,runway,0,1,0,1
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,frequency,0,0,0,0
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,clearance,0,1,0,1
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,navigation,0,0,0,0
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,weather,0,0,0,0
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,other,0,1,1,0
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,callsign,0,1,0,0
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,altitude,0,0,0,0
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,heading,0,0,0,0
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,runway,0,1,0,0
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,frequency,0,0,0,0
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,clearance,1,0,1,0
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,navigation,0,0,0,0
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,weather,0,1,0,0
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,other,0,1,1,1
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,callsign,1,1,1,0
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,altitude,0,0,0,0
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,heading,0,0,0,0
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,runway,0,0,0,0
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,frequency,0,0,0,0
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,clearance,0,0,0,1
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,navigation,0,0,0,0
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,weather,0,0,0,0
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,other,0,0,0,0
+cleared to land qal,climb to land to cour,callsign,0,0,0,0
+cleared to land qal,climb to land to cour,altitude,0,0,0,0
+cleared to land qal,climb to land to cour,heading,0,0,0,0
+cleared to land qal,climb to land to cour,runway,0,0,0,0
+cleared to land qal,climb to land to cour,frequency,0,0,0,0
+cleared to land qal,climb to land to cour,clearance,1,1,1,1
+cleared to land qal,climb to land to cour,navigation,0,0,0,0
+cleared to land qal,climb to land to cour,weather,0,0,0,0
+cleared to land qal,climb to land to cour,other,0,0,0,0
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,callsign,1,1,0,0
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,altitude,0,0,0,0
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,heading,0,0,0,0
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,runway,0,0,0,0
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,frequency,0,0,0,0
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,clearance,1,1,1,1
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,navigation,0,0,0,0
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,weather,1,1,1,1
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,other,1,1,1,1
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,callsign,0,0,0,0
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,altitude,0,0,0,0
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,heading,0,0,0,0
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,runway,0,0,0,0
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,frequency,0,0,0,0
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,clearance,1,1,1,1
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,navigation,0,0,0,0
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,weather,0,0,0,1
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,other,0,0,0,0
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,callsign,1,1,1,1
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,altitude,0,0,0,0
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,heading,0,0,0,0
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,runway,0,1,0,1
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,frequency,0,0,0,0
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,clearance,0,1,0,1
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,navigation,0,0,0,0
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,weather,0,0,0,0
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,other,0,0,0,0
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,callsign,1,1,1,0
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,altitude,0,0,0,0
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,heading,0,0,0,0
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,runway,0,0,1,0
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,frequency,0,1,1,1
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,clearance,0,1,0,0
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,navigation,0,0,0,1
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,weather,0,0,0,0
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,other,0,0,1,0
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,callsign,1,1,1,1
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,altitude,0,0,0,0
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,heading,0,0,0,0
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,runway,0,0,0,0
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,frequency,0,0,0,0
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,clearance,0,1,1,1
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,navigation,0,0,0,0
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,weather,0,1,0,1
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,other,0,0,1,0
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,callsign,0,1,0,0
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,altitude,0,0,0,0
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,heading,0,0,0,0
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,runway,0,0,0,0
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,frequency,0,0,0,0
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,clearance,0,0,0,0
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,navigation,1,1,1,1
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,weather,0,0,0,0
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,other,0,0,0,0
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,callsign,0,1,1,1
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,altitude,0,0,0,0
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,heading,0,0,0,0
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,runway,0,1,0,0
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,frequency,0,0,0,0
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,clearance,0,0,0,0
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,navigation,0,0,0,1
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,weather,0,0,0,0
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,other,1,0,1,0
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,callsign,0,0,1,1
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,altitude,0,0,0,0
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,heading,0,0,0,0
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,runway,0,0,0,0
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,frequency,0,0,0,0
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,clearance,1,1,1,1
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,navigation,0,0,0,0
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,weather,0,0,0,0
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,other,0,0,0,0
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,callsign,0,1,1,1
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,altitude,0,0,0,0
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,heading,0,0,0,0
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,runway,0,0,0,0
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,frequency,0,0,0,0
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,clearance,0,0,0,0
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,navigation,1,1,1,1
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,weather,0,0,0,0
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,other,0,0,0,0
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,callsign,1,1,1,1
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,altitude,0,0,0,0
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,heading,0,0,0,0
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,runway,0,1,1,1
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,frequency,0,0,0,0
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,clearance,0,0,0,0
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,navigation,0,0,0,0
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,weather,0,0,0,0
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,other,0,1,0,1
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,callsign,1,1,1,1
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,altitude,0,0,0,0
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,heading,0,0,0,0
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,runway,0,0,0,0
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,frequency,0,0,0,0
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,clearance,0,0,1,0
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,navigation,0,0,1,0
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,weather,0,0,0,0
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,other,0,1,1,1
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,callsign,1,1,1,0
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,altitude,0,0,0,0
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,heading,0,0,0,0
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,runway,0,0,0,0
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,frequency,0,0,0,0
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,clearance,0,0,0,0
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,navigation,0,0,0,0
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,weather,0,1,0,0
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,other,0,0,1,1
+two one nine csa se,lufthansa quine nicsa,callsign,1,1,1,1
+two one nine csa se,lufthansa quine nicsa,altitude,0,0,0,0
+two one nine csa se,lufthansa quine nicsa,heading,0,0,0,0
+two one nine csa se,lufthansa quine nicsa,runway,0,0,0,0
+two one nine csa se,lufthansa quine nicsa,frequency,0,0,0,0
+two one nine csa se,lufthansa quine nicsa,clearance,0,0,0,0
+two one nine csa se,lufthansa quine nicsa,navigation,0,0,0,0
+two one nine csa se,lufthansa quine nicsa,weather,0,0,0,0
+two one nine csa se,lufthansa quine nicsa,other,0,0,0,0
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,callsign,1,1,1,1
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,altitude,0,0,0,0
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,heading,0,0,0,0
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,runway,0,0,0,0
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,frequency,0,0,0,0
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,clearance,0,0,0,0
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,navigation,0,0,0,0
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,weather,0,0,0,0
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,other,0,0,0,0
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,callsign,1,1,1,1
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,altitude,0,0,0,0
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,heading,0,0,0,0
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,runway,0,1,1,1
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,frequency,0,0,0,0
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,clearance,0,0,0,0
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,navigation,0,0,0,0
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,weather,0,0,0,0
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,other,0,0,1,1
+long approach hotel papa bravo,long approach del baba babo,callsign,1,1,1,1
+long approach hotel papa bravo,long approach del baba babo,altitude,0,0,0,0
+long approach hotel papa bravo,long approach del baba babo,heading,0,0,0,0
+long approach hotel papa bravo,long approach del baba babo,runway,0,0,0,0
+long approach hotel papa bravo,long approach del baba babo,frequency,0,0,0,0
+long approach hotel papa bravo,long approach del baba babo,clearance,0,0,0,0
+long approach hotel papa bravo,long approach del baba babo,navigation,0,0,0,0
+long approach hotel papa bravo,long approach del baba babo,weather,0,0,0,0
+long approach hotel papa bravo,long approach del baba babo,other,0,0,0,0
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,callsign,1,1,1,1
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,altitude,0,0,0,0
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,heading,0,0,0,0
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,runway,0,0,0,0
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,frequency,0,0,0,0
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,clearance,0,0,0,0
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,navigation,0,0,0,0
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,weather,0,0,0,0
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,other,0,0,1,1
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,callsign,0,1,0,0
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,altitude,0,0,0,0
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,heading,0,0,0,0
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,runway,0,0,0,0
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,frequency,0,1,0,0
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,clearance,1,0,1,0
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,navigation,0,0,0,0
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,weather,0,0,0,0
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,other,0,1,0,1
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,callsign,1,0,1,1
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,altitude,0,0,0,0
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,heading,0,0,0,0
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,runway,0,0,0,0
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,frequency,0,0,0,0
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,clearance,0,0,0,0
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,navigation,0,0,0,0
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,weather,0,0,0,0
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,other,0,1,0,0
+line up one three csa seven five,line up on three one csa seven five,callsign,0,0,0,1
+line up one three csa seven five,line up on three one csa seven five,altitude,0,0,0,0
+line up one three csa seven five,line up on three one csa seven five,heading,0,0,0,0
+line up one three csa seven five,line up on three one csa seven five,runway,1,1,1,0
+line up one three csa seven five,line up on three one csa seven five,frequency,0,0,0,0
+line up one three csa seven five,line up on three one csa seven five,clearance,0,0,0,0
+line up one three csa seven five,line up on three one csa seven five,navigation,0,0,0,0
+line up one three csa seven five,line up on three one csa seven five,weather,0,0,0,0
+line up one three csa seven five,line up on three one csa seven five,other,0,0,0,0
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,callsign,1,1,1,1
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,altitude,0,0,0,0
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,heading,0,0,0,0
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,runway,0,0,0,0
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,frequency,0,0,0,0
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,clearance,0,0,0,0
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,navigation,0,0,0,0
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,weather,0,0,0,0
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,other,0,0,0,0
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,callsign,1,1,0,1
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,altitude,0,0,0,0
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,heading,0,0,0,0
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,runway,1,0,1,0
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,frequency,0,0,0,0
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,clearance,0,1,1,1
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,navigation,0,0,0,0
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,weather,0,0,0,0
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,other,1,1,0,0
+foxtrot and hotel,foxrodin hotel,callsign,1,1,1,0
+foxtrot and hotel,foxrodin hotel,altitude,0,0,0,0
+foxtrot and hotel,foxrodin hotel,heading,0,0,0,0
+foxtrot and hotel,foxrodin hotel,runway,0,0,0,0
+foxtrot and hotel,foxrodin hotel,frequency,0,0,0,0
+foxtrot and hotel,foxrodin hotel,clearance,0,0,0,0
+foxtrot and hotel,foxrodin hotel,navigation,0,0,0,0
+foxtrot and hotel,foxrodin hotel,weather,0,0,0,0
+foxtrot and hotel,foxrodin hotel,other,0,0,0,1
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,callsign,1,1,1,0
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,altitude,0,0,0,0
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,heading,0,0,0,0
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,runway,0,1,1,0
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,frequency,0,0,0,0
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,clearance,0,0,0,0
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,navigation,0,0,0,0
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,weather,0,0,0,0
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,other,0,0,0,0
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,callsign,1,1,1,1
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,altitude,0,0,0,0
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,heading,0,0,0,0
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,runway,0,0,0,0
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,frequency,0,0,0,0
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,clearance,0,0,0,0
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,navigation,0,0,0,0
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,weather,0,0,0,0
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,other,0,0,0,0
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,callsign,1,1,1,1
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,altitude,0,1,0,0
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,heading,0,0,1,0
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,runway,0,0,0,0
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,frequency,0,0,0,0
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,clearance,0,0,0,0
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,navigation,0,0,0,0
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,weather,0,0,0,0
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,other,0,0,0,0
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,callsign,1,1,1,0
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,altitude,0,0,0,0
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,heading,0,0,0,0
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,runway,0,0,0,0
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,frequency,0,0,0,0
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,clearance,0,0,0,0
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,navigation,0,0,0,0
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,weather,0,0,0,0
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,other,0,1,0,1
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,callsign,1,1,1,1
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,altitude,0,0,0,0
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,heading,0,0,0,0
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,runway,0,0,0,0
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,frequency,0,1,1,1
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,clearance,0,0,0,0
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,navigation,0,0,0,0
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,weather,0,0,0,0
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,other,0,0,0,0
+contract romeo golf runway,contracto con mi cofra,callsign,1,1,1,0
+contract romeo golf runway,contracto con mi cofra,altitude,0,0,0,0
+contract romeo golf runway,contracto con mi cofra,heading,0,0,0,0
+contract romeo golf runway,contracto con mi cofra,runway,0,0,0,0
+contract romeo golf runway,contracto con mi cofra,frequency,0,0,0,0
+contract romeo golf runway,contracto con mi cofra,clearance,0,0,0,0
+contract romeo golf runway,contracto con mi cofra,navigation,0,0,0,0
+contract romeo golf runway,contracto con mi cofra,weather,0,0,0,0
+contract romeo golf runway,contracto con mi cofra,other,0,0,0,1
+we are fully ready bline four zero victor,todava folios de t pir en foto y,callsign,1,1,1,1
+we are fully ready bline four zero victor,todava folios de t pir en foto y,altitude,0,0,0,0
+we are fully ready bline four zero victor,todava folios de t pir en foto y,heading,0,0,0,0
+we are fully ready bline four zero victor,todava folios de t pir en foto y,runway,0,0,0,0
+we are fully ready bline four zero victor,todava folios de t pir en foto y,frequency,0,0,0,0
+we are fully ready bline four zero victor,todava folios de t pir en foto y,clearance,0,0,0,0
+we are fully ready bline four zero victor,todava folios de t pir en foto y,navigation,0,0,0,0
+we are fully ready bline four zero victor,todava folios de t pir en foto y,weather,0,0,0,0
+we are fully ready bline four zero victor,todava folios de t pir en foto y,other,0,0,0,0
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,callsign,0,1,1,0
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,altitude,0,0,0,0
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,heading,0,0,0,0
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,runway,0,0,0,0
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,frequency,0,0,0,0
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,clearance,1,1,1,1
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,navigation,0,0,0,0
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,weather,0,0,0,0
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,other,0,0,0,0
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,callsign,1,1,1,1
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,altitude,0,0,0,0
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,heading,0,0,0,0
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,runway,0,1,0,0
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,frequency,0,0,0,0
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,clearance,0,0,0,0
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,navigation,0,0,0,1
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,weather,0,0,0,0
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,other,0,1,1,0
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,callsign,1,1,1,1
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,altitude,0,0,0,0
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,heading,0,0,0,0
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,runway,0,1,0,1
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,frequency,0,0,0,0
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,clearance,0,0,0,1
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,navigation,0,0,0,0
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,weather,0,0,0,0
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,other,0,0,0,0
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,callsign,0,0,0,1
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,altitude,0,0,0,0
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,heading,0,0,0,0
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,runway,0,0,0,0
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,frequency,0,0,0,0
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,clearance,0,0,0,0
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,navigation,0,0,1,0
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,weather,0,0,0,0
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,other,1,1,1,0
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,callsign,1,1,1,1
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,altitude,0,0,0,0
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,heading,0,0,0,0
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,runway,0,0,0,0
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,frequency,0,0,0,0
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,clearance,0,0,0,0
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,navigation,0,0,0,0
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,weather,0,0,0,0
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,other,0,0,0,0
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,callsign,1,1,1,1
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,altitude,0,0,0,0
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,heading,0,0,0,0
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,runway,0,0,1,0
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,frequency,0,0,0,0
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,clearance,0,0,0,0
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,navigation,0,0,0,1
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,weather,0,0,0,0
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,other,0,1,1,0
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,callsign,1,1,1,1
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,altitude,0,0,0,0
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,heading,0,0,0,0
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,runway,0,1,0,1
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,frequency,0,0,1,0
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,clearance,0,1,0,1
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,navigation,0,0,0,0
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,weather,0,0,0,0
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,other,0,0,0,0
+expedite,espera a,callsign,0,0,0,0
+expedite,espera a,altitude,0,0,0,0
+expedite,espera a,heading,0,0,0,0
+expedite,espera a,runway,0,0,0,0
+expedite,espera a,frequency,0,0,0,0
+expedite,espera a,clearance,0,0,1,0
+expedite,espera a,navigation,0,0,0,0
+expedite,espera a,weather,0,0,0,0
+expedite,espera a,other,1,1,0,1
+164 copied 71 zulu,1624 kaput 710,callsign,1,1,1,0
+164 copied 71 zulu,1624 kaput 710,altitude,0,0,0,0
+164 copied 71 zulu,1624 kaput 710,heading,0,0,0,0
+164 copied 71 zulu,1624 kaput 710,runway,0,0,0,0
+164 copied 71 zulu,1624 kaput 710,frequency,0,0,0,0
+164 copied 71 zulu,1624 kaput 710,clearance,0,0,0,0
+164 copied 71 zulu,1624 kaput 710,navigation,0,0,0,0
+164 copied 71 zulu,1624 kaput 710,weather,0,0,0,0
+164 copied 71 zulu,1624 kaput 710,other,0,1,0,1
+five two two roger,ah factura que va,callsign,1,1,1,0
+five two two roger,ah factura que va,altitude,0,0,0,0
+five two two roger,ah factura que va,heading,0,0,0,0
+five two two roger,ah factura que va,runway,0,0,0,0
+five two two roger,ah factura que va,frequency,0,0,0,0
+five two two roger,ah factura que va,clearance,0,0,0,0
+five two two roger,ah factura que va,navigation,0,0,0,0
+five two two roger,ah factura que va,weather,0,0,0,0
+five two two roger,ah factura que va,other,0,0,0,1
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,callsign,1,1,1,1
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,altitude,0,0,0,0
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,heading,0,0,0,0
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,runway,0,1,1,1
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,frequency,0,0,0,0
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,clearance,0,1,1,1
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,navigation,0,0,0,0
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,weather,0,0,1,1
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,other,0,0,0,0
+hotel hotel xray go around,so breaks three go around,callsign,1,1,1,1
+hotel hotel xray go around,so breaks three go around,altitude,0,0,0,0
+hotel hotel xray go around,so breaks three go around,heading,0,0,0,0
+hotel hotel xray go around,so breaks three go around,runway,0,0,0,0
+hotel hotel xray go around,so breaks three go around,frequency,0,0,0,0
+hotel hotel xray go around,so breaks three go around,clearance,0,0,0,0
+hotel hotel xray go around,so breaks three go around,navigation,0,0,0,0
+hotel hotel xray go around,so breaks three go around,weather,0,0,0,0
+hotel hotel xray go around,so breaks three go around,other,0,1,0,0
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,callsign,1,1,1,1
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,altitude,0,0,0,0
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,heading,0,0,0,0
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,runway,0,0,0,0
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,frequency,0,0,0,0
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,clearance,0,0,0,0
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,navigation,0,0,0,0
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,weather,0,0,0,0
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,other,0,1,0,0
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,callsign,0,0,0,0
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,altitude,0,0,0,0
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,heading,0,0,1,0
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,runway,0,1,0,1
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,frequency,0,0,0,0
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,clearance,1,1,1,1
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,navigation,0,0,0,0
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,weather,0,1,1,1
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,other,0,0,0,0
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,callsign,1,1,1,1
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,altitude,0,0,0,0
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,heading,0,0,0,0
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,runway,0,1,1,1
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,frequency,0,0,0,0
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,clearance,0,0,0,0
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,navigation,0,0,0,0
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,weather,0,0,0,0
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,other,0,0,0,0
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,callsign,0,0,1,1
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,altitude,0,0,0,0
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,heading,0,0,0,0
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,runway,0,0,0,0
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,frequency,0,0,0,0
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,clearance,0,0,0,0
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,navigation,0,0,0,0
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,weather,0,0,0,0
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,other,1,1,1,0
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,callsign,0,1,0,0
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,altitude,0,0,0,0
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,heading,0,0,0,0
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,runway,0,1,0,0
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,frequency,0,0,0,0
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,clearance,1,1,1,1
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,navigation,0,0,0,0
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,weather,0,1,1,0
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,other,0,0,0,0
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,callsign,0,0,0,0
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,altitude,0,0,0,0
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,heading,0,0,0,0
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,runway,0,0,0,0
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,frequency,0,0,0,0
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,clearance,0,0,0,0
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,navigation,1,1,1,0
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,weather,0,0,0,0
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,other,0,0,0,1
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,callsign,1,1,1,1
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,altitude,0,0,0,0
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,heading,0,0,0,0
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,runway,0,0,0,0
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,frequency,0,0,0,0
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,clearance,0,0,1,0
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,navigation,0,1,0,1
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,weather,0,0,0,0
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,other,0,0,0,0
+csa five six one runway one three cl,si five six for one iguan three,callsign,1,1,1,1
+csa five six one runway one three cl,si five six for one iguan three,altitude,0,0,0,0
+csa five six one runway one three cl,si five six for one iguan three,heading,0,0,0,0
+csa five six one runway one three cl,si five six for one iguan three,runway,0,1,1,1
+csa five six one runway one three cl,si five six for one iguan three,frequency,0,0,0,0
+csa five six one runway one three cl,si five six for one iguan three,clearance,0,0,0,0
+csa five six one runway one three cl,si five six for one iguan three,navigation,0,0,0,0
+csa five six one runway one three cl,si five six for one iguan three,weather,0,0,0,0
+csa five six one runway one three cl,si five six for one iguan three,other,0,0,0,0
+ready for clearance,a defort mira,callsign,1,1,1,0
+ready for clearance,a defort mira,altitude,0,0,0,0
+ready for clearance,a defort mira,heading,0,0,0,0
+ready for clearance,a defort mira,runway,0,0,0,0
+ready for clearance,a defort mira,frequency,0,0,0,0
+ready for clearance,a defort mira,clearance,0,0,0,1
+ready for clearance,a defort mira,navigation,0,0,0,0
+ready for clearance,a defort mira,weather,0,0,0,0
+ready for clearance,a defort mira,other,0,0,0,0
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,callsign,1,1,1,1
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,altitude,0,0,0,0
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,heading,0,0,0,0
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,runway,0,0,0,0
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,frequency,0,0,0,0
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,clearance,0,0,0,1
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,navigation,0,0,0,0
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,weather,0,0,0,0
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,other,0,0,0,0
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,callsign,1,1,1,1
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,altitude,0,0,0,0
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,heading,0,0,0,0
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,runway,0,0,0,0
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,frequency,0,0,0,0
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,clearance,0,0,0,0
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,navigation,0,0,0,0
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,weather,0,0,0,0
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,other,0,0,0,0
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,callsign,1,1,1,1
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,altitude,0,0,0,0
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,heading,0,0,0,0
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,runway,0,0,0,0
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,frequency,0,0,0,0
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,clearance,0,0,0,0
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,navigation,0,0,0,0
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,weather,0,0,0,0
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,other,0,0,0,0
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,callsign,1,1,1,1
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,altitude,0,0,0,0
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,heading,0,0,0,0
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,runway,0,0,0,0
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,frequency,0,0,0,0
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,clearance,0,0,0,0
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,navigation,0,0,0,1
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,weather,0,0,0,0
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,other,0,1,0,0
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,callsign,1,1,1,1
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,altitude,0,0,0,0
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,heading,0,0,0,0
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,runway,0,1,0,1
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,frequency,0,0,0,0
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,clearance,0,0,1,0
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,navigation,0,0,0,0
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,weather,0,0,0,0
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,other,0,0,0,0
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,callsign,1,1,1,1
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,altitude,0,0,0,0
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,heading,0,0,0,0
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,runway,0,0,0,0
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,frequency,0,0,0,0
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,clearance,0,0,0,1
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,navigation,0,0,0,0
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,weather,0,1,1,1
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,other,0,0,0,0
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,callsign,1,1,1,1
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,altitude,0,0,0,0
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,heading,0,0,0,0
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,runway,0,0,0,0
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,frequency,0,0,0,0
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,clearance,0,0,1,0
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,navigation,0,1,0,0
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,weather,0,1,0,0
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,other,0,0,0,1
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,callsign,1,1,1,1
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,altitude,0,0,0,0
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,heading,0,0,0,0
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,runway,0,0,0,0
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,frequency,0,0,0,0
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,clearance,0,0,0,0
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,navigation,0,0,0,0
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,weather,0,0,0,0
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,other,0,0,0,0
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,callsign,1,1,1,1
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,altitude,0,0,0,0
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,heading,0,0,0,0
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,runway,0,0,0,0
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,frequency,0,0,0,0
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,clearance,0,0,0,0
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,navigation,0,0,0,0
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,weather,0,0,0,0
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,other,0,1,1,1
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,callsign,1,1,1,1
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,altitude,0,0,0,0
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,heading,0,0,0,0
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,runway,0,1,1,0
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,frequency,0,0,0,0
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,clearance,0,0,0,0
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,navigation,0,0,0,0
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,weather,0,1,1,1
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,other,0,1,0,0
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,callsign,1,1,1,1
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,altitude,0,0,0,0
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,heading,0,0,0,0
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,runway,0,0,0,0
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,frequency,0,0,0,0
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,clearance,0,0,0,0
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,navigation,0,0,0,0
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,weather,0,0,0,0
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,other,0,1,0,0
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,callsign,1,1,1,1
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,altitude,0,0,0,0
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,heading,0,0,0,0
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,runway,0,1,1,1
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,frequency,0,0,0,0
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,clearance,0,0,0,0
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,navigation,0,0,0,0
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,weather,0,1,0,1
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,other,0,0,1,0
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,callsign,0,1,1,1
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,altitude,0,0,0,0
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,heading,0,0,0,0
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,runway,0,0,0,0
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,frequency,1,1,1,1
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,clearance,0,0,0,0
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,navigation,0,0,0,0
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,weather,0,0,0,0
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,other,0,0,1,0
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,callsign,1,1,1,1
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,altitude,0,0,0,0
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,heading,0,0,0,0
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,runway,0,0,0,0
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,frequency,0,0,0,0
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,clearance,0,0,0,0
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,navigation,0,0,0,0
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,weather,0,0,0,0
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,other,0,0,0,0
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,callsign,0,0,1,0
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,altitude,0,0,0,0
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,heading,0,0,0,0
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,runway,0,0,0,0
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,frequency,0,0,0,0
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,clearance,0,0,0,0
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,navigation,0,0,0,0
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,weather,0,0,0,0
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,other,1,1,0,1
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,callsign,0,0,0,0
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,altitude,0,0,0,0
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,heading,0,0,0,0
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,runway,0,0,0,0
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,frequency,0,0,0,0
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,clearance,0,0,0,0
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,navigation,1,1,1,0
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,weather,0,0,0,0
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,other,0,0,0,1
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,callsign,1,1,1,1
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,altitude,0,0,0,0
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,heading,0,0,0,0
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,runway,0,0,1,0
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,frequency,0,1,1,1
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,clearance,0,0,0,0
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,navigation,0,0,0,1
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,weather,0,0,0,0
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,other,0,1,0,0
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,callsign,1,1,1,0
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,altitude,0,0,0,0
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,heading,0,0,0,0
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,runway,0,0,0,0
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,frequency,0,0,0,0
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,clearance,0,0,0,0
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,navigation,0,0,0,1
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,weather,0,0,0,0
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,other,0,1,1,0
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,callsign,1,1,1,1
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,altitude,0,0,0,0
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,heading,0,0,0,0
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,runway,0,0,0,0
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,frequency,0,0,0,0
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,clearance,0,0,1,0
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,navigation,0,0,0,0
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,weather,0,0,0,0
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,other,0,1,0,1
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,callsign,1,1,1,1
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,altitude,0,0,0,0
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,heading,0,0,0,0
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,runway,0,0,0,0
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,frequency,0,0,0,0
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,clearance,0,0,0,0
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,navigation,0,0,0,0
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,weather,0,0,0,0
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,other,0,0,0,0
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,callsign,1,1,1,1
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,altitude,0,0,0,0
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,heading,0,0,0,0
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,runway,0,0,0,0
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,frequency,0,0,0,0
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,clearance,0,0,0,0
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,navigation,0,0,0,0
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,weather,0,0,0,0
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,other,0,0,0,0
+say again the callsign,see you again on the call side,callsign,1,1,1,0
+say again the callsign,see you again on the call side,altitude,0,0,0,0
+say again the callsign,see you again on the call side,heading,0,0,0,0
+say again the callsign,see you again on the call side,runway,0,0,0,0
+say again the callsign,see you again on the call side,frequency,0,0,0,0
+say again the callsign,see you again on the call side,clearance,0,0,0,0
+say again the callsign,see you again on the call side,navigation,0,0,0,0
+say again the callsign,see you again on the call side,weather,0,0,0,0
+say again the callsign,see you again on the call side,other,0,0,0,1
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,callsign,0,0,1,0
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,altitude,0,0,0,0
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,heading,0,0,0,0
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,runway,0,0,0,0
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,frequency,0,0,0,0
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,clearance,0,0,0,0
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,navigation,0,1,0,0
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,weather,0,0,0,0
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,other,1,1,0,1
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,callsign,1,1,1,1
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,altitude,0,0,0,0
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,heading,0,0,0,0
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,runway,0,0,0,0
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,frequency,0,0,0,0
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,clearance,0,0,0,0
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,navigation,0,1,0,0
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,weather,0,0,0,0
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,other,0,1,1,1
+287,8.877,callsign,1,1,1,0
+287,8.877,altitude,0,0,0,0
+287,8.877,heading,0,0,0,0
+287,8.877,runway,0,0,0,0
+287,8.877,frequency,0,0,0,0
+287,8.877,clearance,0,0,0,0
+287,8.877,navigation,0,0,0,0
+287,8.877,weather,0,0,0,0
+287,8.877,other,0,0,0,1
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,callsign,1,1,1,1
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,altitude,0,0,0,0
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,heading,0,0,0,0
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,runway,0,0,0,0
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,frequency,0,0,0,0
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,clearance,0,0,0,0
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,navigation,0,0,0,0
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,weather,0,0,0,0
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,other,0,0,0,0
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,callsign,1,1,1,1
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,altitude,0,0,0,0
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,heading,0,0,0,0
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,runway,0,0,0,0
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,frequency,0,0,0,0
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,clearance,0,0,0,0
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,navigation,0,0,0,0
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,weather,0,0,0,0
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,other,0,0,1,0
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,callsign,0,1,0,0
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,altitude,0,0,0,0
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,heading,0,0,0,0
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,runway,1,1,0,1
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,frequency,0,0,0,0
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,clearance,0,0,0,0
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,navigation,0,0,0,0
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,weather,0,0,0,0
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,other,0,1,1,0
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,callsign,0,0,0,0
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,altitude,0,0,0,0
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,heading,0,0,0,0
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,runway,0,0,0,0
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,frequency,0,0,0,0
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,clearance,0,0,1,0
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,navigation,0,0,0,0
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,weather,0,0,0,0
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,other,1,1,1,1
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,callsign,1,1,1,1
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,altitude,0,0,0,0
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,heading,0,0,0,0
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,runway,0,0,1,1
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,frequency,0,0,0,0
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,clearance,0,0,0,1
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,navigation,0,0,1,1
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,weather,0,0,0,0
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,other,0,0,0,0
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,callsign,1,1,1,1
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,altitude,0,0,0,0
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,heading,0,0,0,0
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,runway,0,0,0,0
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,frequency,0,0,0,0
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,clearance,0,0,0,0
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,navigation,0,1,1,1
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,weather,0,0,0,0
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,other,0,0,0,0
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,callsign,0,1,1,1
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,altitude,0,0,0,0
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,heading,0,0,0,0
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,runway,0,0,0,0
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,frequency,0,0,0,0
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,clearance,0,0,0,0
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,navigation,0,0,0,0
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,weather,0,1,1,0
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,other,1,0,0,1
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,callsign,0,0,1,1
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,altitude,0,0,0,0
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,heading,1,1,1,0
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,runway,0,0,0,0
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,frequency,0,0,0,0
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,clearance,0,0,0,0
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,navigation,0,0,0,0
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,weather,0,0,0,0
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,other,0,0,0,0
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,callsign,1,1,1,0
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,altitude,0,0,0,0
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,heading,0,0,0,1
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,runway,0,0,0,0
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,frequency,0,0,0,0
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,clearance,0,0,0,0
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,navigation,0,0,0,0
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,weather,0,0,0,0
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,other,0,1,1,1
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,callsign,1,1,1,1
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,altitude,0,0,0,0
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,heading,0,0,0,0
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,runway,0,1,0,1
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,frequency,0,0,0,0
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,clearance,0,0,0,0
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,navigation,0,0,0,0
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,weather,0,0,0,0
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,other,0,0,0,0
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,callsign,1,1,1,1
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,altitude,0,1,0,1
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,heading,0,0,0,0
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,runway,0,0,0,0
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,frequency,0,0,0,0
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,clearance,0,0,0,0
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,navigation,0,0,0,0
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,weather,0,0,0,0
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,other,0,0,0,0
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,callsign,0,0,0,0
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,altitude,0,0,0,0
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,heading,0,0,0,0
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,runway,0,0,0,0
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,frequency,1,1,1,1
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,clearance,0,0,0,0
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,navigation,0,0,0,0
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,weather,0,0,0,0
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,other,0,0,0,0
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,callsign,1,1,1,1
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,altitude,0,0,0,0
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,heading,0,0,0,0
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,runway,0,0,0,0
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,frequency,0,0,0,0
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,clearance,0,0,0,0
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,navigation,0,0,0,0
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,weather,0,0,0,0
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,other,0,0,0,0
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,callsign,1,1,0,0
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,altitude,0,0,0,0
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,heading,0,0,0,0
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,runway,0,0,0,0
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,frequency,1,1,1,1
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,clearance,1,1,1,0
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,navigation,0,0,0,1
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,weather,0,0,0,0
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,other,1,1,1,0
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,callsign,1,1,1,0
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,altitude,0,0,0,0
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,heading,0,0,0,0
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,runway,0,0,0,0
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,frequency,0,0,0,0
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,clearance,0,0,0,0
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,navigation,0,0,0,0
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,weather,0,0,0,0
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,other,0,1,0,1
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,callsign,0,1,1,1
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,altitude,0,0,0,0
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,heading,0,0,0,0
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,runway,0,0,0,0
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,frequency,0,1,1,1
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,clearance,1,0,0,0
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,navigation,0,0,0,0
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,weather,0,0,0,0
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,other,0,0,1,0
+runway 041219,ground way 4 1219 avoid cross country,callsign,0,1,1,0
+runway 041219,ground way 4 1219 avoid cross country,altitude,0,0,0,0
+runway 041219,ground way 4 1219 avoid cross country,heading,0,0,0,0
+runway 041219,ground way 4 1219 avoid cross country,runway,1,1,1,1
+runway 041219,ground way 4 1219 avoid cross country,frequency,0,0,0,0
+runway 041219,ground way 4 1219 avoid cross country,clearance,0,0,0,0
+runway 041219,ground way 4 1219 avoid cross country,navigation,0,0,0,0
+runway 041219,ground way 4 1219 avoid cross country,weather,0,0,0,0
+runway 041219,ground way 4 1219 avoid cross country,other,0,0,0,0
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,callsign,0,1,1,1
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,altitude,0,0,0,0
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,heading,0,0,0,0
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,runway,0,0,0,0
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,frequency,0,0,0,0
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,clearance,0,0,0,0
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,navigation,0,0,0,0
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,weather,0,0,0,0
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,other,1,0,0,0
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,callsign,1,1,1,1
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,altitude,0,0,0,0
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,heading,0,0,0,0
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,runway,0,0,0,0
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,frequency,0,0,0,0
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,clearance,0,0,0,0
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,navigation,0,0,0,0
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,weather,0,0,0,0
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,other,0,0,0,0
+runway 31 sky travel 1034,131 skytrain 1034,callsign,1,1,1,1
+runway 31 sky travel 1034,131 skytrain 1034,altitude,0,0,0,0
+runway 31 sky travel 1034,131 skytrain 1034,heading,0,0,0,0
+runway 31 sky travel 1034,131 skytrain 1034,runway,0,1,0,1
+runway 31 sky travel 1034,131 skytrain 1034,frequency,0,0,0,0
+runway 31 sky travel 1034,131 skytrain 1034,clearance,0,0,0,0
+runway 31 sky travel 1034,131 skytrain 1034,navigation,0,0,0,0
+runway 31 sky travel 1034,131 skytrain 1034,weather,0,0,0,0
+runway 31 sky travel 1034,131 skytrain 1034,other,0,0,0,0
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,callsign,1,1,1,1
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,altitude,0,0,0,0
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,heading,0,0,0,0
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,runway,0,0,0,0
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,frequency,0,0,0,0
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,clearance,0,0,0,0
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,navigation,0,0,0,0
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,weather,0,0,0,0
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,other,0,0,0,0

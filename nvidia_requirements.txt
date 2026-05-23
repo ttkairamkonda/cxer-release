@@ -1,0 +1,54 @@
+# Parakeet Fine-Tuning Environment (NVIDIA NeMo stack)
+# Tested with Python 3.10, CUDA 12.1, 1× A100 80GB
+#
+# Install:
+#   pip install -r nvidia_requirements.txt
+#
+# IMPORTANT: NeMo 2.0 requires torch==2.2 and numpy<2.0.
+# This environment is incompatible with asr_requirements.txt
+# and requirements.txt. Use a separate venv.
+
+# --- Core ML — pinned: NeMo 2.0 does not support torch>=2.3 ---
+torch==2.2.0
+torchaudio==2.2.0
+torchmetrics==1.8.1
+
+# --- NeMo framework ---
+nemo_toolkit==2.0.0
+pytorch-lightning==2.2.5
+lightning==2.2.5
+lightning-utilities==0.11.0
+omegaconf==2.3.0
+hydra-core==1.3.2
+ruamel.yaml==0.18.15
+
+# --- Data & audio ---
+datasets==3.6.0
+lhotse==1.30.3
+librosa==0.10.2
+soundfile==0.13.1
+webdataset==1.0.2
+kaldiio==2.18.1
+
+# --- HuggingFace ---
+huggingface-hub==0.33.2
+transformers==4.53.0
+tokenizers==0.21.2
+sentencepiece==0.2.1
+safetensors==0.5.3
+peft==0.17.1
+
+# --- Metrics ---
+jiwer==4.0.0
+evaluate==0.4.4
+whisper_normalizer==0.1.12
+editdistance==0.8.1
+
+# --- Monitoring ---
+wandb==0.21.1
+tensorboard==2.20.0
+
+# --- NumPy — pinned: NeMo 2.0 requires numpy<2.0 ---
+numpy==1.26.4
+pandas==2.3.0
+tqdm==4.67.1

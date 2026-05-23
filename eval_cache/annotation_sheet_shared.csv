@@ -1,0 +1,501 @@
+reference,hypothesis,judge1_llama,judge2_qwen,judge3_deepseek,judge1_llama_CCER,judge2_qwen_CCER,judge3_deepseek_CCER,human1_CCER,human2_CCER,sample_type,llm_consensus_CCER
+air portugal five six seven climb flight level three four zero,airport over five six seven climb flat level three four zero,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+roger then taxi via all alfa and echo on taxiway echo hold short runway one zero,roger and packs my alpha and echo unpacks by ecco holt schuh dran by wanderer,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+easy 5597 turn left papa lima and contact ground 121 decimal 9 bye bye papa lima 1219 thank you 5492,you do 5497 turn left pop up windmill and contact ground run to 179 bye bye 5497 thank you 5497,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+contract romeo golf,contractor romeo golf,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+16 right cleared to land qantas 7702,16 right clear land qatari 702,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa 3508 zurich radar good morning,lufthansa 3508 zurich radar good morning,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+one six zero speed bird eight five five,one six zero speed bright eight five five,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+jet aviation 701 own navigation to saint prex,jet division 701 own navigation to sampre,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified,od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+who is calling,woos calling,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+crossair five one eight contact rhein one three two decimal four,cross air five one eight contact line one three two decimal four,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+we are standi,we al standing,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+ruzyne tower csa five four four,what i rozein to rcsa five four four,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+lufthansa 6,lufthansa 6,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+tower austrian,todo lo que,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+good morning lufthansa eight lima l ruzyne tower,good morning good dance eight oclock yall cientera,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa nine delta sierra runway three one we are clear l,csa nine delta sierra three one wire cleared,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+hapag lloyd six five three contact zurich one three three decimal four good bye,hapagloid six five three contact furry one three three decimal full goodbye,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+alitalia one five eight radar contact flight planned route,alitalia one five eight radar contact flight pran roote,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+french air force four four one zero descend flight level three four zero,frenth air force four four one zero descend flight level three four zero,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+csa 960 runway 31 cleared for takeoff wind 160 degrees 3 knots,cc number 60 runway 31 cleared for takeoff wind 160 degrees 3 knots roger that,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+2320,to 320,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+japanair 419 continue descend to flight level 330,japan f 419 i continue descent to fl 330,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+roger contact milan one three four five two good bye,roger contact milan one three four five two good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+start one engine and,that one engine,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+b air nine five one startup approved runway two five qnh one zero one two report ready for taxi,the a nine of five one startup approved on way two five qh one zero one two reports ready for taxi,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+hotel charlie juliett you passed echo 2 continue for direct approach as number one report final 25,charlie juliett you passed echo 2 continue for direct approach as number one report final 25,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+speed bird 861 line up runway 13 expedite,stiebert 861 line up runway 13 xp 9,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+merair 6944 climb to flight level 300 initially,m 6944 climb to flight level 300 initially,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+csa five six zero ruzyne tower roger,csa five six zero ruzyne tower tan roger,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+speed bird seven seven whiskey whiskey is identified fly heading two five zero,speedbird seven seven whisky whiskey is identified fly heading two five zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+delta mike echo good afternoon call you back,delta mike echo good afternoon call you back,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+line up and wait runway one three air france three nine three victor,line up and we to nine one three affance three nine three victor,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+korean air one two one wind two four zero degrees five knots runway one six right cleared to land,one two one wing two four zero degrees five not two right two,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+rega 10 frequency change approved schone nami,recon 10 frequency change approved c nw,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+french air force 4410 is identified descend to flight level 290,french air force 4410 is identified descent to flight level 290,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+sky travel one zero three six good afternoon hold short of runway one three,sky two one zero three six good afternoon halt short of runway one three,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+portugalia 543 roger radar contact climb flight level 330,portugalia 543 roger radar contact climb flight level 330,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+for takeoff runway 31 csa 76 echo,for takeoff runway 31 csa 76 echo,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot,talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hello wizziar four xray zulu ruzyne tower,hello with our four x rays delivered our,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+there is contract 2 romeo golf we are localizer established 10 miles 31,terrace contract 2 romeo golf we are localizer established 10 miles 31,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+nor shuttle 3580 runway 31 clear to land wind 180 degrees 5 knots runway 31 clear to land nor shuttle 3580,nor shuttle 3580 runway 31 clear to land wind 180 degrees 5 knots runway 31 clear to land nor shuttle 3580,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+qnh 1022 will proceed to echo after tango and 2500 oscar kilo,qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+good afternoon lufthansa 4575 radar contact continue climb flight level 320 trasadingen nelli,good afternoon lufthansa 4575 radar contact continue climb flight level 320 trasadingen nelli,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+good afternoon descend to flight level two nine zero,good afternoon descend to flight level two nine zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+tel 603 taxi to holding point runway 13 via delta foxtrot,taxi to holding point runway 13 via d f,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+oscar mike charlie india alfa runway 13 cleared to land wind 130 degrees 8 knots,oscar mike charlie india alfa runway 13 clear to land wind 130 degrees 8 knots,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+jetset 207 contact reims 134 decimal 4 good bye,jetset 207 contact reims 134 decimal 4 good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+clear to land three one britair five nine zer,flight level two lunt three one what three five nine,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+mike echo mike lima india line up runway 31 and wait,mike echo mike lima india line up runway 31 and wait,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+swiss air 488 climb to flight level 310,swiss 488 climb to fl 310,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+alitalia five seven two,i tell you five seven two five seven three,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa eight five six line up three one and wait number two interception departure from romeo,csa eight five six line api three one and wait number two intersection departure from romeo,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+clear to taxi holding point runway three one,praha to thank shawel like point one nine three one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+correct and high rate of climb please,correct and high rate of climb please,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+hotel golf papa frequency change approved good bye,golf papa frequency change approved good bye,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+lufthansa three six zero four contact milan one three four five two bye,lufthansa three six zero four contact milan one three four five two bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+hotel echo xray wind calm runway two five cleared touch and go,hotel echo xray wind calm runway two five cleared turn go,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+tower csa 879 establish,csa 879 establish,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+good evening turkish 1770 ruzyne tower hold short of runway 13,good evening turkish 1770 ruzyne tower hold short of runway 13,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa 5504 direct fribourg,lufthansa 5504 direct fribourg,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+31 runway,31 runway,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+point bravo runway two five foxtrot lima delta,and im fine bro im like two five foximad,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+calibra,two nine wizz kilibreap clearem,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+air france 356 set course to morok,air france 356 set course to morok,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 544 line up runway 13 line up runway 13 csa 544,csa 544 line up runway 13 line up runway 13 csa 544,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+tango oscar kilo lima india november,oscar kilo lima india november,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+air malta one zero four in that case maintain three four zero for the time,amalta one zero four in dackes maintain three four zero for time,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+csa 904 ruzyne tower,cc 9 this is a 4 roger that,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+tower good afternoon air france one nine eight two ils runway three one,sorry good afternoon if i was one nine oh eight two is runway three one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+turn right foxtrot hotel csa three zero three,the drive for a town six,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+sunwing 5212 good afternoon maintain 330 trasadingen saint prex,sunwing 5212 good afternoon maintain 330 trust the dingen sompre,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+november alfa sierra line up runway 25,november alfa sierra line up runway 25,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 827 ruzyne tower speed 160 till 4 miles final,csa 827 ruzyne tower speed 160 till 4 miles final,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+time air 612 papa tower continue approach and expect departure ahead,time air 612 papa tower continue approach and expect departure ahead,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+hapag lloyd one two four is identified,harpakloid one two four is identified,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+do you have tunis air four eight zero two,do you have tunes air four eight zero two,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+mission six zero one five three continue present heading until advised for separation,mission six zero one five three continue present heading until advised for separation,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air france 1554 turn right 15 degrees,air france 1554 turn right 15 degrees,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 2 zulu alfa,csa 2 alfa,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+you need to backtrack yes,you need to bactrak yes,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+sabena eight two six alfa climb to flight level three two zero trasadingen karlsruhe,sabena eight two six alfa climb to flight level three two zero trasadingen karlsruhe,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+alitalia one five zero radar contact proceed trasadingen karlsruhe,alitalia one five zero radar contact proceed trasadingen kalsrue,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+sabena 806 your heading,sabena 806 your heading,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+runway 13 cleared for takeoff csa 974,i will wait until you get off the runway,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+alitalia 158 proceed now direct luxeuil,alitalia 158 proceed now direct luxeuil,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa five three seven left papa next lima and conta,firty seven left uh papa next clima and content,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+31,31,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+affirm cross runway two two,fm cross runway two two,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+ruzyne tower csa,pursue the tower at 2.6,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+lufthansa 4652 cont correction resume own navigation to saint prex,lufthansa 4652 correction resume our navigation to sampre,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff,ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+mosquito 15 bravo correct and keep an eyes for glider activity north of the field,skidwan 5 r correct and keep an eye for glider activity north of the field,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa 9 victor tango line up runway 13,dt 9 vt line up runway 13,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+ils runway 31,ils runway 31,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+yes there no rope any yet so you should like startup on this frequency is available,yes there are no open yet so if you like startup on this frequency it s available,Equivalent,Critical_Errors,Equivalent,False,True,False,,,disagreed,False
+ruzyne tower csa 689 reducing 160 knots,dabrava call in earth navarro cpsa 689 and reducing 160 knots,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+continue approach,bateria approach,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+tower good day swiss four seven two echo ils three one,caro good day six four seven tureco ils three one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lauda 6869 contact milan 13452 bye,lauda 6869 i count to milan one 3 4 5 2 bye,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+csa seven seven two line up runway three one,csa seven seven two line up runway three one,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three,then i would have been down three fifty five four charlie two holding shelter for ready for department,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+thank you you too,thank you you too,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa 9 lima charlie line up runway 31 and wait,lufthansa 9 lima charlie line up runway 3118,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa 3604 what will be your rate of climb,lufthansa 3604 what will be your rate of climb,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+swiss four six zero tango contact ground one two one nine good bye,six four six zero tengo conta ground one two one goodbye,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+twin jet 50 on a short delay waiting on our release from the back,injects 5 0 one just short delay waiting on release from debate,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye,kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+number one hotel echo xray,number one hotel echo xray,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+nine two,nine two,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots,easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa four three five six reims one three four four good bye,lufthansa four three five six one three four four goodbye,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+ruzyne tower csa 5,roger that,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+jetcom one three three good morning roger call you back for climb in two minutes,chetcom one three three good morning roger call you back for climbing two minutes,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+287 runway 31 clear to land wind 170 degrees 4 knots,287 runway 31 clear to land wind 170 degrees 4 knots,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land,hotel echo extra wind at two six zero degrees one zero north runway two five clear to land,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+tower good beline three papa p on final i,tower tuntober b line three papa papa on pinal,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+good morning smart wings 107 papa roger,good morning smart wings 107 papa,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+we line up and wait three one sky travel one zero one zero,oye line up and wait for one sky travel one zero one zero,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+sierra alfa papa sion ground hello,papa passon ground hello,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+zurich tower hotel bravo papa oscar echo,trik head hoter bravo papa oscar echo,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+czech holiday seven four two zero roger,check alday seven four two zero roger,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+swedestar zero five one runway three one cleared to land wind zero nine zero degrees five kno,csa zero five one runway three one cleared two en wind zero nine zero degrees five now,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+alitalia four zero four identified route ageri zurich east nelli maintain flight level three two zero,alitalia four zero four identified route agarizo regis nelly maintained flight level three two zero,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+french air force 4410 milan 13452 good day,french air force 4410 milan 13452 good day,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+runway 25 cleared touch and go hotel echo xray,right way 25 contact shanko hotel echo 85,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hotel one foxtrot say again rest,hotel one fox trot take in the rest,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+time check one eight,time check one eight,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa three mike zulu ruzyne tower continue approach departure ahead boeing seven three seven,debraden csa three mike zure ruzyne tower continue approach departure ahead boeing seven three seven,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+malev eight two five,oly way two five,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa 406 line up runway 13 and wait,csa 406 line up runway 13 and wait,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+runway two five call you passing one three thousand feet five thank you,one way two five call you passing one three thousand feet five,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+german air force four nine zero one contact geneva one three three one five good bye,german air force four nine zero one contact geneva one three three one five goodbye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa four mike bravo line up runway three one lining up runway three one csa four mike b,csa four mike bravo line of runway three one maring franway three one csa four mike bravo,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+twin star 887 runway 13 cleared for takeoff wind 050 degrees 6 knots,twin star 887 runway 13 cleared for takeoff wind 50 degrees 6 knots,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+ok maintain 290 trasadingen fribourg,ok maintain 290 trasadingen fribourg,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa 3566 climb now to flight level 320,lofthansa 3566 climb now to flight level 320,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+lufthansa 7 echo lima line up runway 31 and wait,lufthansa 7 echo lima line up runway 31 and wait,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa four six five two climb to flight level three two zero,lufthansa four six five two climb to flight level three two zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa four three nine zero descend to flight level two nine zero,lufthansa four three nine zero descend to flight level two nine zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+ru,abrir a,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa four victor papa ruzyne tower roger,brdense si fue a veces pap ni hasta ahora ya,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+israeli 442 your rate of descent at least 2000 and heading 180,israeli 442 your rate of descent at least 2000 and heading 180,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lauda one zero nine radar contact maintain flight level three four zero and set course inbound hochwald luxeuil,lauda 109 now radar contact maintain flight level 340 and secros inbound hochval luxe,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+one two four decimal two two five b air nine five one good bye,one two four decimal two two five bno five one goodbye,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+holding,roger,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air malta one zero four is identified the tun air four eight zero two is identified,air malta one zero four is identified the tun air four eight zero two is identified,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air france 356 contact reims on 1344 bye,air france 356 can the ras on 1344 bye,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hotel echo xray wind 270 degrees 5 knots runway 25 cleared to land,hotel echo x ray wind 270 degrees 5 knots runway 25 cleared to land,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+hotel november xray ninety five crossing is approved qnh one zero two two,open november x ray is identified the crossing is approved kn h one zero two two,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+ruzyne tower good afternoon aero flot 150,ruzyne tower aero flot 150,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+csa 927 runway 13 clear to land wind 350 degrees 7 knots,csa 927 runway 13 clear to land wind 350 degrees 7 knots,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa one delta zulu descend flight level one hundred no speed restrictions,csa one delta zulu descend flight level one hundred no speed restrictions,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 975 runway 13 cleared to land wind 050 degrees,csa 975 runway 13 clear to land wind 50 degrees,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+el al 522 ready for,el al 522 ready for,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+alitalia one five zero own navigation trasadingen,alitalia one five zero navigation trasadingen,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+you will go through vacate via foxtrot next to the right and contact ruzyne ground 121 decimal 9 bye,you missed call so vacate via foxtrot next to the right and contact ruzyne ground 121 decimal 9 bye,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+ok speed bird 861 good afternoon roger standby number one,ok speed bird 861 good afternoon roger standby number one,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+u s air one four contact milan one three four five two good bye,us air one four contact milan one three four five two good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+continue to holding point runway one three but to be to proceed via delta or lima,but were only part one way one three but do you want us to proceed via delta or lima,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+approved cleared to destination beirut one hotel departure squawk 1433 csa 29 si,approach to destination beirut vosita vanoha celta branch of squawk 1433 csa 296,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one,hotel kilo sierra ruzyne to roger jorna line up ram eight three one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa 4575 direct nelli,lufthansa 4575 direct nelli,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 977 ruzyne tower continue approach,csa 977 ruzyne tower continue approach,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+easy five four nine eight runway one three cleared for takeoff wind one nine zero degrees two knots bye bye,is it five four nano eight or an event three queer for takeoff wave one nine o zero degrees to not,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+ok maintain two nine zero,ok maintain two nine zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+austrian 706 papa runway 31 cleared for takeoff wind 210 degrees 8 knots good bye,austrian 706 papa runway 31 cleared for takeoff wind 210 degrees 8 knots good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+clear line up and cleared for takeoff runway three one lot five two eight,line of clay four takeof runway three one lot five two eight nikel naschernow,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+ok there is one on short final and then afterwards we are anytime ready for,okay there is one show final and then afterwards we are any time ready for a quick,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+is now ready for depa,and beyond six one glove is no thirty forty but,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+hotel echo xray number one,hotel echo x ray number one,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+lufthansa three five zero eight zurich radar good morning,lufthansa three five zero eight zurich radar good morning,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+easy two five eight quebec runway three one cleared for takeoff wind one one zero degrees and three knots have a good day,easy two five eight quebec runway three one cleared for takeof wind one one zero degrees in three knot hella good day,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa 536 runway 13 cleared for takeoff wind 050 degrees 5 knots,csa 536 runway 13 cleared for takeoff wind 50 degrees 5 knots,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+lufthansa 4652 contact geneva 13315 bye bye,lofthansa 4652 contact geneva 13315 bye bye,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+swiss air 488 rhein 1324 good bye,swiss air 488 rhein 1324 good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+cleared takeoff 25 next report the 13000 feet hotel tango alfa,takeoff 25 next report 13000 feet hotel tango golf,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+cleared to land qal,climb to land to cour,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+8 mile,that is 8 miles,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+wizz air 591 startup approved,wizz air 591 stand 5 3 star approved,Equivalent,Critical_Errors,Equivalent,False,True,False,,,disagreed,False
+say again southern air eight five zero zero,say agan sun air eight five zero zero,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final,csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa five zero eight line up runway one three lining up runway one three csa five zero eight,csa five zero eight line up runway one three line up runway one three csa five zero eight,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+austrian seven zero seven papa runway three one clear to land wind zero four zero degrees and five knots,austrian seven zero seven papa runway three one clear twenty zero four zero degrees and five knots,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+runway three one cleared to land swedestar zero five o,a ver qu va a hacer las exitosas,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+sure no worries it is fine for me but just for the next time then maybe not get a confusion,sure no worries it s fine for me but just for the next time then maybe not to get the confusion,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+easy 809 bravo runway 13 clear to land wind 090 degrees 5 knots,easy 809 bravo runway 13 clear to land wind 90 degrees 5 knots,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+approach speed redu,uh pro speed uh reduced,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five,hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa four four one six good morning radar contact,lufthansa four four one six good morning radar contact us,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+speed bird 30 charlie roger ready immediately,speed bird 30 charlie roger ready immediately,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+tower csa seven six echo on lima,air tower radar csa seven six echo on lima,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+8 romeo maintainin,8 romeo maintaining,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+a backtrack approved,air backtrack approved,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+ok line up runway three one csa seven nine,okay my number yeah three one c s a seven nine,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+spar eight nine report your heading to zurich on one three three four good bye,spar eight nine report your heading to zurich on one three three four good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+3 sky travel,that is all right,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+clear to land 13 cimber 35,clear to land 13 cimber 3 fi,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+french line 9163 zurich radar good morning identified maintain flight level 330 trasadingen zurich east fusse,french line 9163 zor good morning identified maintain flight level 330 transiting in zor east fosse,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+tower jobair 072 fully established ils 31,tower jobair 72 fully established ils 31,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+air malta 450 proceed to zulu uniform echo,amu 450 proceed to zulu uniform echo,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+papa foxtrot that is approved,papa foxtrot that s approved,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air inter three two zero papa hotel is identified maintain level three two zero trasa hochwald morok,aerontar three two zero papa hotel is identified maintain level three two zero trasa hochwald morok,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+emirates 139 runway 31 cleared to land wind 090 degrees 5 kno,mra 139 runway 31 cleared to 1109 on 0 degrees 5 0,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa 923 runway 13 cleared to land and 010 degrees 4 knots,csa 923 runway 13 clear to land wind 10 degrees 4 knots,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+air france two four two six good afternoon maintain three three zero trasadingen zurich east fusse radar contact,air france two four two six good afternoon maintain three three zero transading zurich eight fusse radar contact,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+euro trans one three juliett taxi to holding point runway zero four via alfa delta,aero trans one three juliett taxi to halling pone runway zero four via alfa delta,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+sata 9601 good afternoon squawk 2764,sata 9601 good afternoon squawk 2764,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+three five six six correct for further climb zurich sector one three three decimal four bye bye,three five six six correct for further climbs or executor one three three decimal four bye bye,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+cleared to land runway one three aero flot one four three,queat climb runway one three air flot one four three,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+israeli four four two heading one six zero,israly four four two heading one six zero,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+alitalia 6474 contact rhein control on 12092 bye bye,alitalia 6474 contact rhein control on 12092 bye bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+tunis air 4802 radar contact direct karlsruhe,tunis 4802 radar contact direct carlos rua,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+ready turkish one seven seven zero,radaia torkish one seven seven zero,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+speed way three three five two zurich,speedway three three five two zurich,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+yeah we finish than,yeah we finish thank you,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+tarom 7534 good afternoon radar contact maintain flight level 330 proceed trasadingen zurich east fusse,tarom 7534 good afternoon radar contact maintain flight level 330 proceed trasadingen zurich east fusse,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+oscar kilo mike delta hotel pass your message,oscar kilo mike delta hotel pass that message,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+hotel bravo zulu sierra november berne tower enter via route hotel whiskey qnh 1018,hbz sierra november burn tower enter via route hv qnh 1018,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+air inter 320 papa hotel good morning squawk 2712,air inter 320 papa hotel good morning squawk 2712,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+line up three one csa nine one,line three one csa nine one,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+csa three delta echo il,csa three delta echo higher,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+hotel echo xray number one,hotel echo xray number one,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 974 ruzyne tower roger line up runway 13,cc 974 rozenjete ho dobry den roco lej na prvy van 3,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hamburg air two five zero two contact geneva one three three decimal one five bye bye,hamburg air two five zero two contact geneva one three three decimal one five bye bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa four four zero eight climb to flight level three three zero,lufthansa four four zero eight climb to fly at level three three zero,Equivalent,Critical_Errors,Equivalent,False,True,False,,,disagreed,False
+calibra four zero roger hangar continue approach speed one sixty until four miles final departure ahe,dobri then calibra four zero roger henger continue approach speed one sixty though for my final departure,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots,linde eco land on this question the swiss helicopter wind 70 degree 6 knots,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+sata 9601 is identified 0 it s over now,sata 9601 is identified 0 it s over now,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+u s air 14 descend to flight level 290 good rate of descent,usa 14 descend to flight level 290 good rate of descent,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+hotel charlie whiskey wind 230 degrees 8 knots runway 25 just stop and go,hotel sherwood wind 230 degrees 8 knots runway 25 cleared to stop and go,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+two one nine csa se,lufthansa quine nicsa,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+tower southern air eight five zero zero approaching three one,tower seven eight five zero zero is approaching three one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lux air 5482 runway 31 cleared for takeoff wind 190 degrees 4 knots good by,lux air 5482 runway 31 cleared for takeoff wind 190 degrees 4 knots good by,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+takeoff golf oscar upwind 2100 feet request left hand circuit runway 06 for another and last touch and go,staggolf oskar upwind at 2100 ft request left hand circuit runway 6 for another and last touch and go,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+speed bird 77 whiskey whiskey good morning squawk 2720,spp 77 w good morning squawk 2720,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+swiss radar 135680 next 7508 bye bye,swiss radar 135680 next 7508 bye bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa nine zero four lining up runway one three,c nine zero four line cabin wave on three,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa 691 contact ruzyne ground 121 decimal 9,csa 691 contact ruzyne ground 121 decimal 9,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+german wings 7 hotel behind landing,shamrock 7 hotel behind landing,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+jetcom 133 for further climb zurich 133 decimal 4 good bye,jetcom 133 for further climb to rij 133.4 goodbye,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+luft transport,to frankfurt,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+jet aviation seven zero one descend to flight level three two zero,jet aviation seven zero one descend to flight level three two zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa 4 yankee mike runway 13 clear to land wind 050 degrees 4 knots,lufthansa 4 yankee mike runway 13 cleared to land wind 50 degrees 4 knots,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+good afternoon lufthansa four six six five radar contact descend flight level three four zero,good aftland lufthansa four six six five radar contact descend flight level three four zero,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+ok cleared to takeoff 13 easy 38 papa golf bye,ok clear takeoff 13 easy 38 papa golf bye,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+long approach hotel papa bravo,long approach del baba babo,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+line up runway 31 csa csa 2 delta zulu,i am on the runway 31 csl csi to the left as well,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa 2 mike delta ruzyne tower,fas 8 m good afternoon,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+ltu 7756 calling confirm,l 27756 calling confirmed,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+ruzyne tower csa,excuse me are you in the area,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+so now airport is closed expect the earliest departure at 0300,now airport is closed expect the earliest departure at 300,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+hotel alfa papa you may leave the frequency bye bye,hotel alfa papa you may descend frequency bye by,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+approach speed redu,approach speed redu,Equivalent,Critical_Errors,Equivalent,False,True,False,,,disagreed,False
+csa 560 ruzyne tower roger,csa 560 ruzyne tower roger,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+oscar kilo hotel uniform u,oscar kilo hotel uniform uniform tyi dobr den vyslita,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+iberia three four two two set course direct to trasadingen,iberia three four two two set course direct to trassding,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+line up one three csa seven five,line up on three one csa seven five,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+continue approach runway one six right china eastern seven seven nine one,continue approach runway one six right tans seven seven nine one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+cleared for takeoff runway 13 bline 161 golf bye bye,golf air takeoff runway 13 beline 61 golf good bye,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+foxtrot and hotel,foxrodin hotel,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa 92 delta line up runway 31 and wait,cc 9 to the local line up on way 3108,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+once cleared one wind 050 degrees,uas q one wind 50 degrees,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+yes that s a holding po,yes that s a holding fo,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+sabena eight zero six i turn now left heading of three four zero,sabina eight zero six i uh turn our left heading off at three four zero,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+3 csa 634,3 csa 634,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa 3550 zurich radar good afternoon roger what is your position,of tanza 3550 zurich radar good afternoon roger what is your position,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hotel golf bravo is echo two at three thousand three hundred feet,hotel gols praha it echo two eight three thousand three hundred feet,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hotel golf alfa report upon route,htel golf alpha reporte pendreute,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa four eight one contact ruzyne ground one two one decimal nine,say for eight one contact losing ground one to one decimal,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+contract romeo golf runway,contracto con mi cofra,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+mission 60153 due traffic turn left heading 360,mission 60153 deer traffic turn left heading 360,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+alitalia six four seven four contact rhein one two zero nine two,alitalia six four seven four contact rein one two zero nine or two,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+french air force 4410 heading of 090,fresh air force 4410 heading alfa 90,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+air france 670 zurich radar good afternoon continue heading 120 until advised descend to flight level 330,air france 670 zurich radar good afternoon continue heading 120 until advised descend to flight level 330,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 3 sierra lima contact ruzyne ground 121 decimal 9,csa 3 sierra lima contact ruzyne ground 121 decimal 9,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+ruzyne tower good evening aero flot 143 ils established runway 13 aero flot 143 good evening continue approach,good evening aero flot 143 runway 13 aero flot 143 good evening continue approach,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+tower csa one delta zulu on the ils,csa one delta zulu on the ils,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+speed bird two eight three nine good afternoon squawk three correction squawk five seven four four,speed bird two eight three nine good afternoon squawk three correction squawk five seven four four,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa four seven zero zero roger what is your position,lufthansa four seven zero zero roger what is your position,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+we are fully ready bline four zero victor,todava folios de t pir en foto y,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+swiss air 6520 good afternoon radar contact climb flight level 320,swiss air 6520 good afternoon radar contact climb flight level 320,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+affirm nav checker 5 papa one,from navtchar 511,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+csa six one nine traffic information helicopter landing,csa six one nine aero traffic information hellicopro landing,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+continue 160 knots or less quality 91 romeo,roger 160 knots all that is quality now on our way,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+clear to land runway 13 sky travel 1039,runway 13 sky travel 1039,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+tower,direct line up tower,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+delta alfa uniform further descend at your discretion cleared visual approach runway 32,delta alfa uniform further descend at your discretion cleared visual approach runway 32,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+reducing minimum csa 961,information uniform csa 6 fi,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+hello lufthansa nine november echo tower roger,alo lufthansa nine november echo tab roger,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+92,9 2,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+cleared for takeoff runway three one swiss four si,fake of runway three one swiss four c,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hotel echo lima affirm remain on my frequency you are still within the tma,h hotel echo lima affirm remain on my frequency or still within the tma,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+camber 3525 runway 31 clear to land wind is calm,kimba 3525 runway 31 cleared to land wind is calm,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+november golf papa read back correct report for taxi,normer golf papa read nato correct report for taxi,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima,if i see a zf runway 28 after 12175513 6413 and good data,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+clear to land three one csa eight three sierra,aclit twenty one csa three seven,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+ok maintain 290 for the time i ll call you back with the climb trasadingen canne,okay maintain 290 for the time i call you back with climb trawling connect,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+euro trans one three juliett request push and start,here transform 3 a trade request push and start,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+tower wizziar five five six stand five two request taxi,no wear usted five five six ahora estn five turres con el taxi,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+tower lufthansa 5 yankee victor good ev good afternoon vor 13,tower lufthansa 5 yankee victor good evening good afternoon vor 13,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+csa seven six five tower continue approach continue approach csa seven six five,c say seven six five rano continue approach continue approach c seven six five,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+air malta 538 contact ruzyne ground 121 decimal 9 bye bye 121 decimal 9 malta 5,air malta 538 contact to the ground 121 decimal 9 bye bye 121 decimal 9 malta 5,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+swedestar 887 tower good morning continue approach,twin star 887 tower good morning continue approach,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+channex 87 papa romeo praha,channex 87 papa romeo praha,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+clear to land runway one three quality nine one rome,one one one three good eight to nine one one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+expedite,espera a,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+164 copied 71 zulu,1624 kaput 710,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+five two two roger,ah factura que va,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa two mike charlie runway one three clear to land wind zero eight zero degree,tomorchali in venture equipment then the,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hotel hotel xray go around,so breaks three go around,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+air france 1554 milan 13452 bye bye,air france 1554 milan 13452 bye bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+off runway 31 beline 9908 good bye,go for runway 31 b 9908 goodbye,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+roger confirm heading 036,roger confirm heading 36,Equivalent,Critical_Errors,Equivalent,False,True,False,,,disagreed,False
+tunis air four eight zero two direct karlsruhe,tunice air four eight zero two direct kals rue,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+air france 3261 good morning squawk 2724,air france 3261 good morning squawk 2724,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+fraction 55 alfa 2 reduce final departure ahead airbus 320,french 9585 alfa 2 reduce final departure ahead airbus 320,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+jobair 071 ruzyne tower roger,jobair 71 ruzyne tower du praha point roger,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+alitalia four one six contact now rhein control on one three two four,alitalia four one six contact now rhein control on one three two four,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 481 contact ruzyne ground 121 decimal 9,csa 481 contact ruzyne ground 121 decimal 9,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+oscar kilo bravo yankee hotel,ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+160 till,roger that,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+november mike alfa vacate via charlie and how long do you stay,november mike alpha vacate via charlie and how long do you stay,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air berlin five two six one contact geneva one three three one five bye bye,air berlin five two six one contact geneva one three three one five bye bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+b air 552 ruzyne tower roger continue approach,bf 552 roger that good roger continue approach,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+lufthansa 5504 milan 134 decimal 52 good bye,lufthansa 5504 milan 134.52 goodbye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+stefanik tower oscar mike charlie india alfa request,stefanik tower oscar mike charlie india alfa request,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+roger we ll give you,roger so we will give you .,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+oscar kilo uniform tango charlie dobry den praha radar identified,of course i will inform tango charlie good day prague radar identified,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+wind two five zero degrees two two knots runway two five cleared to land,win two five two two knots on the two five cloud land,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hapag lloyd one seven one contact geneva one three three one five bye bye,how about one seven one contact geneva one three three one five bye bye,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+wizz air four nine one line up runway three one,pues therefore neither one prometiva,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+cotam one one four one climb to flight level three three zero,cotton one one four one climb to flight level three three zero,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+csa 7 whiskey india line up runway 31 lining up 31 csa 7 whiskey india,667 w india line up runway 31 line up 31 667 w india,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+210 good morning tower report ready for departure,aerosvit 210 good morning tower report ready for departure,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+hotel lima tango roger standby i coordinate with military sector,lima tango roger standby cording with military spector,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+good afternoon condor six zero seven radar contact maintain flight level three four zero direct trasadingen tango,good afternoon condor six zero seven radar contact maintain flight level three four zero direct trasadingen tango,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa eight eight zero runway three one cleared for takeoff wind one eight zero degrees four knots,csa eight eight zero runway three one cleed four takeof wind one eight zero degrees four not nofinal,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+french air force four four one zero descend flight level two nine zero,french air force four four one zero descend flight level two nine zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+ok maintain flight level three four zero flight planned route,okay maintain flight level three four zero flank clan route,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+oscar alfa victor set course direct st prex,alsk alfa victor secos direct st prex,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+aero flot 142 ruzyne tower,copy that i have one foot to the center over,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+hamburg air 2546 geneva 13315 good bye,hamburg air 2546 geneva 13315 goodbye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa five six one runway one three cl,si five six for one iguan three,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+ready for clearance,a defort mira,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+air france 670 descend flight level 250 rate at least 2500,air france 670 descend flight level 250 rate at least 2500,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+french air force 4410 descend to flight level 290,french air force 4410 descent to flight level 290,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+clear to land runway three one wizz air four xray z,cat to runway three one wizz air four xis,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+aero lloyd five one seven rhein one two zero nine two good bye,aero lloyd five one seven rhein one two zero nine two good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+ltu one six zero two left turn ten degrees,l to one six zero two left turn ten degrees,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+lufthansa 4665 contact milan 13452 bye bye,lofthansa 4665 contact milan 13452 bye bye,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+tower good morning lufthansa 8 lima l,tower good morning lufthansa i would leave my lemur,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+tun air 4802 right turn 10 degrees,turner 4802 right turn 10 degrees,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa five three one eight milan one three four five two good bye,weve done a five three one eight milan one three four five two goodbye,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+continue 5497,continue 5197,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+air france 198 romeo cross runway 13 cross runway 13,air france 198 romeo cross runway 13 cross runway 13,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+quality 891 romeo holding point delta for november 13 and ready for departure,quality 91 romeo holding point delta f 13 ready for depart,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa seven six echo line up runway three one,csa seven six col rhein of flight level three one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa six two three runway one three cleared to land wind three five zero degrees six knots,six si six two three runway one three quit uh twenty three five thirty three six notes,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+emirates 140 ruzyne tower hold short of runway 13 enter runway 24 hold short runway 13 emirates 140,dobryden emirates 140 roger that hold short of runway 13 enter runway 24 hold short runway 13 emirates 140,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+start approved an,start aproven,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+lufthansa 5504 contact geneva one disregard descend to flight level 250,lufthansa 5504 contact geneva descent fl 250,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+lufthansa 2 victor charlie cleared to land ru,lufthansa 2 victor charlie cleared land rap,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+oscar kilo mike charlie charlie after the low approach climb straight ahead four thousand feet,oscar kilo mike charlie charlie after luwe approach climb strat ahead four thousand feet,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+air inter three two zero papa hotel good morning squawk two seven one two,around that three two zero papa hotel good morning squawk two seven one two,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+hotel hotel oscar,hotel to oscar,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+charlie,nasad si bot charlie na chvliku,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven,motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+reducing 140 jobair 051 papa,reducing 140 jobair 51 papa,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+alitalia four one six climb to flight level three one zero,alitalia four one six climb to flight level three one zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+jetset 442 descend to flight level 320,jetset 442 descend to flight level 320,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+whiskey so take runway 04,kruze czw so take runway 4,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+lufty 4376 good afternoon radar contact maintain flight level 300 and fly heading of one ni 95,lufthi 4376 good afternoon radar contact maintain flight level 300 and flight heading of 195,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+sky travel six seven zero stand one,ah skyro six seven zero spen lan,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+follow echo bravo,follow echo jedna bravo,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+air france six eight nine contact reims one three four decimal four bye,air france six eight nine contact rems one three four decimal four bye,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta,sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+air france three five six reims one three four four good bye,yeah france three five six ras one three four four goodbye,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+there was one station calling before say again please,there was one station calling before say again please,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+ruzyne tower csa 930 csa 930 ruzyne tower number 2,lzt lzt lzt tower number 2,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hotel echo xray wind calm runway 25 cleared touch and go,otterico x ray wind calm runway 25 clear to touch and go,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+hotel echo xray report echo one runway two five qnh one zero one seven,on telecox ray report echo one runaway two five connage one zero one seven,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+november 4 charlie golf contact tower 118 decimal 105,n 4 gt contact tower 180.7 enter the bus,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+air algerie 2073 roger fly heading 210 until advised and i ll call you back for further climb,air algerie 2073 roger fly heading 210 until advised and i ll call you back for further climb,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+lufthansa 2 mike echo clear takeoff 31 same to you,lufthansa 2 mike echo is cleared takeoff 31 time to you,Equivalent,Critical_Errors,Equivalent,False,True,False,,,disagreed,False
+sata 9601 continue heading until advised,sata 9601 continue heading until advised,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+alitalia one five zero roger squawk two seven four five,al italia one five zero roger squawk two seven four five,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+sabena 806 climb to flight level 340,sabena 806 climb to flight level 340,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 730 ready yeah we are ready csa 730,cc 730 ready yeah we are ready cc 730,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+speed way three four six nine descend now to flight level two seven zero,speed raday three four six nine descend now to flight level two seven zero,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one,hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+that s sufficient so we are going via papa and then runway 22 for,that s sufficient so we are going via papa and then runway 22 for interce,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+7 romeo golf runway 13 cleared for takeoff wind 180 degrees 3 knots bye bye,finn air 7 romeo golf runway 13 cleared for takeoff wind 180 degrees 3 knots bye bye,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+thank you very much hotel papa mike,cimber 91 papa mike,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+and lufthansa 4700 contact zurich 1334,lofthansa 4700 contact z 334,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+yes there is traffic atr after that you can continue lima holding point runway 31,yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+726 papa we re fully ready for departure,and austrian 706 papa we are fully ready for departure,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+and my mistake own navigation to fribourg,im my mistake of navigation to freeboard,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by,speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+emirates 024 zurich radar good morning identified trasadingen zurich east fusse maintain flight level 340,emirates 24 zurich radar good morning identified trasadingen zurich east fusse maintain flight level 340,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+csa eight zero three contact ruzyne ground one two one decimal nine,csa eight zero three contact ruzyne grad one one decimal nine,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+csa 975,ccnhf final b chair,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+that s correct german air force 414 further climb clearance contact radar 133 decimal 4 bye bye,that is correct german air force 414 further climb clearance contact radar 133.04 bye bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+sky travel 824 push,sky travel 824,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+right to gate vacate papa go to ground 121 decimal 92696 sierra good day,right squawk hotel 8 rex inbound on the ground 121 decimal 92696 sierra good day,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa 4575 rhein 132 decimal 4 tschuss,lufthansa 4575 rhein 132 the small forges,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+clouds 400 feet for landing,.1400 feet we are landing .,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+lufthansa 4652 geneva 13315 good bye,lufthansa 4652 geneva 13315 good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+up runway 13 csa 72,runway 13 csa 72 si,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+lot 5 romeo whiskey ruzyne tower,good morning from 5 rw roger that,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+foxtrot hotel juliett blue to stand one nine,fox strown hotel chulet blue twist one nine,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+oscar kilo delta sierra india turn left heading 100,oscar 2 sierra india turn left heading 100,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+sun turk quebec sierra descend to flight level seven zero expect clearance four airwork about three miles before oskup,after cavexera descend to flight level sevenzero expect clearance for airwork about three miles before oscope,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+tower csa 742 holding point runway 13 ready,tower csa 742 holding point runway 13 ready,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+runway one three cleared to takeoff csa four charlie zulu,runway one three cleared takeof csa four charlie two,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa three five six six climb now to flight level three two zero,lufthansa three five six six climb now to flight level three two zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+transwede three five seven one reims one three four four good bye,transway three five seven one rams one three four four goodbye,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+knots,roger,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+french air force 4410 milan 13452 good bye,french air force 4410 milan 13452 goodbye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+no speed restrictions up to you,no no speed restrictions up to you,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,prague ruzyne tower oscar kilo delta sierra juliett hello established ils runway 31 runway,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+say again the callsign,see you again on the call side,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+squawk one four zero two and we are none onl,squawk one four zero two and we ar non pr nav pr nft one,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight,ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+radar csa one delta zulu established,radar cc one delta zulu established,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+sy eight zero nine bravo,eight zero nine bravo,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+287,8.877,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+swiss air 6552 expect higher in 2 minutes,swiss air 6552 expect higher in 2 minutes,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+ifo two two bravo roger squawk seven five three five,air four two two bravo roger squawk seven five three five,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hotel charlie papa frequency change approved bis spater,rotair charlie papa frequency change approved,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+golf bravo victor juliett india zurich radar good afternoon descend to flight level 340,golf bravo victor juliett india zurich radar good afternoon descend to flight level 340,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+jetcom 133 good morning roger call you back for climb in 2 minutes,jetcom 133 good morning roger call you back for climbing 2 minutes,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air berlin five two six one geneva one three three one five good bye,air berlin five two six one geneva one three three one five good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air france 680 own navigatio sorry contact milan 13452 good bye,france 680 on navigation sorry contact milan 13452 goodbye,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+hotel quebec yankee crossing completed frequency change approved good bye,hotel cleabect yankee crossing compete frequency change approved good bye,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa three charlie tango line up runway three one line up runway three one csa three charlie tan,csa three charlie tango line uf runway three one line three one csa three charlie tango,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+alitalia four zero one heading of one seven zero,aditalia four zero one heading of one seven zero,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+emirates eight one good afternoon radar contact confirm three four zero,emirates eight one good uh afternoon radar contact uh confirm three four zero,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day,and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+lufthansa 8 hotel romeo praha radar good evening identified,lufthansa 8 hotel romeo praha radar good evening identified,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+3566 and continue present heading until advised,3566 and continue present heading until advised,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+cleared to land runway three one will vacate via golf time air six one two papa,it went only one like off number six one two,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+silesia 762 continue charlie lima quebec quebec 5 behind follow me stand mike one bravo,csa 762 continue charlie lima quebec quebec 5 behind for me stand mike one bravo,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+ltu one six zero two right by ten degrees please,l t one six zero two right by ten degrees please,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+aero lloyd five one seven set course direct karlsruhe,aero lol five one seven sec cours are call three,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+tower good evening easy 38 papa golf stand 31 with information and qnh 1018 airbus 319 clearance charles de gaule,good evening ec 38 pg stand 31 with information on qnh 1018 airbus 319 clearance charles de gaulle,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area,yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa 72 charlie ruzyne tower roger,csa 72 charlie ruzyne tower roger,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+delta foxtrot sierra confirm you are requesting three three zero today,delta fox drotsierra confirm your requesting three three zero today,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+lufthansa 4393 descend to flight level 290,lufthansa 4393 descend to flight level 290,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+is the next to the right is that romeo or is that,is the next to tright is the romeo is the one more,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+u s air 14 good morning roger continue on heading 095,usr 14 good morning roger continue on heading 905,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+netherlands air force 414 descend flight level 250 rate of descent at least 2000 until passing 290,netherlands air force 414 descend flight level 250 rate of descent is 2000 until passing 290,Critical_Errors,Equivalent,Equivalent,True,False,False,,,disagreed,False
+air algerie two zero seven three climb to flight level three four zero,air algeri two zero seven three climb to flight level three four zero,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+speed way 3352 descend flight level 290,speed way 3352 descend flight level 290,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+trans avia three eight one good afternoon radar contact maintain flight level three three zero trasadingen canne,transavia three eight one good afternoon radar contact maintain flight level three three zero trasadingen gane,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+speed way three three five two descend to flight level two nine zero,speedway 3352 descent to flight level two niner zero,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+alitalia 6474 contact rhein 12092,alitalia 6474 contact rhein 12092,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+oscar sierra juliett give way boeing seven three seven from left si,oscar sierra juliett gifay boerning seven three seven from five,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+tower csa five bravo b approaching holding three one in sequence and ready,c c five brau bravo approaching holding three one in sequence and ready,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+reducing to minimu,reducing caminu,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+tower continue approach,derrat continue approach,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+runway 31 csa 7 whiskey india,and the crew is ready to take off,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+wizz air 4 charlie bravo runway 13 clear to land wind 210 degrees 3 knots,reserve 4 c bravo runway 13 cleared to land wind 210 degrees 3 knots,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+aviva one zero six one,aero viva one zero six one,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+alitalia 291 good afternoon radar contact maintain flight level 330 trasadingen canne,alitalia 291 good afternoon radar contact maintain flight level 330 trasadingen canne,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air france two six two one good afternoon climb to flight level three four zero higher rate of climb squawk two seven seven three,air france two six two one good afternoon climb to flight level three four zero high rate of climb squawk two seven seven three,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+oscar yankee november,oskar enki november good day continue heliport 3 and go to 20.05,Equivalent,Critical_Errors,Critical_Errors,False,True,True,,,disagreed,True
+portugalia 543 contact now geneva 133 decimal 15 bye bye,portugalia 543 contact now geneva 133.15 bye bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+runway 31 csa 7 whiskey india,ight 31 csa 7 whiskey,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+praha good evening easy five four nine seven ils one three,praha good evening easy five four nine seven ils one three,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+tower malev 820 fully established 31,good day m 820 full established 31,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+ok,okay well,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air france six eight zero descend flight level three one zero,four six eight zero descent flight number three one zero,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+csa two eight seven contact ground one two one nine,csa two eight seven contact ground one two nine,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+speed bird 555 confirm your requested flight level,spaba 555 confirm your requested flight level,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+and sky travel 682 stand 3 ready for start and push,skytravel 682 stand 3 ready for start and push,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite,csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+hotel echo xray wind 230 degrees 6 knots runway 25 cleared to land,hotel echo x ray wind 230 degrees 6 knots runway 25 cleared to land,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+alitalia one one seven milan one three four five two good bye,alitalia one one seven milan one three four five two good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 4 charlie zulu ruzyne tower roger,csa 4 charlie zulu ruzyne tower roger,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+alitalia four one six inbound zurich east nelli,alitalia four one six inbound zurich esnali,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+bline 61 golf line up runway 13,ine 61 golf line up runway 13,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+csa five three seven no speed limit,reach air csa five three seven lo sweed limit,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+u s air one four own navigation to fusse,usai one four own navigation to fousse,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+csa 976 ruzyne tower,good day this is c 9176 roger that,Equivalent,Equivalent,Critical_Errors,False,False,True,,,disagreed,False
+lufthansa 8268 good afternoon radar contact fly heading of 210 call you back with higher,lufthansa 8268 good afternoon radar contact flight heading of 210 call you back with high f,Critical_Errors,Critical_Errors,Equivalent,True,True,False,,,disagreed,True
+csa 5 charlie tango contact ruzyne ground 121 decimal 9,see if i can go cross in the ground one more time,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+israeli four four two heading one seven zero,israli four four two heading one seven zero,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+en three alfa,eight three safen aftern,Critical_Errors,Equivalent,Critical_Errors,True,False,True,,,disagreed,True
+runway 041219,ground way 4 1219 avoid cross country,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+good bye,good bye,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+continue and reducing nor shuttle 1502,continue and reduce signal to the 1572,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+aero flot one four two ruzyne tower,de bridgean aerophot one for two recently,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+runway 31 sky travel 1034,131 skytrain 1034,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True
+beair five five two runway one three clear to land wind zero two zero degrees four knots,br five five two runway one three cleared to land wind zero two zero degrees four knot,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+air france 356 climb to flight level 320,air france 356 climb to flight level 320,Equivalent,Equivalent,Equivalent,False,False,False,,,agreed_equivalent,False
+good afternoon airlink 13 radar contact proceed trasadingen zurich east fusse,good afternoon air berlin 13 radar contact proceed trasadingen zurich east fusse,Critical_Errors,Critical_Errors,Critical_Errors,True,True,True,,,agreed_critical,True

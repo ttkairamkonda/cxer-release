@@ -1,0 +1,44 @@
+# Whisper Fine-Tuning Environment (HuggingFace stack)
+# Tested with Python 3.10, CUDA 12.x, 1× A100 80GB
+#
+# Install:
+#   pip install -r asr_requirements.txt
+#
+# This environment is incompatible with nvidia_requirements.txt
+# (NeMo/Parakeet requires torch==2.2 and numpy<2.0).
+
+# --- Core ML ---
+torch==2.9.0
+torchaudio==2.9.0
+transformers==4.56.0
+accelerate==1.10.1
+safetensors==0.5.3
+tokenizers==0.22.0
+sentencepiece==0.2.1
+
+# --- Fine-tuning ---
+peft==0.10.0
+
+# --- Data & audio ---
+datasets==3.6.0
+librosa==0.11.0
+soundfile==0.13.1
+audioread==3.0.1
+
+# --- HuggingFace ---
+huggingface-hub==0.34.4
+
+# --- Metrics ---
+jiwer==4.0.0
+evaluate==0.4.4
+whisper_normalizer==0.1.12
+
+# --- Monitoring ---
+wandb==0.20.1
+tensorboard==2.20.0
+
+# --- Utilities ---
+numpy==2.2.6
+pandas==2.3.0
+tqdm==4.67.1
+python-dotenv==1.1.1

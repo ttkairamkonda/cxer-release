@@ -1,0 +1,3902 @@
+[
+  {
+    "sample_id": "71d3d679-961f-4eb0-83d2-429b8157a0f5",
+    "reference": "continue approach runway one six right china eastern seven seven nine one",
+    "hypothesis": "continue approach runway one six right tans seven seven nine one",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ff5d8f8c-3ec4-41ce-8472-4705d11a0918",
+    "reference": "calibra",
+    "hypothesis": "two nine wizz kilibreap clearem",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8f98b5c6-208a-468a-a727-534dce8d326e",
+    "reference": "yes there is traffic atr after that you can continue lima holding point runway 31",
+    "hypothesis": "yes there is traffic on tow 80 ar after that you can continue lima holding point runway 31",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "d588ce68-2c8d-419b-b9f8-05dad7806207",
+    "reference": "hotel golf bravo is echo two at three thousand three hundred feet",
+    "hypothesis": "hotel gols praha it echo two eight three thousand three hundred feet",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c32a207d-e4f0-4b23-be1f-314adcea384f",
+    "reference": "csa 92 delta line up runway 31 and wait",
+    "hypothesis": "cc 9 to the local line up on way 3108",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a81d0829-6a97-481e-bafa-542941a9091f",
+    "reference": "swiss four six zero tango contact ground one two one nine good bye",
+    "hypothesis": "six four six zero tengo conta ground one two one goodbye",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "f96ece3d-1443-4db2-9b63-96a846835d01",
+    "reference": "heli india echo land on discretion swiss helicopter wind 070 degrees 6 knots",
+    "hypothesis": "linde eco land on this question the swiss helicopter wind 70 degree 6 knots",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ac8d4974-3e29-46d9-a2f9-91bc206fff87",
+    "reference": "speed bird 555 confirm your requested flight level",
+    "hypothesis": "spaba 555 confirm your requested flight level",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "01552173-213e-494a-88e1-6f8d8b9adc71",
+    "reference": "long approach hotel papa bravo",
+    "hypothesis": "long approach del baba babo",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "d8e9a8ca-b9b7-4088-9d42-fad41550b0f3",
+    "reference": "we are fully ready bline four zero victor",
+    "hypothesis": "todava folios de t pir en foto y",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "361c8629-98ca-4c3d-b17c-da14a6e9f5f7",
+    "reference": "hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven",
+    "hypothesis": "motor of zulu whiskey juliet purant tower hello again rotated control zone via route to zulu q and h one zero two seven",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8122e46b-67fe-4ae2-b8c9-aed3d9053827",
+    "reference": "hello wizziar four xray zulu ruzyne tower",
+    "hypothesis": "hello with our four x rays delivered our",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "16b5e779-93c0-4bc6-b067-de78c64cba55",
+    "reference": "tower good beline three papa p on final i",
+    "hypothesis": "tower tuntober b line three papa papa on pinal",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "723c98bc-3742-4fa7-8fb7-474ed2baca23",
+    "reference": "korean air one two one wind two four zero degrees five knots runway one six right cleared to land",
+    "hypothesis": "one two one wing two four zero degrees five not two right two",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "6f3d59ec-5f5d-4df5-ae68-d17469c6bc40",
+    "reference": "tower good afternoon air france one nine eight two ils runway three one",
+    "hypothesis": "sorry good afternoon if i was one nine oh eight two is runway three one",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2d0d1477-e1bd-44d1-8f92-47eebd16d6b6",
+    "reference": "hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five",
+    "hypothesis": "hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "94e4fcda-6a2f-4f3b-95f3-0c8b216406f4",
+    "reference": "clear to land runway three one wizz air four xray z",
+    "hypothesis": "cat to runway three one wizz air four xis",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7dbb486a-bfb4-4545-a5db-9b809ad0d06d",
+    "reference": "line up runway 31 csa csa 2 delta zulu",
+    "hypothesis": "i am on the runway 31 csl csi to the left as well",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1b2e93fe-0111-496a-a694-dd753a79f6b6",
+    "reference": "runway three one cleared to land swedestar zero five o",
+    "hypothesis": "a ver qu va a hacer las exitosas",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "aeb29c42-ec0e-4f64-9772-91016d696b25",
+    "reference": "and runway three one cleared for takeoff wind zero four zero degrees and three knots have a good day",
+    "hypothesis": "and runway three one cleared for take of wind zero four zero degrees and three knots heave a good day",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "bb2dc6ca-45d3-4ce8-9af7-71b50f499e17",
+    "reference": "ruzyne tower csa five coorection four charlie zulu holding short two four ready for departure one three",
+    "hypothesis": "then i would have been down three fifty five four charlie two holding shelter for ready for department",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "95e1b9a5-b778-46b8-b0c7-ef453ba1186f",
+    "reference": "prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight",
+    "hypothesis": "ruezinha taveras capilla delta sierra juliet hello established silence runway 31 runway 31 sight",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "f4e51bb6-bc6f-44fd-9d6b-268535509a8a",
+    "reference": "ruzyne tower csa 689 reducing 160 knots",
+    "hypothesis": "dabrava call in earth navarro cpsa 689 and reducing 160 knots",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "47264b0c-bb29-4f1f-8031-8e81f8d0103b",
+    "reference": "287",
+    "hypothesis": "8.877",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e747eb80-0006-462f-8c5f-647c4240dd4d",
+    "reference": "csa three charlie tango line up runway three one line up runway three one csa three charlie tan",
+    "hypothesis": "csa three charlie tango line uf runway three one line three one csa three charlie tango",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "324995ab-bd0b-4ce1-8585-fa2e66639552",
+    "reference": "runway 041219",
+    "hypothesis": "ground way 4 1219 avoid cross country",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "d8c59951-5e6a-45c1-9bf6-fa08c86a4071",
+    "reference": "csa seven six echo line up runway three one",
+    "hypothesis": "csa seven six col rhein of flight level three one",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "62742f60-2f98-4d53-9147-5fdcfdb28216",
+    "reference": "csa five three seven no speed limit",
+    "hypothesis": "reach air csa five three seven lo sweed limit",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "636029d4-02e6-4b3f-9048-1e6e6b107452",
+    "reference": "air france 356 contact reims on 1344 bye",
+    "hypothesis": "air france 356 can the ras on 1344 bye",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a68e47fa-31bb-4a49-8bd4-287f1e507c3e",
+    "reference": "lufthansa 9 lima charlie line up runway 31 and wait",
+    "hypothesis": "lufthansa 9 lima charlie line up runway 3118",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "5c65e7d3-7a6d-4306-9775-8d216b9a4a0e",
+    "reference": "runway 13 cleared for takeoff csa 974",
+    "hypothesis": "i will wait until you get off the runway",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ab8901bf-2aa3-4816-adb3-612167df3ee4",
+    "reference": "alitalia five seven two",
+    "hypothesis": "i tell you five seven two five seven three",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "81e114d2-21b8-4df4-a223-c94d94ebbd3d",
+    "reference": "two one nine csa se",
+    "hypothesis": "lufthansa quine nicsa",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "185d2156-6bde-49de-9e80-b9859dd39ef2",
+    "reference": "hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot",
+    "hypothesis": "talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "405eb40d-323a-4e8a-bb4f-ab8a4e3c2f8c",
+    "reference": "ru",
+    "hypothesis": "abrir a",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1eaa1e23-c1e3-4f3d-a753-e5d209c26251",
+    "reference": "continue and reducing nor shuttle 1502",
+    "hypothesis": "continue and reduce signal to the 1572",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "9ad6780f-04ed-493f-a8ad-ce3fb7268208",
+    "reference": "cleared takeoff 25 next report the 13000 feet hotel tango alfa",
+    "hypothesis": "takeoff 25 next report 13000 feet hotel tango golf",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "23bdcd17-b1a1-459a-8dca-888e0499b27b",
+    "reference": "continue approach",
+    "hypothesis": "bateria approach",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "85672488-7f55-4b0f-86df-0e4c1022a202",
+    "reference": "hotel quebec juliett traffic piper single engine position 3 miles south of your position proceeding towards willisau 4000 feet indicating not verified",
+    "hypothesis": "od qnh traffic piper single engine position 3 miles south of your position proceeding towards vliso 4000 feet indicating not verified",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "38f28714-0c52-4d13-b234-ace8b50c59fb",
+    "reference": "twin jet 50 on a short delay waiting on our release from the back",
+    "hypothesis": "injects 5 0 one just short delay waiting on release from debate",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b61447e3-254e-4c3c-be7c-5f80cd6cf64b",
+    "reference": "csa nine six seven vacate via papa contact ruzyne ground one two one decimal nine expedite",
+    "hypothesis": "csa nine six seven vackaiva papa contact ruzyne cron one three decimal nine nine expedied dober knots",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1b896647-69cd-404b-9c2b-2367b3d9c530",
+    "reference": "clear to land three one csa eight three sierra",
+    "hypothesis": "aclit twenty one csa three seven",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a61f8bc6-9385-4bbf-b79f-61f7a689b3e8",
+    "reference": "ok maintain 290 for the time i ll call you back with the climb trasadingen canne",
+    "hypothesis": "okay maintain 290 for the time i call you back with climb trawling connect",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ebd5f43e-8519-4b70-91b6-8ca429ff16b3",
+    "reference": "clear to taxi holding point runway three one",
+    "hypothesis": "praha to thank shawel like point one nine three one",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ef283843-aca5-477b-adda-5353e5d77d31",
+    "reference": "sky travel one zero three six good afternoon hold short of runway one three",
+    "hypothesis": "sky two one zero three six good afternoon halt short of runway one three",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "81b60241-e1f9-4aa4-911a-da9ba011cb7c",
+    "reference": "contract romeo golf runway",
+    "hypothesis": "contracto con mi cofra",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2ba26c9e-f49f-4777-878b-1208fe7f2018",
+    "reference": "cleared to land runway three one will vacate via golf time air six one two papa",
+    "hypothesis": "it went only one like off number six one two",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "bd2f0551-ceae-41f4-b487-654add5bedb3",
+    "reference": "oscar sierra juliett give way boeing seven three seven from left si",
+    "hypothesis": "oscar sierra juliett gifay boerning seven three seven from five",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "5bbacafd-f76f-4add-a3a5-58f8c8fe6907",
+    "reference": "foxtrot and hotel",
+    "hypothesis": "foxrodin hotel",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e4a8a43e-6d1e-4ff7-807a-2267d882d311",
+    "reference": "csa six two three runway one three cleared to land wind three five zero degrees six knots",
+    "hypothesis": "six si six two three runway one three quit uh twenty three five thirty three six notes",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "30aa56ed-2eb4-486a-b7e6-b5ce4079920d",
+    "reference": "wind two five zero degrees two two knots runway two five cleared to land",
+    "hypothesis": "win two five two two knots on the two five cloud land",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8db9f03e-163a-44c5-8abb-bc9734b1af13",
+    "reference": "tower good morning lufthansa 8 lima l",
+    "hypothesis": "tower good morning lufthansa i would leave my lemur",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2e31ca27-4139-47d1-a105-51f0c5eee56f",
+    "reference": "tower southern air eight five zero zero approaching three one",
+    "hypothesis": "tower seven eight five zero zero is approaching three one",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c010799f-2b9b-4d04-b9af-9b6eff0c4b6b",
+    "reference": "air portugal five six seven climb flight level three four zero",
+    "hypothesis": "airport over five six seven climb flat level three four zero",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a0170017-0bc2-4dad-95b6-43e483fd3594",
+    "reference": "foxtrot hotel juliett blue to stand one nine",
+    "hypothesis": "fox strown hotel chulet blue twist one nine",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "0bc022cd-8bfb-498a-83e7-6de103ac463c",
+    "reference": "csa nine zero four lining up runway one three",
+    "hypothesis": "c nine zero four line cabin wave on three",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c29761c3-983e-4ba6-9476-7a49dc43b185",
+    "reference": "tower good day swiss four seven two echo ils three one",
+    "hypothesis": "caro good day six four seven tureco ils three one",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "0252cbf5-ae16-41bc-b43e-ff79a758cdd8",
+    "reference": "malev eight two five",
+    "hypothesis": "oly way two five",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "63e92725-78a2-45ff-b98c-c87f6a7d65ea",
+    "reference": "one two four decimal two two five b air nine five one good bye",
+    "hypothesis": "one two four decimal two two five bno five one goodbye",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e6c7f6a3-3f58-4e24-9e79-fef844be7a9e",
+    "reference": "cleared to land runway one three aero flot one four three",
+    "hypothesis": "queat climb runway one three air flot one four three",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "fe24a4bd-c696-4dec-8609-a004498c78ff",
+    "reference": "oscar kilo delta sierra india turn left heading 100",
+    "hypothesis": "oscar 2 sierra india turn left heading 100",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "9d697e0b-3e5c-43bb-b683-aad42f31cae2",
+    "reference": "foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff",
+    "hypothesis": "ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8a44b958-cf93-4b07-b140-ff7869a0ee97",
+    "reference": "mosquito 15 bravo correct and keep an eyes for glider activity north of the field",
+    "hypothesis": "skidwan 5 r correct and keep an eye for glider activity north of the field",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a0a9207e-7729-4132-99af-7061ebd37add",
+    "reference": "csa five three seven left papa next lima and conta",
+    "hypothesis": "firty seven left uh papa next clima and content",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "de483c9b-8eea-4bff-bd49-19ff92cd3bf9",
+    "reference": "hotel hotel xray go around",
+    "hypothesis": "so breaks three go around",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ebb27d5f-0e11-4ccd-beed-80805762d289",
+    "reference": "runway 25 cleared touch and go hotel echo xray",
+    "hypothesis": "right way 25 contact shanko hotel echo 85",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "84098aef-daac-4380-b04e-11e6496a5ec2",
+    "reference": "oscar kilo bravo yankee hotel",
+    "hypothesis": "ruzyne aviation sky travel bravo yankee hotel report 3 decimal one corral 2",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b6d788f0-3fdb-47cc-82e6-96cd2aa3d2c8",
+    "reference": "hotel bravo kilo hotel romeo apron hello qnh 1024 taxi to holding position papa one",
+    "hypothesis": "hotel bravo kilo hotel romeo 8 pin hello qnh 1024 taxi to holding position papa one",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b01e5738-f654-4ef1-bd25-5f13d205d8fe",
+    "reference": "oscar kilo hotel kilo sierra ruzyne tower roger line up runway three one",
+    "hypothesis": "hotel kilo sierra ruzyne to roger jorna line up ram eight three one",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2c28c493-c895-40ac-bfc3-74c506f8fb57",
+    "reference": "wizz air four nine one line up runway three one",
+    "hypothesis": "pues therefore neither one prometiva",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c79cff8b-bd68-46ea-9f2a-69266d022304",
+    "reference": "csa nine two delta runway three one cleared for takeoff wind one eight zero degrees three knots cleared for takeoff runway three one csa nine two delta",
+    "hypothesis": "sister and two dota on way three one clear for takeoff wind one eager release three notes of the way three one a snow pick me at three sand two dota",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "eace0b9d-1bb1-48ac-a147-cf17288724c4",
+    "reference": "camber three five two three vacate via golf contact ruzyne ground one two one decimal nine good bye",
+    "hypothesis": "kimpar three five two three evacate via golf contact ruzyne ground one two one decimal nine good bye",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e554165c-0e36-44a0-bc08-f6cc1469f00d",
+    "reference": "runway 31 csa 7 whiskey india",
+    "hypothesis": "ight 31 csa 7 whiskey",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b00e56ff-e49d-40a8-931c-516b7a1b3c4c",
+    "reference": "oscar alfa victor set course direct st prex",
+    "hypothesis": "alsk alfa victor secos direct st prex",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7f494501-fc91-429a-90f1-7f604a151373",
+    "reference": "csa 974 ruzyne tower roger line up runway 13",
+    "hypothesis": "cc 974 rozenjete ho dobry den roco lej na prvy van 3",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a9fea42b-d247-4bdc-b64d-4a4cb650d5c2",
+    "reference": "taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima",
+    "hypothesis": "if i see a zf runway 28 after 12175513 6413 and good data",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "0aeeca66-a8b9-45d7-a52a-b896bc8313b5",
+    "reference": "runway 31 sky travel 1034",
+    "hypothesis": "131 skytrain 1034",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "56d4d04f-6780-463d-b7fc-11eb61ea4f20",
+    "reference": "csa one eight four runway one three cleared for immediate takeoff wind two one zero degrees two knots traffic three miles final",
+    "hypothesis": "csa one eight four runway one three cleared for i miray take over two one zero degrees two not traftic three mart five charlie",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "42513fe9-177b-4ddc-b7b7-f25275fd4f89",
+    "reference": "who is calling",
+    "hypothesis": "woos calling",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "77190b83-550e-4634-b4cc-686b193bb168",
+    "reference": "csa two mike charlie runway one three clear to land wind zero eight zero degree",
+    "hypothesis": "tomorchali in venture equipment then the",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3d91dd23-b469-4a0b-877d-c4496c906cce",
+    "reference": "quality 89 sierra line up runway 31 cleared for takeoff wind 120 degrees 3 knots by",
+    "hypothesis": "quality 89 speed line up runway 31 cleared for takeoff wind 120 degrees 3 knots by",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3b55d10d-e5ee-421f-ab20-706aadc04342",
+    "reference": "clear line up and cleared for takeoff runway three one lot five two eight",
+    "hypothesis": "line of clay four takeof runway three one lot five two eight nikel naschernow",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "57482450-1493-4864-bdf2-d7eeff7b86ea",
+    "reference": "hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land",
+    "hypothesis": "hotel echo extra wind at two six zero degrees one zero north runway two five clear to land",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e7439326-4e7d-4d00-89b3-56b0baa48ebb",
+    "reference": "csa four eight one contact ruzyne ground one two one decimal nine",
+    "hypothesis": "say for eight one contact losing ground one to one decimal",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "17ded665-c92e-419a-942f-4ac0abdc87dc",
+    "reference": "lufthansa 3550 zurich radar good afternoon roger what is your position",
+    "hypothesis": "of tanza 3550 zurich radar good afternoon roger what is your position",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "05a864c3-407c-4426-8a9a-373d55b6ec89",
+    "reference": "easy five three kilo romeo runway three one clear to land wind one eight zero degrees five knots",
+    "hypothesis": "easy five three kilogram year on way three one killer one twenty one eighty three degrees five minutes",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8630147d-de02-4c48-8122-524e06d54d30",
+    "reference": "ruzyne tower csa 930 csa 930 ruzyne tower number 2",
+    "hypothesis": "lzt lzt lzt tower number 2",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1514775a-8600-4b4a-8b4d-f0cc7a7c01f9",
+    "reference": "speed bird 861 line up runway 13 expedite",
+    "hypothesis": "stiebert 861 line up runway 13 xp 9",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "49693540-f3cd-4864-a304-fb8a7b6d3835",
+    "reference": "csa four victor papa ruzyne tower roger",
+    "hypothesis": "brdense si fue a veces pap ni hasta ahora ya",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "00d5abc7-51a0-46c8-83d8-64376f444394",
+    "reference": "hotel alfa papa you may leave the frequency bye bye",
+    "hypothesis": "hotel alfa papa you may descend frequency bye by",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "5ec458c5-b8ae-42f1-a843-e04ae6b00269",
+    "reference": "hotel lima tango roger standby i coordinate with military sector",
+    "hypothesis": "lima tango roger standby cording with military spector",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "4e544909-793e-405d-881a-7bc6c22e5982",
+    "reference": "speed bird two zero uniform vacate via papa contact ground one two one decimal nine bye bye one two one nine speed bird two zero uniform by",
+    "hypothesis": "speed bird two zero uniform vakeva papa contact grom one three decimal nine bye bye one two nine speed bert two zero infinuf by",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "24baacd5-ba67-4964-928a-8ba473eb153b",
+    "reference": "cleared for takeoff runway three one swiss four si",
+    "hypothesis": "fake of runway three one swiss four c",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2f444957-cb35-4a96-86a2-c1e9620639f2",
+    "reference": "aero lloyd five one seven set course direct karlsruhe",
+    "hypothesis": "aero lol five one seven sec cours are call three",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "39a35620-29c3-44f5-98a9-f021637f7103",
+    "reference": "nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area",
+    "hypothesis": "yeah thats it professor we are on the way to your airfield and um i would like to know uh what is the uh actual uh cloud space you have in your in your area",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1589c3c9-8c74-45b3-ae1b-e41468f358da",
+    "reference": "clear to land runway one three quality nine one rome",
+    "hypothesis": "one one one three good eight to nine one one",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "84d3f8bb-bfc8-44a6-ba86-fe456ee6b158",
+    "reference": "line up and wait runway one three air france three nine three victor",
+    "hypothesis": "line up and we to nine one three affance three nine three victor",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "44d901da-789f-4245-988c-70c91cad7081",
+    "reference": "qnh 1022 will proceed to echo after tango and 2500 oscar kilo",
+    "hypothesis": "qnh 1022 will proceed to echo after sanga and stay below 2500 after kilo",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "938bdca3-0c52-4b52-9a4e-1f98ff36d150",
+    "reference": "and my mistake own navigation to fribourg",
+    "hypothesis": "im my mistake of navigation to freeboard",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "31700dc9-f3bb-46c2-944e-4da2b3daa7f6",
+    "reference": "say again the callsign",
+    "hypothesis": "see you again on the call side",
+    "sample_type": "agreed_critical",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "d0bbad87-cf4d-4240-9ad1-e0e304c37b05",
+    "reference": "tarom 7534 good afternoon radar contact maintain flight level 330 proceed trasadingen zurich east fusse",
+    "hypothesis": "tarom 7534 good afternoon radar contact maintain flight level 330 proceed trasadingen zurich east fusse",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "80b900b5-a726-4799-a3a0-46c5fd5e9227",
+    "reference": "air france 356 set course to morok",
+    "hypothesis": "air france 356 set course to morok",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c480db56-0583-4cac-b4d3-948ffb31fe22",
+    "reference": "that s correct german air force 414 further climb clearance contact radar 133 decimal 4 bye bye",
+    "hypothesis": "that is correct german air force 414 further climb clearance contact radar 133.04 bye bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "d9a84c51-11f5-4849-828d-15e42a712d49",
+    "reference": "sata 9601 is identified 0 it s over now",
+    "hypothesis": "sata 9601 is identified 0 it s over now",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3294b0a9-f99d-43be-8063-6c36d991c023",
+    "reference": "hotel echo xray number one",
+    "hypothesis": "hotel echo xray number one",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "23ea3062-39d1-4b61-a07a-c5e9eeb4ac06",
+    "reference": "csa seven seven two line up runway three one",
+    "hypothesis": "csa seven seven two line up runway three one",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "9e9f718d-df3a-4d20-ba2b-ef331bd657cd",
+    "reference": "approach speed redu",
+    "hypothesis": "uh pro speed uh reduced",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1c7c83af-7f1d-447c-aeef-74b6dc1d03b2",
+    "reference": "praha good evening easy five four nine seven ils one three",
+    "hypothesis": "praha good evening easy five four nine seven ils one three",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b09e14af-75b9-4105-ad55-2402cb5da726",
+    "reference": "air malta 450 proceed to zulu uniform echo",
+    "hypothesis": "amu 450 proceed to zulu uniform echo",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a4b208bc-c2dc-4bcd-8862-f012ec05ba3a",
+    "reference": "csa 691 contact ruzyne ground 121 decimal 9",
+    "hypothesis": "csa 691 contact ruzyne ground 121 decimal 9",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8aead865-b14c-4fae-b221-04c3ecc54c6f",
+    "reference": "emirates 140 ruzyne tower hold short of runway 13 enter runway 24 hold short runway 13 emirates 140",
+    "hypothesis": "dobryden emirates 140 roger that hold short of runway 13 enter runway 24 hold short runway 13 emirates 140",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "20ad656a-7c80-4081-872c-bff50b9aa893",
+    "reference": "mike echo mike lima india line up runway 31 and wait",
+    "hypothesis": "mike echo mike lima india line up runway 31 and wait",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "4efe98ff-6d18-4f76-b0e0-7dc1a3ef59c8",
+    "reference": "287 runway 31 clear to land wind 170 degrees 4 knots",
+    "hypothesis": "287 runway 31 clear to land wind 170 degrees 4 knots",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ac69ef05-ba89-4f11-981d-014f471ced6a",
+    "reference": "good afternoon descend to flight level two nine zero",
+    "hypothesis": "good afternoon descend to flight level two nine zero",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "f677bba4-b56f-46a3-9fd4-a4deb38b1b04",
+    "reference": "csa 544 line up runway 13 line up runway 13 csa 544",
+    "hypothesis": "csa 544 line up runway 13 line up runway 13 csa 544",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "bea9b7bb-5ca9-490a-b502-382b2a108a55",
+    "reference": "csa 977 ruzyne tower continue approach",
+    "hypothesis": "csa 977 ruzyne tower continue approach",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "71b6c81d-f133-44b9-9b05-03d819dd44d6",
+    "reference": "good afternoon condor six zero seven radar contact maintain flight level three four zero direct trasadingen tango",
+    "hypothesis": "good afternoon condor six zero seven radar contact maintain flight level three four zero direct trasadingen tango",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "02c8e0f4-82b4-4e44-9c50-a8fc69b668fa",
+    "reference": "papa foxtrot that is approved",
+    "hypothesis": "papa foxtrot that s approved",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "aba03959-0ae1-4b1f-a257-7cba4fde5fec",
+    "reference": "lufthansa 4575 direct nelli",
+    "hypothesis": "lufthansa 4575 direct nelli",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "323c8242-1eec-4efe-8a04-4882c031f508",
+    "reference": "tower good evening easy 38 papa golf stand 31 with information and qnh 1018 airbus 319 clearance charles de gaule",
+    "hypothesis": "good evening ec 38 pg stand 31 with information on qnh 1018 airbus 319 clearance charles de gaulle",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3fcfa197-41e9-4618-85f1-02ed7ab661ac",
+    "reference": "31",
+    "hypothesis": "31",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7122e573-c132-445c-8c8d-c3c4dac2adf9",
+    "reference": "jetcom 133 good morning roger call you back for climb in 2 minutes",
+    "hypothesis": "jetcom 133 good morning roger call you back for climbing 2 minutes",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8438ffbb-7db3-49d5-b033-83d1ba0ca1f9",
+    "reference": "alitalia one five zero radar contact proceed trasadingen karlsruhe",
+    "hypothesis": "alitalia one five zero radar contact proceed trasadingen kalsrue",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a5302d21-868b-4701-aa13-832a6f14c340",
+    "reference": "air berlin five two six one geneva one three three one five good bye",
+    "hypothesis": "air berlin five two six one geneva one three three one five good bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e20eff8f-90b8-491d-aa49-7d788e826790",
+    "reference": "3566 and continue present heading until advised",
+    "hypothesis": "3566 and continue present heading until advised",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "03308eb2-c22d-4e11-ac46-dd4df4c6a42f",
+    "reference": "csa 4 charlie zulu ruzyne tower roger",
+    "hypothesis": "csa 4 charlie zulu ruzyne tower roger",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8a2cc91f-d037-4655-9c1f-a75c8feff808",
+    "reference": "aero lloyd five one seven rhein one two zero nine two good bye",
+    "hypothesis": "aero lloyd five one seven rhein one two zero nine two good bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "9e97b7bf-13e8-4d19-95b1-0d7bdfb846e2",
+    "reference": "hotel echo xray wind 230 degrees 6 knots runway 25 cleared to land",
+    "hypothesis": "hotel echo x ray wind 230 degrees 6 knots runway 25 cleared to land",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "f984368a-6f1d-4009-bc14-bd62f1319910",
+    "reference": "lufthansa four three nine zero descend to flight level two nine zero",
+    "hypothesis": "lufthansa four three nine zero descend to flight level two nine zero",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "93c067f0-efd8-451f-8416-5d101196b449",
+    "reference": "ils runway 31",
+    "hypothesis": "ils runway 31",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "befa811e-96c8-4242-9f38-e947b044978a",
+    "reference": "time air 612 papa tower continue approach and expect departure ahead",
+    "hypothesis": "time air 612 papa tower continue approach and expect departure ahead",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "5b1b8889-7c54-4904-8f26-8a094d015ff1",
+    "reference": "good evening turkish 1770 ruzyne tower hold short of runway 13",
+    "hypothesis": "good evening turkish 1770 ruzyne tower hold short of runway 13",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "f402d65e-8593-4551-9500-3f2d17face9f",
+    "reference": "speed bird 30 charlie roger ready immediately",
+    "hypothesis": "speed bird 30 charlie roger ready immediately",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e97e908f-d354-485d-98c0-162b7abdd26a",
+    "reference": "jetset 207 contact reims 134 decimal 4 good bye",
+    "hypothesis": "jetset 207 contact reims 134 decimal 4 good bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "feeac23c-d6eb-407b-9bdb-a81a29aaa774",
+    "reference": "ok maintain 290 trasadingen fribourg",
+    "hypothesis": "ok maintain 290 trasadingen fribourg",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c4a16652-f40e-47ac-83a5-3cded2ee28ed",
+    "reference": "u s air one four own navigation to fusse",
+    "hypothesis": "usai one four own navigation to fousse",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2ca1be0c-769e-48a1-8c09-25cab149e1e7",
+    "reference": "el al 522 ready for",
+    "hypothesis": "el al 522 ready for",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "47f30657-c08d-4899-b177-8f4bc3875f5c",
+    "reference": "sabena 806 your heading",
+    "hypothesis": "sabena 806 your heading",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "66d71b54-9c92-4faf-96d2-7938b136c674",
+    "reference": "french air force 4410 is identified descend to flight level 290",
+    "hypothesis": "french air force 4410 is identified descent to flight level 290",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "842148b7-a3b9-4c49-aa03-5e4f60b75a52",
+    "reference": "thank you you too",
+    "hypothesis": "thank you you too",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3d6164ef-d548-4f55-818c-aadd8a0912a9",
+    "reference": "ok",
+    "hypothesis": "okay well",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ff72eca7-e8f8-40b6-9e4c-94a10ad9056a",
+    "reference": "3 csa 634",
+    "hypothesis": "3 csa 634",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a5615d8e-3754-4bea-9528-43c5e5401707",
+    "reference": "air france 670 zurich radar good afternoon continue heading 120 until advised descend to flight level 330",
+    "hypothesis": "air france 670 zurich radar good afternoon continue heading 120 until advised descend to flight level 330",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "04f13d74-6e74-4d9f-b856-4cef8ec058f6",
+    "reference": "lufthansa 5504 direct fribourg",
+    "hypothesis": "lufthansa 5504 direct fribourg",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "294f1104-fa47-4c80-a5c9-eef21ddf767a",
+    "reference": "oscar mike charlie india alfa runway 13 cleared to land wind 130 degrees 8 knots",
+    "hypothesis": "oscar mike charlie india alfa runway 13 clear to land wind 130 degrees 8 knots",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b48c7a10-7363-4947-aaa3-44e71fd7cf44",
+    "reference": "swiss radar 135680 next 7508 bye bye",
+    "hypothesis": "swiss radar 135680 next 7508 bye bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a60d8372-f833-4b21-bd53-ee9a572663ec",
+    "reference": "csa 72 charlie ruzyne tower roger",
+    "hypothesis": "csa 72 charlie ruzyne tower roger",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c6f48662-a6bd-4c5d-9fba-4d6c3459980e",
+    "reference": "alitalia 6474 contact rhein 12092",
+    "hypothesis": "alitalia 6474 contact rhein 12092",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "9dc7e7f1-f8a8-4816-9c7f-66d3e9d17ef2",
+    "reference": "air inter 320 papa hotel good morning squawk 2712",
+    "hypothesis": "air inter 320 papa hotel good morning squawk 2712",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8fbfc7f2-4707-4ffd-86e8-8049d2882be4",
+    "reference": "air france 198 romeo cross runway 13 cross runway 13",
+    "hypothesis": "air france 198 romeo cross runway 13 cross runway 13",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "9e0f8b8b-e3a1-42f7-a076-2bac7cd7811d",
+    "reference": "air france 3261 good morning squawk 2724",
+    "hypothesis": "air france 3261 good morning squawk 2724",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "dec37b1f-e1b7-4285-9030-f5703d20d5cb",
+    "reference": "french air force four four one zero descend flight level two nine zero",
+    "hypothesis": "french air force four four one zero descend flight level two nine zero",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "bbee1c48-3470-4ef8-9b0d-1e6c88d832f0",
+    "reference": "8 romeo maintainin",
+    "hypothesis": "8 romeo maintaining",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "74ad3197-9d42-4b3d-bf58-ce01c6a50938",
+    "reference": "lufthansa 3508 zurich radar good morning",
+    "hypothesis": "lufthansa 3508 zurich radar good morning",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c948b04e-aa93-4ff6-9a58-78e464680d96",
+    "reference": "lufthansa three five six six climb now to flight level three two zero",
+    "hypothesis": "lufthansa three five six six climb now to flight level three two zero",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a2b3a2e1-dee3-425c-8cf9-1abd1e1e6160",
+    "reference": "spar eight nine report your heading to zurich on one three three four good bye",
+    "hypothesis": "spar eight nine report your heading to zurich on one three three four good bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "31816fe1-326d-4416-a812-5128a8db7282",
+    "reference": "alitalia 158 proceed now direct luxeuil",
+    "hypothesis": "alitalia 158 proceed now direct luxeuil",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a6a4d657-de9a-43a6-bb15-87fcd3ff135f",
+    "reference": "csa 406 line up runway 13 and wait",
+    "hypothesis": "csa 406 line up runway 13 and wait",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "23e20f0e-94c4-48ca-887e-44fa79507c65",
+    "reference": "lufthansa four six five two climb to flight level three two zero",
+    "hypothesis": "lufthansa four six five two climb to flight level three two zero",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a947ce37-68d7-4bd0-93bc-d970cb08b7a1",
+    "reference": "swiss air 488 rhein 1324 good bye",
+    "hypothesis": "swiss air 488 rhein 1324 good bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "370e187e-5e5d-40ff-9279-4e5b5fd63d48",
+    "reference": "french air force 4410 milan 13452 good bye",
+    "hypothesis": "french air force 4410 milan 13452 goodbye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3ef05be5-b863-4e7a-bd31-368751dcb36b",
+    "reference": "air france 1554 turn right 15 degrees",
+    "hypothesis": "air france 1554 turn right 15 degrees",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b5eda3b4-a9d8-4ff8-ab4a-6860d8afb1ef",
+    "reference": "sabena eight two six alfa climb to flight level three two zero trasadingen karlsruhe",
+    "hypothesis": "sabena eight two six alfa climb to flight level three two zero trasadingen karlsruhe",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a3ef00a0-151e-4138-a18c-e65e5f7d14a8",
+    "reference": "mission six zero one five three continue present heading until advised for separation",
+    "hypothesis": "mission six zero one five three continue present heading until advised for separation",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "39f41565-3987-4f22-95bb-08d4e55c2e05",
+    "reference": "channex 87 papa romeo praha",
+    "hypothesis": "channex 87 papa romeo praha",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "48f7039a-2d3e-4f07-be65-cbf8cd8d261d",
+    "reference": "time check one eight",
+    "hypothesis": "time check one eight",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2b32086a-cb9a-41ea-9958-50e22246343d",
+    "reference": "air france 1554 milan 13452 bye bye",
+    "hypothesis": "air france 1554 milan 13452 bye bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2832ffb7-dcda-466a-bfbc-0bdd8953a211",
+    "reference": "sabena 806 climb to flight level 340",
+    "hypothesis": "sabena 806 climb to flight level 340",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "081b42fe-50bb-4f16-8dc5-5c42f34d8911",
+    "reference": "holding",
+    "hypothesis": "roger",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b43ce2ef-c266-46c0-add7-4227aedc853d",
+    "reference": "alitalia four one six contact now rhein control on one three two four",
+    "hypothesis": "alitalia four one six contact now rhein control on one three two four",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3e3d8c45-5a22-476a-92ad-9b558ccfb880",
+    "reference": "there was one station calling before say again please",
+    "hypothesis": "there was one station calling before say again please",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "0cde8648-fb9a-4549-b465-cbd44efd42ed",
+    "reference": "lufthansa 3604 what will be your rate of climb",
+    "hypothesis": "lufthansa 3604 what will be your rate of climb",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "095e3c03-e4d3-4287-aab7-d87ae72624ef",
+    "reference": "alitalia 291 good afternoon radar contact maintain flight level 330 trasadingen canne",
+    "hypothesis": "alitalia 291 good afternoon radar contact maintain flight level 330 trasadingen canne",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "56270db0-ea18-4bd3-9402-11dcb7186d45",
+    "reference": "lufthansa 5504 milan 134 decimal 52 good bye",
+    "hypothesis": "lufthansa 5504 milan 134.52 goodbye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "34c97b57-7436-4429-bbfd-a652726c54a4",
+    "reference": "csa five zero eight line up runway one three lining up runway one three csa five zero eight",
+    "hypothesis": "csa five zero eight line up runway one three line up runway one three csa five zero eight",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "dbf387e0-c202-4b0d-abbe-1e6afd4f5d8e",
+    "reference": "csa 560 ruzyne tower roger",
+    "hypothesis": "csa 560 ruzyne tower roger",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c559e189-a697-4713-8015-feabdba3d385",
+    "reference": "beair five five two runway one three clear to land wind zero two zero degrees four knots",
+    "hypothesis": "br five five two runway one three cleared to land wind zero two zero degrees four knot",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "bdce8276-38af-4123-bf70-88e8e1c782fa",
+    "reference": "ok speed bird 861 good afternoon roger standby number one",
+    "hypothesis": "ok speed bird 861 good afternoon roger standby number one",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a3f0367e-aa61-4d44-ad49-6433a367a54a",
+    "reference": "portugalia 543 roger radar contact climb flight level 330",
+    "hypothesis": "portugalia 543 roger radar contact climb flight level 330",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7f04ce85-c080-4ab0-ac6d-ecd1bf5ac012",
+    "reference": "air malta 538 contact ruzyne ground 121 decimal 9 bye bye 121 decimal 9 malta 5",
+    "hypothesis": "air malta 538 contact to the ground 121 decimal 9 bye bye 121 decimal 9 malta 5",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b7bcc9b4-ba7b-4414-a797-f607c0f34b4a",
+    "reference": "alitalia four one six climb to flight level three one zero",
+    "hypothesis": "alitalia four one six climb to flight level three one zero",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "dde338ce-71b2-4fe5-a958-bae5ecf9d3ab",
+    "reference": "csa 927 runway 13 clear to land wind 350 degrees 7 knots",
+    "hypothesis": "csa 927 runway 13 clear to land wind 350 degrees 7 knots",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "d577a135-939c-41f6-9791-be779a469bc3",
+    "reference": "nine two",
+    "hypothesis": "nine two",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c57da8b0-a748-4b0e-9918-09c7f4b69c3c",
+    "reference": "lux air 5482 runway 31 cleared for takeoff wind 190 degrees 4 knots good by",
+    "hypothesis": "lux air 5482 runway 31 cleared for takeoff wind 190 degrees 4 knots good by",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "0993d027-5598-4a8a-ab44-2eb08c8eb2e1",
+    "reference": "hamburg air two five zero two contact geneva one three three decimal one five bye bye",
+    "hypothesis": "hamburg air two five zero two contact geneva one three three decimal one five bye bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7d1da137-bdf4-4559-803f-763478e6b785",
+    "reference": "number one hotel echo xray",
+    "hypothesis": "number one hotel echo xray",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "88f6a3e1-ee04-4778-8688-f23b9ec873e4",
+    "reference": "air algerie 2073 roger fly heading 210 until advised and i ll call you back for further climb",
+    "hypothesis": "air algerie 2073 roger fly heading 210 until advised and i ll call you back for further climb",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "4e9c2c98-7aab-4a69-9465-b4fc11a05100",
+    "reference": "nor shuttle 3580 runway 31 clear to land wind 180 degrees 5 knots runway 31 clear to land nor shuttle 3580",
+    "hypothesis": "nor shuttle 3580 runway 31 clear to land wind 180 degrees 5 knots runway 31 clear to land nor shuttle 3580",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "33b89d7c-d73d-42bc-bed3-931f7f874543",
+    "reference": "lufthansa 7 echo lima line up runway 31 and wait",
+    "hypothesis": "lufthansa 7 echo lima line up runway 31 and wait",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8c9c8960-2b4a-4a23-a570-72e510a2e4b3",
+    "reference": "sata 9601 good afternoon squawk 2764",
+    "hypothesis": "sata 9601 good afternoon squawk 2764",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "03b121de-237c-41c1-9856-adc9096f82cd",
+    "reference": "csa 481 contact ruzyne ground 121 decimal 9",
+    "hypothesis": "csa 481 contact ruzyne ground 121 decimal 9",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "84c74af3-d2c6-4a45-b6ba-d3bf1973cb66",
+    "reference": "lot 5 romeo whiskey ruzyne tower",
+    "hypothesis": "good morning from 5 rw roger that",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "f5914105-20f4-494c-b00e-057720df332d",
+    "reference": "jet aviation seven zero one descend to flight level three two zero",
+    "hypothesis": "jet aviation seven zero one descend to flight level three two zero",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b108a6d6-15b7-4443-9330-1a499d8b873a",
+    "reference": "lufthansa 4393 descend to flight level 290",
+    "hypothesis": "lufthansa 4393 descend to flight level 290",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b99b3494-52ed-43bb-886b-de0fda31df5d",
+    "reference": "speed way 3352 descend flight level 290",
+    "hypothesis": "speed way 3352 descend flight level 290",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "9d68cfc7-b083-45b6-be9e-94a71a71cfcc",
+    "reference": "speed bird two eight three nine good afternoon squawk three correction squawk five seven four four",
+    "hypothesis": "speed bird two eight three nine good afternoon squawk three correction squawk five seven four four",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "9aba9565-52d8-4c33-9757-ff545e85f15f",
+    "reference": "good afternoon lufthansa 4575 radar contact continue climb flight level 320 trasadingen nelli",
+    "hypothesis": "good afternoon lufthansa 4575 radar contact continue climb flight level 320 trasadingen nelli",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7ad1ec5c-72fc-4da9-9c08-0435aab0d80d",
+    "reference": "correct and high rate of climb please",
+    "hypothesis": "correct and high rate of climb please",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8207f1ce-788e-481b-93c3-20f947ad5cf1",
+    "reference": "lufthansa 4652 geneva 13315 good bye",
+    "hypothesis": "lufthansa 4652 geneva 13315 good bye",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "38142c56-8193-4c7e-8e7b-8aa56ea54590",
+    "reference": "swiss air 6552 expect higher in 2 minutes",
+    "hypothesis": "swiss air 6552 expect higher in 2 minutes",
+    "sample_type": "agreed_equivalent",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "fd0b5c0d-6277-4f64-8870-d32e1efae520",
+    "reference": "csa 2 mike delta ruzyne tower",
+    "hypothesis": "fas 8 m good afternoon",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ad6cd5d2-3524-45ae-a4d9-954cdeb03980",
+    "reference": "start one engine and",
+    "hypothesis": "that one engine",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "41473f4a-c8ac-4da7-84d5-11787aa24546",
+    "reference": "csa 904 ruzyne tower",
+    "hypothesis": "cc 9 this is a 4 roger that",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "65f34a8f-4d2e-49b4-92c5-7483c3533ccf",
+    "reference": "7 romeo golf runway 13 cleared for takeoff wind 180 degrees 3 knots bye bye",
+    "hypothesis": "finn air 7 romeo golf runway 13 cleared for takeoff wind 180 degrees 3 knots bye bye",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "060f7e5e-e4c1-4de7-9d4f-fecb27b5bb2e",
+    "reference": "b air 552 ruzyne tower roger continue approach",
+    "hypothesis": "bf 552 roger that good roger continue approach",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ce815384-11f8-4bbb-9efe-a6c74874c76d",
+    "reference": "92",
+    "hypothesis": "9 2",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "50a70637-9758-4ae5-a9ed-12d34882699d",
+    "reference": "tower csa seven six echo on lima",
+    "hypothesis": "air tower radar csa seven six echo on lima",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "294a84c8-de2b-417c-ac3c-2c4c4922606e",
+    "reference": "transwede three five seven one reims one three four four good bye",
+    "hypothesis": "transway three five seven one rams one three four four goodbye",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ca07db53-e878-4ede-a315-48beb1e0e8cc",
+    "reference": "sy eight zero nine bravo",
+    "hypothesis": "eight zero nine bravo",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "5690806c-711e-40cc-a135-11ef5a0fae91",
+    "reference": "zurich tower hotel bravo papa oscar echo",
+    "hypothesis": "trik head hoter bravo papa oscar echo",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2b84532a-6b3a-4569-9802-62980a0da1de",
+    "reference": "say again southern air eight five zero zero",
+    "hypothesis": "say agan sun air eight five zero zero",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7109b7bc-9479-455d-8be7-4e10875ef697",
+    "reference": "netherlands air force 414 descend flight level 250 rate of descent at least 2000 until passing 290",
+    "hypothesis": "netherlands air force 414 descend flight level 250 rate of descent is 2000 until passing 290",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "cd40a315-148c-442b-b887-a1241e5cb2fb",
+    "reference": "sky travel 824 push",
+    "hypothesis": "sky travel 824",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "d76b1f71-1390-4ed6-a77c-dd0a33d538e3",
+    "reference": "three five six six correct for further climb zurich sector one three three decimal four bye bye",
+    "hypothesis": "three five six six correct for further climbs or executor one three three decimal four bye bye",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c74f0b3d-1008-44e8-bda8-934940ebded9",
+    "reference": "reducing to minimu",
+    "hypothesis": "reducing caminu",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3bd28c0d-1553-40c2-8964-54be7b057af1",
+    "reference": "alitalia four zero one heading of one seven zero",
+    "hypothesis": "aditalia four zero one heading of one seven zero",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1387c617-7112-4839-acd1-064747a2c226",
+    "reference": "ruzyne tower good afternoon aero flot 150",
+    "hypothesis": "ruzyne tower aero flot 150",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "fa183164-b83c-4a69-9c2b-e18681c291ac",
+    "reference": "air france three five six reims one three four four good bye",
+    "hypothesis": "yeah france three five six ras one three four four goodbye",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "83062546-999e-4b03-ac32-094e255b60de",
+    "reference": "hotel bravo zulu sierra november berne tower enter via route hotel whiskey qnh 1018",
+    "hypothesis": "hbz sierra november burn tower enter via route hv qnh 1018",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "0937a581-b005-401c-bf5a-d19d5bda2793",
+    "reference": "lufthansa four four one six good morning radar contact",
+    "hypothesis": "lufthansa four four one six good morning radar contact us",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "6b700a9e-3771-496d-9e56-a8347c517b7d",
+    "reference": "tunis air four eight zero two direct karlsruhe",
+    "hypothesis": "tunice air four eight zero two direct kals rue",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "331d921c-3311-43bb-b0b1-1eadb56501fd",
+    "reference": "b air nine five one startup approved runway two five qnh one zero one two report ready for taxi",
+    "hypothesis": "the a nine of five one startup approved on way two five qh one zero one two reports ready for taxi",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "94990a76-d5ba-4883-963d-733c028af8b4",
+    "reference": "whiskey so take runway 04",
+    "hypothesis": "kruze czw so take runway 4",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "737109cf-8588-4bb2-9789-06315c6109de",
+    "reference": "good afternoon lufthansa four six six five radar contact descend flight level three four zero",
+    "hypothesis": "good aftland lufthansa four six six five radar contact descend flight level three four zero",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "9d89b76d-b3eb-48f4-a155-cf8530248eb1",
+    "reference": "wizz air 591 startup approved",
+    "hypothesis": "wizz air 591 stand 5 3 star approved",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "4314c416-2984-490c-9cc8-5f556a04365b",
+    "reference": "ok there is one on short final and then afterwards we are anytime ready for",
+    "hypothesis": "okay there is one show final and then afterwards we are any time ready for a quick",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "924b7ec2-9b84-4692-ac59-231aea7e61bb",
+    "reference": "csa three delta echo il",
+    "hypothesis": "csa three delta echo higher",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "febb6a66-0210-486d-8053-4ef160ac6d54",
+    "reference": "easy 809 bravo runway 13 clear to land wind 090 degrees 5 knots",
+    "hypothesis": "easy 809 bravo runway 13 clear to land wind 90 degrees 5 knots",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7c57e379-28bc-4ce0-b41a-0eb0796907ea",
+    "reference": "fraction 55 alfa 2 reduce final departure ahead airbus 320",
+    "hypothesis": "french 9585 alfa 2 reduce final departure ahead airbus 320",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8200b12b-770a-4c18-aea1-7eaa3f7d37cb",
+    "reference": "csa 7 whiskey india line up runway 31 lining up 31 csa 7 whiskey india",
+    "hypothesis": "667 w india line up runway 31 line up 31 667 w india",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "46e3d8fd-c421-4ec2-9364-f470a6f63754",
+    "reference": "hapag lloyd six five three contact zurich one three three decimal four good bye",
+    "hypothesis": "hapagloid six five three contact furry one three three decimal full goodbye",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "099d40ad-1a68-4a16-ac51-ec971307193a",
+    "reference": "merair 6944 climb to flight level 300 initially",
+    "hypothesis": "m 6944 climb to flight level 300 initially",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8102beeb-023b-4efc-8d32-4c3fb183a7f3",
+    "reference": "hotel november xray ninety five crossing is approved qnh one zero two two",
+    "hypothesis": "open november x ray is identified the crossing is approved kn h one zero two two",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1bf87828-8477-40b6-b63c-ef64472569fd",
+    "reference": "tower jobair 072 fully established ils 31",
+    "hypothesis": "tower jobair 72 fully established ils 31",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a6faf027-c0be-4240-8efc-4d117275745f",
+    "reference": "follow echo bravo",
+    "hypothesis": "follow echo jedna bravo",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "f8dd4836-f392-47ef-a767-93d65f0ffe05",
+    "reference": "mission 60153 due traffic turn left heading 360",
+    "hypothesis": "mission 60153 deer traffic turn left heading 360",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "08e05a7a-e24e-4e02-a291-9df784d53563",
+    "reference": "french air force 4410 descend to flight level 290",
+    "hypothesis": "french air force 4410 descent to flight level 290",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "74cff4f1-41eb-4de5-b8fe-6d94e9f4b8ba",
+    "reference": "lufthansa 4665 contact milan 13452 bye bye",
+    "hypothesis": "lofthansa 4665 contact milan 13452 bye bye",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c4d4f809-cc6b-4f7c-b092-5ba19223162d",
+    "reference": "csa 975",
+    "hypothesis": "ccnhf final b chair",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3027199d-e0ba-420e-a85a-1bd5003fc9bc",
+    "reference": "air inter three two zero papa hotel is identified maintain level three two zero trasa hochwald morok",
+    "hypothesis": "aerontar three two zero papa hotel is identified maintain level three two zero trasa hochwald morok",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "da93ac57-fe48-4385-9df9-c6f361e7de4a",
+    "reference": "israeli four four two heading one six zero",
+    "hypothesis": "israly four four two heading one six zero",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "741895de-fadd-47f7-8113-35ba40d4cc4b",
+    "reference": "lufthansa 8268 good afternoon radar contact fly heading of 210 call you back with higher",
+    "hypothesis": "lufthansa 8268 good afternoon radar contact flight heading of 210 call you back with high f",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "a202fa5e-048c-425f-b9ce-de7111c650bb",
+    "reference": "lufthansa 9 victor tango line up runway 13",
+    "hypothesis": "dt 9 vt line up runway 13",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "49e507d9-8be7-48b5-b70e-ea4b14a24ca1",
+    "reference": "csa eight five six line up three one and wait number two interception departure from romeo",
+    "hypothesis": "csa eight five six line api three one and wait number two intersection departure from romeo",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "14647c73-a754-4535-b7f8-f325e4c4fd83",
+    "reference": "off runway 31 beline 9908 good bye",
+    "hypothesis": "go for runway 31 b 9908 goodbye",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "af2ca37c-3797-4b12-a215-8585438e1932",
+    "reference": "bline 61 golf line up runway 13",
+    "hypothesis": "ine 61 golf line up runway 13",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b20e2e1a-2778-4a46-9878-3a1b4d0282e1",
+    "reference": "air malta one zero four in that case maintain three four zero for the time",
+    "hypothesis": "amalta one zero four in dackes maintain three four zero for time",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "c1f79239-d1d9-4f4e-98f1-96c3ad570d0b",
+    "reference": "csa five six zero ruzyne tower roger",
+    "hypothesis": "csa five six zero ruzyne tower tan roger",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "afe2e06b-8296-4f4e-91d0-7fe765c18382",
+    "reference": "oscar kilo mike charlie charlie after the low approach climb straight ahead four thousand feet",
+    "hypothesis": "oscar kilo mike charlie charlie after luwe approach climb strat ahead four thousand feet",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e9857127-fe0a-4f9a-891e-3973a838ede4",
+    "reference": "hotel charlie whiskey wind 230 degrees 8 knots runway 25 just stop and go",
+    "hypothesis": "hotel sherwood wind 230 degrees 8 knots runway 25 cleared to stop and go",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7aca93e4-9366-4a05-a5d3-e0532799946a",
+    "reference": "hello lufthansa nine november echo tower roger",
+    "hypothesis": "alo lufthansa nine november echo tab roger",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e073e66a-8631-4b27-acef-cb3804ae2bb9",
+    "reference": "radar csa one delta zulu established",
+    "hypothesis": "radar cc one delta zulu established",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "253685d5-9b8c-43c5-b9d0-a549bef99698",
+    "reference": "ruzyne tower csa five four four",
+    "hypothesis": "what i rozein to rcsa five four four",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "02773751-16eb-4e63-9bb0-e0039bdb1e79",
+    "reference": "jobair 071 ruzyne tower roger",
+    "hypothesis": "jobair 71 ruzyne tower du praha point roger",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "40402437-1d8c-4abc-91c9-9f9c5754de80",
+    "reference": "camber 3525 runway 31 clear to land wind is calm",
+    "hypothesis": "kimba 3525 runway 31 cleared to land wind is calm",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "69461f9b-b814-4f59-a29e-b86547d81f30",
+    "reference": "clear to land 13 cimber 35",
+    "hypothesis": "clear to land 13 cimber 3 fi",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "bde90b88-894f-4b5e-a662-30c2bcecdefe",
+    "reference": "start approved an",
+    "hypothesis": "start aproven",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "5993594e-5ca8-42fe-a8a6-24c1a3992d94",
+    "reference": "so now airport is closed expect the earliest departure at 0300",
+    "hypothesis": "now airport is closed expect the earliest departure at 300",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "37685d8a-3a1b-4ae2-9ad5-e56c3d52b19f",
+    "reference": "prague ruzyne tower oscar kilo delta sierra juliett hello establish ils runway 31 runway in sight",
+    "hypothesis": "prague ruzyne tower oscar kilo delta sierra juliett hello established ils runway 31 runway",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ec617c63-9e1b-4d98-82c3-92c815690248",
+    "reference": "ltu 7756 calling confirm",
+    "hypothesis": "l 27756 calling confirmed",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ae573106-6c53-4757-aa37-b77a1fc104ee",
+    "reference": "sun turk quebec sierra descend to flight level seven zero expect clearance four airwork about three miles before oskup",
+    "hypothesis": "after cavexera descend to flight level sevenzero expect clearance for airwork about three miles before oscope",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "f1814d11-5c7b-4f16-a751-604ee61701f0",
+    "reference": "ruzyne tower csa",
+    "hypothesis": "excuse me are you in the area",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "327705a8-3910-44ab-a337-9c6faf55080e",
+    "reference": "sunwing 5212 good afternoon maintain 330 trasadingen saint prex",
+    "hypothesis": "sunwing 5212 good afternoon maintain 330 trust the dingen sompre",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7979a888-6a23-40bb-a364-2332df755a05",
+    "reference": "csa 960 runway 31 cleared for takeoff wind 160 degrees 3 knots",
+    "hypothesis": "cc number 60 runway 31 cleared for takeoff wind 160 degrees 3 knots roger that",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "6e10af43-470b-49a6-8ff5-d9193efd9f44",
+    "reference": "affirm cross runway two two",
+    "hypothesis": "fm cross runway two two",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "324d8d36-6eae-4c9b-8d9b-51ac4e2f1543",
+    "reference": "tower lufthansa 5 yankee victor good ev good afternoon vor 13",
+    "hypothesis": "tower lufthansa 5 yankee victor good evening good afternoon vor 13",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "2e57107a-cdab-4af7-bca2-437a4c342505",
+    "reference": "ruzyne tower csa 5",
+    "hypothesis": "roger that",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e697e60b-99a6-43fc-9eee-4f7fab591f4a",
+    "reference": "wizz air 4 charlie bravo runway 13 clear to land wind 210 degrees 3 knots",
+    "hypothesis": "reserve 4 c bravo runway 13 cleared to land wind 210 degrees 3 knots",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "7fdb7b91-e172-401f-a99f-ab4281ad3e7d",
+    "reference": "jetcom 133 for further climb zurich 133 decimal 4 good bye",
+    "hypothesis": "jetcom 133 for further climb to rij 133.4 goodbye",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "3cbd1c93-4763-413a-99ce-3a29dfb9dfd4",
+    "reference": "ltu one six zero two left turn ten degrees",
+    "hypothesis": "l to one six zero two left turn ten degrees",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "703fb748-2073-4dcc-9ec5-f3fd568ad470",
+    "reference": "twin star 887 runway 13 cleared for takeoff wind 050 degrees 6 knots",
+    "hypothesis": "twin star 887 runway 13 cleared for takeoff wind 50 degrees 6 knots",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "17e6fe83-ba59-4be4-957c-7aa96c596d4a",
+    "reference": "160 till",
+    "hypothesis": "roger that",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "442cf723-a519-4e96-bff2-332a5d163283",
+    "reference": "emirates 024 zurich radar good morning identified trasadingen zurich east fusse maintain flight level 340",
+    "hypothesis": "emirates 24 zurich radar good morning identified trasadingen zurich east fusse maintain flight level 340",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "da344bbd-8ce9-4a64-bf32-049e7b6ee569",
+    "reference": "lufthansa four three five six reims one three four four good bye",
+    "hypothesis": "lufthansa four three five six one three four four goodbye",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "253c78e4-269d-43fd-b574-351603567a47",
+    "reference": "november golf papa read back correct report for taxi",
+    "hypothesis": "normer golf papa read nato correct report for taxi",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ea3e4b36-7d7b-47c9-aeb8-0c522425b7a1",
+    "reference": "reducing minimum csa 961",
+    "hypothesis": "information uniform csa 6 fi",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "4ffb617c-6d77-48ca-af9e-47d7244b0724",
+    "reference": "hotel echo xray wind calm runway two five cleared touch and go",
+    "hypothesis": "hotel echo xray wind calm runway two five cleared turn go",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "d92c4160-4f0e-465b-972d-fb3401259ea6",
+    "reference": "continue 5497",
+    "hypothesis": "continue 5197",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "787f3285-a6cf-4a96-be20-e2bfff6e46c0",
+    "reference": "iberia three four two two set course direct to trasadingen",
+    "hypothesis": "iberia three four two two set course direct to trassding",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "cd5c6a04-0f11-4594-be38-f1aa70213e19",
+    "reference": "clear to land runway 13 sky travel 1039",
+    "hypothesis": "runway 13 sky travel 1039",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "57293743-359a-450b-bd98-9f12b73271db",
+    "reference": "jet aviation 701 own navigation to saint prex",
+    "hypothesis": "jet division 701 own navigation to sampre",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "54672d59-54e2-4efb-88eb-a1d72e6cf32d",
+    "reference": "csa 923 runway 13 cleared to land and 010 degrees 4 knots",
+    "hypothesis": "csa 923 runway 13 clear to land wind 10 degrees 4 knots",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "abd3f3ef-7f37-49f2-bf34-6988b7576746",
+    "reference": "swedestar zero five one runway three one cleared to land wind zero nine zero degrees five kno",
+    "hypothesis": "csa zero five one runway three one cleared two en wind zero nine zero degrees five now",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1d84d34c-c873-4b55-992a-1dafc86dded8",
+    "reference": "tower continue approach",
+    "hypothesis": "derrat continue approach",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8a94c1b3-bf86-4e3e-8d9c-9433fe61c420",
+    "reference": "oscar yankee november",
+    "hypothesis": "oskar enki november good day continue heliport 3 and go to 20.05",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "fe4e5c11-6a54-4980-a26e-a3b6efefc3c3",
+    "reference": "lufthansa four four zero eight climb to flight level three three zero",
+    "hypothesis": "lufthansa four four zero eight climb to fly at level three three zero",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "e4cb5c98-7991-43bf-802c-cbb36a6808fb",
+    "reference": "726 papa we re fully ready for departure",
+    "hypothesis": "and austrian 706 papa we are fully ready for departure",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "dfc96e21-1791-4d4e-8e6b-92eef5ba795c",
+    "reference": "ruzyne tower csa",
+    "hypothesis": "pursue the tower at 2.6",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "b0e9a267-24b9-4a86-8fdd-454c8cd95c55",
+    "reference": "aviva one zero six one",
+    "hypothesis": "aero viva one zero six one",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "1a3bb52b-d992-4470-9692-d90916a643e4",
+    "reference": "is now ready for depa",
+    "hypothesis": "and beyond six one glove is no thirty forty but",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "abf41adf-de1f-41b5-bab7-b5f2d987ae41",
+    "reference": "tel 603 taxi to holding point runway 13 via delta foxtrot",
+    "hypothesis": "taxi to holding point runway 13 via d f",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "f18ceffd-c6ba-471f-b31d-59793846f6df",
+    "reference": "lufthansa 5504 contact geneva one disregard descend to flight level 250",
+    "hypothesis": "lufthansa 5504 contact geneva descent fl 250",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": true,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "8932bb7a-c21a-4644-93fd-ecf88e6191fe",
+    "reference": "once cleared one wind 050 degrees",
+    "hypothesis": "uas q one wind 50 degrees",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "bbe82e19-956b-4c5a-8038-dd80d5f2e073",
+    "reference": "do you have tunis air four eight zero two",
+    "hypothesis": "do you have tunes air four eight zero two",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "d253ba88-e6b3-4cc3-b496-cabff854b0e4",
+    "reference": "french air force four four one zero descend flight level three four zero",
+    "hypothesis": "frenth air force four four one zero descend flight level three four zero",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "ad931677-3583-4163-97ec-561227d96500",
+    "reference": "alitalia four one six inbound zurich east nelli",
+    "hypothesis": "alitalia four one six inbound zurich esnali",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "41958563-8da5-47ce-8861-89ee909fbd70",
+    "reference": "thank you very much hotel papa mike",
+    "hypothesis": "cimber 91 papa mike",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": true,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "56c0b75c-2a07-4560-bfbd-9dfbccc9a65c",
+    "reference": "lufthansa 6",
+    "hypothesis": "lufthansa 6",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": true,
+      "qwen": false,
+      "deepseek": false
+    },
+    "human_label": false,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "943e9887-b59e-4ab7-b26a-a7d6f4ed11bd",
+    "reference": "tower csa 879 establish",
+    "hypothesis": "csa 879 establish",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  },
+  {
+    "sample_id": "01a65241-5978-4dae-904c-e2debed9fef5",
+    "reference": "csa seven six five tower continue approach continue approach csa seven six five",
+    "hypothesis": "c say seven six five rano continue approach continue approach c seven six five",
+    "sample_type": "disagreed",
+    "baseline_labels": {
+      "llama": false,
+      "qwen": false,
+      "deepseek": true
+    },
+    "human_label": true,
+    "perturbation_results": {}
+  }
+]

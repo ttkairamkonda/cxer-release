@@ -1,0 +1,3486 @@
+[
+  {
+    "reference": "oscar kilo foxtrot alfa oscar taxi to holding point runway two seven via alfa charlie",
+    "hypothesis": "oscar kilo foxtrot alfa oscar taxi to holing point runway two seven vir alfa charlie"
+  },
+  {
+    "reference": "ok quality four zero nine one ruzyne tower information lima qnh one zero one four time check three seven cleared to liege baltu four alfa departure initial climb five thousand feet and squawk one thousand",
+    "hypothesis": "ok qality four zero nine one ruzyne tower information lima qnh one zero one four time check three seven clee to liech ball two four alfa departure initial climb five thousand feet and scowaf one thousand"
+  },
+  {
+    "reference": "oscar kilo echo lima alfa confirm proceeding to tango bravo four zero two",
+    "hypothesis": "carkila echo lemma alfa confirm proceeding to tango bravo four zero two"
+  },
+  {
+    "reference": "csa one delta zulu descend flight level one hundred no speed restrictions",
+    "hypothesis": "csa one delta zulu descend flight level one hundred no speed restrictions"
+  },
+  {
+    "reference": "descending flight level one hundred free speed csa one delta zulu",
+    "hypothesis": "descending flight level one aund eight three speed csa one alta zero"
+  },
+  {
+    "reference": "oscar kilo triple hotel please confirm one more holding",
+    "hypothesis": "oscar kilo triple hotel please confirm one wer holding"
+  },
+  {
+    "reference": "oscar kilo hotel hotel hotel affirm one holding and then it should be possible to follow ils runway zero six",
+    "hypothesis": "scar kilo hotel to hotel affirm one holding and ten it shot be possible to follow ils runway zero six"
+  },
+  {
+    "reference": "roger thank you",
+    "hypothesis": "thank you"
+  },
+  {
+    "reference": "ruzyne tower hello again euro wings one tango kilo",
+    "hypothesis": "rozin tower hello gond you rings one tango kilo"
+  },
+  {
+    "reference": "euro wings one tango kilo ruzyne tower good afternoon go ahead",
+    "hypothesis": "your wing swang tango kilo ruzyntaure good afternoon gol head"
+  },
+  {
+    "reference": "just a question do you think there any chance to get runway two four for departure",
+    "hypothesis": "just the question doy think ter is achanfas to get runway two four for departure"
+  },
+  {
+    "reference": "unfortunately with delay because there are five aircraft on runway zero six landing",
+    "hypothesis": "unfounetely with delys der five air crafter on runway zero six landing"
+  },
+  {
+    "reference": "ok copy thank you",
+    "hypothesis": "ok copy thank you"
+  },
+  {
+    "reference": "warsaw radar bel avia eight seven zero good evening flight level three five zero inbound bigu",
+    "hypothesis": "warshal radar billaber eight seven zero good evening flight level three five zero inbout big lufth"
+  },
+  {
+    "reference": "ryan air nine two bravo quebec turn right heading zero nine zero",
+    "hypothesis": "rheina nana two bravo quebec turn right heading zero nine zero"
+  },
+  {
+    "reference": "nine zero degrees ryan air nine two bravo quebec",
+    "hypothesis": "led zero degrees franning two bravo cape"
+  },
+  {
+    "reference": "sky travel two eight two seven and there is closed echo airspace below flight level one hundred so if you wish to avoid class echo airspace next descend in two zero miles",
+    "hypothesis": "sky dral two eight two seven three closs echo air space below flight level one hundred so if you wish to avoid class echo air space next descend in two zero moul"
+  },
+  {
+    "reference": "oscar kilo charlie alfa papa squawk seven thousand good bye",
+    "hypothesis": "skarcochal four papa skuk seven thousand good bye"
+  },
+  {
+    "reference": "squawk seven thousand good bye oscar kilo charlie alfa papa",
+    "hypothesis": "courk seven say good bye oskir contact papa"
+  },
+  {
+    "reference": "oscar kilo echo lima alfa climb to flight level seven zero",
+    "hypothesis": "krkel echo lima alfa climb to flight level seven zero"
+  },
+  {
+    "reference": "oscar kilo bravo alfa lima request shortcut to vlasim if possible",
+    "hypothesis": "oscar kino three alfa lima request short cut to bluschim if possible"
+  },
+  {
+    "reference": "oscar uniform romeo turn left heading two seven zero cleared for ils approach runway two four",
+    "hypothesis": "scortiform romeo turn left heading two seven zero cleared fire less approach runway two four"
+  },
+  {
+    "reference": "turn left to seven zero cleared for ils runway two four oscar uniform romeo",
+    "hypothesis": "turn left two seven zero clearef for ils runway two four squeeding sim romeo"
+  },
+  {
+    "reference": "say again the departure we for us",
+    "hypothesis": "again der departure two one"
+  },
+  {
+    "reference": "it is baltu four alfa to climb five thousand feet",
+    "hypothesis": "it s baltu for alfa to climb five thousand feet"
+  },
+  {
+    "reference": "lufthansa nine tango papa contact praha radar one two zero decimal two seven five bye bye",
+    "hypothesis": "lufthansa nine tanko papa contact praha radar one two zero decimal two seven five bye bye"
+  },
+  {
+    "reference": "lufthansa nine tango papa two zero two seven five bye",
+    "hypothesis": "lufthansa rhein three papa two zero two seven five bye"
+  },
+  {
+    "reference": "time air six nine zero juliett contact ruzyne tower one three four decimal five six zero hezky vecer ahoj",
+    "hypothesis": "six nine zero juliett contact ruzyne tabe one three four decimal five six zero esky charlie"
+  },
+  {
+    "reference": "one three four five six zero time air six nine zero juliett bye diky",
+    "hypothesis": "one three four five six zero time air six nine zero juliett awry onky"
+  },
+  {
+    "reference": "oscar kilo bravo alfa lima after bukap descend to three thousand feet cleared rnp approach runway two seven report established",
+    "hypothesis": "oscar kilo bravo alfa lima after bukup descend to three thousand feet cleared rmp approach runway two seven report established"
+  },
+  {
+    "reference": "sierra papa foxtrot lima foxtrot contact wien radar one two five decimal one seven five good bye",
+    "hypothesis": "seara papa foxtrot lima foxtrot contact wiener radar one two five decimal one seven five good bye"
+  },
+  {
+    "reference": "oscar kilo tango oscar papa proceed direct lanux",
+    "hypothesis": "oscar kelo tango oscar papa proceed direct lanux"
+  },
+  {
+    "reference": "direct lanux oscar kilo tango oscar papa",
+    "hypothesis": "direct lanox oscar kilo thank oscar papa"
+  },
+  {
+    "reference": "praha radar oscar kilo uniform tango charlie dobry den passing three thousand nine hundred climbing flight level seven zero inbound vlasim ready for ifr",
+    "hypothesis": "praha radar of kirkil infrom the to charlie dorhe dedin passing three thousand nine climbing flight level seven zero in bound vlashim ready for ifra"
+  },
+  {
+    "reference": "oscar kilo uniform tango charlie dobry den praha radar identified",
+    "hypothesis": "oscar kloyninform tango charlie dobriden praha radar identified"
+  },
+  {
+    "reference": "climb flight level seven zero and cleared to destination benesov via flight plan route",
+    "hypothesis": "climb flight level seven zero and cleared to destination benesho via flight level route"
+  },
+  {
+    "reference": "ifr flight starts now time one three one four",
+    "hypothesis": "afr flight starts now time one three one four"
+  },
+  {
+    "reference": "klm one three five zero",
+    "hypothesis": "kelman three five zero"
+  },
+  {
+    "reference": "sorry go ahead",
+    "hypothesis": "sorry go aids"
+  },
+  {
+    "reference": "yeah contact radar one two zero two seven five ahoj",
+    "hypothesis": "contact radar one two zero two seven five pahoy"
+  },
+  {
+    "reference": "one two zero two seven five ahoj klm one three five zero",
+    "hypothesis": "one two zero two seven five hawo eight klm one three five zero"
+  },
+  {
+    "reference": "lufthansa nine tango papa contact praha radar one two zero decimal two seven five good bye",
+    "hypothesis": "lufthansa nartango papa contact praha radar one two zero decimal two seven five good bye"
+  },
+  {
+    "reference": "one two zero two seventy five bye bye nine tango papa",
+    "hypothesis": "one two zero two seveny five bye bye nine thank bye bye"
+  },
+  {
+    "reference": "oscar kilo kilo kilo whiskey descend to five thousand feet qnh one zero one six",
+    "hypothesis": "oscar kilo kilo kilo whiskey descend to five thousand feet qnh one zero one six"
+  },
+  {
+    "reference": "oscar kilo mike delta hotel pass your message",
+    "hypothesis": "carkel mike delta hotel passor messag"
+  },
+  {
+    "reference": "is it ok for you if we maintain four nautical miles left hand track all the way down to benesov",
+    "hypothesis": "is it ok for you if we maintain four noticel mile left of track ol thay dow benesham"
+  },
+  {
+    "reference": "oscar kilo charlie alfa papa if able increase speed approaching traffic",
+    "hypothesis": "alkarkur charlie alfa papa ifable increase speed approachisic"
+  },
+  {
+    "reference": "euro wings seven alfa bravo turn right heading two one zero cleared ils approach runway two four report established",
+    "hypothesis": "euraw wing seven alfa bravo turn right heading two one zero cleared diles approach onw way two four report established"
+  },
+  {
+    "reference": "ding two one zero cleared for the ils two four report established euro wings seven alfa bravo",
+    "hypothesis": "james two one zero cleared for tins two four report established seven fepravo"
+  },
+  {
+    "reference": "speed bird eight five five praha radar identified climb flight level one six zero",
+    "hypothesis": "preport eight five five praha radar identified climb flight level one six zero"
+  },
+  {
+    "reference": "one six zero speed bird eight five five",
+    "hypothesis": "one six zero speed bright eight five five"
+  },
+  {
+    "reference": "oscar kilo mike charlie charlie runway two seven cleared for low approach wind three two zero degrees five knots after low approach continue straight ahead climb to three thousand feet",
+    "hypothesis": "aufter con mike charlie charlie runway two seven clift folo approach wind three two zero degrees five knots after approach continue stray ahead climb to three thousand feet"
+  },
+  {
+    "reference": "ruzyne tower csa one delta zulu dobry podvecer established localizer two four",
+    "hypothesis": "ruzyne towe csa one delta zulu rob report vection establishelizer two four"
+  },
+  {
+    "reference": "dobry den csa one delta zulu ruzyne tower runway two four cleared to land wind two two zero degrees one four knots",
+    "hypothesis": "csa one delta zulu ruzyne tower runway two four cleared to land wind two two zero degrees one four knot"
+  },
+  {
+    "reference": "are cleared to land runway two four csa one delta zulu",
+    "hypothesis": "cleare to end runway two four csa one delta zure"
+  },
+  {
+    "reference": "oscar kilo uniform tango charlie re release from frequency flying information service available at one two six decimal one praha information dobry den",
+    "hypothesis": "oscar kilo uniform tango charlie rease release from frequency flight infontactirec ava blead one two six decimal one praha information good eading"
+  },
+  {
+    "reference": "oscar kilo kilo echo alfa praha radar identified climb flight level one hundred ifr flight starts now time zero five cleared to destination via flight plan route",
+    "hypothesis": "oscar kilo kilo eqalfa praha radar identified climb flight level one hundred afra flight start now time zero five quit to destination via flight by route"
+  },
+  {
+    "reference": "oscar kilo charlie tango papa line up runway two four and wait",
+    "hypothesis": "speed covid charlie tango papa line up runway two four renway"
+  },
+  {
+    "reference": "line up runway two four and wait oscar kilo charlie tango papa",
+    "hypothesis": "praha bravo al cargun"
+  },
+  {
+    "reference": "csa nine one eight taxi holding point runway two four to the right via delta bravo",
+    "hypothesis": "csa nine one eight axi holing point runway two four to to to tright via delta bravo"
+  },
+  {
+    "reference": "taxi delta bravo holding point two four csa nine one eight",
+    "hypothesis": "taxi delta bravo holding point two four csa nine one eight"
+  },
+  {
+    "reference": "romeo alfa zero one eight one seven your flight plan was suspended i am sending delay message",
+    "hypothesis": "alfa zero one eight one seven your flight level suspendied im seven dely messag"
+  },
+  {
+    "reference": "one one eight decimal one six five zero",
+    "hypothesis": "one one eight decimal six five zero"
+  },
+  {
+    "reference": "that s it bye bye",
+    "hypothesis": "gled say bye bye"
+  },
+  {
+    "reference": "dream team four zero four kilo taxi charlie lima and quebec behind follow me car to stand sierra three",
+    "hypothesis": "demtea four zero four kilo taxi charlie limba and quebec behind formica to stand sierra three"
+  },
+  {
+    "reference": "and klm seven three whiskey reduce speed one six zero knots till four dme",
+    "hypothesis": "klm seven three whesky reduce speed one six zero knotstel four tne"
+  },
+  {
+    "reference": "sixty to four dme klm seven three whiskey",
+    "hypothesis": "six the to four demking seven two"
+  },
+  {
+    "reference": "silesia seven six two continue charlie lima quebec quebec five behind follow me stand mike one bravo",
+    "hypothesis": "csa sm six two to continue charlie lima quebec quebec five bye hing folo me stand mike one bravo"
+  },
+  {
+    "reference": "ryan air one bravo alfa stand five seven qnh one zero one two request engine start",
+    "hypothesis": "one one bravo alfa stand five seven cling one zero one three request ending"
+  },
+  {
+    "reference": "ruzyne tower ups two nine five ils two four nine miles",
+    "hypothesis": "ruzyne or eps two nine five ils two four nine miles"
+  },
+  {
+    "reference": "good evening ups two nine five ruzyne tower runway two four cleared to land wind two three zero degrees one three knots",
+    "hypothesis": "good evening epf two nine five ruzenia tour runway two four cleared to land wind two three zero degrees one three knots"
+  },
+  {
+    "reference": "runway two four cleared to land ups two nine five",
+    "hypothesis": "helling two four cleared line eth two nine"
+  },
+  {
+    "reference": "oscar kilo papa romeo mike turn right heading zero six zero",
+    "hypothesis": "oscar kilo papa five mil mike turn right heading zero six zero"
+  },
+  {
+    "reference": "zero six zero right turn oscar papa romeo mike",
+    "hypothesis": "zero six zero rheir turn oscar papa gomeo mike"
+  },
+  {
+    "reference": "emirates one three nine taxi via foxtrot cross runway one two golf juliett stand one four alfa",
+    "hypothesis": "emaris one three nine that six four strot cross runway one two golf juliett stand one four alfa"
+  },
+  {
+    "reference": "taxi via foxtrot cross runway one two golf juliett stand one four alfa emirates one three nine",
+    "hypothesis": "austrian foxtrot cross runway one two two golf india stand one four one five one three nine"
+  },
+  {
+    "reference": "oscar mike papa turn right heading zero two zero cleared ils approach runway zero six speed maximum one six zero knots",
+    "hypothesis": "cramy papa turn radar heading zero two zero cleared dans approach runway zero six speed maximum one six zero knots"
+  },
+  {
+    "reference": "right heading zero two zero cleared ils approach zero six and maximum one six zero speed confirm",
+    "hypothesis": "radar heading zero two zero cleared approach zero six and maximu one six zero speed confirm"
+  },
+  {
+    "reference": "i do confirm",
+    "hypothesis": "audio confirm"
+  },
+  {
+    "reference": "kilo lima papa victor standby for runway zero nine for now follow tumka four charlie arrival due to departure from brno",
+    "hypothesis": "lima papa victor standby for runway zero nine four now follo tumka for charlie arival due to departurture formu"
+  },
+  {
+    "reference": "oscar kilo tango uniform romeo praha radar hello identified climb to flight level seven zero and standby for ifr",
+    "hypothesis": "oscar kilo tango uniform romeo praha radar hello identified climb to flight level seven zero and standby for ifr"
+  },
+  {
+    "reference": "climbing to flight level seven zero oscar kilo tango uniform romeo",
+    "hypothesis": "climbing to plead level seven zero scarkilus inding uniform romeo"
+  },
+  {
+    "reference": "oscar tango charlie roger",
+    "hypothesis": "oscar tango charlie roger"
+  },
+  {
+    "reference": "oscar kilo kilo kilo whiskey information mike qnh one zero one six tumka four charlie arrival",
+    "hypothesis": "oscar kilo kilo kilo whisky information mike qnh one zero one six tumka four charlie arival"
+  },
+  {
+    "reference": "radar csa one delta zulu established",
+    "hypothesis": "radar cc one delta zulu established"
+  },
+  {
+    "reference": "csa one delta zulu roger contact ruzyne tower one three four decimal five six zero",
+    "hypothesis": "csa one delta zulu radar contact ruzyne tower one three four decimal five six zero"
+  },
+  {
+    "reference": "three four five six zero csa one delta zulu pekny den",
+    "hypothesis": "three four five six zero csa one delta zulu packing"
+  },
+  {
+    "reference": "air france one zero eight zulu standby now descend to descend flight level seven zero",
+    "hypothesis": "air flight level one zero eight zero standby now descend to f descend flight level seven zero"
+  },
+  {
+    "reference": "air france one zero eight zulu",
+    "hypothesis": ""
+  },
+  {
+    "reference": "good evening lufthansa eight hotel romeo passing two thousand five hundred climbing five thousand",
+    "hypothesis": "ar good evening lufthansa hotel romeo passing two thousand five hundred climbing five tower"
+  },
+  {
+    "reference": "lufthansa eight hotel romeo praha radar good evening identified",
+    "hypothesis": "lufthansa eight hotel romeo praha radar good evening identified"
+  },
+  {
+    "reference": "climb to flight level one six zero",
+    "hypothesis": "climb to flight level one six zero"
+  },
+  {
+    "reference": "lufthansa eight hotel romeo climb flight level one six zero",
+    "hypothesis": "sunsa eight hotel romeo climb flight level one six zero"
+  },
+  {
+    "reference": "oscar kilo delta sierra india turn left heading one zero zero",
+    "hypothesis": "oscar kilo dolta sierra india turn left heading one zero zero"
+  },
+  {
+    "reference": "left heading one zero zero oscar kilo delta sierra india",
+    "hypothesis": "left heading one zero zero of contact track india"
+  },
+  {
+    "reference": "oscar kilo india foxtrot romeo contact praha radar one two seven decimal five eight zero bye",
+    "hypothesis": "oscar kilo india foxtrot promeo contact praha radar one two seven decimal five eight zero bye"
+  },
+  {
+    "reference": "ruzyne tower trans europe four two one dobry vecer establish localizer two four",
+    "hypothesis": "tave transa four two to one dorber vecture establishel localizer two four"
+  },
+  {
+    "reference": "trans europe four two one dobry vecer ruzyne tower continue approach runway two four",
+    "hypothesis": "tram zero four two one bravight ruzyne tower continue approach rano eight two four"
+  },
+  {
+    "reference": "continue approach runway two four trans europe four two one",
+    "hypothesis": "continue four lund way two four tran zero four two one"
+  },
+  {
+    "reference": "oscar kilo mike charlie charlie after the low approach climb straight ahead four thousand feet",
+    "hypothesis": "oscar kilo mike charlie charlie after luwe approach climb strat ahead four thousand feet"
+  },
+  {
+    "reference": "after approach climb straight ahead four thousand feet oscar kilo mike charlie charlie",
+    "hypothesis": "astrot approach climb strate air four thousand zero bye"
+  },
+  {
+    "reference": "tower good morning quality four zero eight nine fully established on the runway zero nine",
+    "hypothesis": "taro good morning flight level three four zero eight nine four is establishent trian zero nine"
+  },
+  {
+    "reference": "quality four zero eight nine turany tower good morning runway zero nine cleared to land wind is calm",
+    "hypothesis": "quality four zero eight nine two zero tower good morning runway zero nine cleared to land wind is calm"
+  },
+  {
+    "reference": "klm seven three whiskey maintain present heading for vectoring for ils approach runway two four and reduce your speed now below two six zero knots",
+    "hypothesis": "klm seven three whiskey maintain presenheding for vectoring jals approach hunday two four and reduce your speed no below two six zero knots"
+  },
+  {
+    "reference": "sky travel three five juliett turn right heading one eight zero vectoring for spacing",
+    "hypothesis": "sky travel three five juliett turn right heading one eight zero vectoring for pacing"
+  },
+  {
+    "reference": "turning right heading one eight zero sky travel three five juliett",
+    "hypothesis": "altanic right heading one eight zero sky travel three five juliett"
+  },
+  {
+    "reference": "oscar kilo alfa papa india vacate via taxiway whiskey cross runway two six and continue to the airclub",
+    "hypothesis": "oscar kilo flap papa india avecation taxiray whiskey cross runway two six an continue to the air club"
+  },
+  {
+    "reference": "vacate via whiskey cross two six and vacate via the airclub oscar kilo papa india",
+    "hypothesis": "boka five whiskey cross two six and ok five aero sprad one india"
+  },
+  {
+    "reference": "tower dobre dopoledne ryan air one juliett uniform becoming fully established ils runway two four speed maximum one eighty",
+    "hypothesis": "tower nine one juliett uniform becoming fully established ils runway two four speed maximum one eight three"
+  },
+  {
+    "reference": "ryan air one juliett uniform dobry den continue approach",
+    "hypothesis": "rhein and juliett uniforn of reading continue approach"
+  },
+  {
+    "reference": "continue approach ryan air one juliett uniform",
+    "hypothesis": "continue approach right one shorter one"
+  },
+  {
+    "reference": "ups two nine five established",
+    "hypothesis": "ubs two nine five established"
+  },
+  {
+    "reference": "ups two nine five contact tower frequency one three four five six zero bye",
+    "hypothesis": "ups two nine five contact tower frequency one three four five six zero bye"
+  },
+  {
+    "reference": "ups two nine five good night",
+    "hypothesis": "good turn up good ny"
+  },
+  {
+    "reference": "ryan air seven romeo mike route reaching and holding runway two four we are ready for departure",
+    "hypothesis": "five seven rober mike cruching holing for one two four we are ready for to punt"
+  },
+  {
+    "reference": "ryan air seven romeo mike line up runway two four",
+    "hypothesis": "rensa mike klinaprami two four"
+  },
+  {
+    "reference": "line up and wait runway two four ryan air seven romeo mike",
+    "hypothesis": "sun apawen with two four four rhein seven romeo mike"
+  },
+  {
+    "reference": "oscar kilo papa mike bravo descend flight level one hundred",
+    "hypothesis": "oscar kilo papa mac bravo descend flight level one hundred"
+  },
+  {
+    "reference": "level one hundred oscar kilo papa mike bravo",
+    "hypothesis": "slond radar oscar kilo poch mike bravo"
+  },
+  {
+    "reference": "ryan air one bravo alfa startup is approved",
+    "hypothesis": "rhein area one bravo alfa startup disaproveve"
+  },
+  {
+    "reference": "startup approved ryan air one bravo alfa",
+    "hypothesis": "sar cray runway one bravo"
+  },
+  {
+    "reference": "ryan air seven three alfa hotel turn left heading three six zero",
+    "hypothesis": "rhein air seven three alfa hotel turn left heading three six zero"
+  },
+  {
+    "reference": "ryan air seven three alfa hotel",
+    "hypothesis": "rhein seven three one hotel"
+  },
+  {
+    "reference": "oscar kilo mike charlie charlie praha radar dobry den you are identified flight level seven zero after baltu proceed to benesov",
+    "hypothesis": "oscar kilo mike charlie charlie praha radar you are identified flight level seven zero after baltu proceed to beneshow"
+  },
+  {
+    "reference": "oscar kilo kilo uniform november proceed direct baltu",
+    "hypothesis": "oscar kilo kilo infor november proceed direct baltu"
+  },
+  {
+    "reference": "proceed direct baltu oscar kilo kilo uniform november",
+    "hypothesis": "praceed air kaltascar three zero four nomber"
+  },
+  {
+    "reference": "jump run eight zero three vacate to the left taxi charlie alfa stand western apron",
+    "hypothesis": "jampran eight zero three vake to tlet taxi charlie alfa stand western apirn"
+  },
+  {
+    "reference": "oscar kilo foxtrot alfa sierra approaching zulu",
+    "hypothesis": "austrian four zero approaching zulie"
+  },
+  {
+    "reference": "oscar kilo foxtrot alfa sierra squawk seven thousand and good bye",
+    "hypothesis": "oscar two fox to toft three eras squawk seven thousand good bye"
+  },
+  {
+    "reference": "squawk seven thousand good bye oscar foxtrot sierra",
+    "hypothesis": "esco seven thousand good bye hotel four charlie"
+  },
+  {
+    "reference": "oscar kilo whiskey november lima information exprite vacating via bravo and taxi to foxtrot bravo affirm",
+    "hypothesis": "ska klowsky november lima formation expray vacating var bravo and taxi to foxtrot bravo alfa"
+  },
+  {
+    "reference": "radar dobre odpoledne sky travel four three two papa passing nineteen hundred climbing to five thousand",
+    "hypothesis": "radar four desce level four three two propar passing nine hundred conming to five thousand"
+  },
+  {
+    "reference": "sky travel four three two papa dobre odpoledne praha radar identified climb flight level one six zero",
+    "hypothesis": "sky drevel four three two papa dober of poladne praha radar identified climb flight level one six zero"
+  },
+  {
+    "reference": "climb to flight level one six zero sky travel four three two papa",
+    "hypothesis": "qato flight level one six zero sky to four three two bye bye"
+  },
+  {
+    "reference": "via charlie zulu hotel echo",
+    "hypothesis": "creading zero one"
+  },
+  {
+    "reference": "heli charlie zulu next report zulu one local traffic helicopter on hook mission over chalet",
+    "hypothesis": "led charlie zulu nex report zuru one lucha trafic hellicopter one huk misin over charlie"
+  },
+  {
+    "reference": "hotel foxtrot oscar echo one at six thousand feet",
+    "hypothesis": "hotel potor two scar echo one ad six thousand feet"
+  },
+  {
+    "reference": "foxtrot oscar report echo two for runway two five",
+    "hypothesis": "foxoscar report echo two for runway two five"
+  },
+  {
+    "reference": "two bravo sierra to the left taxi with",
+    "hypothesis": "two bravo sierra to the left taxi wizz"
+  },
+  {
+    "reference": "hotel hotel xray go around",
+    "hypothesis": "zero three xray go run"
+  },
+  {
+    "reference": "hotel xray",
+    "hypothesis": "trix five"
+  },
+  {
+    "reference": "hotel echo xray taxi to juliett parking approved",
+    "hypothesis": "hotel course fread taxi to gvm parking approved"
+  },
+  {
+    "reference": "hotel bravo three zero four nine sion tower good afternoon",
+    "hypothesis": "three zero four nine shatare good afternoon"
+  },
+  {
+    "reference": "and sion tower the hotel xray quebec we just continue toward the grande dixence",
+    "hypothesis": "and sierra the hotel xp quebec would just continue tower gronding tower"
+  },
+  {
+    "reference": "hotel xray quebec roger frequency change approved talk to you later",
+    "hypothesis": "rother six roger frequency gendar proved tol to you later"
+  },
+  {
+    "reference": "tango seven charlie lima mike sion",
+    "hypothesis": "good seven charlie mikes jop"
+  },
+  {
+    "reference": "number two looking out for number one hotel hotel",
+    "hypothesis": "nunber two lufthansa nobe one hotel lot level"
+  },
+  {
+    "reference": "hotel echo xray wind two three zero degrees six knots runway two five cleared to land",
+    "hypothesis": "hotel echo xray wind two three zero degrees six knots runway two five cleared to land"
+  },
+  {
+    "reference": "hotel hotel lima november whiskey five thousand five hundred feet climbing",
+    "hypothesis": "to three bim one borsky five thousand five hundred feet climbing"
+  },
+  {
+    "reference": "hotel bravo whiskey zulu hotel sion tower report",
+    "hypothesis": "pal tabarowy zulu theson tower heport"
+  },
+  {
+    "reference": "looking out hotel oscar delta",
+    "hypothesis": "luping at hotel osce lufthansa"
+  },
+  {
+    "reference": "hotel golf alfa report upon route",
+    "hypothesis": "hotel golf alfa report apan route"
+  },
+  {
+    "reference": "sion tower at departure echo two for turn bravo papa zulu",
+    "hypothesis": "one tower descar echo two to bravo novel papa zero"
+  },
+  {
+    "reference": "heli charlie zulu roger report ground completed",
+    "hypothesis": "nhia zero roger report cron compelted"
+  },
+  {
+    "reference": "one zero one two runway two seven bye bye",
+    "hypothesis": "one zero one two one one eight two seven bye bye"
+  },
+  {
+    "reference": "hotel echo xray wind two seven zero degrees five knots runway two five cleared to land",
+    "hypothesis": "hotel echo xray wind two seven zero degrees five not runway two five cleared to land"
+  },
+  {
+    "reference": "hotel bravo kilo echo xray exercises is approved",
+    "hypothesis": "hotel bravo kilo echo xray exercise disaproved"
+  },
+  {
+    "reference": "hotel alfa papa you may leave the frequency bye bye",
+    "hypothesis": "hotel alfa papa you may descend frequency bye by"
+  },
+  {
+    "reference": "hotel alfa lima echo one four thousand six hundred feet",
+    "hypothesis": "hotel el sa lima echo one four thousand six hundred three"
+  },
+  {
+    "reference": "hotel delta lima report echo two",
+    "hypothesis": "delta lima report echo two"
+  },
+  {
+    "reference": "report base for runway zero seven or report hotel november",
+    "hypothesis": "report base for runway zero seven or report hotel november"
+  },
+  {
+    "reference": "hotel charlie whiskey wind two three zero degrees eight knots runway two five just stop and go",
+    "hypothesis": "hotel sirawsky wind two three zero degrees eight knots runway two five cleare stopa"
+  },
+  {
+    "reference": "frequency change approved a toute a l heure",
+    "hypothesis": "a to tallo"
+  },
+  {
+    "reference": "hotel echo xray number one runway two five",
+    "hypothesis": "ter equex climb number one runway two five"
+  },
+  {
+    "reference": "sierra alfa papa sion ground hello",
+    "hypothesis": "climb papa papa sierrans grand hello"
+  },
+  {
+    "reference": "hotel echo xray wind two six zero nine knots runway two five cleared for touch and go",
+    "hypothesis": "two six alviz at nine not runway to five cleared for tochengo"
+  },
+  {
+    "reference": "touch and go runway two five hotel echo xray",
+    "hypothesis": "two five wherection"
+  },
+  {
+    "reference": "foxtrot lima delta join downwind runway two five",
+    "hypothesis": "fox lima delta jund wind runway two five"
+  },
+  {
+    "reference": "tourning downwind runway two five foxtrot lima delta",
+    "hypothesis": "climbing down wind down with two five four seven"
+  },
+  {
+    "reference": "mosquito six zero echo ready to check",
+    "hypothesis": "moskito six zero echo ready reaching"
+  },
+  {
+    "reference": "it was for mosquito one five bravo",
+    "hypothesis": "itwiss for moskito one five bravo"
+  },
+  {
+    "reference": "yes mosquito one five bravo are you turning base now",
+    "hypothesis": "yes mosque one five bravo ary turning base now"
+  },
+  {
+    "reference": "turning base now mosquito one five bravo",
+    "hypothesis": "descending base now muschil to one five level"
+  },
+  {
+    "reference": "sie sierra golf kilo stop please hold position sorry sir hold position call you back",
+    "hypothesis": "sira golf kilo stop please olt position sarisa olt position continubec"
+  },
+  {
+    "reference": "yes we are approaching two thousand feet left downwind",
+    "hypothesis": "rppasin four thousand feet left nonwing"
+  },
+  {
+    "reference": "next final two five hotel charlie juliett",
+    "hypothesis": "next final two five hotel charlie juliett"
+  },
+  {
+    "reference": "sion tower afternoon established",
+    "hypothesis": "tower naftiga established"
+  },
+  {
+    "reference": "nav checker five one one tower hello again report going around",
+    "hypothesis": "maftchar five one one tower headagin report gooding arom"
+  },
+  {
+    "reference": "luxor two two hotel sion bonjour",
+    "hypothesis": "de oxivet two two hotel sior bonjour"
+  },
+  {
+    "reference": "hotel echo xray number one report final",
+    "hypothesis": "tel echo extray number one report five"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "not one four five lufthansa"
+  },
+  {
+    "reference": "hotel echo xray roger taxi holding point bravo and report ready",
+    "hypothesis": "roger tag shanipan bravo and report seady"
+  },
+  {
+    "reference": "roger did you do a planification",
+    "hypothesis": "rucher didy do a flight novevication"
+  },
+  {
+    "reference": "hotel bravo golf kilo echo one four thousand feet",
+    "hypothesis": "level three lot expel one five thousand four thousand seven one"
+  },
+  {
+    "reference": "golf kilo thank you continue descend report echo two",
+    "hypothesis": "golf kilo tank you continue descend report echo two"
+  },
+  {
+    "reference": "nav checker five one one go around climbing five seven thousand feet",
+    "hypothesis": "maftica pin zero one climbing one three four three"
+  },
+  {
+    "reference": "nav checker five one one roger what is next profile",
+    "hypothesis": "lufthancer five one one roger what the nex profing"
+  },
+  {
+    "reference": "heli charlie zulu we have the traffic in sight",
+    "hypothesis": "alvich allison whe have the trafic in three"
+  },
+  {
+    "reference": "roger able confirm behind",
+    "hypothesis": "runger able confirm behand"
+  },
+  {
+    "reference": "hotel papa mike report downwind runway two five",
+    "hypothesis": "hotel papa mike report dornwing runein two five"
+  },
+  {
+    "reference": "roger downwind two five hotel papa mike",
+    "hypothesis": "dunwing two five hotel so mike"
+  },
+  {
+    "reference": "roger hotel foxtrot kilo report whiskey qnh one zero two three",
+    "hypothesis": "auge hotel foxtrot kilo report to whiskey qunich one zero two three"
+  },
+  {
+    "reference": "hotel golf kilo you may leave frequency bye bye",
+    "hypothesis": "hotel golf kilo you may de frequencenty bye bye"
+  },
+  {
+    "reference": "tango two one three taxi to parking is approved",
+    "hypothesis": "and one two and three taxi to parking is approved"
+  },
+  {
+    "reference": "three four two six joining right hand downwind runway two five grass",
+    "hypothesis": "three four two six joining right hand dund wind runway two five grass"
+  },
+  {
+    "reference": "three four two six two five zero degrees one two knots grass two five landing on discretion",
+    "hypothesis": "three four two six two five zero degrees one two knots grass two five landing on is charlie"
+  },
+  {
+    "reference": "landing on my discretion three four two six",
+    "hypothesis": "at ming discretion three for tusing"
+  },
+  {
+    "reference": "say again can you three by five heli hotel yankee",
+    "hypothesis": "say again it any u three by five eight eight"
+  },
+  {
+    "reference": "heli hotel yankee qnh one zero one seven report hotel echo or golf echo at your discretion",
+    "hypothesis": "helli hotel yankee churnaid one zero one seven report hotel echo or golf echo at your discretion"
+  },
+  {
+    "reference": "nav checker five one one reporting one thousand ten thousand feet",
+    "hypothesis": "matter five one one approaching one thousand is then thousand feet"
+  },
+  {
+    "reference": "thank you nav checker five one one you can contact geneva delta on frequency one one nine decimal one seven five",
+    "hypothesis": "tank you now check five one one you can contact geneva delta on frequency one one nine decimal one seven five"
+  },
+  {
+    "reference": "sion november seven one six alfa sierra alpine jet ready for taxi",
+    "hypothesis": "siello november seven one six alfa sierra alpine jet ready for taxi"
+  },
+  {
+    "reference": "november alfa sierra taxi to holding point delta",
+    "hypothesis": "meber alfa sierra taxi touring point delta"
+  },
+  {
+    "reference": "holding point november seven one six alfa sierra",
+    "hypothesis": "easting point delta november seven one six of sierra"
+  },
+  {
+    "reference": "limajet two four nine lima copy line up and wait runway two five",
+    "hypothesis": "miget two four nine lima copi line up and with runway two five"
+  },
+  {
+    "reference": "line up and wait two five lima xray juliett",
+    "hypothesis": "rhein upenwing two five lima juliett"
+  },
+  {
+    "reference": "hotel echo xray report echo one runway two five qnh one zero one seven",
+    "hypothesis": "hotel echo xray report echo one runway two five qnh one zero one seven"
+  },
+  {
+    "reference": "qnh one zero one seven runway two five wilco hotel echo xray",
+    "hypothesis": "nh one zero one seven runway two five wing got melike"
+  },
+  {
+    "reference": "hotel echo xray final two five for touch and go",
+    "hypothesis": "echo xray final two five for seven good"
+  },
+  {
+    "reference": "vista jet four six seven we expect to descend",
+    "hypothesis": "four six seven we expection to decimal"
+  },
+  {
+    "reference": "november golf papa read back correct report for taxi",
+    "hypothesis": "normer golf papa read nato correct report for taxi"
+  },
+  {
+    "reference": "hotel echo xray final two five for touch and go",
+    "hypothesis": "hetaly colict three final two five four touch nine"
+  },
+  {
+    "reference": "hotel papa mike perfect thank you very much",
+    "hypothesis": "hotel papa mike perfect thank you very much"
+  },
+  {
+    "reference": "thank you very much hotel papa mike",
+    "hypothesis": "and bye bye bye"
+  },
+  {
+    "reference": "sion ground bonjour hotel bravo kilo xray",
+    "hypothesis": "csa bonjour three barve kilo reconich"
+  },
+  {
+    "reference": "hotel bravo papa golf bravo bonjour monsieur report echo one runway two five qnh one zero one nine",
+    "hypothesis": "hotel bravo papa golf bravo bonjour mostion report echo one runway two five quinth one zero one nine"
+  },
+  {
+    "reference": "hotel bravo kilo papa echo two one zero degrees four knots runway two five cleared takeoff report november whiskey",
+    "hypothesis": "hotel bravo kilo papa echo two one zero degrees four knots runway two five cleared take of report november whiskey"
+  },
+  {
+    "reference": "heli hotel yankee wind two four zero degrees one five knots five two two five landing on discretion",
+    "hypothesis": "hello hotel younky wind two four zero degrees one five knots plato two five leading one disce right"
+  },
+  {
+    "reference": "landing on discretion five two two five hotel yankee",
+    "hypothesis": "heading aids present flight level two two five genior two"
+  },
+  {
+    "reference": "hotel echo xray number one report final",
+    "hypothesis": "tan echo xray number one report finals"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "nope one report five four xp"
+  },
+  {
+    "reference": "nav checker five one one report passing one three thousand feet and climb",
+    "hypothesis": "aftech air five one one reporpassing one three thousand feet in climb"
+  },
+  {
+    "reference": "wilco",
+    "hypothesis": "col"
+  },
+  {
+    "reference": "hotel golf bravo straight in two five number one",
+    "hypothesis": "hotel golf travo strating two five nomer one"
+  },
+  {
+    "reference": "b air nine five one stand by call you back",
+    "hypothesis": "air nine five one standby call you back"
+  },
+  {
+    "reference": "affirm nav checker five papa one",
+    "hypothesis": "nafthike five one one"
+  },
+  {
+    "reference": "roger",
+    "hypothesis": "boge"
+  },
+  {
+    "reference": "papa mike vacate to the left and then straight ahead until further advised",
+    "hypothesis": "papa mike vake to the left and then strat ahead antil for three ruding"
+  },
+  {
+    "reference": "the left and then straight ahead hotel papa mike",
+    "hypothesis": "the left and then traint ahead for zero"
+  },
+  {
+    "reference": "tango three six five sion tower good morning air taxi holding point",
+    "hypothesis": "tago three six five sierran tower good morning air takair hundring point"
+  },
+  {
+    "reference": "golf runway zero seven qnh one zero one eight",
+    "hypothesis": "galf orna zero seven qnh one zero one eight"
+  },
+  {
+    "reference": "instruction golf runway zero seven qnh one zero one eight tango three six five",
+    "hypothesis": "prase tont cols runway zero seven cnn home zero nine three three five"
+  },
+  {
+    "reference": "passing one three thousand seven eight five two eight",
+    "hypothesis": "passing one three thousand seven eight five five"
+  },
+  {
+    "reference": "swiss air force five two eight contact swiss radar one two four decimal two two five good bye",
+    "hypothesis": "swiss air force five two eight contact swiss radar one two four decimal two two five good bye"
+  },
+  {
+    "reference": "one two four two two five air force five two eight aurevoir",
+    "hypothesis": "one two four two two five decimal five two eight one"
+  },
+  {
+    "reference": "one two four decimal two two five b air nine five one good bye",
+    "hypothesis": "one two four decimal two two five bir nine five one good bye"
+  },
+  {
+    "reference": "foxtrot delta uniform report november whiskey wind two seven zero degrees one zero knots runway two five cleared for takeoff",
+    "hypothesis": "ox delta uniform report november risky wind two seven zero degrees one zero knots runway two five clearef for takeof"
+  },
+  {
+    "reference": "cleared for takeoff two five foxtrot delta uniform thanks november whiskey",
+    "hypothesis": "clier for takeof two five for delta uniform and thank spowed wisky"
+  },
+  {
+    "reference": "departure own discretion two five next zero seven sorry for leaving heli hotel yankee",
+    "hypothesis": "departure dischering two five nine zero seven sory nine four level"
+  },
+  {
+    "reference": "tango three six five entering val d heren four thousand three hundred feet climbing qnh one zero one seven six",
+    "hypothesis": "three six five antering valde von four thousand three on see climbing qnh one zero one seven six"
+  },
+  {
+    "reference": "affirmation nav checker five one one good afternoon",
+    "hypothesis": "zero tower one chaker five one good afternoon"
+  },
+  {
+    "reference": "nav checker five one one hello",
+    "hypothesis": "lufthancer five one one hello"
+  },
+  {
+    "reference": "hotel echo xray downwind two five for touch and go",
+    "hypothesis": "hotel echo xray wighting nine wing two five four turch and goo"
+  },
+  {
+    "reference": "hotel golf bravo is echo two at three thousand three hundred feet",
+    "hypothesis": "hotel gols praha it echo two eight three thousand three hundred feet"
+  },
+  {
+    "reference": "golf bravo straight in two five number one",
+    "hypothesis": "golf bravo straight in two five nomber one"
+  },
+  {
+    "reference": "number one golf bravo",
+    "hypothesis": "nember one proceed contact level"
+  },
+  {
+    "reference": "hotel echo xray downwind two five for touch and go",
+    "hypothesis": "hotel echo xray direct wind two five four turch and goo"
+  },
+  {
+    "reference": "hotel hotel victor taxi is approved thank you sir bonne soiree",
+    "hypothesis": "atal hotel victor taxis approved thank you bonsoree"
+  },
+  {
+    "reference": "charlie zulu direction montana confirm",
+    "hypothesis": "say zulu direct montana confirm"
+  },
+  {
+    "reference": "affirmatif montana",
+    "hypothesis": ""
+  },
+  {
+    "reference": "merci two two zero degrees three knots four two zero seven qnh one zero one eight departure own discretion crossing climbing montana is approved",
+    "hypothesis": "merce two two zero degrees three knot flight level zero seven qnh one zero eight departure discretion crossing climbing montana is approved"
+  },
+  {
+    "reference": "lima mike juliett two four nine lima climb flight level one four zero maintain contact geneva arrival one three six two five five",
+    "hypothesis": "lima mike jeat two four nine lima climb flight level one four zero and maintain contact geneva rival one three six two five five"
+  },
+  {
+    "reference": "merci au plaisir aurevoir",
+    "hypothesis": "afirse op plesia"
+  },
+  {
+    "reference": "no sorry you have to refound the flight plan sir",
+    "hypothesis": "no sir you hefto refile three pransa"
+  },
+  {
+    "reference": "ok we won t see company quickly to refound no problem technic",
+    "hypothesis": "ok will ask your conpay criky two refime no prombey say mistake nike"
+  },
+  {
+    "reference": "four two six redue two by five",
+    "hypothesis": "von to six redue two by five"
+  },
+  {
+    "reference": "runway two five call you passing one three thousand feet five thank you",
+    "hypothesis": "one way two five call you passing one three thousand feet five"
+  },
+  {
+    "reference": "hotel echo xray wind two five zero degrees one eight knots runway two five cleared touch and go",
+    "hypothesis": "hotel echo xray wind two five zero degrees one eight knots runway two five zero to thango"
+  },
+  {
+    "reference": "runway two five cleared touch and go hotel echo xray",
+    "hypothesis": "roger two five climb at to charchay votal echo efree"
+  },
+  {
+    "reference": "thank you qnh is one zero two three",
+    "hypothesis": "thank you quelight one zero two three"
+  },
+  {
+    "reference": "papa mike parking is tango one zero but it is with the knots facing to the east so if able make one eighty and to park back at parking one zero",
+    "hypothesis": "papa mike parking is tombo one zero bet it swit not facing to the easo if able meck one eight you to park back at parking one zero"
+  },
+  {
+    "reference": "november hotel juliett the preceding traffic is joining downwind wind one correction two six zero degrees",
+    "hypothesis": "november hotel juliett pressing traffic is doining donwing wind one croshing two six zero degrees"
+  },
+  {
+    "reference": "one nine knots runway two five cleared for takeoff report passing one three thousand feet and climb",
+    "hypothesis": "one nine knots ronet two five four tike of report passing one three thousand feet in climb"
+  },
+  {
+    "reference": "report on final bramois hotel yankee",
+    "hypothesis": "three four seven fringen one more"
+  },
+  {
+    "reference": "echo xray number one report final",
+    "hypothesis": "corx fire number one report final"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "one report five qrix five"
+  },
+  {
+    "reference": "three five five you may leave frequency a toute",
+    "hypothesis": "three five five you miline frecance air two two"
+  },
+  {
+    "reference": "a toute three five five",
+    "hypothesis": "two three five"
+  },
+  {
+    "reference": "next is bravo nav checker five one one",
+    "hypothesis": "nines is bravo nof jeck own five one one"
+  },
+  {
+    "reference": "nav checker five one one roger qnh one zero one seven reported in and go",
+    "hypothesis": "jechor five one one roger qnh seal one zero one seven reporting a go"
+  },
+  {
+    "reference": "tango three six six final runway two five",
+    "hypothesis": "tango three six six final runway two five"
+  },
+  {
+    "reference": "thank you sir continue approach",
+    "hypothesis": "thank you shur continue approach"
+  },
+  {
+    "reference": "continue approach tango three six six",
+    "hypothesis": "continue approach tango three six six"
+  },
+  {
+    "reference": "hotel lima tango roger standby i coordinate with military sector",
+    "hypothesis": "lima tango roger standby cording with military spector"
+  },
+  {
+    "reference": "november alfa sierra wind two five zero degrees nine knots runway two five cleared for takeoff report one three thousand feet climbing",
+    "hypothesis": "vember alfa sierra wind two five degrees nine not runway two five cleared for takeof report one three thousand feet climbing"
+  },
+  {
+    "reference": "sion tower good afternoon helicopter hotel bravo zulu yes india juliett is passing india ready for departure five two two five and then left turn and climbing direction vernayaz",
+    "hypothesis": "sierra good afternoon helloper hotel bravo zulu ye india juliett farchay india radar departure flight level two five and then left turn and climbing direction lamair"
+  },
+  {
+    "reference": "nav checker five one one report passing one three thousand feet and climb four one seven thousand feet",
+    "hypothesis": "nafther five one one report passing one three thousand feet nine climb for one seven thousand feet"
+  },
+  {
+    "reference": "wilco nav checker climbing one seven thousand will report",
+    "hypothesis": "climbing one seven thousand report"
+  },
+  {
+    "reference": "sion tower bonjour b air nine five now establish on the ils runway two five",
+    "hypothesis": "seo tower bonjour pir nine five one established one tils radar two five"
+  },
+  {
+    "reference": "hotel echo xray descending two five for full stop",
+    "hypothesis": "terlorect ramy thanding two five or full stop"
+  },
+  {
+    "reference": "passing one thousand one zero thousand feet in descent in the western sector mosquito one five bravo",
+    "hypothesis": "passing one thousand one zero thousand fee in descend in the west sector mosqueto one five one"
+  },
+  {
+    "reference": "mosquito one five bravo correct and keep an eyes for glider activity north of the field",
+    "hypothesis": "six two one five bravo correct and keep radar glided activity north of the fild"
+  },
+  {
+    "reference": "heli charlie zulu wind two seven zero degrees nine knots crossing runway access five two two five landing on discretion",
+    "hypothesis": "alit charlie zulu wind two seven zero degrees nine nosco crossing radar way axis and four three two five line one crashing"
+  },
+  {
+    "reference": "crossing to landing five two two five landing on discretion heli charlie zulu",
+    "hypothesis": "two seven descend four rezule"
+  },
+  {
+    "reference": "tango three three five frequency change approved good bye",
+    "hypothesis": "tango three three five frequency change approveve good bye"
+  },
+  {
+    "reference": "good bye",
+    "hypothesis": "good bye"
+  },
+  {
+    "reference": "foxtrot lima delta taxi to holding point bravo runway two five",
+    "hypothesis": "auxtrot lima delta taxi to nine point bravo runway two five"
+  },
+  {
+    "reference": "point bravo runway two five foxtrot lima delta",
+    "hypothesis": "bravo runway two five four so three madel"
+  },
+  {
+    "reference": "helicopter heli victor oscar good afternoon",
+    "hypothesis": ""
+  },
+  {
+    "reference": "victor oscar good afternoon",
+    "hypothesis": "victor sira good afternoon"
+  },
+  {
+    "reference": "we are not ready now foxtrot lima delta",
+    "hypothesis": "rear not ready now aftrot mero to"
+  },
+  {
+    "reference": "hotel charlie juliett you passed echo two continue for direct approach as number one report final two five",
+    "hypothesis": "charlie juliett you passe echo two continue four direct approach os nember one report final two five two"
+  },
+  {
+    "reference": "next final two five hotel charlie juliett",
+    "hypothesis": "next final two five roter charlie two dis"
+  },
+  {
+    "reference": "vista jet four six seven sion",
+    "hypothesis": "wizzat four six seven sims"
+  },
+  {
+    "reference": "go ahead",
+    "hypothesis": "go head not"
+  },
+  {
+    "reference": "hotel echo xray final two five for touch and go",
+    "hypothesis": "telique xray five two five four seven good"
+  },
+  {
+    "reference": "foxtrot lima delta hold position and make your run up at your present position qnh one zero one five",
+    "hypothesis": "oxfat lima delta rot position and meke your runup as your pesent posion kenit one zero one five"
+  },
+  {
+    "reference": "nav checker five one one established",
+    "hypothesis": "five four one established"
+  },
+  {
+    "reference": "nav checker five one one five one one thank you report one zero miles",
+    "hypothesis": "naf jeck five five one one thank you report one zero miles"
+  },
+  {
+    "reference": "reported one zero miles nav checker five one one",
+    "hypothesis": "protex one zero miles lufthansa five one one"
+  },
+  {
+    "reference": "break break mosquito one five bravo two five zero degrees one zero knots runway two five cleared to land",
+    "hypothesis": "prak prak moskito one five ovel two five zero degrees one zero knots runway two five cliert to land"
+  },
+  {
+    "reference": "cleared to land runway two five mosquito one five bravo",
+    "hypothesis": "lunar one three one two flight level"
+  },
+  {
+    "reference": "india lima you may leave a toute",
+    "hypothesis": "india lima you may vatout"
+  },
+  {
+    "reference": "thank you very much hotel golf kilo",
+    "hypothesis": "much four kilo"
+  },
+  {
+    "reference": "hotel echo xray wind calm runway two five cleared touch and go",
+    "hypothesis": "hotel echo xray wind calm runway two five cleared turn go"
+  },
+  {
+    "reference": "runway two five cleared touch and go",
+    "hypothesis": "five two contact"
+  },
+  {
+    "reference": "hotel echo xray",
+    "hypothesis": ""
+  },
+  {
+    "reference": "heli charlie zulu report position altitude",
+    "hypothesis": "alit charlie zulu report prosition altitude"
+  },
+  {
+    "reference": "le golf de montana three thousand two hundred",
+    "hypothesis": "le golf the montand rhein six thousand two hundred"
+  },
+  {
+    "reference": "roger the traffic is now just exactly in the middle between echo one echo two four thousand six hundred feet",
+    "hypothesis": "roger thraffic is now just exacty in the midel beten echo one echo two four thousand six hundred feet"
+  },
+  {
+    "reference": "bravo juliett tango alfa holding point delta two five we are fully ready",
+    "hypothesis": "our chulis tango alfa holing point delta two five rear fully ready"
+  },
+  {
+    "reference": "hotel tango alfa report passing one three thousand feet wind two six zero degrees one zero knots runway two five cleared for takeoff",
+    "hypothesis": "hotel tango alfa report passing one three thousand feet wind two six zero degrees one zero knot runway two five clearep for take of"
+  },
+  {
+    "reference": "cleared takeoff two five next report the one three thousand feet hotel tango alfa",
+    "hypothesis": "your takeof two five next report one three thousand feet hotel tembor"
+  },
+  {
+    "reference": "charlie papa to confirm you proceed to chermignon",
+    "hypothesis": "charlie papa to controm you proceed to charmino"
+  },
+  {
+    "reference": "foxtrot lima delta sion bonjour qnh one zero two three wind calm runway two five cleared for takeoff report november whiskey",
+    "hypothesis": "oxrot lima delta four three bonjour kenish one zero two three wind colm runway two five cleared for thekeof report november whiskey"
+  },
+  {
+    "reference": "hotel echo xray number one report final",
+    "hypothesis": "delic corectray numbe one pot finals"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "the one report five hotel echo experon"
+  },
+  {
+    "reference": "nine juliett lima three miles final departure",
+    "hypothesis": "one three decimal five five five"
+  },
+  {
+    "reference": "nine juliett lima wind two four zero degrees one seven knots runway two five cleared to land",
+    "hypothesis": "maria juliett lima wind two four zero degrees one seven knot runway two five cleared to nund"
+  },
+  {
+    "reference": "runway two five cleared to land nine juliett lima",
+    "hypothesis": "one two five three two thank major decimal"
+  },
+  {
+    "reference": "clouds four hundred feet for landing",
+    "hypothesis": "thousand four hundred feeting"
+  },
+  {
+    "reference": "takeoff runway two five seven miles from sion maximum one one thousand feet vista jet four six seven",
+    "hypothesis": "tagos runway two five will report seven miles form sierr maxim one one thousand decimal four six seven"
+  },
+  {
+    "reference": "vista jet four six seven",
+    "hypothesis": "jet four six"
+  },
+  {
+    "reference": "tango three one three sion ground hello again taxi approved",
+    "hypothesis": "number three one three simb one zero aigagen taxi approved"
+  },
+  {
+    "reference": "hotel echo xray wind two six zero degrees one zero knots runway two five cleared to land",
+    "hypothesis": "hotel echo extray wind two six zero degrees one zero knots runway two five cleared to land"
+  },
+  {
+    "reference": "cleared to land runway two five hotel echo xray",
+    "hypothesis": "two land runway two five where"
+  },
+  {
+    "reference": "takeoff sierra number one",
+    "hypothesis": "ox tira number one"
+  },
+  {
+    "reference": "number one hotel echo xray",
+    "hypothesis": "number one of three four xml"
+  },
+  {
+    "reference": "november alfa sierra line up runway two five",
+    "hypothesis": "november alfa sierra line up runway two five"
+  },
+  {
+    "reference": "hello tower helicopter india juliett hello again we are descending croix de coeur six thousand feet six thousand eight hundred feet descend to left five two",
+    "hypothesis": "two hello traver gling hello again we are descending froger six thousand eight six thousand eight decimal descend four level"
+  },
+  {
+    "reference": "india juliett report hotel sierra or golf sierra qnh one zero one seven",
+    "hypothesis": "juliett report hotel sierra o golf sierra qnh one zero one seven"
+  },
+  {
+    "reference": "nav checker five one one good afternoon",
+    "hypothesis": "sky care five one one good afternoon"
+  },
+  {
+    "reference": "nav checker five one one we are on the way to your airfield and i would like to know what is the actual ground base you have in your area",
+    "hypothesis": "to your air fild and i woud like to now what is you axul clound base you have with you an your arear"
+  },
+  {
+    "reference": "uniform golf wind two four zero degrees one four knots runway two five clear takeoff right turn out climb approved report leaving",
+    "hypothesis": "uniform golf wind two four zero degrees one four not runway two five cleared take of right turn not climb approved report liveing"
+  },
+  {
+    "reference": "cleared to takeoff right turn out and report leaving uniform golf",
+    "hypothesis": "take of right turn out and report meaining uniform good"
+  },
+  {
+    "reference": "hotel echo xray downwind two five for touch and go",
+    "hypothesis": "hotel echo xray dine one two five four touch and go"
+  },
+  {
+    "reference": "foxtrot delta uniform line up and wait via intersection alfa qnh one zero one seven",
+    "hypothesis": "fox delta uniform line up and wait via intirsection alfa qnh one zero one seven"
+  },
+  {
+    "reference": "lufthansa mike which parking",
+    "hypothesis": "which party"
+  },
+  {
+    "reference": "lufthansa mike continue for what two zero meters and then will be first a yellow light to the right",
+    "hypothesis": "papa mike continue for abot two zero metres and then will bi first yello line to the right"
+  },
+  {
+    "reference": "three five tango hotel alfa whiskey",
+    "hypothesis": "climb that shango hotel sarwisti"
+  },
+  {
+    "reference": "ok approximately fifteen minutes before starting thank you",
+    "hypothesis": "ok appricmately fiften minutes pet tart three thank you"
+  },
+  {
+    "reference": "b air nine five one startup approved runway two five qnh one zero one two report ready for taxi",
+    "hypothesis": "via nine five one startup approved ronway two to five qnh one zero one two report ready for taxi"
+  },
+  {
+    "reference": "approved qnh one zero one two report ready for taxi b air nine five two",
+    "hypothesis": "proved kinde one zero one two report radar texp air nine five two"
+  },
+  {
+    "reference": "hotel echo xray recleared full stop landing runway two five",
+    "hypothesis": "atiaco israir recleared full stop landing one two five"
+  },
+  {
+    "reference": "recleared full stop runway two five echo xray",
+    "hypothesis": "airport stup nine three one"
+  },
+  {
+    "reference": "hotel echo xray report downwind wind calm runway two five cleared for takeoff",
+    "hypothesis": "hotel echo xray report donwind swing call rone two five cleare the of"
+  },
+  {
+    "reference": "hotel papa mike one speed visual control make one eighteen backtrack to vacate at alfa",
+    "hypothesis": "hotel papa bye quespeed int control maker one eight yen back track to vact at alfa"
+  },
+  {
+    "reference": "hotel echo xray number one report final",
+    "hypothesis": "tal echo xray number one report final"
+  },
+  {
+    "reference": "number one report final hotel echo xray",
+    "hypothesis": "one four three not lotalichel speed"
+  },
+  {
+    "reference": "we have the traffic in sight nav checker five one one",
+    "hypothesis": "csaping air after five one"
+  },
+  {
+    "reference": "roger",
+    "hypothesis": "shure"
+  },
+  {
+    "reference": "when passing ten thousand feet to four thousand feet mosquito one five bravo",
+    "hypothesis": "and passing ten thousand feet to four thousand feet aproch kilo one seven"
+  },
+  {
+    "reference": "one five bravo thank you",
+    "hypothesis": "one five bravo thank you"
+  },
+  {
+    "reference": "heli oscar zulu frequency change approved schone",
+    "hypothesis": "eli oscar zuruf regacy chan proved gen"
+  },
+  {
+    "reference": "beste schone heli oscar zulu",
+    "hypothesis": "air six aly oscar salu"
+  },
+  {
+    "reference": "taxi going around nav checker five one one",
+    "hypothesis": "thank skuing around not three thousand five one one"
+  },
+  {
+    "reference": "charlie zulu seaching hotel sierra for landing fato two five",
+    "hypothesis": "les hello climbing hotel sierra for line five two two five"
+  },
+  {
+    "reference": "charlie zulu wind two five which is at one four knots fato two five landing on discretion",
+    "hypothesis": "charlie zulu wind two five two one four knots flight level two two five leaning on discrection"
+  },
+  {
+    "reference": "landing on discretion fato two five charlie zulu",
+    "hypothesis": "dinga descend flight level two five charlie zulu"
+  },
+  {
+    "reference": "we are not ready now foxtrot lima delta",
+    "hypothesis": "rear not ready now foxtlimatho"
+  },
+  {
+    "reference": "roger station calling please pass your message",
+    "hypothesis": "radar station calling please pass your masser"
+  },
+  {
+    "reference": "sion victor oscar hook mission completed now landing victor call you before departure",
+    "hypothesis": "victor oscar hotel misin competed now landing with two contact before departure"
+  },
+  {
+    "reference": "victor oscar roger talk to you later",
+    "hypothesis": "victor oscar roger tol to you later"
+  },
+  {
+    "reference": "thank you",
+    "hypothesis": ""
+  },
+  {
+    "reference": "helicopter tango oscar you may leave the frequency bye bye",
+    "hypothesis": "helcoprott tango sky unifted frecenty bye bye"
+  },
+  {
+    "reference": "tango oscar leave the frequency bye bye",
+    "hypothesis": "three oscar lease three five"
+  },
+  {
+    "reference": "nav checker five one one further climb is approved",
+    "hypothesis": "nav check your five one one for tlimb is aproved"
+  },
+  {
+    "reference": "further climb approved again nav checker five one one",
+    "hypothesis": "further climb we four to gagen after carpa one"
+  },
+  {
+    "reference": "nav checker five one one contact sion approach one two six decimal eight two five talk to you later",
+    "hypothesis": "last three five one one contact sierraproach one two six decimal eight two five tok to you later"
+  },
+  {
+    "reference": "one two six eight two five talk to you later nav checker five one one",
+    "hypothesis": "one two six eight two five four two you nadar aftercar one"
+  },
+  {
+    "reference": "delta whiskey",
+    "hypothesis": "alfa whisky"
+  },
+  {
+    "reference": "wind two five zero degrees two two knots runway two five cleared to land",
+    "hypothesis": "wind two five zero degrees two two knots sunway two five cleared to land"
+  },
+  {
+    "reference": "cleared to land hotel delta whiskey",
+    "hypothesis": "two two nine seven level five"
+  },
+  {
+    "reference": "hotel yankee saint martin six five thousand feet for landing fato",
+    "hypothesis": "sun after six five descend for runing sata to"
+  },
+  {
+    "reference": "heli hotel yankee report hotel echo golf echo qnh one zero one seven",
+    "hypothesis": "hotel yankee report hotel echo golf echo qnh one zero one seven"
+  },
+  {
+    "reference": "sion heli hotel bravo zulu charlie zulu we just upon val d annivier low altitude for hook mission established for one low altitude",
+    "hypothesis": "chansa four zulu charlie zero danger low and ture for hotel missing six abineco one lote"
+  },
+  {
+    "reference": "hotel hotel yankee wind calm fato two five landing own discretion",
+    "hypothesis": "hotel hotel yankee wing calm fator two five leven don discon"
+  },
+  {
+    "reference": "tango three six five sion tower hello qhn one zero two three report hotel november runway two five in use",
+    "hypothesis": "tango three six five sion to radar one zero two three report hotel november runway two five inues"
+  },
+  {
+    "reference": "sion two three runway two five next hotel november for three six five",
+    "hypothesis": "two three heroy two five nine four tolba four ship three six five"
+  },
+  {
+    "reference": "foxtrot lima delta wind two five zero degrees one two knots runway two five cleared touch and go",
+    "hypothesis": "octrato klima delta wind two five zero degrees one two knot runway two fast cliert to singo"
+  },
+  {
+    "reference": "november hotel juliett vacate next left intersection golf and then taxi to holding point delta",
+    "hypothesis": "november hotel juliett faket next left intinsection golf and ten taxi to hunding point delta"
+  },
+  {
+    "reference": "read back correct startup is approved qnh one zero one four",
+    "hypothesis": "eight back correct and statup is approved qnh one zero one four"
+  },
+  {
+    "reference": "tango three one three col du sallest at eight thousand feet requested change",
+    "hypothesis": "tango three one three goldish sarent chect eight thousand feet requested charge"
+  },
+  {
+    "reference": "c est rentre you may leave frequency merci bonne soiree",
+    "hypothesis": "three rentreetey you mile frecenty merce bone sorled"
+  },
+  {
+    "reference": "leaving merci a toi et bonne soiree tango three one three",
+    "hypothesis": "eading merce ator ebon say agot six one two"
+  },
+  {
+    "reference": "hotel echo xray number one",
+    "hypothesis": "hotel echo xray number one"
+  },
+  {
+    "reference": "number one hotel echo xray",
+    "hypothesis": "nober one hotel echo eight five"
+  },
+  {
+    "reference": "hotel bravo kilo charlie juliett echo one five thousand and eight four thousand eight hundred feet",
+    "hypothesis": "hotel bravo kilo charlie juliett echo one five thousand four thousand eight hundred feet"
+  },
+  {
+    "reference": "hello charlie juliett next report echo two",
+    "hypothesis": "hello charlie juliett nine shirpot the care two"
+  },
+  {
+    "reference": "hotel echo xray wind two six degrees nine knots runway two five cleared for touch and go",
+    "hypothesis": "elico xray wind two six ruzyther nine not tranwe to spar skeed four touching good"
+  },
+  {
+    "reference": "cleared for touch and go runway two five hotel echo xray",
+    "hypothesis": "miftechony two five hotel echo"
+  },
+  {
+    "reference": "sion tower hotel bravo kilo echo xray",
+    "hypothesis": "siello tower hotel bravo kilo echo eight three"
+  },
+  {
+    "reference": "hotel quebec juliett traffic piper single engine position three miles south of your position proceeding towards willisau four thousand feet indicating not verified",
+    "hypothesis": "hotel kevec juliett traffic piper singal enging position three miles south of your position proceeding tower saw four thousand feet indiating not verifid"
+  },
+  {
+    "reference": "berne tower hello again helicopter hotel bravo zulu whiskey juliett uttigen two thousand three hundred",
+    "hypothesis": "two wizz ciserian two sticker two thousand three hundred flight level one nine"
+  },
+  {
+    "reference": "hotel bravo zulu whiskey juliett berne tower hello again enter control zone via route zulu qnh one zero two seven",
+    "hypothesis": "autrow zulu whiskey juliett burn tower hello again rotandic control flom via rutte zulu qnh one zero two seven"
+  },
+  {
+    "reference": "hotel golf papa leaving ctr direction november",
+    "hypothesis": "off three dow have direct"
+  },
+  {
+    "reference": "hotel golf papa frequency change approved",
+    "hypothesis": "hotel golf papa frequency change approved"
+  },
+  {
+    "reference": "hotel yankee xray make one orbit to the left report completed",
+    "hypothesis": "hotel yankee x ray make one orbit to the left report competed"
+  },
+  {
+    "reference": "hotel bravo kilo golf november berne tower hello qnh one zero two seven enter via route zulu runway three two in use traffic rega helicopter just abeam gerzensee leaving direction thun indicating four thousand five hundred feet not verified opposite",
+    "hypothesis": "atbra kilo golf november burn tower hello qnh one zero two seven enter virot zulu runway three two news traffic rega hellicoptro just abeem care tusa leving direct turn endicating four thousand five hundred feet not verifid oppossiet"
+  },
+  {
+    "reference": "hotel golf papa make a one eighty stay clear of the runway taxi to holding point foxtrot",
+    "hypothesis": "talgo papa makarke one eight eight stay cleared of three runway taxi to holding fried foxtrot"
+  },
+  {
+    "reference": "hotel golf delta wind zero four zero degrees seven knots runway one four cleared for takeoff",
+    "hypothesis": "hotel golf delta wind zero four zero degrees seven not runway one four cleared for takeof"
+  },
+  {
+    "reference": "hotel golf oscar wind zero seven zero degrees one zero knots runway one four cleared touch and go",
+    "hypothesis": "hotel gulf oscar wind zero seven zero degrees one zero not runway one four cleared touch and go"
+  },
+  {
+    "reference": "hotel golf oscar number two number one short final runway one four",
+    "hypothesis": "hotel golf oscar nomber two number one short final runway one four"
+  },
+  {
+    "reference": "we have the traffic in sight rega one zero we leave the control zone schone namittag",
+    "hypothesis": "we have the trafic in six ready contact"
+  },
+  {
+    "reference": "rega one zero frequency change approved schone nami",
+    "hypothesis": "reca one zero frecenty change prove chero"
+  },
+  {
+    "reference": "hotel november xray ninety five crossing is approved qnh one zero two two",
+    "hypothesis": "hotel november ix radar identified trossing is proved qnh one zero two two"
+  },
+  {
+    "reference": "delta oscar victoria you are still on the bern arrival frequency",
+    "hypothesis": "delta oscar victor you are still on the burn arrival frequency"
+  },
+  {
+    "reference": "hotel golf papa continue on the runway vacate via charlie then taxi your discretion blue sector",
+    "hypothesis": "hotel golf papa continue one trunway mackaid via charlie ten taxi euresque blue sect"
+  },
+  {
+    "reference": "hotel delta lima via bravo then taxi your discretion blue sector if it is full green four is available",
+    "hypothesis": "hotel delta lima vaya bravo ten taxi your discretion blue sector if it s full greeen four is availal"
+  },
+  {
+    "reference": "oscar oscar papa charlie kilo it s for ifr fly to echo bravo charlie india we have information delta it is for startup and ifr clearance",
+    "hypothesis": "oscar oscar papa charlie kilo eight for ifar flight to echo bravo charlie india we head information delta eight four tarpa and ifra cleared"
+  },
+  {
+    "reference": "sierra november expect landing clearance shortly traffic on the runways departing three top on to the west",
+    "hypothesis": "zero november expect landing climb shortly traffic on the runway is depating three to ap one to twos"
+  },
+  {
+    "reference": "hotel bravo november bravo hotel crossing direction grenchen four thousand five hundred feet is approved qnh one zero two six",
+    "hypothesis": "alta bravo november bravo hotel crossing trirection grentien four that five hundred feet disapred qnh one zero two six"
+  },
+  {
+    "reference": "thank you break break hotel golf oscar helicopter on your right hand side we will cross behind you",
+    "hypothesis": "thank you brake brake hotel golf oscar hellicoptrott one you right hand side will cross behind you"
+  },
+  {
+    "reference": "hotel golf oscar",
+    "hypothesis": "descend now heading level four covid"
+  },
+  {
+    "reference": "hotel bravo kilo golf yankee from november good afternoon next report breaking off a city circling three two one",
+    "hypothesis": "kilo golf yankee four good afternoon x report braking of city cercling three two"
+  },
+  {
+    "reference": "heli oscar bravo are you ready for expedition crossing otherwise you have to hold on",
+    "hypothesis": "helli oscar bravo ary ready for expeditious crossing otherwes you hotel hold on ground"
+  },
+  {
+    "reference": "departure with hotel bravo charlie quebec sierra out of five thousand four eight zero",
+    "hypothesis": "departure berchel charlie echeric zero out of five thousand four eight zero"
+  },
+  {
+    "reference": "hotel bravo charlie quebec sierra when departure low defined climb to flight level nine zero",
+    "hypothesis": "octa bravo charlie gebec sirar burny pawe challow identified climb to flight level nine zero"
+  },
+  {
+    "reference": "hotel golf oscar lift control lima route sierra wind zero four zero degrees one three knots runway three two cleared for takeoff",
+    "hypothesis": "hotel golf oscar level contact mir route sierra wind zero four zero degrees one three knots one nine three two clearef for takeof"
+  },
+  {
+    "reference": "hotel golf oscar charlie wait to proceed at least one miles out of track",
+    "hypothesis": "hotel golfos cork roger ary awe that you proceed at least one mile south of track"
+  },
+  {
+    "reference": "hotel hotel golf next left via delta to blue sector",
+    "hypothesis": "hotel hotel golf next left five delta to blue sector"
+  },
+  {
+    "reference": "say again heli lima juliett",
+    "hypothesis": "head elimpa juliett"
+  },
+  {
+    "reference": "heli lima juliett join mid left heli circuit three two land at own discretion swiss helicopter wind zero four zero degrees one zero knots",
+    "hypothesis": "helli lima juliett gihing mid left healis circut three two lander one discretion swiss hellicoptor wind zero four zero degrees one zero knots"
+  },
+  {
+    "reference": "hotel kilo delta now to whiskey one is approved if you remain outside romeo eight two",
+    "hypothesis": "hotel kilo delta now two whiskey one is approved if you remain outsid romeo eight two"
+  },
+  {
+    "reference": "hotel golf papa is calling confirm",
+    "hypothesis": "hotel good papa is calling confirm cont"
+  },
+  {
+    "reference": "ja that is copied roger hold position",
+    "hypothesis": "that s coped roger hold posion"
+  },
+  {
+    "reference": "takeoff golf oscar upwind two thousand one hundred feet request left hand circuit runway zero six for another and last touch and go",
+    "hypothesis": "lego oscar upwind at two thousand one hundred feet request left hand circut runway zero six four nother and laft toch go"
+  },
+  {
+    "reference": "hotel golf oscar make left hand circuit is approved runway one four",
+    "hypothesis": "with to golf oscar make left hand circeris approved to trunway one four"
+  },
+  {
+    "reference": "hotel bravo juliett leave out on route whiskey wind zero three zero degrees one zero knots runway three two cleared for takeoff",
+    "hypothesis": "atta bravo juliett lifa op one rute whiskey wind zero three zero degrees one zero knots runway three two cleared for takeof"
+  },
+  {
+    "reference": "heli india echo hotel whiskey three thousand six hundred feet",
+    "hypothesis": "hellidaco hotel whiskey three thousand six hundred feet"
+  },
+  {
+    "reference": "heli india echo land on discretion swiss helicopter wind zero seven zero degrees six knots",
+    "hypothesis": "india echo land on is crotion two swiss hellicoptor wind zero seven zero degrees six knots"
+  },
+  {
+    "reference": "hotel golf november wind zero six zero degrees nine knots runway one four cleared to land",
+    "hypothesis": "hotel golfs november wind zero six zero degrees nine not to runway one four cleared to land"
+  },
+  {
+    "reference": "hotel oscar yankee any time direct lyss approved traffic rescue helicopter passing muhleberg inbound to inselspital",
+    "hypothesis": "ottal oskary yanke andy time direct leasaproved traffic resce hellicopter passing mulebeg inbound two inselspital"
+  },
+  {
+    "reference": "proceeding direct to lyss hotel oscar yankee and looking out for helicopter near inselspital",
+    "hypothesis": "proceeding direct to lease hotel of kryake and looking out for hellicopter insunspital"
+  },
+  {
+    "reference": "one point zero standby",
+    "hypothesis": "papa zero standby"
+  },
+  {
+    "reference": "delta alfa uniform the field is at your two o clock position four miles confirm in sight",
+    "hypothesis": "delta alfa uniform the fild is at your two oclk positing four miles confirm in six"
+  },
+  {
+    "reference": "affirm we descend flight and we are ready for visual delta alfa uniform",
+    "hypothesis": "affirm five descend six awe ar radar whiscero delta four indorm"
+  },
+  {
+    "reference": "delta alfa uniform further descend at your discretion cleared visual approach runway three two",
+    "hypothesis": "luftha uniform further descend at zurich cressing clearevil approach runway three two"
+  },
+  {
+    "reference": "cleared for visual approach three two delta alfa uniform",
+    "hypothesis": "four withi approach three two delta four uniform"
+  },
+  {
+    "reference": "delta alfa uniform radar service terminated contact tower one two one decimal zero two five",
+    "hypothesis": "alfa infirm radar seves tormit contact tower one two one decimal zero two five"
+  },
+  {
+    "reference": "radar terminates and one two one zero two five bis spater delta alfa uniform",
+    "hypothesis": "radar torminustand one two one zero two five bishbit radar flight lunofo"
+  },
+  {
+    "reference": "good night",
+    "hypothesis": ""
+  },
+  {
+    "reference": "hotel bravo sierra charlie tango bern tower hello taxi via kilo to terminal north",
+    "hypothesis": "auto bravo zero charlie tango burn tower hello taxi via kilo two trimilal north"
+  },
+  {
+    "reference": "bern tower hello again hotel bravo kilo golf november zulu five thousand feet descending information charlie for landing by route zulu",
+    "hypothesis": "praha level air hotel bravo kilo golf november over tulu ad five south speed descending information charlie four landing light rote tulu"
+  },
+  {
+    "reference": "hotel bravo kilo golf november bern tower qnh one zero two six and arrival route zulu to join final runway three two",
+    "hypothesis": "atbra kilo golf november burn tower qnh one zero two six anter virot sulu to join fine runway three two"
+  },
+  {
+    "reference": "hotel november lima for the time being remain on this frequency",
+    "hypothesis": "oth november lima for three time bing remain on descendy"
+  },
+  {
+    "reference": "hotel whiskey echo now three thousand two hundred feet and leave the command for seven thousand frequency change approved",
+    "hypothesis": "otowike nine three thousand hundred feet and reling to contact one four seven thousand free que charlie"
+  },
+  {
+    "reference": "hotel whiskey alfa taxi to holding point bravo runway one four",
+    "hypothesis": "lel whiskey alfa taxi tornip point praho runway one four"
+  },
+  {
+    "reference": "yeah of course than you can expect vfr circuits after touch and go report taking off romeo circling",
+    "hypothesis": "of course than you can ispet vfr cirkit after touching of report braking off or meri cercling"
+  },
+  {
+    "reference": "hotel bravo sierra golf romeo bern tower into control by route november join mid left downwind runway one four qnh one zero two seven",
+    "hypothesis": "hotel paro sierra golf romeo bern tower enter controlirot november join mead left down wing runway one four qnh one zero two seven"
+  },
+  {
+    "reference": "bern approach hotel bravo kilo bravo victor",
+    "hypothesis": "turn approach hotel bravo flight level bravo viction"
+  },
+  {
+    "reference": "kilo bravo victor bern",
+    "hypothesis": "kilo bravo wic to burn"
+  },
+  {
+    "reference": "hotel golf sierra can offer you only one touch and go then upon route whiskey due to it s launch time there are no circuits approved",
+    "hypothesis": "hotel golf sierra can off you one one touch and good thanh on route whiskey due to its lunt time derno cirkits approved"
+  },
+  {
+    "reference": "heli whiskey charlie hotel echo three thousand feet",
+    "hypothesis": "aly wiskey charlie oteneco three thousand feet"
+  },
+  {
+    "reference": "heli whiskey charlie",
+    "hypothesis": "luwsky charlie"
+  },
+  {
+    "reference": "hotel india alfa until four miles maintain one hundred knots or greater",
+    "hypothesis": "hotel india alfa and til four miles maintain one hundred not to greato"
+  },
+  {
+    "reference": "hotel oscar yankee request orbit to the right for spacing",
+    "hypothesis": "hotel of three air act two request now three to tright for five six"
+  },
+  {
+    "reference": "hotel oscar yankee orbit right approved",
+    "hypothesis": "to los cling orbit right aproven"
+  },
+  {
+    "reference": "hotel tango uniform do you intend to cancelled the ifr flight before fribourg",
+    "hypothesis": "hotel tango uniform do you intent to cancel the if farc flight befor fribourg"
+  },
+  {
+    "reference": "swiss radar one three five six eight zero next seven five zero eight bye bye",
+    "hypothesis": "swiss radar one three five six eight zero nine seven five zero eight bye bye"
+  },
+  {
+    "reference": "hotel bravo papa november lima this bern tower contact thun on one two three decimal two five five",
+    "hypothesis": "hotel bravo papa november lima disis bern tower contact tun on one two three decimal two five five"
+  },
+  {
+    "reference": "hotel echo lima frequency change approved thank you good bye",
+    "hypothesis": "hotel echo lima frequence approved thank you good bye"
+  },
+  {
+    "reference": "heli charlie papa traffic landing aircraft soon departing runway three two air bound route echo opposite",
+    "hypothesis": "charlie papa trafic sing landing air croft soon departing runway three two aubenot echo oppositit"
+  },
+  {
+    "reference": "quadriga one six three foxtrot descend to flight level seven zero",
+    "hypothesis": "quadriga one six three foxtrot descend to flight level seven zero"
+  },
+  {
+    "reference": "roger hotel golf papa",
+    "hypothesis": "runach hotel good spama"
+  },
+  {
+    "reference": "hotel golf papa frequency change approved good bye",
+    "hypothesis": "turgof papa frequency change approved good bye"
+  },
+  {
+    "reference": "ok good bye hotel golf papa",
+    "hypothesis": "good bye auter praha papa"
+  },
+  {
+    "reference": "hotel oscar qnh one zero three taxi three two intersection foxtrot",
+    "hypothesis": "hotel oscar conth one zero three three three two inting foxtort"
+  },
+  {
+    "reference": "tango three three one number one is now on the right base",
+    "hypothesis": "tango three three one number one is now on right bace"
+  },
+  {
+    "reference": "hotel golf yankee rodger clearance after touch and go is available",
+    "hypothesis": "lot the golf yankee roger cleared tafter tourchen co is availab"
+  },
+  {
+    "reference": "november mike alfa roger and you are recleared straight in ils approach one four",
+    "hypothesis": "fimp premikal for ractured and you recleared strat in ils approach one four cont"
+  },
+  {
+    "reference": "hotel echo echo please control zone via route zulu wind zero four zero degrees seven knots runway one four cleared for takeoff",
+    "hypothesis": "hotel echo echo level control zun via route sulu wind zero four zero degrees seven knots runway one four cleared for takeof"
+  },
+  {
+    "reference": "hotel golf sierra roger i understood one touch and go than one circuit again touch and go then whiskey",
+    "hypothesis": "autar good sierr roger i understood one touch court than one circurt again touch court and whisky"
+  },
+  {
+    "reference": "papa foxtrot approaching bern city request to make an orbid over the bundeshaus",
+    "hypothesis": "papa foxtrot approaching bern city request to make anorit ove tu bundusa"
+  },
+  {
+    "reference": "papa foxtrot that is approved",
+    "hypothesis": "papa foxter that saproved"
+  },
+  {
+    "reference": "orbit approved hotel papa foxtrot",
+    "hypothesis": "horbed approved to the papa foxtlut"
+  },
+  {
+    "reference": "hotel golf november wind zero one zero degrees one zero knots runway one four cleared to land",
+    "hypothesis": "hotel golf november wind zero one zero degrees one zero not runway one four cleared to land"
+  },
+  {
+    "reference": "november mike alfa vectoring for a short approach turn left heading two four zero",
+    "hypothesis": "november mike alfa vectoring for a short approach turn left heading two four zero"
+  },
+  {
+    "reference": "fraction five seven six hotel descend to four thousand feet cleared arp approach runway one four report airborne track established",
+    "hypothesis": "fraction five seven six hotel descend to four thousand feet cleared rnp approach runway one four report inbound track established"
+  },
+  {
+    "reference": "hotel quebec mike i confirm cleared to land runway one four",
+    "hypothesis": "hotel quebec mike i confirm cleared to line runway one four"
+  },
+  {
+    "reference": "we will taxi to sector blue when ready hotel charlie november",
+    "hypothesis": "woll taxi to sector blue when redy hotel challing november"
+  },
+  {
+    "reference": "november mike alfa vacate via charlie and how long do you stay",
+    "hypothesis": "november mike alfa vaket via charlie and how long do you stay"
+  },
+  {
+    "reference": "roger bravo three zero four three affirm climb maximum five thousand five hundred feet",
+    "hypothesis": "hotel bawe three zero four three affirm climb maximu five thousand five hundred feet"
+  },
+  {
+    "reference": "hotel golf echo do you want to stay at level one hundred or are you able to descend",
+    "hypothesis": "hotel colfeco dey want to stay at level one hundred or ar you able to descend"
+  },
+  {
+    "reference": "hotel charlie papa below flight level one hundred",
+    "hypothesis": "hotel charlie papa below flight level one hundred"
+  },
+  {
+    "reference": "hotel charlie papa frequency change approved bis spater",
+    "hypothesis": "got the chaill papa frequency changer profe bis spettar"
+  },
+  {
+    "reference": "startup approved runway one two qnh one zero two one to destination morning three zero departure flight level one hundred and squawk one thousand swiss air force zero four two",
+    "hypothesis": "sarp proof romeo one four qnh one zero two one to descending morning three sierra departurture flight level one hundred and squawk one thousand swiss air force zero four two"
+  },
+  {
+    "reference": "swiss air force zero four two read back correct",
+    "hypothesis": "two seven four zero four two repach correct"
+  },
+  {
+    "reference": "hotel golf november on downwind runway three two to full stop",
+    "hypothesis": "hotel climb november on dumling runway three two four four stop"
+  },
+  {
+    "reference": "hotel yankee xray wind zero three zero degrees eight knots runway three two cleared to land",
+    "hypothesis": "hotel yankey xray wind zero three zero degrees eight knots runway three two cleared to land"
+  },
+  {
+    "reference": "runway three two clear to land hotel xray",
+    "hypothesis": "one eight three two distrom hotel nix radar"
+  },
+  {
+    "reference": "heli oscar alfa traffic wise the runway three two is available but the wind is one zero zero degrees with one zero knots",
+    "hypothesis": "elios cardal traffic wise the runway three two is availablial but two zero zero degrees with one zero knots"
+  },
+  {
+    "reference": "hotel victor bravo roger behind traffic on final backtrack runway one four behind",
+    "hypothesis": "hotel victor bravo roger behind traffic on final pactrak runway one four behind"
+  },
+  {
+    "reference": "delta papa delta roger identified the crossing is approved qnh one zero two one",
+    "hypothesis": "delta papa delta roger identified trossing is approved qnh one zero two one"
+  },
+  {
+    "reference": "tower bern hotel bravo kilo golf november blue parking vfr local as plan route whiskey information november request taxi",
+    "hypothesis": "power burn hotel praho xilo golf november blue parking vfr local outbound route whiskey information november request taxi"
+  },
+  {
+    "reference": "hotel papa golf turning base runway three two",
+    "hypothesis": "out three papa golf turnib base runway three two"
+  },
+  {
+    "reference": "hotel papa golf wind zero four zero degrees eight knots runway three two cleared to land",
+    "hypothesis": "hotel papa golf wind zero four zero degrees eight knots runway three two cleared to lend"
+  },
+  {
+    "reference": "three two cleared to land hotel papa golf",
+    "hypothesis": "three two seven hotel fapa golf"
+  },
+  {
+    "reference": "hotel bravo lima victor bravo bern tower hello taxi to holding point bravo runway one four qnh one zero two seven",
+    "hypothesis": "bravo lima victor bravo burn tar hello taxi to oling point bravo runway one four qnh one zero two seven"
+  },
+  {
+    "reference": "hotel hotel bravo seven thousand feet",
+    "hypothesis": "hotel hotel bravo seven thousand feet"
+  },
+  {
+    "reference": "hotel hotel bravo thank you",
+    "hypothesis": "hotel hotel browo thank you"
+  },
+  {
+    "reference": "tango three one eight roger you can already change frequency have a nice day",
+    "hypothesis": "tango three one eight roger you can alray change frequency have a nine day"
+  },
+  {
+    "reference": "hotel oscar foxtrot whiskey four thousand five hundred feet request to leave frequency",
+    "hypothesis": "hotel lotal foxtrot whiskey four thousand five hundred feet request to leaf requency"
+  },
+  {
+    "reference": "hotel oscar foxtrot frequency change approved",
+    "hypothesis": "hotel oscar foxrol frequency change approved"
+  },
+  {
+    "reference": "hotel echo lima affirm remain on my frequency you are still within the tma",
+    "hypothesis": "autrady kolim air firm remain on mike frequency are stel within the tma"
+  },
+  {
+    "reference": "hotel bravo charlie juliett bern tower traffic single engined just departed runway one four outbound route sierra opposite and to compose my route sierra to join right downwind runway one four qnh one zero two seven",
+    "hypothesis": "bavo charlie juliett berntaw traffic single enging just departer runway one four outbound route sierra opposite and to contorsenvirot sierra to join right down wind runway one four qnh one zero two seven"
+  },
+  {
+    "reference": "oscar charlie kilo descend to five thousand feet qnh one zero two one",
+    "hypothesis": "loscar charlie kilo descend to five thousand feet qh one zero two one"
+  },
+  {
+    "reference": "sun turk quebec sierra descend to flight level seven zero expect clearance four airwork about three miles before oskup",
+    "hypothesis": "autar kevex sera descend to flight level seven zero expect clearenc for air work about three miles before oscoop"
+  },
+  {
+    "reference": "hotel whiskey alfa wind is calm runway one four cleared for takeoff",
+    "hypothesis": "hotel whiskey alfa wind is com runway one four cleared for takeof"
+  },
+  {
+    "reference": "hotel golf yankee we appreciate the shortcut",
+    "hypothesis": "hofitel golf yankee apprection the shorth"
+  },
+  {
+    "reference": "hotel golf yankee roger report your program in bern",
+    "hypothesis": "wother golf yankee roger report your progreming burn"
+  },
+  {
+    "reference": "hotel delta lima runway vacated on delta",
+    "hypothesis": "delta lima runway kight is on delta"
+  },
+  {
+    "reference": "roger taxi to blue parking",
+    "hypothesis": "dotter taxi to blooe parking"
+  },
+  {
+    "reference": "blue parking hotel delta lima",
+    "hypothesis": "taxi bleo parking hotel delta lima"
+  },
+  {
+    "reference": "hotel golf oscar wind check zero two zero degrees one one knots can you still accept one four",
+    "hypothesis": "hotel golf oscar wind check zero two zero degrees one one knot can you steel accect one four"
+  },
+  {
+    "reference": "hotel golf papa number two number one is the company on now left hand base and still two helicopters low altitude over the city",
+    "hypothesis": "hotel golf papa number two number one is the conpay on now left hand base and steel two hellicoptes low altititue ove to sity fiv"
+  },
+  {
+    "reference": "looking up for helicopter and number one not in sight at the moment and a number two papa golf papa",
+    "hypothesis": "luking up for hellicoptror and nomber one not in five at the moment and and nober two hello papa"
+  },
+  {
+    "reference": "hotel golf sierra after echo one join right hand base runway three two as number one and expect left hand circuit",
+    "hypothesis": "hotel golf sierra after echo one join right hand base runway three two as nomber one and expect the left hand circut"
+  },
+  {
+    "reference": "november mike alfa expect the ils one four with romeo circling to runway three two",
+    "hypothesis": "november mike alfa expect the irlis one four with romeo cercling to runway two eight"
+  },
+  {
+    "reference": "hotel lima sierra during night time visual departure is not possible",
+    "hypothesis": "hotel lima sierra during nine time vichul departure is not postil"
+  },
+  {
+    "reference": "hotel romeo oscar roger crossing direction echo at four thousand feet is approved qnh bern one zero two five",
+    "hypothesis": "hotel romeo oscar roger crossing direct echo it four thousand feet is approved qnh burn one zero two five"
+  },
+  {
+    "reference": "papa golf yankee descend to four thousand feet cleared rnp approach one four report established final course",
+    "hypothesis": "alfa golf yankee descend to four thousand feet cleared rnp approach one four report established final course"
+  },
+  {
+    "reference": "hotel delta charlie advise traffic is now clear of you and frequency change approved",
+    "hypothesis": "hotel delta charlie advised traffic is now clearear of you frequency charge approved"
+  },
+  {
+    "reference": "riga quebec lima traffic single engine at your ten o clock position four miles crossing from left to right at five thousand five hundred feet",
+    "hypothesis": "rega quabec lima trafic single engin at your ten oclok position four miles crossing for left to right at five thousand five hundred feet"
+  },
+  {
+    "reference": "hotel quebec yankee crossing completed frequency change approved good bye",
+    "hypothesis": "hotel cleabect yankee crossing compete frequency change approved good bye"
+  },
+  {
+    "reference": "hotel bravo juliett wind zero four zero degrees six knots runway three two cleared to land",
+    "hypothesis": "hotel bravo juliett wind zero four zero degrees six knots runway three two clierto land"
+  },
+  {
+    "reference": "hotel golf papa frequency change approved bis spater ciao",
+    "hypothesis": "autor golf papa frequency change approvet spter ciao"
+  },
+  {
+    "reference": "number one in sight hotel golf oscar",
+    "hypothesis": "nonber one ins five doctor contact"
+  },
+  {
+    "reference": "golf oscar roger turn base behind he will do a go around over threshold",
+    "hypothesis": "colf oscar roger turn base bihed will do a go romeo threshuld"
+  },
+  {
+    "reference": "hotel kilo delta the advised traffic is now over whiskey one",
+    "hypothesis": "hotel kilo delta advise traffic is now over whiskey one"
+  },
+  {
+    "reference": "hotel golf oscar traffic rega helicopter just passed hotel echo joining the left hand heli circuit direction one four",
+    "hypothesis": "hotel golf oscar traffic rega hellicoter just pass hotel echo joining the left hand helli cirquellic direction four"
+  },
+  {
+    "reference": "helicopter in sight shall we proceed normally hotel golf oscar",
+    "hypothesis": "hellicoptor and sierr challij proceed normary il devel after"
+  },
+  {
+    "reference": "hotel golf oscar at mid downwind make an orbit to the left report completed",
+    "hypothesis": "ather golf oscar and mid down wind maken orbit to the left report completed"
+  },
+  {
+    "reference": "hotel hotel oscar roger say again the number of the glider",
+    "hypothesis": "hotel hotel oscar roger sagen the nomber of thouther glider"
+  },
+  {
+    "reference": "hotel bravo zulu sierra november berne tower enter via route hotel whiskey qnh one zero one eight",
+    "hypothesis": "hotel bravo zulu sierra november burn tower enter via route hotel whiskey qnh one zero one eight"
+  },
+  {
+    "reference": "hotel golf papa unknown vfr traffic a helicopter at your eleven o clock position two miles same altitude opposite direction",
+    "hypothesis": "hotel golf papa on known via five traffic helloter at your elene oclok position two miles sam altitude opposite direct"
+  },
+  {
+    "reference": "long approach hotel papa bravo",
+    "hypothesis": "long approach hotel papa bravo"
+  },
+  {
+    "reference": "hotel mike november line up in sequence",
+    "hypothesis": "tal mike november line up in sequence"
+  },
+  {
+    "reference": "hotel bravo zulu oscar bravo berne tower enter control zone via route whiskey and say your program again",
+    "hypothesis": "hotel bravo zulu oscar bravo praha and control zero via route whiskey and say progerme again"
+  },
+  {
+    "reference": "hotel charlie quebec breaking off to the left",
+    "hypothesis": "to talicorec braking out to the left"
+  },
+  {
+    "reference": "hotel charlie quebec roger",
+    "hypothesis": "hotel charlie quebect chance"
+  },
+  {
+    "reference": "hotel bravo juliett traffic a husky is approaching gerzensee right now behind you and same direction",
+    "hypothesis": "hotel bravo juliett traffic husky is approaching air csa right now behind you and same direction"
+  },
+  {
+    "reference": "hotel bravo sierra charlie papa berne tower is it for startup or for taxi",
+    "hypothesis": "hotel braw zero charlie papa bant howe esit for start up or for taxi"
+  },
+  {
+    "reference": "zulu sierra go ahead",
+    "hypothesis": "julu sira go ahed"
+  },
+  {
+    "reference": "are you aware that you are now inside the ctr of berne",
+    "hypothesis": "ary awaye that your now insing the ctrf burn"
+  },
+  {
+    "reference": "we have the traffic in sight as well hotel hotel oscar",
+    "hypothesis": "traffic insing the five ostoms"
+  },
+  {
+    "reference": "hotel hotel oscar",
+    "hypothesis": "hotel to oscar"
+  },
+  {
+    "reference": "frequency change approved bye bye have a nice evening hotel quebec mike",
+    "hypothesis": "good dectand approved bye bye ave nice evening howto fuck mike"
+  },
+  {
+    "reference": "hotel whiskey echo for the time being not available i will call you back",
+    "hypothesis": "hotel whiskey echo for time bing not available i will call you back"
+  },
+  {
+    "reference": "number one in sight hotel whiskey echo",
+    "hypothesis": "number one in sirapo tasingo"
+  },
+  {
+    "reference": "hotel whiskey echo thank you follow behind",
+    "hypothesis": "hoparwiski echo thank you follo behind"
+  },
+  {
+    "reference": "hotel bravo charlie golf india taxi to blue station to fuel station approved from blue parking",
+    "hypothesis": "autabrow charlie golf india taxi to blue station to fule station approved for blue parking"
+  },
+  {
+    "reference": "heli tango whiskey negative it s fine if you want you can monitor the frequency but it s up to you if you stay outside of ctr all the time",
+    "hypothesis": "alitango whisky negative it s fine if you want you can monitor the frqency but it sup to you if you stay outsid of ctr ol thim"
+  },
+  {
+    "reference": "hotel bravo tango echo echo leaving ctr",
+    "hypothesis": "hotel bravo town direct direct to level three pr"
+  },
+  {
+    "reference": "hotel echo echo frequency change approved good bye",
+    "hypothesis": "hotel eq eco frequency changer proved good bye"
+  },
+  {
+    "reference": "one second",
+    "hypothesis": "one segon"
+  },
+  {
+    "reference": "sure no worries it is fine for me but just for the next time then maybe not get a confusion",
+    "hypothesis": "shur no were st s fine for me but just for three nex time then may not to get the confusion"
+  },
+  {
+    "reference": "ok",
+    "hypothesis": "roket"
+  },
+  {
+    "reference": "hotel golf november zimi is not available anymore romeo eight two is now active do you want to proceed to sava instead",
+    "hypothesis": "that golf november thim is navaila any more romeo eight two is now active do you want to proceed to sarva insted"
+  },
+  {
+    "reference": "roger break break heli delta quebec after hotel whiskey cross via berne city then hotel echo",
+    "hypothesis": "roger brak brake alid delta quebec after hotel whisky cross via brin city ten hotel echo"
+  },
+  {
+    "reference": "delta charlie kilo victor india tower hello qnh one zero two seven startup approved runway three two cleared destination malta via the mebox three bravo departure",
+    "hypothesis": "delta charlie kilo victor india tower hello qnh one zero two seven starb proved runway three two cleared destination malta via de maybox three bravo departure"
+  },
+  {
+    "reference": "zulu one four one transition climb initially five thousand feet squawk two seven six zero",
+    "hypothesis": "sulu one four one transion climb initalia five thousand feet squawk two seven six zero"
+  },
+  {
+    "reference": "november mike alfa vacate via charlie and how long do you stay",
+    "hypothesis": "november mike alfa vaket via charlie and how long do you stay"
+  },
+  {
+    "reference": "hotel hotel lima echo we are at dme approach runway two four circling zero six report established",
+    "hypothesis": "hotel hotel lima aclet via demi approach runway two four zero climb zero six report established"
+  },
+  {
+    "reference": "hotel india victor after whiskey two join wide right base runway one zero number one",
+    "hypothesis": "hotel india victor afterwisky two join wide right base runway one zero nomber one"
+  },
+  {
+    "reference": "turkish two seven xray tower one one eight one bye bye",
+    "hypothesis": "six two seven xray tower one one eight one bye bye"
+  },
+  {
+    "reference": "europa nine four kilo mike contact ground one two one decimal nine zero five good bye",
+    "hypothesis": "aeropa nine four kilo mike contact ground one two one decimal nine zero five good bye"
+  },
+  {
+    "reference": "alitalia five seven one apron hello push back and startup is approved",
+    "hypothesis": "alitalia five seven one nato hello push by to is approved"
+  },
+  {
+    "reference": "bravo kilo hotel romeo tower grutzli say again taxiway kilo cross runway two eight and contact apron one two one decimal seven five five",
+    "hypothesis": "bravo kilo tluria tower krates again tax two kilo cross runway two eight and contact apran one two one decimal seven five five"
+  },
+  {
+    "reference": "hotel bravo sierra delta foxtrot tower hello line up runway one zero",
+    "hypothesis": "hather praha sierra delta foxtor tower low nine praha one zero"
+  },
+  {
+    "reference": "vista jet four three seven turn left via taxiway alfa echo six hold short runway one six",
+    "hypothesis": "wissa jet four three seven turn left radar fax radar alfa echo six hold short runway one six"
+  },
+  {
+    "reference": "swiss two zero six seven contact apron one two one decimal eight five five",
+    "hypothesis": "wist two zero six seven contact eight one to one decimal eight five five"
+  },
+  {
+    "reference": "one two one decimal eight five five swiss two zero six seven",
+    "hypothesis": "one two one decimal eight five five two two zero six seven"
+  },
+  {
+    "reference": "emirates eight eight wind zero four zero three is nine knots runway one zero cleared for takeoff",
+    "hypothesis": "emrad eight eight wind zero four zero degrees nine not runway one zero cleared to takeof"
+  },
+  {
+    "reference": "cleared for takeoff one zero emirates eight eight",
+    "hypothesis": "curp say cop one zero emirix eight eight"
+  },
+  {
+    "reference": "swiss ambulance six one wind zero three zero degrees four knots runway three two cleared takeoff",
+    "hypothesis": "swiss air six one wind zero three zero degrees four nine seven three two cleare take of"
+  },
+  {
+    "reference": "hi three two cleared takeoff swiss ambulance six one",
+    "hypothesis": "three two cleare takeos radar level six one"
+  },
+  {
+    "reference": "alitalia five seven one zero seven zero three one two knots runway one zero cleared to takeoff",
+    "hypothesis": "alitalia five seven one zero seven zero three one two knots runway one zero clifte echo"
+  },
+  {
+    "reference": "hotel india victor whiskey three thousand five hundred feet",
+    "hypothesis": "austrian india victor whiskey three thousand five hundred feet"
+  },
+  {
+    "reference": "hotel india victor danke",
+    "hypothesis": "hotel india victor tanke"
+  },
+  {
+    "reference": "klm nine four foxtrot on echo seven hold short of runway one six",
+    "hypothesis": "klm nine four foxtrot on echo seven hold short of runway one six"
+  },
+  {
+    "reference": "swiss one zero seven six taxi via link three echo seven hold short of runway one six",
+    "hypothesis": "resporne zero seven six taxi via link three echo seven hold short of runway one six"
+  },
+  {
+    "reference": "fraction two five zero foxtrot descend flight level nine zero",
+    "hypothesis": "fraction two four zero foxtrat descend flight level nine zero"
+  },
+  {
+    "reference": "tower guten morgen swiss one nine seven heavy rnp one four established",
+    "hypothesis": "caur gotter morgen six one nine seven heavy rmt one four established"
+  },
+  {
+    "reference": "swiss one nine seven tower guten morgen wind zero eight zero degrees one two knots gusting one nine runway one four cleared to land vacate hotel two",
+    "hypothesis": "swiss one nine seven tower good amoir wind zero eight zero degrees one two knots casting one nine runway one four cleared land thank head hotel two"
+  },
+  {
+    "reference": "i guess six three zero taxi via november echo seven hold short of runway one six",
+    "hypothesis": "air gor six three zero taxi via november echo seven hold short of runway one six"
+  },
+  {
+    "reference": "hotel bravo charlie hotel xray grutzli hold position call you back",
+    "hypothesis": "hotel bravo charlie hotel xay east six opositon callibec"
+  },
+  {
+    "reference": "delta india victor contact apron one two one decimal seven five five tschuss",
+    "hypothesis": "to turn direct contact eight rhein one two one descend seven five five tschuss"
+  },
+  {
+    "reference": "singapore three four six contact apron one two one decimal eight five five",
+    "hypothesis": "lerport three four six contact apron one two one decimal eight five five"
+  },
+  {
+    "reference": "finn air five delta lima vacated own discretion wind one four zero degrees five knots runway one four cleared to land",
+    "hypothesis": "finar five delta lima rokate one discretion wind one four zero degrees five knots rumwi one four cleared to land"
+  },
+  {
+    "reference": "swiss two eight nine the wind three two zero degrees three knots runway one four you are cleared to land",
+    "hypothesis": "two two eight nine two wind three to the degrees three knots runway one four you cliter land"
+  },
+  {
+    "reference": "zurich tower hotel bravo papa oscar echo",
+    "hypothesis": "trik head hoter bravo papa oscar echo"
+  },
+  {
+    "reference": "hotel bravo papa oscar echo zurich tower go ahead",
+    "hypothesis": "luter papa skarico zurich tower go aed"
+  },
+  {
+    "reference": "lot four two zero contact ground one two one decimal nine zero five good bye",
+    "hypothesis": "lot four two zero contact ground one two one decimal nine zero five good bye"
+  },
+  {
+    "reference": "turkish six foxtrot lima is in hello taxi second right via inner foxtrot and mike to stand bravo three two",
+    "hypothesis": "turky six foxtort lima eight hello tact three secend right via indar foxtrot and mike to stand bravo three two"
+  },
+  {
+    "reference": "ground hello royal air maroc three five two stand echo four six fully ready",
+    "hypothesis": "ground hello rair mark three five two echo four six four"
+  },
+  {
+    "reference": "foxtrot lima hello again taxiway juliett cross runway two eight contact apron one two one decimal seven five five good day",
+    "hypothesis": "sweed lima hello again taxir way two yeat cross runway two eight contact air one two one decimal seven five five good day"
+  },
+  {
+    "reference": "taxiway juliett cross runway two eight after crossing one two one seven five five turkish six foxtrot lima",
+    "hypothesis": "air five zuliett cliret runway two eight aufter contact one two one seven five five turn charlie six four cern good day"
+  },
+  {
+    "reference": "thank you",
+    "hypothesis": "thank you"
+  },
+  {
+    "reference": "two hundred turkish six three two nine wind zero seven zero degrees one three gusting two zero knots runway one",
+    "hypothesis": "three one turkish six three two nine wind zero seven zero degrees one three gusting two zero knots runway one"
+  },
+  {
+    "reference": "oscar charlie kilo contact tower one one eight decimal one good bye",
+    "hypothesis": "oscar charlie kilo contact tower one one eight decimal one good bye"
+  },
+  {
+    "reference": "hotel yankee hotel wind zero four zero degrees one one knots runway one zero cleared to land",
+    "hypothesis": "hotel yankee hotel wind zero four zero degrees one one knots runway one zero cleared ol landing"
+  },
+  {
+    "reference": "runway one zero cleared to land hotel yankee hotel",
+    "hypothesis": "runway one zero cliat to land of three yanke hoting"
+  },
+  {
+    "reference": "hotel whiskey whiskey affirm vacate next right into taxi way hotel two and contact apron one two one decimal eight five five",
+    "hypothesis": "hotel whisky whiskey afmakat nine right into tex ray hotel two and contact epring montain decimal eight five five"
+  },
+  {
+    "reference": "vista jet four nine two no landing vacated own discretion",
+    "hypothesis": "we seven chead four nine two after landing verchon discrection"
+  },
+  {
+    "reference": "oscar charlie kilo contact departure one two five decimal nine five five good bye",
+    "hypothesis": "oscar charlie kilo contact departure one two five decimal nine five five bye bye"
+  },
+  {
+    "reference": "one two five nine five five oscar papa charlie kilo",
+    "hypothesis": "one two five nine five five papa chay kilo"
+  },
+  {
+    "reference": "air nostrum eight zero quebec yankee contact apron one two one decimal eight five five",
+    "hypothesis": "nostrom eight zero quebec yankee contact apron one two one decimal eight five five"
+  },
+  {
+    "reference": "dagobert one five five three roger are you able to depart from intersection echo",
+    "hypothesis": "turk one five five three roger ayo air procon to ki depart form intersection echo"
+  },
+  {
+    "reference": "hotel bravo papa hotel delta unknown vfr traffic without altitude indications twelve o clock two miles crossing left to right",
+    "hypothesis": "hotel praha papa hotel delta un known via for traffic withlout altud idiciation two foucloc two miles crossing left to right"
+  },
+  {
+    "reference": "air nostrum eight zero quebec yankee tower hello wind zero seven zero degrees right zero nine runway one four cleared to land",
+    "hypothesis": "nostrom eight zero kebec yankee tower hello wind zero seven zero degrees one zero knots runway one four cleared to land"
+  },
+  {
+    "reference": "swiss air force five two one tower grutzi and runway three four and taxi left via lima holding point runway one zero",
+    "hypothesis": "wizz air frock five two one tower greation antir runway three four and taxi left via then lima to hoading foin trunway one zero"
+  },
+  {
+    "reference": "turkish three whiskey quebec taxi via echo and echo seven hold short of runway one six",
+    "hypothesis": "turkish three whiskey quebec pax three via echo and echo seven hold short of runway one six"
+  },
+  {
+    "reference": "echo one charlie go ahead",
+    "hypothesis": "pal concharlie go ahead"
+  },
+  {
+    "reference": "echo one charlie cleared to madrid runway three two ready three november climb five thousand feet squawk three zero zero two",
+    "hypothesis": "well conchalis perto madrid runway three two webit three november climb five thousand feet scoup three zero zero two"
+  },
+  {
+    "reference": "hotel uniform uniform contact departure and schone tag",
+    "hypothesis": "lot uniform uniform contact eparch changetaw"
+  },
+  {
+    "reference": "departure hotel uniform uniform schone tag",
+    "hypothesis": "radar hotel uniform uniform schone tag"
+  },
+  {
+    "reference": "hotel hotel xray vacacated at zero and to the right and contact apron one two one decimal seven five five bye bye",
+    "hypothesis": "hotel hotel x ray vaket air zero and to tright and contact aprian one two one decimal seven five five hady"
+  },
+  {
+    "reference": "hotel lima hotel wind zero one zero degrees one zero knots runway one zero cleared to land",
+    "hypothesis": "hotel lima hotel wind zero one zero degrees one zero noss runway one zero cleared to end"
+  },
+  {
+    "reference": "sun express three wind one six zero degrees four knots runway two eight cleared for takeoff",
+    "hypothesis": "sun express rhein wind one six seared grays four not from air two eight cleared takeof"
+  },
+  {
+    "reference": "air canada seven two one six when did you see the lights",
+    "hypothesis": "canades seven two one six when didy seate three"
+  },
+  {
+    "reference": "hotel sierra kilo wind zero three zero degrees one one knots runway two cleared takeoff",
+    "hypothesis": "autar sierra kilo wind zero three zero degrees one one not suram eight to clictec"
+  },
+  {
+    "reference": "hello bravo whiskey zulu papa tower hello into control zone route echo clearance limit echo two",
+    "hypothesis": "zulu papa tower hello enter controls on route echo clearencs limit echo two"
+  },
+  {
+    "reference": "swiss two one eight romeo can we vacate via hotel two",
+    "hypothesis": "two two one eight romeo can vevact five hotel two"
+  },
+  {
+    "reference": "swiss two one eight romeo affirm vacated as convenient",
+    "hypothesis": "two one eight romeo ua firm wike is convening"
+  },
+  {
+    "reference": "swiss three three two behind challenger line up to eight behind",
+    "hypothesis": "wis three three two behind charlinger line up two eight behing"
+  },
+  {
+    "reference": "zurich tower legend one two zero two good afternoon established ils one four",
+    "hypothesis": "tower legen one two zero two good afternoon is spabechiles one four"
+  },
+  {
+    "reference": "legend one two zero two tower hello wind one six zero degrees four knots runway one four cleared to land vacate at own discretion",
+    "hypothesis": "magin one two zero two taurallo wind one six zero two grays four not tramil one four cluteland lotader one discraistion"
+  },
+  {
+    "reference": "cleared to land runway one four and vacate at own discretion legend one two zero two",
+    "hypothesis": "charlie runway one four nine cape towen discristing one two zero two three"
+  },
+  {
+    "reference": "hotel bravo charlie lima hotel via echo line up and wait runway one zero",
+    "hypothesis": "halte bravo charlie lima hotel via echo line up and way to runway one zero"
+  },
+  {
+    "reference": "zurich tower hello then arrow jet six zero one on foxtrot",
+    "hypothesis": "tower hello derning six one on foxtrot"
+  },
+  {
+    "reference": "arrow jet six zero one tower on foxtrot cross runway one zero contact apron one two one decimal seven five five sorry",
+    "hypothesis": "pagar six zero one tower on foxtroc cross runway one zero connect aprearen one two one decimal seven five five haday"
+  },
+  {
+    "reference": "on foxtrot cross runway one zero one two one seven five",
+    "hypothesis": "one four short runway one zero wing one two one seven five"
+  },
+  {
+    "reference": "alitalia five seven two",
+    "hypothesis": "alitalia five seven two five heading three"
+  },
+  {
+    "reference": "jump run eight zero two climb to flight level one five zero",
+    "hypothesis": "jump run eight zero two climb to flight level one five zero"
+  },
+  {
+    "reference": "well there s marchall on it s way and in zurich it is handled like this all the time but it s any second with you",
+    "hypothesis": "well theres a marshal on it we and in zurich it is handled like this al the time but it s any second with you"
+  },
+  {
+    "reference": "fraction one zero three mike wind one four zero degrees four knots runway two eight cleared for takeoff",
+    "hypothesis": "traction one zero three mike queen one four zero degrees four nine shutmay to air clifer takeav"
+  },
+  {
+    "reference": "hotel bravo victor roger after whiskey one proceed direct sierra",
+    "hypothesis": "hotel bravo victor runger afterwisky one proceed three zero"
+  },
+  {
+    "reference": "wilco hotel bravo victor",
+    "hypothesis": "winko hotel bravo victor"
+  },
+  {
+    "reference": "swiss one eight line up and wait runway one zero",
+    "hypothesis": "six one eight line up and wait runway one zero"
+  },
+  {
+    "reference": "line up and wait runway one zero swiss one eight",
+    "hypothesis": "turn up wade from ai one zero one eight"
+  },
+  {
+    "reference": "legend one two zero two hello again on juliett approaching runway two eight",
+    "hypothesis": "air malating one two zero two hello again on juliett approaching runway two eight"
+  },
+  {
+    "reference": "legend one two zero two tower hello again cross runway two eight one juliett connect apron one two one decimal seven five five good bye",
+    "hypothesis": "legetion one two zero two tower hello again cross runway two eight juliett conning to aprian one two one decimal seven five five good bye"
+  },
+  {
+    "reference": "wind check for runway one four three four degrees two knots",
+    "hypothesis": "wind check for runway one four three four zero degrees two knots"
+  },
+  {
+    "reference": "fraction four nine eight alfa hold position there will be crossing traffic i call you back",
+    "hypothesis": "breaking four nine eight alfa hop position the will be crossing traffic i call you back"
+  },
+  {
+    "reference": "ready to touchdown",
+    "hypothesis": "five nine two touch dine"
+  },
+  {
+    "reference": "er four seven on juliett",
+    "hypothesis": "four seven one juliett"
+  },
+  {
+    "reference": "sun turk nine four seven tower taxiway juliett cross runway two eight contact apron one two one decimal seven five five bye",
+    "hypothesis": "sun turk nine four seven tower taxa way juliett cross runway two eight contact aprian one two one decimal seven five five bye"
+  },
+  {
+    "reference": "royal air maroc three five two zurich tower good afternoon line up runway one zero report ready",
+    "hypothesis": "roal lemaroc three five two zero taw good afternoon line up runway one zero report ready"
+  },
+  {
+    "reference": "roger then taxi via all alfa and echo on taxiway echo hold short runway one zero",
+    "hypothesis": "vraden taxiway alfa and echo on taxiry echo hulshur runway one zero"
+  },
+  {
+    "reference": "united one three five wind zero three zero degrees one zero knots runway two eight cleared takeoff",
+    "hypothesis": "united one three five wing zero three zero degrees one zero knots runway two eight quer takeof"
+  },
+  {
+    "reference": "swiss two zero four kilo departure bye",
+    "hypothesis": "four kilo departar bye"
+  },
+  {
+    "reference": "departure good bye swiss two zero four kilo",
+    "hypothesis": "praha good bye six two zero four keebor"
+  },
+  {
+    "reference": "united one three five apron hello push back and startup is approved",
+    "hypothesis": "united one three five airing hello push back and startup is approved"
+  },
+  {
+    "reference": "swiss nine two identified climb to flight level one two zero and report passing altitude",
+    "hypothesis": "swiss nine two identified climb to flight level one two zero and report passing altiture"
+  },
+  {
+    "reference": "hello air nostrum eight seven whiskey bravo zurich tower line up runway one zero",
+    "hypothesis": "hello an nostrom eight seven whoisky braw direct tower line ufra one zero"
+  },
+  {
+    "reference": "singapore three four six contact apron one two one decimal seven five five bye bye",
+    "hypothesis": "proceed four six papa day five one two one decimal seven five five bye bye"
+  },
+  {
+    "reference": "oscar echo india tango hotel tower on taxiway kilo cross runway two eight contact apron one two one decimal seven five five bye bye",
+    "hypothesis": "oscar india tango hotel tower on taxi way kilo cross runway two eight connect apring one to one decimal seven five five bye bye"
+  },
+  {
+    "reference": "foxtrot sierra foxtrot five eight four papa tower hello again actually hold position shortly",
+    "hypothesis": "foxtar zero foxtat five eight four papa tower hello gagen achly hotel position shortly"
+  },
+  {
+    "reference": "copy seven seven taxi on zulu and bravo hold short runway one six",
+    "hypothesis": "albi seven seven taxion zulu and bravo hold short runway one six"
+  },
+  {
+    "reference": "hotel bravo yankee juliett golf good afternoon behind you lining up pg twenty four line up runway two eight behind",
+    "hypothesis": "hotel bravo yankee three golf good afternoon behind you line up pg two four line up runway two eight behind"
+  },
+  {
+    "reference": "hotel four six five tower hello line up runway one zero",
+    "hypothesis": "four six five tower hello line up runway one zero"
+  },
+  {
+    "reference": "delta hotel golf wind zero five zero degrees one two knots gusting one seven runway one four cleared to land",
+    "hypothesis": "delta hotel golf wind zero five zero degrees one two knots casting one seven runway one four good right"
+  },
+  {
+    "reference": "cleared to land runway one four delta hotel golf",
+    "hypothesis": "climb to level wing one four delta good"
+  },
+  {
+    "reference": "united one three five tower hello behind lufthansa line up runway two eight behind",
+    "hypothesis": "united one three five tower hello behind lufthansa line up runway two eight behind"
+  },
+  {
+    "reference": "united one three five behind lufthansa line up runway",
+    "hypothesis": "united one three five behing three line up in way"
+  },
+  {
+    "reference": "november four charlie golf contact tower one one eight decimal one zero five",
+    "hypothesis": "november four charlie golf contact two one eight decimal juliett"
+  },
+  {
+    "reference": "tango kilo alfa wind zero four zero degrees one zero knots on the one zero cleared for takeoff",
+    "hypothesis": "tenko kilo alfa wind zero four zero degrees one zero knots runay one zero cliad for takeof"
+  },
+  {
+    "reference": "hotel oscar echo the second traffic is now to overhead whiskey one opposite",
+    "hypothesis": "hotel oscar echo thect traffic is now chars over head whiskey one opposit"
+  },
+  {
+    "reference": "tower hello again air portugal nine two six approaching right two eight kilo",
+    "hypothesis": "praha hello agan procho nine six approaching radar two eight kilo"
+  },
+  {
+    "reference": "air portugal nine two six at kilo cross runway two eight then contact the apron one two one decimal seven five five",
+    "hypothesis": "air portago nine two six air kilo cross from eight to eight than contact aprechon one two one decimal seven five five"
+  },
+  {
+    "reference": "sierra papa foxtrot bravo alfa tower hello hold position i ll call you back",
+    "hypothesis": "sierra papa foxtar papa alfa tower hello holt positing acray"
+  },
+  {
+    "reference": "delta tango tango taxi via alfa echo six hold short of runway one six",
+    "hypothesis": "delta tango tango taxi via alfa echo six hold short of runway one six"
+  },
+  {
+    "reference": "hotel delta charlie your re at the ctr frequency change approved bye bye",
+    "hypothesis": "hotel hotel charlie your outsed city air frequency change approved bye bye"
+  },
+  {
+    "reference": "rega one in case you still with me you may leave the frequency",
+    "hypothesis": "raga one in case you stil with me you may life three quencenty"
+  },
+  {
+    "reference": "hotel bravo kilo hotel romeo apron hello qnh one zero two four taxi to holding position papa one",
+    "hypothesis": "hotel bravo kilo hotel romeo eight five hello qnah one zero two four bax to halding posing papa one"
+  },
+  {
+    "reference": "and report ready for departure once your re clear after inbound hotel delta lima",
+    "hypothesis": "and report ready for departure one sear cleared of the inbound hotel delta lima"
+  },
+  {
+    "reference": "air nostrum seven eight juliett mike zero two zero degrees one three",
+    "hypothesis": "nostrom seven eight juliett mike zero two zero degrees one three"
+  },
+  {
+    "reference": "qatari zero two mike on taxiway juliett cross runway one zero contact apron one two one decimal seven five five good bye",
+    "hypothesis": "qatari zero two mik contact zero juliett cross runway one zero contact apring one two one decimal seven five five good bye"
+  },
+  {
+    "reference": "air portugal nine three one charlie contact departure good bye",
+    "hypothesis": "air protughtl nine three one charlie contact departure good bye"
+  },
+  {
+    "reference": "departure bye air portugal nine three one charlie thank you",
+    "hypothesis": "praha jubelia portacl one two one charlie thank you"
+  },
+  {
+    "reference": "tower guten morgen air canada seven two one six heavy with you we re established six miles one four",
+    "hypothesis": "jerti good morning air canada seven two one six heaby with you we established six miles one four"
+  },
+  {
+    "reference": "air canada seven two one six tower good morning wind three five zero degrees three knots runway one four cleared to land",
+    "hypothesis": "air canada seven two one six tar good morning wind three five zero degrees three knots runway one four cleared to landrad"
+  },
+  {
+    "reference": "dagobert one five five three to confirm on taxiway echo hold short runway one zero",
+    "hypothesis": "turkabrag one five five feet confirm one extay echo holut shout runway one zero"
+  },
+  {
+    "reference": "tango charlie november kilo alfa apron hello turn left via alfa yankee two ten foxtrot seven three",
+    "hypothesis": "tango three november kilo alfa apring hello turn left flight alfa yankee two ten fox drowe seven three"
+  },
+  {
+    "reference": "royal air maroc three five two contact apron one two one decimal eight five five good bye",
+    "hypothesis": "rolam roct three five two contact zurich apran one two one decimal eight five five good bye"
+  },
+  {
+    "reference": "one two one decimal eight five five good bye royal air maroc three five two",
+    "hypothesis": "one two one decimal eight five five good bye radar three five two"
+  },
+  {
+    "reference": "hotel delta lima contact apron one two one decimal eight five five",
+    "hypothesis": "hotel delta lima contact apron one two one decimal eight five five"
+  },
+  {
+    "reference": "air nostrum seven eight juliett mike direct hello wind one eight zero degrees four knots runway one four cleared to land",
+    "hypothesis": "not strom seven eight joliet mike zurich hello wind one eight zero degrees four not strom wiv one four cleared land"
+  },
+  {
+    "reference": "cleared to land one four air nostrum seven eight juliett mike",
+    "hypothesis": "lang one four nust seven eight juliett bye"
+  },
+  {
+    "reference": "holding point runway three one via foxtrot and cross runway zero four euro trans two one correction one three juliett thank you",
+    "hypothesis": "auder point runway three one via foxtrot tan cross runway zero four your thrans three one corlaction one three joling thank you"
+  },
+  {
+    "reference": "one three juliett correction position two foxtrot",
+    "hypothesis": "one three juliett correction position two foxtrot"
+  },
+  {
+    "reference": "two foxtrot euro trans one three juliett",
+    "hypothesis": "zero fox polity zero jums one three juliett"
+  },
+  {
+    "reference": "elite jet two zero one and via foxtrot line up three one report ready",
+    "hypothesis": "topjet two zero one nine foxtrot line up three one report radar"
+  },
+  {
+    "reference": "euro trans one three juliett request push and start",
+    "hypothesis": "neo transon three eight juelte request push and star"
+  },
+  {
+    "reference": "good evening euro trans one three juliett startup and push back approved position to foxtrot squawk four four two five",
+    "hypothesis": "good evening que trance one three juliett star up and push back approved position two foxtrot squawk four four two five"
+  },
+  {
+    "reference": "squawk four four two five and start and push pre approved position fox two foxtrot",
+    "hypothesis": "squawk four four two five and starting pussing prproved prosition fox two foxtor two"
+  },
+  {
+    "reference": "stefanik tower top jet four zero one dobry den apron charlie in front of the hangar ready for startup cleared destination ostrava lima on board qnh one zero one seven",
+    "hypothesis": "haning tower topjet four zero one dobree deyn reaprain charlie in france of thouher ready for start up clearenc descending osterawa lima borge quinaher one zero one seven"
+  },
+  {
+    "reference": "stefanik tower oscar mike charlie india alfa final runway one three oscar mike charlie india alfa",
+    "hypothesis": "finic tarosco back three india alfa final runway one three oscom back juliett india alfa"
+  },
+  {
+    "reference": "oscar mike charlie india alfa runway one three cleared to land wind one three zero degrees eight knots",
+    "hypothesis": "oscar miak charlin india alfa runway one three cleared to lend wind one three zero degrees eight knots"
+  },
+  {
+    "reference": "stefanik tower oscar mike charlie india alfa request",
+    "hypothesis": "stefanik taroscam acturling alfa quest"
+  },
+  {
+    "reference": "yes go ahead",
+    "hypothesis": "esco wet"
+  },
+  {
+    "reference": "tel six zero three taxi to holding point runway one three via delta foxtrot",
+    "hypothesis": "trasich zero three taxi to holipar runway one three via delta foxtrot"
+  },
+  {
+    "reference": "oscar kilo alfa golf lima squad four six seven four six",
+    "hypothesis": "oscar kilo alfa golf limasque four six seven four six"
+  },
+  {
+    "reference": "six seven four six",
+    "hypothesis": "seven confir"
+  },
+  {
+    "reference": "november one alfa would be more affordable euro trans one three juliett thank you",
+    "hypothesis": "and then one alfa would be more sutable your transa one three dure thank you"
+  },
+  {
+    "reference": "time air three nine seven foxtrot call me on tower frequency please",
+    "hypothesis": "direma three nine seven foxtrot clalm mon tower frequency please"
+  },
+  {
+    "reference": "roger",
+    "hypothesis": ""
+  },
+  {
+    "reference": "stefanik tower pekne popoludnie tatra six one three establish ils three one",
+    "hypothesis": "five two racken papa luding tara six one three establish als three one"
+  },
+  {
+    "reference": "tatra six one three dobre popoludnie stefanik tower runway three one cleared to land wind three zero zero degrees one nine knots maximum three three knots",
+    "hypothesis": "tara six one three dober popa ludnion stefanic tavra runway three one cleared to land wind three zero zero degrees one nine knots maximum three three knots"
+  },
+  {
+    "reference": "runway three one clear to land tatra six one three",
+    "hypothesis": "runway three one cleared to ntatra six one three"
+  },
+  {
+    "reference": "and after landing vacate via delta",
+    "hypothesis": "and after landing vecate via delta"
+  },
+  {
+    "reference": "after landing via delta six one three",
+    "hypothesis": "lunding radar six one three"
+  },
+  {
+    "reference": "delta bravo bravo line up runway three one report ready for departure",
+    "hypothesis": "delta bravo bravo line up runway three one report ready for departure"
+  },
+  {
+    "reference": "delta bravo bravo lining up runway three one we are ready for departure",
+    "hypothesis": "delta bravo bravo line up runway three one we are ready for departure"
+  },
+  {
+    "reference": "roger",
+    "hypothesis": "roger"
+  },
+  {
+    "reference": "startup push back approved position to foxtrot squawk four four zero seven euro trans one three juliett",
+    "hypothesis": "start up push becar approved postion two foxtrot squawk four four zero seven neo trans one three juliett"
+  },
+  {
+    "reference": "runway three one cleared to land we copied top jet seven zero four",
+    "hypothesis": "runway three one cleared to land wink opet objet seven zero four"
+  },
+  {
+    "reference": "euro trans five three three five approaching fox one six ready for departure",
+    "hypothesis": "utf five three three five approaching fox one descend ready for departurture"
+  },
+  {
+    "reference": "euro trans one three juliett startup approved own discretion",
+    "hypothesis": "lufthansa one three juliett stader prot turn discrion"
+  },
+  {
+    "reference": "startup own discretion euro trans one three juliett",
+    "hypothesis": "statup own discring you trans one three juliett"
+  },
+  {
+    "reference": "top jet four zero two via delta foxtrot ten three three",
+    "hypothesis": "to jet four zero two via delta foxtrot stand three three"
+  },
+  {
+    "reference": "delta foxtrot ten three three top jet four zero two",
+    "hypothesis": "delta four seven three three"
+  },
+  {
+    "reference": "stefanik tower good day austrian one four one one ils three one",
+    "hypothesis": "stefanik tago dey austrian one four one one ils three one"
+  },
+  {
+    "reference": "euro trans one three juliett taxi to holding point runway zero four via alfa delta",
+    "hypothesis": "aero trans one three juliett taxi to halling pone runway zero four via alfa delta"
+  },
+  {
+    "reference": "alfa delta holding point zero four euro trans one three juliett",
+    "hypothesis": "alfa delta holding point zero four erot transform three juliett"
+  },
+  {
+    "reference": "stefanik tower dobry den burg six nine two lima stop established runway three one six point five dme",
+    "hypothesis": "stapink tag to radar hambough six nine two lima established ils runway three one six pint five tb"
+  },
+  {
+    "reference": "air hamburg six nine two lima stefanik tower dobry den",
+    "hypothesis": "air hamburk six nine to lima stefanic tower dobri den"
+  },
+  {
+    "reference": "wind two two zero degrees five knots variable between one seven zero and two three zero degrees maximum one zero minimum three runway three one cleared to land",
+    "hypothesis": "wind two two zero degrees five knots variable betwen one seven zero and two three zero degrees maximum one zero mimim three runway three one cleared to lend"
+  },
+  {
+    "reference": "oscar mike echo lima echo taxi between anchors via foxtrot",
+    "hypothesis": "oscar migek colima echo taxi betwing hangars via foxtrut"
+  },
+  {
+    "reference": "taxi between anchors via foxtrot oscar mike echo lima echo",
+    "hypothesis": "taxing st good fox to sconding air holy minah"
+  },
+  {
+    "reference": "taxi holding point three one via foxtrot cross runway zero four slovak government zero zero four",
+    "hypothesis": "tax recall deport three one via foxtrot cross runway zero four four good mart zero zero four"
+  },
+  {
+    "reference": "dark blue five four romeo stefanik tower dobre rano runway three one cleared to land wind zero eight zero degrees six knots",
+    "hypothesis": "dark blue five four romeo stefining tower to breano runway three one cleared to land wind zero eight zero degrees six knots"
+  },
+  {
+    "reference": "right three one cleared to land dark blue five four romeo",
+    "hypothesis": "eight three one climb to lund ar blue five four ome"
+  },
+  {
+    "reference": "oscar golf echo continue to final runway two two traffic is just now before shortly before landing",
+    "hypothesis": "oscar golf echo continue to final runway two two trafic is just now befor shortly before landing"
+  },
+  {
+    "reference": "b air seven one two taxi via delta line up runway zero four",
+    "hypothesis": "beer seven one two taxi via delta line nubranway zero four"
+  },
+  {
+    "reference": "via delta line up zero four b air seven one two",
+    "hypothesis": "mayad delta line up zero four prair seven one two"
+  },
+  {
+    "reference": "stefanik tower dobry den elite jet eight zero one crossing two right base runway one three",
+    "hypothesis": "stefani tower dobrian to proday zero one proceeding to right bayes nine one three"
+  },
+  {
+    "reference": "looking out for a traffic oscar mike kilo lima lima",
+    "hypothesis": "luking out for three coscor mike lulu lima lima"
+  },
+  {
+    "reference": "roger just traffic is on your eleven o clock one mile",
+    "hypothesis": "roger jaz trafic is on your eleven oclock one mile"
+  },
+  {
+    "reference": "qnh one zero one eight after keep the proceeding to victor",
+    "hypothesis": "qnh one zero one eight after kilt sev proceeding to victor"
+  },
+  {
+    "reference": "cleared to land runway three one and please say again the wind",
+    "hypothesis": "clifto len head runway three one and prect endo with"
+  },
+  {
+    "reference": "two eight zero degrees one one knots maximum one eight minimum six knots",
+    "hypothesis": "two eight zero degrees one one knots maximum one eight mimim six knots"
+  },
+  {
+    "reference": "push and start approved on position three foxtrot on squawk four four zero two euro trans one three juliett",
+    "hypothesis": "postion start approved on position three foxtrot tan squawk four four zero two your trans one two juliett"
+  },
+  {
+    "reference": "oscar golf echo roger descend to traffic altitude one thousand five hundred feet",
+    "hypothesis": "oscar golf echo roger descend to traffic altitue one thousand five hundred feet"
+  },
+  {
+    "reference": "start descending one thousand five hundred feet altitude oscar mike alfa golf echo",
+    "hypothesis": "descending one thousand five hundred feet altitude oscar mike alfa colfaco"
+  },
+  {
+    "reference": "elite jet seven zero four taxi via delta to apron charlie",
+    "hypothesis": "contact seven zero four taxiva delta two air one charlie"
+  },
+  {
+    "reference": "slovak airforce seven four four five frequency change approved dopocutia pekny let",
+    "hypothesis": "flight air force seven four four five frequency change approved oppartuytion apicnuled"
+  },
+  {
+    "reference": "dobre popoludnie stefanik tower b air nine four one ils three one",
+    "hypothesis": "topred popoding stefanik two robia nine four one ils three one"
+  },
+  {
+    "reference": "b air nine four one stefanik tower pekne popoludnie wind three one zero degrees eight knots variable between two seven zero and three three zero degrees runway three one cleared to land",
+    "hypothesis": "bir nine four one stefink two rectnapolundia wind three one zero degrees eight knots varia betrean two seven zero at three three zero degrees runway three one cleared to lend"
+  },
+  {
+    "reference": "runway three one cleared to land b air nine four one",
+    "hypothesis": "rhein one three one cleared to land bir nine four one"
+  },
+  {
+    "reference": "two zero three six thanks for your help one three juliett start and push and start call you for taxi",
+    "hypothesis": "two zero three six thank for your hellp one three juliett starting pusting start califo tacting"
+  },
+  {
+    "reference": "roger squawk four four zero four",
+    "hypothesis": "roger lest squawk four four zero four"
+  },
+  {
+    "reference": "right so then yeah tovka one kilo would be much better euro trans one three juliett thank you",
+    "hypothesis": "aright so ten yate toscar one kilo wid be much better your thrans one two thank you"
+  },
+  {
+    "reference": "euro trans one three juliett roger so recleared via tovka one kilo departure of runway three one initial climb five thousand feet",
+    "hypothesis": "zero trans one three juliett roger so reclead via tofk one kilo departure of runway three one initial climb five thousand feet"
+  },
+  {
+    "reference": "recleared at tovka one kilo departure runway three initial climb five thousand feet and request push and start euro trans one three juliett",
+    "hypothesis": "toscar one kilo departure one what three one initial climb five thousand feet and request prochuss altiou trans one two delta"
+  },
+  {
+    "reference": "euro trans one three juliett push and start approved facing foxtrot and squawk four four zero three",
+    "hypothesis": "euro trans one three juliett pusting star approved facing foxtrot and squawk four four zero three"
+  },
+  {
+    "reference": "roger position start approved position five foxtrot and squawk four four two three for wizz air six two seven six",
+    "hypothesis": "roger pullistan start approved postion five oxtroyt and squawk four four two three four wizzart six two seven six"
+  },
+  {
+    "reference": "stefanik tower ahoj top jet two zero two established final track rnp three one",
+    "hypothesis": "stefanic two it opet two zero two establisheve track rmp three one"
+  },
+  {
+    "reference": "top jet two zero two stefanik tower dobry den wind three one zero degrees two one knots runway three one clear to land",
+    "hypothesis": "topjet two zero two stefanic tower dobrizen wind three one zero degrees two one knots runway three one cleared to lent"
+  },
+  {
+    "reference": "runway three one cleared to land top jet two zero two",
+    "hypothesis": "runway three one zero to land to zero two"
+  },
+  {
+    "reference": "stefanik tower oscar mike echo lima echo altitude six thousand feet and descending to two thousand feet",
+    "hypothesis": "stefanic tower oscar mike echo lima echo altitude six thousand feet and descending to two thousand feet"
+  },
+  {
+    "reference": "we would be at about victor in forty seconds and requesting approach information information quebec qnh one zero two zero",
+    "hypothesis": "prear will be at pot victor in forty seconds and requesting approach information information querback qnh one zero two zero"
+  },
+  {
+    "reference": "november four nine xray lima taxi via delta line up zero four report ready",
+    "hypothesis": "november four nine xr lima taxiva delta line up zero four report ready"
+  },
+  {
+    "reference": "via delta line up zero four call you when ready november four nine xray lima",
+    "hypothesis": "flight delta line up zero four colive radar november four nine xfilim"
+  },
+  {
+    "reference": "stefanik tower slovak government zero zero four dobre rano",
+    "hypothesis": "stefinik tower swatoment zero zero sorus dobred and"
+  },
+  {
+    "reference": "slovak government zero zero four stefanik tower dobre rano",
+    "hypothesis": "slovac govermant zero zero four shire five tower dobrero"
+  },
+  {
+    "reference": "our stand information lima one zero zero seven ready for startup clearance destination kosice",
+    "hypothesis": "our stand information lima one zero zero seven ready for start up clearance descending coshitun"
+  },
+  {
+    "reference": "slovak government zero zero four information mike time five seven qnh one zero zero eight cleared to kosice from runway one three via nitra one yankee departure initially climb altitude five thousand feet startup approved squawk six seven four six",
+    "hypothesis": "slova govemt zero zero four information mike time five seven qnh one zero zero eight cleare to koshitcha from runway one three via nitra one yanke departurture insia climb altitude five thousand feet start up approved squawk six seven four six"
+  },
+  {
+    "reference": "cleared to land runway one six right china southern three zero one",
+    "hypothesis": "cleared to land runway one six roger three zero one"
+  },
+  {
+    "reference": "sydney tower good evening singapore seventy two ninety eight is one six right",
+    "hypothesis": "sydny tar good evening singapor seven ty two nine eight is one six right"
+  },
+  {
+    "reference": "tower good day rex sixty four sixty four",
+    "hypothesis": "tag irect six two bort"
+  },
+  {
+    "reference": "rex sixty four sixty four sydney tower good afternoon",
+    "hypothesis": "cract sixy four sixy four seven tare good afternoon"
+  },
+  {
+    "reference": "sydney tower good morning jetstar seven forty six established",
+    "hypothesis": "side taw good morning jetstar seven four ty six established"
+  },
+  {
+    "reference": "jetstar seven forty six sydney tower",
+    "hypothesis": "jestor seven four tix"
+  },
+  {
+    "reference": "tower united twenty twelve is just outside gala for one six right",
+    "hypothesis": "tower united two eight two is just outsid ig gala for one six right"
+  },
+  {
+    "reference": "continue approach for connie eight three five answer with mike i think we ll be able if we can make it it s probably gonna be golf or golf one for connie eight three five",
+    "hypothesis": "continue approach furcani eight three five and sir we de like i thank what the erlies we can mike is praha gond be golf for golf one furcani eight three five"
+  },
+  {
+    "reference": "connie eight three five copy",
+    "hypothesis": "climbing three five"
+  },
+  {
+    "reference": "twin jet five zero on a short delay waiting on our release from the back",
+    "hypothesis": "ngt five zero india short dely waitaintor releace for debact"
+  },
+  {
+    "reference": "sydney tower evening qantas seventy seven zero one now at three international",
+    "hypothesis": "side cour evening quauts seveny seven zero one westly intrational"
+  },
+  {
+    "reference": "tower connie eight thirty five on the ils one six three",
+    "hypothesis": "tar continue eight three five in the ils one six zero"
+  },
+  {
+    "reference": "turning air cross nine twenty three heavy",
+    "hypothesis": "side air contact nine two three heady"
+  },
+  {
+    "reference": "contract nine twenty three heavy sydney tower good day",
+    "hypothesis": "continue nine two three heady simy tag ay"
+  },
+  {
+    "reference": "one six right cleared to land jet ex seven four three four",
+    "hypothesis": "one six radar cleared juliex seveny four three four"
+  },
+  {
+    "reference": "sydney tower good day qlink four zero two",
+    "hypothesis": "sidy taw good day killing four zero two"
+  },
+  {
+    "reference": "qlink four zero two sydney tower good morning",
+    "hypothesis": "kilining four zero two cda good morning"
+  },
+  {
+    "reference": "tower good day jetstar seven sixty three",
+    "hypothesis": "charli good day jesta seven sixty three"
+  },
+  {
+    "reference": "jetstar seven sixty three sydney to",
+    "hypothesis": "jethansa seven csa csa three six air"
+  },
+  {
+    "reference": "tower jetstar seven six three",
+    "hypothesis": "retar seven six three three"
+  },
+  {
+    "reference": "jetstar seven six three sydney ciao",
+    "hypothesis": "to seven sixy three three three"
+  },
+  {
+    "reference": "sydney tower good evening jetstar six seventy one final runway three four left",
+    "hypothesis": "preed tag heading testar six seven one five one runway three four lef"
+  },
+  {
+    "reference": "hello sydney good evening jetstar four seventy five climbing flight level two eight zero",
+    "hypothesis": "lufthansa good evening flight level four seveny five climbing flight level two eight zero"
+  },
+  {
+    "reference": "tower good morning singapore seven two seven four heavy ils one three zero one six right",
+    "hypothesis": "good morning singapor seven two seven four heady ios one one six five"
+  },
+  {
+    "reference": "sydney tower rex sixty four seventy two",
+    "hypothesis": "cd tirec sixty four seveny two"
+  },
+  {
+    "reference": "rex sixty four seventy two sydney tower",
+    "hypothesis": "rex sixt four seven eight two centar"
+  },
+  {
+    "reference": "runway three four left cleared to land quantas one forty six",
+    "hypothesis": "runway three four left cleared to land courts one four three six"
+  },
+  {
+    "reference": "runway one six right cleared to land jetstar five zero eight",
+    "hypothesis": "wing one six radar climb two eight seven five zero eight"
+  },
+  {
+    "reference": "cleared to land runway one six five qjet fifteen zero four",
+    "hypothesis": "slode land runway one six fright qj five zero four"
+  },
+  {
+    "reference": "roger continue approach expect to land vacate golf dynasty zero five one",
+    "hypothesis": "roger continue approach expend afterlanding kike of thans three to five one"
+  },
+  {
+    "reference": "tower good day new zealand two thirty one seven charlie three four left",
+    "hypothesis": "tag radar nuzerland two three one stablisher life three four left"
+  },
+  {
+    "reference": "sydney tower good evening dynasty zero five five seven miles runway zero s runway three four left",
+    "hypothesis": "cni tare good evening dineche zero five five seven minut radar zero rhein what you three four left"
+  },
+  {
+    "reference": "runway one six right cleared to land pass seven six seven",
+    "hypothesis": "runway one six roger cleared land jes pass seven six seven"
+  },
+  {
+    "reference": "runway three four left cleared to land runway six forty three",
+    "hypothesis": "rem one eight three four left cleared land contact six fourt two"
+  },
+  {
+    "reference": "roger cleared to land runway three four left exit on the high speed on right",
+    "hypothesis": "right cleared land runway three four left exit on thigh speed one tright"
+  },
+  {
+    "reference": "korean air one two one wind two four zero degrees five knots runway one six right cleared to land",
+    "hypothesis": "one two one wing two four zero degrees five not two right two"
+  },
+  {
+    "reference": "runway one six right cleared to land korean air one two one heavy",
+    "hypothesis": "lunay one shake to right cleared to ran cling one two one heaby"
+  },
+  {
+    "reference": "tower american seven three heavy ten miles three voila",
+    "hypothesis": "tiramact seven three heaby ten miles three four left"
+  },
+  {
+    "reference": "hello american seven three heavy sydney tower good morning",
+    "hypothesis": "merican seven three heady cendic taworking"
+  },
+  {
+    "reference": "tower good afternoon emirates nine two four two cleared ils three four left seven miles final",
+    "hypothesis": "good afternoon memires minute two four three two ils three four left seven miles hundi"
+  },
+  {
+    "reference": "emirates nine two forty two heavy sydney tower good afternoon continue approach",
+    "hypothesis": "nine two four two headsending pal grafthansa you approach"
+  },
+  {
+    "reference": "one six right cleared to land qantas seven seven zero two",
+    "hypothesis": "one six rhein cleare land quinas seven seven zero two"
+  },
+  {
+    "reference": "runway one six right cleared to land holding point seven nine",
+    "hypothesis": "air wing one six right cleared trand one pon eight seven nine"
+  },
+  {
+    "reference": "sydney tower rex sixty one seventy five",
+    "hypothesis": "csa rec sixy one seveny five"
+  },
+  {
+    "reference": "rex sixty one seventy five sydney tower good afternoon",
+    "hypothesis": "pract six three one seveny five sydny hotel good afternoon"
+  },
+  {
+    "reference": "cleared to land runway one six right call us seventy two twenty one",
+    "hypothesis": "left land rumway one six right quan seveny two two one"
+  },
+  {
+    "reference": "runway one six right cleared to land velocity eight zero three",
+    "hypothesis": "flight level one six radar cleared land bolf ci zero free"
+  },
+  {
+    "reference": "two seven five and four knots qantas four forty six",
+    "hypothesis": "two seven five at four knots conus four four ty six"
+  },
+  {
+    "reference": "tower good afternoon china southern three zero one established ils one six right",
+    "hypothesis": "tar good afternoon chingas one three zero one establisher ls one six five"
+  },
+  {
+    "reference": "china southern three zero one heavy sydney tower good afternoon",
+    "hypothesis": "charlie seven three zero one heaby tho three charl good afternoon"
+  },
+  {
+    "reference": "tower good evening qatari six tango papa ils three four left",
+    "hypothesis": "praha good evening qatiri six tango papa ils three for left"
+  },
+  {
+    "reference": "qatari six tango papa heavy sydney tower good day continue approach",
+    "hypothesis": "tauri six tango papa heavy sweetnic charli good day continue approach"
+  },
+  {
+    "reference": "rex sixty eight sixty eight contact departure",
+    "hypothesis": "crick sixty eight sixteirike contact aurchus"
+  },
+  {
+    "reference": "departure rex sixty eight sixty eight",
+    "hypothesis": "departure srec sixy eight sixtray"
+  },
+  {
+    "reference": "sydney tower jetstar seven sixty seven",
+    "hypothesis": "sunitaring testra seven sixty seven"
+  },
+  {
+    "reference": "jetstar seven sixty seven sydney tower",
+    "hypothesis": "tussar seven sixty seven suniter"
+  },
+  {
+    "reference": "runway one six right cleared to land qantas four forty four",
+    "hypothesis": "ramy one six right cleared land contact four four three four"
+  },
+  {
+    "reference": "good day qantas nine ninety four",
+    "hypothesis": "good tarcos nine nine four"
+  },
+  {
+    "reference": "qantas nine ninety four tower good day",
+    "hypothesis": "call as nine nine four tag"
+  },
+  {
+    "reference": "jetstar nine twelve contact departure",
+    "hypothesis": "distan nine two fontact get five"
+  },
+  {
+    "reference": "jetstar nine twelve",
+    "hypothesis": "one two"
+  },
+  {
+    "reference": "sydney tower good morning american seventy three ils three four left",
+    "hypothesis": "sunit tower good morning american seven ty three ins three four left"
+  },
+  {
+    "reference": "runway one six right cleared to land malaysian one twenty three",
+    "hypothesis": "one six right climb to land malaysia one three three"
+  },
+  {
+    "reference": "one six right cleared to land rex sixty one thirty four",
+    "hypothesis": "one six right cleared land dect sixt one three four"
+  },
+  {
+    "reference": "sydney tower evening qantas seventy five twenty eight heavy",
+    "hypothesis": "sinuy tower evening qana seveny five two eight heave"
+  },
+  {
+    "reference": "qantas seventy five twenty eight heavy sydney tower",
+    "hypothesis": "one seven five two eight heading sineta"
+  },
+  {
+    "reference": "sydney tower good day china eastern seven five six one establish our localizer runway one six right",
+    "hypothesis": "sing tower good day three nine seven five six one established on localizer runway one six right"
+  },
+  {
+    "reference": "sydney tower good day jetstar five twenty two",
+    "hypothesis": "cd tang radar five two two"
+  },
+  {
+    "reference": "jetstar five twenty two sydney tower",
+    "hypothesis": "just five praha two csa"
+  },
+  {
+    "reference": "qlink forty two delta runway three four left cleared for takeoff",
+    "hypothesis": "kiloy four eight two delta runway three four left click takel"
+  },
+  {
+    "reference": "one six right cleared to land qantas six one fifty eight",
+    "hypothesis": "lasik srat cleared land contact sixy one sixy eight"
+  },
+  {
+    "reference": "one six right cleared to land and understood qantas four ninety eight",
+    "hypothesis": "one six five cleared land end hundred confirs four nine eight"
+  },
+  {
+    "reference": "one six right cleared to land qlink two zero six delta",
+    "hypothesis": "one six right cleared tlan kilo eight two zero six dota"
+  },
+  {
+    "reference": "continue approach runway one six right china eastern seven seven nine one",
+    "hypothesis": "continue approach runway one six right tans seven seven nine one"
+  },
+  {
+    "reference": "jetstar four zero nine approved route to bravo four",
+    "hypothesis": "jetstair four zero nine approved raw three do brava air four"
+  },
+  {
+    "reference": "approved bravo four thank you jetstar four zero nine",
+    "hypothesis": "alfa bravo four thank you descend four zero nine"
+  },
+  {
+    "reference": "vacate golf runway three four left cleared to land air china six one three",
+    "hypothesis": "vact gulf from what three four lett cleared to land charnia six one three"
+  },
+  {
+    "reference": "tower american seventy three approaching igala runway one six right eight ils",
+    "hypothesis": "taur american seven three approaching agala on the one six right eight ils"
+  },
+  {
+    "reference": "sydney tower good day qantas five twenty nine",
+    "hypothesis": "cd clight contact five two nine nine"
+  },
+  {
+    "reference": "qantas five twenty nine sydney tower",
+    "hypothesis": "contact five two nine side zero"
+  },
+  {
+    "reference": "china southern three twenty six contact departure",
+    "hypothesis": "chana seven three two six contact departure"
+  },
+  {
+    "reference": "contact departure china southern three two six",
+    "hypothesis": "contact departure chansa thousand three two six"
+  },
+  {
+    "reference": "runway one six right cleared to land qantas seventy seven zero one",
+    "hypothesis": "runway one six right cleared land cling seveny seven zero one"
+  },
+  {
+    "reference": "bauhinia two zero one eight contact departure good night",
+    "hypothesis": "bamia two zero one eight contact parge good nine"
+  },
+  {
+    "reference": "contact departure good night bauhinia two zero one eight",
+    "hypothesis": "contact departure skud nine bohenia two zero one eight"
+  },
+  {
+    "reference": "jetstar seven eighty four contact departure",
+    "hypothesis": "jestar seven eighty four contact prage"
+  },
+  {
+    "reference": "jetstar seven eighty four good morning",
+    "hypothesis": "jetstar seven eight four good morning"
+  },
+  {
+    "reference": "tower viet nam seven seven three good morning",
+    "hypothesis": "call vinam seven seven three good morning"
+  },
+  {
+    "reference": "viet nam seven seven three heavy sydney tower good morning continue approach threshold wind two seven zero degrees seven knots",
+    "hypothesis": "vietnam seven seven three heave city charl good morning continue approach threesol wind two seven zero degrees seven not"
+  },
+  {
+    "reference": "runway three four left cleared to land vacate bravo three jetstar five twenty",
+    "hypothesis": "runway three four left quizerland vacate bravo three jutstar five two"
+  },
+  {
+    "reference": "sydney tower good afternoon fedex seventy seven heavy inbound ils runway one six right",
+    "hypothesis": "cindy sare good afternoon fenich seveny seven heave inbound ils runway one six rate"
+  },
+  {
+    "reference": "fedex seventy seven heavy sydney tower good day",
+    "hypothesis": "fix heady seven heavy charlie carect"
+  },
+  {
+    "reference": "tower bauhinia two zero one seven established ils three four left",
+    "hypothesis": "taw borgenia two zero one seven stevish ils three four left"
+  },
+  {
+    "reference": "qantas four twenty six wind two six zero degrees eight knots runway one six right cleared to land",
+    "hypothesis": "climbs four two six wind two six zero degrees eight knots fromy one six right cleared to land"
+  },
+  {
+    "reference": "runway one six right cleared to land four twenty six",
+    "hypothesis": "runway one six right cleared four two six"
+  },
+  {
+    "reference": "runway three four left cleared to land then request above three two bravo four if available jetstar four zero nine",
+    "hypothesis": "air radar three four left feder to land and request radar three to bravo four is availal jet star four zero nine"
+  },
+  {
+    "reference": "sydney tower srilankan six zero six back with you ils one six right",
+    "hypothesis": "dina java sri lankan six zero six back with two ils one six right"
+  },
+  {
+    "reference": "sydney tower qantas six forty two",
+    "hypothesis": "seeding tower coning six fourty two"
+  },
+  {
+    "reference": "qantas six forty two sydney tower good day",
+    "hypothesis": "qa six four two sinitaright"
+  },
+  {
+    "reference": "jetstar seven six one wind is calm runway one six right cleared to land",
+    "hypothesis": "jetran seven six one wind is amr romeo one six five cleared to land"
+  },
+  {
+    "reference": "cleared to land one six right jetstar seven sixty one",
+    "hypothesis": "we land one six right jets seven six two"
+  },
+  {
+    "reference": "continue approach three four eleven vacate via alfa two singapore two thirty one",
+    "hypothesis": "continue approach three four level and bekima alfa two singapor two three one"
+  }
+]
