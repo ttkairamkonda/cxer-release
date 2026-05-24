@@ -249,7 +249,6 @@ if __name__ == "__main__":
     all_dfs = []
     for judge_name, judge_dir in JUDGES.items():
         df = run_judge(judge_name, judge_dir)
-        plot_all(df, judge_name)
         all_dfs.append(df)
 
     combined = pd.concat(all_dfs)

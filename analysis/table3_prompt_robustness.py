@@ -95,7 +95,7 @@ def main():
             if preds is None:
                 continue
 
-            valid_pairs = [(p, g) for p, g in zip(preds, gt) if g is not None and p is not None]
+            valid_pairs = [(p, g) for p, g in zip(preds, gt) if g is not None and p is not None and not (isinstance(g, float) and np.isnan(g))]
             if not valid_pairs:
                 continue
 

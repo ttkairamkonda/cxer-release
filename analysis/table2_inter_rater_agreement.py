@@ -31,19 +31,17 @@ print(f"Loaded: {len(df)} rows")
 
 
 def to_bool(x):
+    # NaN → str "nan" → not in list → False (missing human2 treated as not critical)
     return str(x).strip().lower() in {"true", "1", "1.0", "yes"}
 
 
-mask = df["human_consensus_CCER"].notna()
-df   = df[mask].reset_index(drop=True)
-print(f"After dropping missing gold labels: {len(df)} rows")
-
+# All 500 rows used — to_bool(NaN)=False handles missing human2 implicitly
 j1            = df["judge1_llama_CCER"].map(to_bool)
 j2            = df["judge2_qwen_CCER"].map(to_bool)
 j3            = df["judge3_deepseek_CCER"].map(to_bool)
 h1            = df["human1_CCER"].map(to_bool)
-h2            = df["human2_CCER"].map(to_bool)
-gold          = df["human_consensus_CCER"].map(to_bool)
+h2            = df["human2_CCER"].map(to_bool)   # NaN → False
+gold          = df["human_consensus_CCER"].map(to_bool)  # NaN → False
 llm_consensus = df["llm_consensus_CCER"].map(to_bool)
 
 sample_counts = df["sample_type"].value_counts()
@@ -162,7 +160,7 @@ print(f"Llama-Qwen:     [{ci_j1_j2[0]:.4f}, {ci_j1_j2[1]:.4f}]")
 print(f"Llama-DeepSeek: [{ci_j1_j3[0]:.4f}, {ci_j1_j3[1]:.4f}]")
 print(f"Qwen-DeepSeek:  [{ci_j2_j3[0]:.4f}, {ci_j2_j3[1]:.4f}]")
 
-# ── Fleiss kappa (3 LLMs) ────────────────────────────────────────────────────
+# ── Fleiss kappa (3 LLMs + human2) ───────────────────────────────────────────
 
 def weighted_fleiss_kappa(rating_matrix, w):
     """Population-reweighted Fleiss kappa."""
@@ -180,7 +178,8 @@ def weighted_fleiss_kappa(rating_matrix, w):
     return (P_bar - P_e) / (1 - P_e)
 
 
-def build_fleiss_llm(dataframe):
+def build_fleiss_matrix(dataframe):
+    # 4 raters: Llama, Qwen, DeepSeek, Human2 (NaN → False via to_bool)
     N      = len(dataframe)
     matrix = np.zeros((N, 2), dtype=float)
     for i, (_, row) in enumerate(dataframe.iterrows()):
@@ -188,31 +187,39 @@ def build_fleiss_llm(dataframe):
             to_bool(row["judge1_llama_CCER"]),
             to_bool(row["judge2_qwen_CCER"]),
             to_bool(row["judge3_deepseek_CCER"]),
+            to_bool(row["human2_CCER"]),
         ]
         matrix[i, 0] = sum(not j for j in judges)
         matrix[i, 1] = sum(j for j in judges)
     return matrix
 
 
-llm_matrix             = build_fleiss_llm(df)
-fleiss_llm_unweighted  = fleiss_kappa(llm_matrix, method="fleiss")
-fleiss_llm_weighted    = weighted_fleiss_kappa(llm_matrix, weights)
+llm_matrix            = build_fleiss_matrix(df)
+fleiss_llm_unweighted = fleiss_kappa(llm_matrix, method="fleiss")
+fleiss_llm_weighted   = weighted_fleiss_kappa(llm_matrix, weights)
 
-print(f"\n=== FLEISS κ (3 LLMs) ===")
+print(f"\n=== FLEISS κ (3 LLMs + Human2) ===")
 print(f"  Unweighted (stratified sample):      {fleiss_llm_unweighted:.4f}  ({interpret(fleiss_llm_unweighted)})")
 print(f"  Weighted   (population-reweighted):  {fleiss_llm_weighted:.4f}  ({interpret(fleiss_llm_weighted)})")
 
-# ── vs Human Consensus ───────────────────────────────────────────────────────
+# ── vs Human Consensus (gold) ─────────────────────────────────────────────────
 
 print("\n=== vs HUMAN CONSENSUS (GOLD) ===")
 compute_metrics("Llama        vs Gold", gold, j1)
 compute_metrics("Qwen         vs Gold", gold, j2)
 compute_metrics("DeepSeek     vs Gold", gold, j3)
 compute_metrics("LLM Consensus vs Gold", gold, llm_consensus)
+compute_metrics("Human1 vs LLM Consensus", h1, llm_consensus)
 
-kappa_consensus = cohen_kappa_score(gold, llm_consensus)
-print(f"Cohen's κ (LLM Consensus vs Human Consensus): {kappa_consensus:.4f}")
-print(f"Weighted κ (LLM Consensus vs Human Consensus): {weighted_kappa(gold, llm_consensus, weights):.4f}")
+kappa_h1_consensus  = cohen_kappa_score(h1, llm_consensus)
+wkappa_h1_consensus = weighted_kappa(h1, llm_consensus, weights)
+print(f"\nCohen's κ  (Human1 vs LLM Consensus): {kappa_h1_consensus:.4f}  ({interpret(kappa_h1_consensus)})")
+print(f"Weighted κ (Human1 vs LLM Consensus): {wkappa_h1_consensus:.4f}  ({interpret(wkappa_h1_consensus)})")
+
+print(f"\nHuman-Human ceiling:")
+print(f"Cohen's κ  (Human1 vs Human2): {kappa_h1_h2:.4f}  ({interpret(kappa_h1_h2)})")
+wkappa_h1_h2 = weighted_kappa(h1, h2, weights)
+print(f"Weighted κ (Human1 vs Human2): {wkappa_h1_h2:.4f}  ({interpret(wkappa_h1_h2)})")
 
 # ── Kappa heatmap (Appendix C) ───────────────────────────────────────────────
 
