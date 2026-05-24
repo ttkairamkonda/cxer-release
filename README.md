@@ -123,12 +123,3 @@ cxer-release/
 
 ---
 
-## Citation
-
-```bibtex
-@inproceedings{cxer2026,
-  title     = {Rethinking Evaluation in Automatic Speech Recognition},
-  booktitle = {Proceedings of EMNLP 2026},
-  year      = {2026},
-}
-```
