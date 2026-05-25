@@ -104,11 +104,21 @@ def bootstrap_kappa(y1, y2, n_bootstrap=1000):
 
 # ── Weighted kappa ────────────────────────────────────────────────────────────
 
+wk_h1_j1 = weighted_kappa(h1, j1, weights)
+wk_h1_j2 = weighted_kappa(h1, j2, weights)
+wk_h1_j3 = weighted_kappa(h1, j3, weights)
+wk_h2_j1 = weighted_kappa(h2, j1, weights)
+wk_h2_j2 = weighted_kappa(h2, j2, weights)
+wk_h2_j3 = weighted_kappa(h2, j3, weights)
+
 print("\n=== WEIGHTED KAPPA (population-reweighted) ===")
 pairs_wk = [
     ("Human1 – Llama",    h1, j1),
     ("Human1 – Qwen",     h1, j2),
     ("Human1 – DeepSeek", h1, j3),
+    ("Human2 – Llama",    h2, j1),
+    ("Human2 – Qwen",     h2, j2),
+    ("Human2 – DeepSeek", h2, j3),
     ("Llama  – Qwen",     j1, j2),
     ("Llama  – DeepSeek", j1, j3),
     ("Qwen   – DeepSeek", j2, j3),
@@ -117,6 +127,14 @@ pairs_wk = [
 for label, a, b in pairs_wk:
     k = weighted_kappa(a, b, weights)
     print(f"  {label:<22}  κ = {k:.4f}  ({interpret(k)})")
+
+print("\n=== AVERAGED HUMAN–LLM WEIGHTED KAPPA ===")
+avg_wk_j1 = (wk_h1_j1 + wk_h2_j1) / 2
+avg_wk_j2 = (wk_h1_j2 + wk_h2_j2) / 2
+avg_wk_j3 = (wk_h1_j3 + wk_h2_j3) / 2
+print(f"  Llama:    H1={wk_h1_j1:.4f}  H2={wk_h2_j1:.4f}  Avg={avg_wk_j1:.4f}  ({interpret(avg_wk_j1)})")
+print(f"  Qwen:     H1={wk_h1_j2:.4f}  H2={wk_h2_j2:.4f}  Avg={avg_wk_j2:.4f}  ({interpret(avg_wk_j2)})")
+print(f"  DeepSeek: H1={wk_h1_j3:.4f}  H2={wk_h2_j3:.4f}  Avg={avg_wk_j3:.4f}  ({interpret(avg_wk_j3)})")
 
 # ── Cohen's kappa (unweighted) ────────────────────────────────────────────────
 
@@ -149,6 +167,14 @@ print(f"    Human2 – DeepSeek: {kappa_h2_j3:.4f}  ({interpret(kappa_h2_j3)})")
 
 print("\n  Human vs Human")
 print(f"    Human1 – Human2:   {kappa_h1_h2:.4f}  ({interpret(kappa_h1_h2)})")
+
+print("\n=== AVERAGED HUMAN–LLM COHEN'S KAPPA ===")
+avg_k_j1 = (kappa_h1_j1 + kappa_h2_j1) / 2
+avg_k_j2 = (kappa_h1_j2 + kappa_h2_j2) / 2
+avg_k_j3 = (kappa_h1_j3 + kappa_h2_j3) / 2
+print(f"  Llama:    H1={kappa_h1_j1:.4f}  H2={kappa_h2_j1:.4f}  Avg={avg_k_j1:.4f}  ({interpret(avg_k_j1)})")
+print(f"  Qwen:     H1={kappa_h1_j2:.4f}  H2={kappa_h2_j2:.4f}  Avg={avg_k_j2:.4f}  ({interpret(avg_k_j2)})")
+print(f"  DeepSeek: H1={kappa_h1_j3:.4f}  H2={kappa_h2_j3:.4f}  Avg={avg_k_j3:.4f}  ({interpret(avg_k_j3)})")
 
 # ── Bootstrap 95% CIs ────────────────────────────────────────────────────────
 
@@ -209,7 +235,6 @@ compute_metrics("Llama        vs Gold", gold, j1)
 compute_metrics("Qwen         vs Gold", gold, j2)
 compute_metrics("DeepSeek     vs Gold", gold, j3)
 compute_metrics("LLM Consensus vs Gold", gold, llm_consensus)
-compute_metrics("Human1 vs LLM Consensus", h1, llm_consensus)
 
 kappa_h1_consensus  = cohen_kappa_score(h1, llm_consensus)
 wkappa_h1_consensus = weighted_kappa(h1, llm_consensus, weights)
