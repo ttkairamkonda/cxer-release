@@ -16,6 +16,7 @@ import jiwer
 import torch
 from bert_score import score as bert_score_fn
 from transformers import RobertaTokenizer, RobertaModel
+from weighted_wer import weighted_wer_corpus
 
 from transformers import logging as hf_logging
 hf_logging.set_verbosity_error()
@@ -155,10 +156,11 @@ def evaluate_file(fpath):
     refs = [r["reference"]  for r in records]
     hyps = [r["hypothesis"] for r in records]
     return {
-        "WER":      compute_corpus_wer(refs, hyps),
-        "BERTDist": compute_bertscore(refs, hyps),   # renamed
-        "SemDist":  SemDist.get().compute(refs, hyps),
-        "CCER":     compute_contextual_error_rate(records),  # renamed
+        "WER":         compute_corpus_wer(refs, hyps),
+        "WeightedWER": weighted_wer_corpus(refs, hyps),
+        "BERTDist":    compute_bertscore(refs, hyps),
+        "SemDist":     SemDist.get().compute(refs, hyps),
+        "CCER":        compute_contextual_error_rate(records),
     }
 
 # ─── Main loop ─────────────────────────────────────────────────────────────────

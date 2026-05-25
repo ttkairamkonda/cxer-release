@@ -6,6 +6,8 @@ CxER is an LLM ensemble framework that evaluates whether ASR outputs preserve **
 
 > **Note on naming:** In the codebase you will see `CCER` (Contextual Critical Error Rate). This was our internal name during development — `CER` was already taken by Character Error Rate, so we used `CCER` to avoid collision. The paper uses `CxER` throughout. The two refer to the same metric.
 
+> **Weighted WER baseline:** We include a rule-based Weighted WER (`weighted_wer.py`) as a cheap alternative baseline — entity tokens (callsigns, runways, altitudes, frequencies, headings) are penalised with weight `w=3` using a deterministic ATC tagger, no LLM required. Empirically, Weighted WER tracks standard WER closely regardless of the weight value (sensitivity analysis across `w ∈ {1,3,5,7,10}` is in the appendix), confirming that surface-level entity weighting cannot resolve the Finetuning Paradox.
+
 ---
 
 ## Setup
@@ -19,7 +21,7 @@ Three requirement files are provided due to hard version conflicts between NeMo 
 
 | File | Use for |
 |---|---|
-| `requirements.txt` | CxER evaluation pipeline (steps 1–3 below) |
+| `requirements.txt` | CxER evaluation pipeline + Weighted WER baseline |
 | `asr_requirements.txt` | Whisper fine-tuning |
 | `nvidia_requirements.txt` | Parakeet fine-tuning (NeMo) |
 
@@ -90,7 +92,8 @@ Human-annotated results are pre-included in `eval_cache/error_type_annotation_lo
 
 ```
 cxer-release/
-├── evaluate_asr.py                        # Step 2: compute all metrics
+├── evaluate_asr.py                        # Step 2: compute all metrics (WER, WeightedWER, BERTDist, SemDist, CxER)
+├── weighted_wer.py                        # Rule-based ATC entity tagger + Weighted WER (no LLM)
 ├── analysis/
 │   ├── figure1_wer_scatter.py
 │   ├── figure2_metric_comparison.py

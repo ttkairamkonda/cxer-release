@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import numpy as np
 import pandas as pd
@@ -7,6 +8,9 @@ from bert_score import score as bert_score_fn
 from transformers import RobertaTokenizer, RobertaModel
 from transformers import logging as hf_logging
 hf_logging.set_verbosity_error()
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from weighted_wer import tokenise, entity_token_mask, _levenshtein_weighted, ENTITY_WEIGHT
 
 _REPO    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE_DIR = os.path.join(_REPO, "annotations", "llama_70b")
@@ -116,6 +120,15 @@ for model in MODELS:
             for i, r in enumerate(records):
                 r["BERTDist"] = float(bd[i])
                 r["SemDist"]  = float(sd[i])
+                # per-record WeightedWER (normalised to [0,1] like WER)
+                ref_tok  = tokenise(r["reference"])
+                hyp_tok  = tokenise(r["hypothesis"])
+                ref_mask = entity_token_mask(ref_tok)
+                if ref_tok:
+                    err, cost    = _levenshtein_weighted(ref_tok, hyp_tok, ref_mask, ENTITY_WEIGHT)
+                    r["WeightedWER"] = err / cost
+                else:
+                    r["WeightedWER"] = 0.0
 
             data[(model, variant, ds)] = records
             print(f"  {MODEL_LABEL[model]} {variant} {ds}: {len(records)} records")
@@ -124,7 +137,7 @@ for model in MODELS:
 
 print("\nComputing thresholds...")
 
-metrics = ["WER", "BERTDist", "SemDist"]
+metrics = ["WER", "WeightedWER", "BERTDist", "SemDist"]
 thresholds = {}
 
 for metric in metrics:

@@ -49,10 +49,11 @@ COLORS = {
 }
 
 METRICS = {
-    "WER":      "Word Error Rate",
-    "BERTDist": "BERT Distance",
-    "SemDist":  "Semantic Distance",
-    "CCER":     "Contextual Critical Error Rate (CCER)",
+    "WER":         "Word Error Rate",
+    "WeightedWER": "Weighted WER (entity w=3)",
+    "BERTDist":    "BERT Distance",
+    "SemDist":     "Semantic Distance",
+    "CCER":        "Contextual Critical Error Rate (CxER)",
 }
 
 
@@ -86,9 +87,10 @@ def annotate_improvement(ax, x_pre, x_ft, y_pre, y_ft, pct, is_ccer=False):
 
 os.makedirs(os.path.join(_REPO, "eval_plots"), exist_ok=True)
 
-fig, axes = plt.subplots(2, 2, figsize=(8, 6))
+fig, axes = plt.subplots(2, 3, figsize=(12, 6))
 fig.patch.set_facecolor("#FAFAFA")
 axes = axes.flatten()
+axes[-1].set_visible(False)   # 6th slot unused
 
 bar_width = 0.18
 x         = np.arange(len(DATASETS))
@@ -104,6 +106,7 @@ offsets = {
 for ax, (metric, ylabel) in zip(axes, METRICS.items()):
 
     is_ccer = (metric == "CCER")
+    is_wwer = (metric == "WeightedWER")
     bar_map = {}
 
     for model_key in MODEL_ORDER:
@@ -146,7 +149,7 @@ for ax, (metric, ylabel) in zip(axes, METRICS.items()):
 
             pct = (pre_val - ft_val) / pre_val * 100.0
 
-            annotate_improvement(ax, x_pre, x_ft, h_pre, h_ft, pct, is_ccer=is_ccer)
+            annotate_improvement(ax, x_pre, x_ft, h_pre, h_ft, pct, is_ccer=is_ccer or is_wwer)
 
     ax.axvspan(-0.5, 0.5, color="#F6D6D6", alpha=0.35, zorder=0)
     ax.axvspan(0.5,  2.5, color="#DCEFD9", alpha=0.35, zorder=0)
@@ -158,7 +161,7 @@ for ax, (metric, ylabel) in zip(axes, METRICS.items()):
             transform=ax.get_xaxis_transform(),
             ha="center", va="top", fontsize=9, color="#2E7D32", fontweight="bold")
 
-    title_color = "#B22222" if is_ccer else "#1A1A2E"
+    title_color = "#B22222" if (is_ccer or is_wwer) else "#1A1A2E"
     ax.set_title(ylabel, fontsize=10, fontweight="bold", color=title_color, pad=8)
     ax.set_xticks(x)
     ax.set_xticklabels([DATASET_LABELS[d] for d in DATASETS], fontsize=9)
