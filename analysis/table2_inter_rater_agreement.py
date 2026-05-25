@@ -237,9 +237,14 @@ compute_metrics("DeepSeek     vs Gold", gold, j3)
 compute_metrics("LLM Consensus vs Gold", gold, llm_consensus)
 
 kappa_h1_consensus  = cohen_kappa_score(h1, llm_consensus)
+kappa_h2_consensus  = cohen_kappa_score(h2, llm_consensus)
 wkappa_h1_consensus = weighted_kappa(h1, llm_consensus, weights)
+wkappa_h2_consensus = weighted_kappa(h2, llm_consensus, weights)
 print(f"\nCohen's κ  (Human1 vs LLM Consensus): {kappa_h1_consensus:.4f}  ({interpret(kappa_h1_consensus)})")
 print(f"Weighted κ (Human1 vs LLM Consensus): {wkappa_h1_consensus:.4f}  ({interpret(wkappa_h1_consensus)})")
+
+print(f"\nCohen's κ  (Human2 vs LLM Consensus): {kappa_h2_consensus:.4f}  ({interpret(kappa_h2_consensus)})")
+print(f"Weighted κ (Human2 vs LLM Consensus): {wkappa_h2_consensus:.4f}  ({interpret(wkappa_h2_consensus)})")
 
 print(f"\nHuman-Human ceiling:")
 print(f"Cohen's κ  (Human1 vs Human2): {kappa_h1_h2:.4f}  ({interpret(kappa_h1_h2)})")
@@ -289,3 +294,15 @@ plt.tight_layout()
 out_path = os.path.join(_REPO, "eval_plots", "kappa_heatmap.png")
 plt.savefig(out_path, dpi=300, bbox_inches="tight")
 print(f"\nSaved heatmap → {out_path}")
+
+
+# Bootstrap 95% CIs for Human–LLM pairwise (unweighted Cohen's κ)
+ci_h1_j1 = bootstrap_kappa(h1, j1)
+ci_h1_j2 = bootstrap_kappa(h1, j2)
+ci_h1_j3 = bootstrap_kappa(h1, j3)
+ci_h2_j1 = bootstrap_kappa(h2, j1)
+ci_h2_j2 = bootstrap_kappa(h2, j2)
+ci_h2_j3 = bootstrap_kappa(h2, j3)
+ci_h1_h2 = bootstrap_kappa(h1, h2)
+ci_cons   = bootstrap_kappa(h1, llm_consensus)
+
