@@ -40,7 +40,7 @@ python asr/scripts/asr_inference.py --model asr/checkpoints/whisper-medium-combi
 python asr/scripts/asr_inference.py --model asr/checkpoints/parakeet-tdt-0.6b-v2-combined.nemo --model_type parakeet --gpu 0
 ```
 
-### Step 1 — Run LLM judges *(optional, requires 4× A100 per model)*
+### Step 1 — Run LLM judges 
 
 ```bash
 python judge/scripts/llm_judge.py
