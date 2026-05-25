@@ -98,7 +98,7 @@ cxer-release/
 │   ├── table1_finetuning_paradox.py
 │   ├── table2_inter_rater_agreement.py
 │   ├── table3_prompt_robustness.py
-│   └── table4_error_type_analysis.py
+│   └── error_type_analysis.py
 ├── asr/scripts/                           # train_whisper.py, train_parakeet.py, asr_inference.py
 ├── judge/
 │   ├── prompts/                           # cot_v3.py (canonical), compressed.py, no_examples.py, lenient.py
