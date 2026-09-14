@@ -30,7 +30,10 @@ Assign operational_safety:
 - callsign, frequency, heading → potentially_unsafe
 - navigation, weather → safe
 
---- OUTPUT (STRICT JSON ONLY) ---
+Apply the decision rule and safety rule silently. Do not write out your reasoning, do not narrate the steps in prose — go directly from the input to the final JSON object.
+
+--- OUTPUT: RESPOND WITH THE JSON OBJECT ONLY ---
+No preamble, no markdown fences, no text before or after the object.
 {
   "transcription_quality": "Equivalent|Critical_Errors",
   "meaning_preserved": true|false,

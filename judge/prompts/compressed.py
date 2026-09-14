@@ -23,14 +23,17 @@ Filler words (roger, wilco, copy, etc.), spacing/tokenization, and ICAO equivale
 4. Mark ONLY non-equivalent differences as errors.
 5. Assign entity_type to highest priority category.
 6. Set:
-   - Critical error exists → "Critical_Errors", meaning_preserved=false
-   - Else → "Equivalent", meaning_preserved=true
+   - Critical error exists -> "Critical_Errors", meaning_preserved=false
+   - Else -> "Equivalent", meaning_preserved=true
 7. Set safety:
-   - runway/altitude/clearance/direction → unsafe
-   - callsign/frequency/heading → potentially_unsafe
-   - others → safe
+   - runway/altitude/clearance/direction -> unsafe
+   - callsign/frequency/heading -> potentially_unsafe
+   - others -> safe
 
---- OUTPUT JSON ONLY ---
+Apply rules 1-7 silently. Do not write out your reasoning, do not narrate the steps in prose, and do not restate the rules — go directly from the input to the final JSON object.
+
+--- OUTPUT: RESPOND WITH THE JSON OBJECT ONLY ---
+No preamble, no markdown fences, no text before or after the object.
 {
   "transcription_quality": "Equivalent|Critical_Errors",
   "meaning_preserved": true|false,
