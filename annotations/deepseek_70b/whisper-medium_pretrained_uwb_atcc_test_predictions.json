@@ -17351,7 +17351,7 @@
       "contextual_status": "Error",
       "meaning_preserved": null,
       "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, let's tackle this problem step by step. I'm presented with a reference and a transcription, and I need to evaluate the transcription quality based on specific criteria. \n\nFirst, I'll look at the reference: \"6 bravo cha\". This seems to be a callsign, likely \"6B CHA\" or something similar. The",
+      "explanation": "JSON parse failed (retried with full 2048-token budget + json_repair). Raw:\nAlright, let's tackle this problem step by step. I'm presented with a reference transcript and a transcription, and I need to evaluate them for operationally significant errors. The goal is to identify any critical errors that could impact operational safety, ignoring equivalent variants and filler ",
       "transcription_errors": [],
       "inference_time": 2.3241,
       "sample_index": 637,
@@ -19532,7 +19532,7 @@
       "contextual_status": "Error",
       "meaning_preserved": null,
       "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, let's tackle this problem step by step. I'm supposed to evaluate the transcription of an ATC clearance and determine its quality, whether the meaning is preserved, and the operational safety implications. \n\nFirst, I'll look at the reference and the transcription provided. The reference is: ",
+      "explanation": "JSON parse failed (retried with full 2048-token budget + json_repair). Raw:\nAlright, let's tackle this problem step by step. I'm supposed to compare the reference transcript with the transcription and identify any operationally significant errors. The key here is to focus only on changes that affect the operational meaning, ignoring things like filler words or equivalent va",
       "transcription_errors": [],
       "inference_time": 2.3241,
       "sample_index": 723,
@@ -21990,7 +21990,7 @@
       "contextual_status": "Error",
       "meaning_preserved": null,
       "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, let's tackle this problem step by step. I'm supposed to evaluate the transcription of an ATC communication based on specific criteria. The reference given is \"tower jobair 05 papa on i\" and the transcription is a long string of numbers: \"now summer the super 01231231231231231231231231231231",
+      "explanation": "JSON parse failed (retried with full 2048-token budget + json_repair). Raw:\nAlright, let's tackle this problem step by step. I'm supposed to compare the reference transcript with the transcription and identify any operationally significant errors. The user has provided clear guidelines on what constitutes a critical error and what should be ignored. \n\nFirst, I'll look at th",
       "transcription_errors": [],
       "inference_time": 2.0853,
       "sample_index": 819,
@@ -37797,14 +37797,15 @@
     {
       "reference": "austrian 710 papa line up runway 13 hello",
       "hypothesis": "austrian 710 papa line runway 13 hold",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, let's break down this problem step by step. The user has provided a reference and a transcription from an ATC communication and wants me to evaluate the transcription quality, meaning preservation, and operational safety based on specific criteria.\n\nFirst, I need to understand the entities ",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription accurately preserves the operational meaning of the reference.",
       "transcription_errors": [],
       "inference_time": 1.9856,
       "sample_index": 1397,
-      "WER": 0.25
+      "WER": 0.25,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "runway 13 hello austrian 7",
@@ -66913,14 +66914,24 @@
     {
       "reference": "southern air 8500 roger line up runway 31 line up and wait 31 sunair 8500",
       "hypothesis": "7 a 5000 which one line up on way 31 on way 31 7 a 5000",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, let's tackle this problem step by step. I'm supposed to evaluate the transcription of an ATC communication and determine its quality, whether the meaning is preserved, and the operational safety implications. \n\nFirst, I'll look at the reference and the transcription provided. The reference ",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "Callsign error with wrong flight number.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "southern air 8500",
+          "transcribed_value": "7 a 5000",
+          "safety_risk": "medium",
+          "explanation": "Incorrect callsign and flight number which could lead to misidentification."
+        }
+      ],
       "inference_time": 2.2424,
       "sample_index": 2485,
-      "WER": 0.9333
+      "WER": 0.9333,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "tower good morning nor shuttle 150 ze",
@@ -68645,7 +68656,7 @@
       "contextual_status": "Error",
       "meaning_preserved": null,
       "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, so I'm trying to figure out how to evaluate this ATC transcription. The user provided a reference and a transcription, and I need to check for errors based on specific steps. Let me break it down.\n\nFirst, the reference is \"land wind 200 degrees.\" The transcription given is a long string of ",
+      "explanation": "JSON parse failed (retried with full 2048-token budget + json_repair). Raw:\nAlright, let's tackle this problem step by step. I'm presented with a reference transcript and a transcription that I need to compare for operationally significant errors. The goal is to identify any critical errors that could impact operational safety, ignoring equivalent variants and filler words.",
       "transcription_errors": [],
       "inference_time": 2.2424,
       "sample_index": 2545,
@@ -71338,14 +71349,24 @@
     {
       "reference": "csa 6 kilo golf ruzyne tower roger",
       "hypothesis": "good day ccc g c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, let's tackle this problem step by step. I'm supposed to evaluate the transcription of an ATC communication and determine its quality, whether the meaning is preserved, and the operational safety implications. \n\nFirst, I'll look at the reference and the transcription provided. The reference ",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains critical errors in the callsign and other operational elements, posing a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "csa",
+          "transcribed_value": "ccc",
+          "safety_risk": "high",
+          "explanation": "Incorrect callsign which could lead to misidentification of the aircraft."
+        }
+      ],
       "inference_time": 2.1918,
       "sample_index": 2644,
-      "WER": 31.7143
+      "WER": 31.7143,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "ruzyne good morning this is the sky travel 1034 with information november request ba",

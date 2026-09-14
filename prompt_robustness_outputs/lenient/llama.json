@@ -731,14 +731,17 @@
       "sample_index": 57
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription changes 'air nine five one' to 'bno five one', which could lead to a different aircraft identification or call sign being understood, potentially affecting operational safety.",
+      "transcription_errors": [
+        "air nine five one\" instead of \"bno five one"
+      ],
       "raw_output": "{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription changes 'air nine five one' to 'bno five one', which could lead to a different aircraft identification or call sign being understood, potentially affecting operational safety.\",\n  \"transcription_errors\": [\"air nine five one\" instead of \"bno five one\"]\n}",
-      "sample_index": 58
+      "sample_index": 58,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",

@@ -145,14 +145,15 @@
     {
       "reference": "correct",
       "hypothesis": "correct",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription matches the reference exactly.",
       "transcription_errors": [],
       "inference_time": 0.6139,
       "sample_index": 7,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "nor shuttle one five one five line up runway three one",
@@ -2187,14 +2188,24 @@
     {
       "reference": "irm",
       "hypothesis": "to",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the direction.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "reversed_direction",
+          "reference_value": "irm",
+          "transcribed_value": "to",
+          "safety_risk": "high",
+          "explanation": "The reference transcript indicates 'irm' which implies a specific direction or instruction, but the transcription 'to' changes the operational meaning significantly."
+        }
+      ],
       "inference_time": 0.6139,
       "sample_index": 97,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "line up runway one three cleared for immediate takeoff wind zero six zero seven knots",
@@ -6962,14 +6973,15 @@
     {
       "reference": "correct",
       "hypothesis": "correct",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription matches the reference exactly.",
       "transcription_errors": [],
       "inference_time": 0.6322,
       "sample_index": 315,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "alfa juliett established ils one three",
@@ -17914,14 +17926,24 @@
     {
       "reference": "correct",
       "hypothesis": "not correct",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in altitude, which could significantly impact flight safety.",
+      "transcription_errors": [
+        {
+          "entity_type": "altitude",
+          "error_name": "wrong_altitude",
+          "reference_value": "eight thousand",
+          "transcribed_value": "one eight thousand",
+          "safety_risk": "high",
+          "explanation": "The transcription incorrectly states the altitude as one eight thousand feet instead of eight thousand feet."
+        }
+      ],
       "inference_time": 0.6258,
       "sample_index": 801,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "k you",
@@ -18582,14 +18604,24 @@
     {
       "reference": "and request",
       "hypothesis": "sem reques",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcription text? Please provide them so I can begin the evaluation. I will output the JSON result.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "safe",
+      "explanation": "The transcription contains a critical error in the word 'request'.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_word",
+          "reference_value": "request",
+          "transcribed_value": "reques",
+          "safety_risk": "low",
+          "explanation": "The transcribed word 'reques' does not match the reference word 'request'."
+        }
+      ],
       "inference_time": 0.6258,
       "sample_index": 831,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "eight two four taxi left hotel lima hold short of runway two fo",
@@ -23375,14 +23407,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is identical to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6041,
       "sample_index": 1049,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa nine two seven runway one three clear to land wind three five zero degrees seven knots",
@@ -25459,14 +25492,24 @@
     {
       "reference": "for departure",
       "hypothesis": "for depracter",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcription text? Please provide them so I can begin the evaluation. I will output the JSON result.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "safe",
+      "explanation": "The transcription contains a critical error in the word 'departure' which was transcribed as 'depracter'.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_word",
+          "reference_value": "departure",
+          "transcribed_value": "depracter",
+          "safety_risk": "low",
+          "explanation": "The word 'departure' was incorrectly transcribed as 'depracter'."
+        }
+      ],
       "inference_time": 0.6041,
       "sample_index": 1145,
-      "WER": 0.5
+      "WER": 0.5,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa seven five zero ruzyne tower roger",
@@ -26518,14 +26561,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is identical to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6041,
       "sample_index": 1194,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "six three five ground one two one nine one two one nine csa si",
@@ -29227,14 +29271,24 @@
     {
       "reference": "yes information",
       "hypothesis": "year information",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "safe",
+      "explanation": "The transcription contains a critical error in the word 'information' which is not operationally significant but 'yes' vs 'year' is.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_information",
+          "reference_value": "yes",
+          "transcribed_value": "year",
+          "safety_risk": "low",
+          "explanation": "The reference transcript contains 'yes' while the transcription contains 'year', which is not operationally significant but indicates an error in transcription."
+        }
+      ],
       "inference_time": 0.6595,
       "sample_index": 1313,
-      "WER": 0.5
+      "WER": 0.5,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "checked one zero three three two three is the one zero three three is the squawk",
@@ -36230,14 +36284,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is identical to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6316,
       "sample_index": 1630,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "beair five five two contact ruzyne ground one two one decimal nine",
@@ -37056,14 +37111,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is identical to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6316,
       "sample_index": 1666,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "praha good evening easy five four nine seven ils one three",
@@ -49264,26 +49320,37 @@
     {
       "reference": "call me",
       "hypothesis": "call me",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is identical to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.5785,
       "sample_index": 2214,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "call you",
       "hypothesis": "alde",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text? Please provide the two texts, and I will output the JSON evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "call",
+          "transcribed_value": "alde",
+          "safety_risk": "medium",
+          "explanation": "The transcribed callsign 'alde' does not match the reference 'call'."
+        }
+      ],
       "inference_time": 0.5785,
       "sample_index": 2215,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "orning sky travel one zero one zero",
@@ -54779,14 +54846,24 @@
     {
       "reference": "is from",
       "hypothesis": "is prap jsc",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcription texts. I will output the JSON result.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the origin identifier.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_origin",
+          "reference_value": "from",
+          "transcribed_value": "prap jsc",
+          "safety_risk": "high",
+          "explanation": "The transcription incorrectly identifies the origin as 'prap jsc' instead of 'from'."
+        }
+      ],
       "inference_time": 0.6181,
       "sample_index": 2467,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "ok sir so hotel lima romeo november five one one startup is a",
@@ -60282,14 +60359,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is identical to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6483,
       "sample_index": 2722,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa two zulu alfa runway one three clear to land wind three six zero degrees seven knots",
@@ -61943,14 +62021,15 @@
     {
       "reference": "correct",
       "hypothesis": "correct",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription matches the reference exactly.",
       "transcription_errors": [],
       "inference_time": 0.6483,
       "sample_index": 2799,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "quality eight nine sierra if you like you can use intersection for departure",

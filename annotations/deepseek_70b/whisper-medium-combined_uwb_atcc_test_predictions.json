@@ -52753,14 +52753,24 @@
     {
       "reference": "csa 743 runway 13 cleared to land wind 000 degrees 6 knots",
       "hypothesis": "csa 743 runway 13 clear to land wind 80 degrees 6 knots",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, let's tackle this problem step by step. I'm supposed to evaluate the transcription of an ATC clearance message and determine its quality, whether the meaning is preserved, and the operational safety implications. \n\nFirst, I'll look at the reference and the transcription provided. The refere",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "safe",
+      "explanation": "Wind direction was incorrectly transcribed from 000 to 80 degrees, which is an operationally significant error.",
+      "transcription_errors": [
+        {
+          "entity_type": "weather",
+          "error_name": "wrong_wind_direction",
+          "reference_value": "wind 000 degrees 6 knots",
+          "transcribed_value": "wind 80 degrees 6 knots",
+          "safety_risk": "low",
+          "explanation": "Wind direction changed from 000 to 80 degrees, which could affect landing operations."
+        }
+      ],
       "inference_time": 1.7927,
       "sample_index": 2581,
-      "WER": 0.1667
+      "WER": 0.1667,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "runway 13 cleared to",

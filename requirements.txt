@@ -52,3 +52,4 @@ openpyxl==3.1.5
 python-dotenv==1.2.1
 huggingface-hub==0.36.0
 tqdm==4.67.1
+json_repair==0.63.4

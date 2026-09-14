@@ -21,6 +21,7 @@ from typing import Optional, List, Dict, Any, Tuple
 from vllm import LLM, SamplingParams
 from huggingface_hub import login
 from dotenv import load_dotenv
+from json_repair import repair_json
 
 # ============================================================
 # ENV
@@ -156,6 +157,18 @@ def extract_json(text: str) -> Optional[dict]:
             return json.loads(matches[-1].group(0))
         except Exception:
             pass
+
+    # Last resort: proper JSON repair (unescaped quotes inside string values,
+    # missing closing quotes/braces, stray commas).
+    try:
+        candidate = match.group(0) if match else text
+        fixed = repair_json(candidate)
+        parsed = json.loads(fixed)
+        if isinstance(parsed, dict):
+            return parsed
+    except Exception:
+        pass
+
     return None
 
 # ============================================================

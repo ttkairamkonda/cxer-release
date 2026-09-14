@@ -1370,14 +1370,15 @@
     {
       "reference": "we continue",
       "hypothesis": "we continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the specific reference and transcription text for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.0168,
       "sample_index": 70,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "austrian 712 zulu runway 13 cleared for takeoff wind 160 degrees 3 knots bye bye",
@@ -5499,14 +5500,24 @@
     {
       "reference": "calibra",
       "hypothesis": "9",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription text for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign, which changes the meaning and poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "calibra",
+          "transcribed_value": "9",
+          "safety_risk": "medium",
+          "explanation": "The callsign 'calibra' was incorrectly transcribed as '9', which could lead to misidentification of the aircraft and potential communication errors."
+        }
+      ],
       "inference_time": 1.0896,
       "sample_index": 288,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "good afternoon lufthansa 7",
@@ -12337,14 +12348,24 @@
     {
       "reference": "ru",
       "hypothesis": "aero",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign, which changes the meaning and poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "ru",
+          "transcribed_value": "aero",
+          "safety_risk": "medium",
+          "explanation": "The callsign 'ru' was incorrectly transcribed as 'aero', which changes the identity of the aircraft and poses a medium safety risk."
+        }
+      ],
       "inference_time": 1.1042,
       "sample_index": 638,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "tower csa 4 kilo papa",
@@ -13715,14 +13736,15 @@
     {
       "reference": "one",
       "hypothesis": "one",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.1042,
       "sample_index": 713,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "lufthansa 8 echo november contact ruzyne ground 121 decimal 912198 echo november hotel",
@@ -15320,14 +15342,15 @@
     {
       "reference": "when ready",
       "hypothesis": "and time when ready",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is contextually equivalent to the reference and contains no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 1.1042,
       "sample_index": 798,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "cleared to destination 122 bravo",
@@ -17509,14 +17532,24 @@
     {
       "reference": "ready in sequ",
       "hypothesis": "x",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription is completely missing the reference text, which is a critical error.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "missing_entire_transcription",
+          "reference_value": "ready in sequ",
+          "transcribed_value": "x",
+          "safety_risk": "high",
+          "explanation": "The transcription is entirely missing the reference text, which is a critical error that could lead to operational confusion or safety issues."
+        }
+      ],
       "inference_time": 0.9682,
       "sample_index": 919,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa 786 ruzyne tower",
@@ -20101,14 +20134,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.04,
       "sample_index": 1049,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa 927 runway 13 clear to land wind 350 degrees 7 knots",
@@ -21218,14 +21252,15 @@
     {
       "reference": "and",
       "hypothesis": "and visual",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "No operationally significant errors found.",
       "transcription_errors": [],
       "inference_time": 1.04,
       "sample_index": 1107,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "air france 393 victor hello to call behind the next one by ready in one minute",
@@ -22917,14 +22952,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.04,
       "sample_index": 1194,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "635 ground 12191219 csa si",
@@ -31576,14 +31612,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 0.997,
       "sample_index": 1630,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "beair 552 contact ruzyne ground 121 decimal 9",
@@ -32300,14 +32337,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 0.997,
       "sample_index": 1666,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "praha good evening easy 5497 ils 13",
@@ -41083,14 +41121,15 @@
     {
       "reference": "number 2",
       "hypothesis": "number 2",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.0283,
       "sample_index": 2110,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "austrian 704 runway 31 cleared for takeoff wind 170 degrees 3 knots good by",
@@ -43066,14 +43105,24 @@
     {
       "reference": "not yet",
       "hypothesis": "audia",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error that changes the meaning of the reference.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_other",
+          "reference_value": "not yet",
+          "transcribed_value": "audia",
+          "safety_risk": "high",
+          "explanation": "The transcription 'audia' is completely different from the reference 'not yet', which could lead to significant operational confusion."
+        }
+      ],
       "inference_time": 1.1211,
       "sample_index": 2213,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "call me",
@@ -47861,14 +47910,24 @@
     {
       "reference": "is from",
       "hypothesis": "is in front of jsa",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the direction, which could lead to a significant operational hazard.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_direction",
+          "reference_value": "from",
+          "transcribed_value": "in front of jsa",
+          "safety_risk": "high",
+          "explanation": "The direction 'from' was incorrectly transcribed as 'in front of jsa', which could lead to confusion and potential safety issues."
+        }
+      ],
       "inference_time": 1.0565,
       "sample_index": 2467,
-      "WER": 2.0
+      "WER": 2.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "ok sir so hotel lima romeo november 511 startup is a",
@@ -51610,14 +51669,15 @@
     {
       "reference": "102",
       "hypothesis": "102",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription text for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.0127,
       "sample_index": 2648,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "to de gaule",
@@ -53126,14 +53186,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.0127,
       "sample_index": 2722,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa 2 zulu alfa runway 13 clear to land wind 360 degrees 7 knots",

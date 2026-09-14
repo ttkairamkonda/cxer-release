@@ -20,6 +20,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from vllm import LLM, SamplingParams
 from jiwer import wer
+from json_repair import repair_json
 
 from huggingface_hub import login
 from dotenv import load_dotenv
@@ -38,9 +39,9 @@ except ImportError:
     print("tqdm not installed — install with: pip install tqdm")
 
 # MODEL_NAME = "google/gemma-2-9b-it"
-# MODEL_NAME = "meta-llama/Llama-3.3-70B-Instruct"
+MODEL_NAME = "meta-llama/Llama-3.3-70B-Instruct"
 # MODEL_NAME = "meta-llama/Meta-Llama-3-8B-Instruct"
-MODEL_NAME = "Qwen/Qwen2.5-72B-Instruct"
+# MODEL_NAME = "Qwen/Qwen2.5-72B-Instruct"
 
 PROMPT_TYPE = "cot_v3"
 # ─────────────────────────────────────────────
@@ -122,6 +123,17 @@ def extract_json(raw_text: str) -> Optional[dict]:
                 return json.loads(raw + suffix)
             except json.JSONDecodeError:
                 continue
+
+    # Last resort: run a proper JSON repair pass (handles unescaped quotes
+    # inside string values, missing closing quotes/braces, stray commas —
+    # the common LLM JSON-generation slip-ups the attempts above don't cover).
+    try:
+        fixed = repair_json(brace_match.group(0) if brace_match else raw_text)
+        parsed = json.loads(fixed)
+        if isinstance(parsed, dict):
+            return parsed
+    except Exception:
+        pass
 
     return None
 

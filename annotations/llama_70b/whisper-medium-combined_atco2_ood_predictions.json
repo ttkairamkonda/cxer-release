@@ -11218,14 +11218,15 @@
     {
       "reference": "ok",
       "hypothesis": "ok",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6284,
       "sample_index": 557,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "hotel golf november zimi is not available anymore romeo 82 is now active do you want to proceed to sava instead",
@@ -14204,14 +14205,24 @@
     {
       "reference": "yes go ahead",
       "hypothesis": "yes correct",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "safe",
+      "explanation": "The transcription contains a critical error in the response to the initial call.",
+      "transcription_errors": [
+        {
+          "entity_type": "clearance",
+          "error_name": "wrong_clearance_response",
+          "reference_value": "go ahead",
+          "transcribed_value": "correct",
+          "safety_risk": "low",
+          "explanation": "The reference transcript says 'go ahead' which implies permission to proceed, while the transcription says 'correct' which does not convey the same level of clearance or permission."
+        }
+      ],
       "inference_time": 0.6615,
       "sample_index": 701,
-      "WER": 0.6667
+      "WER": 0.6667,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "tel 603 taxi to holding point runway 13 via delta foxtrot",
@@ -16903,14 +16914,24 @@
     {
       "reference": "jetstar 912",
       "hypothesis": "87012",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nTo provide an accurate response, I need the actual transcription of \"87012\" for Jetstar 912 to compare against the reference and evaluate according to the provided steps and rules. Without this transcription, I can only outline the format of the response based on the instructions given:\n\n```\n{\n  \"tr",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "jetstar 912",
+          "transcribed_value": "87012",
+          "safety_risk": "medium",
+          "explanation": "The transcribed callsign '87012' does not match the reference callsign 'jetstar 912'."
+        }
+      ],
       "inference_time": 0.6843,
       "sample_index": 829,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "sydney tower good morning american 73 ils 34 left",
@@ -17054,14 +17075,24 @@
     {
       "reference": "jetstar 522 sydney tower",
       "hypothesis": "csa 5132",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nTo provide an accurate response, I need the actual transcription of \"csa 5132\" and the reference details of \"jetstar 522 sydney tower\" to compare and evaluate according to the provided steps and rules. Without this specific information, I can only outline the format of the response based on the inst",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign, which poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "jetstar 522",
+          "transcribed_value": "csa 5132",
+          "safety_risk": "high",
+          "explanation": "The transcribed callsign 'csa 5132' does not match the reference callsign 'jetstar 522', which could lead to misidentification and safety issues."
+        }
+      ],
       "inference_time": 0.6843,
       "sample_index": 837,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "qlink 42 delta runway 34 left cleared for takeoff",

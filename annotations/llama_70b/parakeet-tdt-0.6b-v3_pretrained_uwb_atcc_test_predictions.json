@@ -2145,14 +2145,24 @@
     {
       "reference": "irm",
       "hypothesis": "pero",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference (irm) and transcription (pero) texts. I will output the JSON result.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the identification of the aircraft, which poses a significant safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_identification",
+          "reference_value": "irm",
+          "transcribed_value": "pero",
+          "safety_risk": "high",
+          "explanation": "The reference transcript 'irm' was transcribed as 'pero', which is a completely different term and could lead to confusion in air traffic control communications."
+        }
+      ],
       "inference_time": 0.6536,
       "sample_index": 97,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "line up runway one three cleared for immediate takeoff wind zero six zero seven knots",
@@ -17559,14 +17569,24 @@
     {
       "reference": "when ready",
       "hypothesis": "est buen ready",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "safe",
+      "explanation": "The transcription contains a critical error in the phrase 'est buen ready' which does not match the reference 'when ready'.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_phrase",
+          "reference_value": "when ready",
+          "transcribed_value": "est buen ready",
+          "safety_risk": "low",
+          "explanation": "The transcribed phrase 'est buen ready' does not match the reference phrase 'when ready', indicating a potential misunderstanding or miscommunication."
+        }
+      ],
       "inference_time": 0.6664,
       "sample_index": 798,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "cleared to destination one two two bravo",
@@ -17617,14 +17637,24 @@
     {
       "reference": "correct",
       "hypothesis": "no correct",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the clearance instruction.",
+      "transcription_errors": [
+        {
+          "entity_type": "clearance",
+          "error_name": "clearance_contradiction",
+          "reference_value": "correct",
+          "transcribed_value": "no correct",
+          "safety_risk": "high",
+          "explanation": "The reference transcript states 'correct' while the transcription states 'no correct', indicating a contradiction in clearance instructions."
+        }
+      ],
       "inference_time": 0.6826,
       "sample_index": 801,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "k you",
@@ -20739,14 +20769,24 @@
     {
       "reference": "ok i will call you for response",
       "hypothesis": "okay i will code for responses",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate. What is the reference and transcription text?",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription contains a critical error in the action to be taken, which could potentially impact operational safety.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_action",
+          "reference_value": "call",
+          "transcribed_value": "code",
+          "safety_risk": "medium",
+          "explanation": "The reference transcript instructs to 'call' while the transcription says 'code', indicating a difference in the intended action."
+        }
+      ],
       "inference_time": 0.6826,
       "sample_index": 946,
-      "WER": 0.5714
+      "WER": 0.5714,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa five zero five vacate via golf contact ruzyne ground one two one decimal nine",
@@ -21632,14 +21672,24 @@
     {
       "reference": "in sight",
       "hypothesis": "exact",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "safe",
+      "explanation": "The transcription contains a critical error in the 'other' category.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_visibility",
+          "reference_value": "in sight",
+          "transcribed_value": "exact",
+          "safety_risk": "low",
+          "explanation": "The reference transcript 'in sight' was transcribed as 'exact', which changes the operational meaning."
+        }
+      ],
       "inference_time": 0.6826,
       "sample_index": 987,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "lufthansa nine lima charlie runway three one cleared for takeoff wind one eight zero degrees three knots bye",
@@ -22981,14 +23031,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is identical to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6553,
       "sample_index": 1049,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa nine two seven runway one three clear to land wind three five zero degrees seven knots",
@@ -24473,14 +24524,15 @@
     {
       "reference": "ok",
       "hypothesis": "ok",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6553,
       "sample_index": 1116,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "bline two lima kilo left papa next lima and contact ground one two one decimal nine bye",
@@ -28837,14 +28889,15 @@
     {
       "reference": "yes information",
       "hypothesis": "yeah information uh",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text? Please provide the two texts, and I will output the JSON evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription accurately conveys the same operational meaning as the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6404,
       "sample_index": 1313,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "checked one zero three three two three is the one zero three three is the squawk",
@@ -48392,26 +48445,46 @@
     {
       "reference": "call me",
       "hypothesis": "comi",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result. \n\nPlease go ahead and provide the texts, I'll respond with the JSON.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "safe",
+      "explanation": "The transcription contains a critical error in the callsign.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "call me",
+          "transcribed_value": "comi",
+          "safety_risk": "medium",
+          "explanation": "The transcribed callsign 'comi' does not match the reference 'call me'."
+        }
+      ],
       "inference_time": 0.6606,
       "sample_index": 2214,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "call you",
       "hypothesis": "adis",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text? Please provide the text, and I will output the JSON evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "call you",
+          "transcribed_value": "adis",
+          "safety_risk": "medium",
+          "explanation": "The transcribed callsign 'adis' does not match the reference 'call you'."
+        }
+      ],
       "inference_time": 0.6606,
       "sample_index": 2215,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "orning sky travel one zero one zero",
@@ -59379,14 +59452,15 @@
     {
       "reference": "continue",
       "hypothesis": "continu",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcription text? Please provide them so I can begin the evaluation. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference transcript with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 0.7488,
       "sample_index": 2722,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa two zulu alfa runway one three clear to land wind three six zero degrees seven knots",

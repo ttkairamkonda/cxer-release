@@ -773,14 +773,17 @@
       "sample_index": 59
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription changes the aircraft identifier, potentially leading to misidentification.",
+      "transcription_errors": [
+        "kilo delta\" replaced with \"2"
+      ],
       "raw_output": "<think>\nAlright, let's tackle this problem step by step. I'm presented with two utterances: a reference and a transcription, and I need to determine if the transcription accurately preserves the meaning of the reference in an aviation context. The goal is to assess whether any differences could lead to different operational understandings, potentially affecting safety.\n\nFirst, I'll read both utterances carefully.\n\n**Reference:** \"oscar kilo delta sierra india turn left heading 100\"\n\n**Transcription:** \"oscar 2 sierra india turn left heading 100\"\n\nAt first glance, both utterances are similar but there's a noticeable difference: \"kilo delta\" in the reference is replaced with \"2\" in the transcription. In aviation, especially in ATC (Air Traffic Control) communications, phonetic alphabets are used to clearly communicate letters to avoid confusion. Each letter corresponds to a specific code word. For example, 'O' is Oscar, 'K' is Kilo, 'D' is Delta, 'S' is Sierra, 'I' is India, etc.\n\nSo, breaking down the reference:\n\n- \"oscar kilo delta sierra india\" translates to the letters O, K, D, S, I.\n\nIn the transcription, \"oscar 2 sierra india\" translates to O, 2, S, I.\n\nHere, \"kilo delta\" (K, D) is replaced with \"2\". This substitution changes the identifier from a combination of letters to a number. In aviation, identifiers are crucial for aircraft recognition and instruction clarity. If the transcription replaces part of the identifier with a number, it could lead to confusion or misidentification of the aircraft.\n\nNext, I need to consider the context. In ATC, clear communication is paramount. If the controller intended to address a specific aircraft with the identifier \"oscar kilo delta sierra india\" but the transcription changes it to \"oscar 2 sierra india,\" the aircraft might not recognize the instruction as intended, especially if there are multiple aircraft with similar identifiers. This could lead to the wrong aircraft responding or the correct aircraft not responding, which is a safety concern.\n\nMoreover, the instruction \"turn left heading 100\" remains the same in both, so the action required is consistent. However, the change in the identifier could mean that the instruction is directed at a different aircraft or not received by the intended one.\n\nConsidering the decision rules, I need to determine if the meaning is preserved. Since the identifier is altered, the intended recipient of the instruction might change, which is a critical factor in operational understanding. Therefore, the meaning is not preserved, and this could lead to operational errors.\n\nIn terms of operational safety, this substitution could potentially lead to unsafe situations if the wrong aircraft acts on the instruction or if the correct aircraft doesn't respond. Hence, the operational safety is potentially unsafe.\n\nThe transcription error here is the replacement of \"kilo delta\" with \"2,\" which changes the aircraft identifier. This is a meaningful difference that could affect operational understanding and safety.\n\nSo, summarizing:\n\n- The transcription changes part of the aircraft identifier from letters to a number.\n- This could lead to misidentification of the aircraft.\n- The instruction's intent remains the same, but the target might be incorrect.\n- Therefore, the meaning is not preserved, and there's a potential safety risk.\n</think>\n\n```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription changes the aircraft identifier, potentially leading to misidentification.\",\n  \"transcription_errors\": [\"kilo delta\" replaced with \"2\"]\n}\n```",
-      "sample_index": 60
+      "sample_index": 60,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -2610,14 +2613,17 @@
       "sample_index": 225
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription changes 'il' to 'higher,' which could lead to operational misunderstandings.",
+      "transcription_errors": [
+        "il\" vs \"higher"
+      ],
       "raw_output": "<think>\nAlright, let's tackle this problem step by step. I'm presented with two utterances: the reference is \"csa three delta echo il\" and the transcription is \"csa three delta echo higher.\" My task is to determine if the transcription preserves the same meaning as the reference in an aviation context, focusing on whether any changes could affect operational understanding, instructions, intent, or safety.\n\nFirst, I need to understand the context. In aviation, especially in air traffic control (ATC), clear and precise communication is critical. Any miscommunication can lead to misunderstandings that might compromise safety. The utterances here seem to be using a phonetic alphabet, which is common in ATC to ensure clarity.\n\nLooking at the reference: \"csa three delta echo il.\" Breaking it down, \"csa\" could be a callsign or a code, \"three\" is a number, \"delta\" is the letter D in the phonetic alphabet, \"echo\" is E, and \"il\" could be the letters I and L. So, putting it together, it might be \"CSA 3D EIL\" or something similar.\n\nNow, the transcription is \"csa three delta echo higher.\" The difference here is that \"il\" has been transcribed as \"higher.\" In the phonetic alphabet, \"higher\" doesn't correspond directly to a letter. The standard phonetic alphabet uses \"India\" for I and \"Lima\" for L. \"Higher\" isn't a standard term in this context, so that's a red flag.\n\nI need to assess if this change affects the meaning. If \"il\" was intended to be \"India Lima,\" then transcribing it as \"higher\" changes it to something non-standard. This could lead to confusion because \"higher\" isn't a recognized phonetic term. In ATC, clarity is paramount, and using non-standard terms can lead to misinterpretation.\n\nNext, I consider the operational impact. If the original message was meant to convey a specific code or instruction using \"il,\" changing it to \"higher\" might result in the wrong action being taken. For example, if \"il\" was part of a runway designation, a navigation point, or an instruction, the change could lead to incorrect navigation or actions, potentially affecting safety.\n\nHowever, it's also possible that \"higher\" was a mishearing of \"il,\" but in the context of ATC, such mishearings can be critical. Controllers and pilots rely on precise communication, and any deviation can lead to errors. Therefore, even if the rest of the message is the same, the change from \"il\" to \"higher\" introduces ambiguity and could lead to operational errors.\n\nIn conclusion, the transcription introduces a meaningful difference that could alter the operational understanding. This change has the potential to impact safety, making it a critical error.\n</think>\n\n```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription changes 'il' to 'higher,' which could lead to operational misunderstandings.\",\n  \"transcription_errors\": [\"il\" vs \"higher\"]\n}\n```",
-      "sample_index": 226
+      "sample_index": 226,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Equivalent",

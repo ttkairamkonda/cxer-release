@@ -12676,14 +12676,32 @@
     {
       "reference": "hotel whiskey alfa taxi to holding point bravo runway 14",
       "hypothesis": "whiskey alpha taxi to holding point bravo runway 15",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, let's tackle this problem step by step. I'm supposed to evaluate the transcription of an ATC instruction and determine its quality, whether the meaning is preserved, and the operational safety implications. \n\nFirst, I'll look at the reference and the transcription provided. The reference is",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains critical errors in runway number and callsign, posing a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "runway",
+          "error_name": "wrong_runway",
+          "reference_value": "runway 14",
+          "transcribed_value": "runway 15",
+          "safety_risk": "high",
+          "explanation": "Runway number changed from 14 to 15, which is a critical operational error."
+        },
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "hotel whiskey alfa",
+          "transcribed_value": "whiskey alpha",
+          "safety_risk": "medium",
+          "explanation": "Callsign mismatch between 'hotel whiskey alfa' and 'whiskey alpha'."
+        }
+      ],
       "inference_time": 2.1195,
       "sample_index": 447,
-      "WER": 0.3
+      "WER": 0.3,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "yeah of course than you can expect vfr circuits after touch and go report taking off romeo circling",

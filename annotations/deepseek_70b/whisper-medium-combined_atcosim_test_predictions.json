@@ -27962,14 +27962,15 @@
     {
       "reference": "no 5730",
       "hypothesis": "no 5730",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, so I'm trying to figure out how to approach this problem. The user has given me a specific task where I need to act as an expert ATC evaluator. They provided a reference and a transcription, both numbered 5730, but I don't have the actual content of those. Hmm, that's a bit tricky. \n\nFirst,",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription matches the reference exactly with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 1.4104,
       "sample_index": 1851,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "lauda 109 squawk 2746",

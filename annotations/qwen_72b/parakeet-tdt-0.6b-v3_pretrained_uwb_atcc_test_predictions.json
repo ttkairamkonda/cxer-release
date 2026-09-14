@@ -1896,14 +1896,15 @@
     {
       "reference": "we continue",
       "hypothesis": "we continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the specific reference and transcription text for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.7055,
       "sample_index": 70,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "austrian seven one two zulu runway one three cleared for takeoff wind one six zero degrees three knots bye bye",
@@ -28081,14 +28082,24 @@
     {
       "reference": "in sight",
       "hypothesis": "exact",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the direction, which changes the meaning and poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_direction",
+          "reference_value": "in sight",
+          "transcribed_value": "exact",
+          "safety_risk": "high",
+          "explanation": "The phrase 'in sight' indicates visual confirmation, while 'exact' does not convey the same meaning, potentially leading to miscommunication and safety issues."
+        }
+      ],
       "inference_time": 1.8058,
       "sample_index": 987,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "lufthansa nine lima charlie runway three one cleared for takeoff wind one eight zero degrees three knots bye",
@@ -29730,14 +29741,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.7556,
       "sample_index": 1049,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa nine two seven runway one three clear to land wind three five zero degrees seven knots",
@@ -31397,14 +31409,24 @@
     {
       "reference": "and",
       "hypothesis": "ah no original",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign, which changes the meaning and poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "and",
+          "transcribed_value": "ah no original",
+          "safety_risk": "medium",
+          "explanation": "The callsign 'and' is incorrectly transcribed as 'ah no original', which changes the meaning and could lead to misidentification of the aircraft."
+        }
+      ],
       "inference_time": 1.7556,
       "sample_index": 1107,
-      "WER": 3.0
+      "WER": 3.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "air france three nine three victor hello to call behind the next one by ready in one minute",
@@ -53353,14 +53375,24 @@
     {
       "reference": "roger",
       "hypothesis": "all",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the transcription and reference text for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the acknowledgment, which could lead to a misunderstanding of the instruction.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_acknowledgment",
+          "reference_value": "roger",
+          "transcribed_value": "all",
+          "safety_risk": "high",
+          "explanation": "The incorrect acknowledgment 'all' instead of 'roger' can lead to confusion and potential safety issues, as it does not confirm the receipt of the instruction."
+        }
+      ],
       "inference_time": 1.6945,
       "sample_index": 1878,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa seven zero zero line up runway three one",
@@ -77050,14 +77082,15 @@
     {
       "reference": "continue",
       "hypothesis": "continu",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference with no critical errors.",
       "transcription_errors": [],
       "inference_time": 1.8693,
       "sample_index": 2722,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa two zulu alfa runway one three clear to land wind three six zero degrees seven knots",

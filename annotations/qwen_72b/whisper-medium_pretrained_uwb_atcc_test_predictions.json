@@ -2523,14 +2523,24 @@
     {
       "reference": "irm",
       "hypothesis": "cut",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the direction, which changes the operational meaning and poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_direction",
+          "reference_value": "irm",
+          "transcribed_value": "cut",
+          "safety_risk": "high",
+          "explanation": "The direction 'irm' (likely intended as 'right' or 'left') is incorrectly transcribed as 'cut', which completely changes the operational meaning and poses a high safety risk."
+        }
+      ],
       "inference_time": 1.4527,
       "sample_index": 97,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "line up runway 13 cleared for immediate takeoff wind 0607 knots",
@@ -6157,14 +6167,22 @@
     {
       "reference": "runway 04121 decimal 9 csa one delta zulu",
       "hypothesis": "tower this is tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\n```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"transcription_errors\": [\n    {\n      \"entity_type\": \"callsign\",\n      \"error_name\": \"repeated_words\",\n      \"reference_value\": \"tower\",\n      \"transcribed_value\": \"tower tower t",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the runway number, which significantly changes the meaning and poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "runway",
+          "error_name": "wrong_runway",
+          "reference_value": "runway 04121 decimal 9",
+          "transcribed_value": "tower this is tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower tower"
+        }
+      ],
       "inference_time": 1.6412,
       "sample_index": 231,
-      "WER": 27.875
+      "WER": 27.875,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa 63 bravo runway 13 cleared for takeoff wind 030 degrees 4 knots cleared for takeoff one",
@@ -15492,14 +15510,24 @@
     {
       "reference": "is on",
       "hypothesis": "yes sir",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the response, which changes the operational meaning.",
+      "transcription_errors": [
+        {
+          "entity_type": "clearance",
+          "error_name": "wrong_clearance",
+          "reference_value": "is on",
+          "transcribed_value": "yes sir",
+          "safety_risk": "high",
+          "explanation": "The response 'yes sir' does not confirm the operational status, which could lead to misunderstandings and potential safety risks."
+        }
+      ],
       "inference_time": 1.5521,
       "sample_index": 578,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "nor shuttle 1514 contact ruzyne ground 121 decimal 9 good bye ground 1219 nor shuttle 1514",
@@ -17187,14 +17215,24 @@
     {
       "reference": "6 bravo cha",
       "hypothesis": "666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\n```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"transcription_errors\": [\n    {\n      \"entity_type\": \"callsign\",\n      \"error_name\": \"callsign_mismatch\",\n      \"reference_value\": \"6 bravo cha\",\n      \"transcribed_value\": \"6666",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign, which could lead to severe operational confusion.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "6 bravo cha",
+          "transcribed_value": "666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666",
+          "safety_risk": "medium",
+          "explanation": "The callsign '6 bravo cha' is incorrectly transcribed as a long string of '6's, which could lead to significant operational confusion and misidentification of the aircraft."
+        }
+      ],
       "inference_time": 1.7808,
       "sample_index": 637,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "ru",
@@ -19371,14 +19409,24 @@
     {
       "reference": "cleared to hurghada via one hotel departure squawk 1444 startup app",
       "hypothesis": "q 2 q 2 hg d va via vh report to us q one 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\n```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"transcription_errors\": [\n    {\n      \"entity_type\": \"callsign\",\n      \"error_name\": \"callsign_mismatch\",\n      \"reference_value\": \"q2q2\",\n      \"transcribed_value\": \"q 2 q 2\",\n ",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains critical errors in the callsign, squawk code, and clearance, which significantly alter the meaning and pose a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "cleared to hurghada",
+          "transcribed_value": "q 2 q 2 hg d",
+          "safety_risk": "medium",
+          "explanation": "The callsign is incorrectly transcribed, which could lead to misidentification of the aircraft."
+        }
+      ],
       "inference_time": 1.7808,
       "sample_index": 723,
-      "WER": 20.1818
+      "WER": 20.1818,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "cleared to hurghada one hotel departure",
@@ -21906,14 +21954,22 @@
     {
       "reference": "tower jobair 05 papa on i",
       "hypothesis": "now summer the super 012312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\n```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"transcription_errors\": [\n    {\n      \"entity_type\": \"callsign\",\n      \"error_name\": \"callsign_mismatch\",\n      \"reference_value\": \"jobair 05 papa\",\n      \"transcribed_value\": \"s",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign and a significant amount of irrelevant text, which completely changes the meaning and operational context.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "tower jobair 05 papa",
+          "transcribed_value": "now summer the super 0123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123"
+        }
+      ],
       "inference_time": 1.5675,
       "sample_index": 819,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "hello",
@@ -28032,14 +28088,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.5086,
       "sample_index": 1049,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "csa 927 runway 13 clear to land wind 350 degrees 7 knots",
@@ -29600,14 +29657,15 @@
     {
       "reference": "and",
       "hypothesis": "and the original",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "No operationally significant errors found.",
       "transcription_errors": [],
       "inference_time": 1.5086,
       "sample_index": 1107,
-      "WER": 2.0
+      "WER": 2.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "air france 393 victor hello to call behind the next one by ready in one minute",
@@ -32016,14 +32074,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.5086,
       "sample_index": 1194,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "635 ground 12191219 csa si",
@@ -41059,14 +41118,24 @@
     {
       "reference": "121",
       "hypothesis": "one to one",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the transcription and reference text for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the frequency, which could lead to miscommunication and potential safety risks.",
+      "transcription_errors": [
+        {
+          "entity_type": "frequency",
+          "error_name": "wrong_frequency",
+          "reference_value": "121",
+          "transcribed_value": "one to one",
+          "safety_risk": "high",
+          "explanation": "The frequency '121' is incorrectly transcribed as 'one to one', which could lead to pilots tuning to the wrong frequency and missing critical communications."
+        }
+      ],
       "inference_time": 1.5012,
       "sample_index": 1528,
-      "WER": 3.0
+      "WER": 3.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "1219",
@@ -43755,14 +43824,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.586,
       "sample_index": 1630,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "beair 552 contact ruzyne ground 121 decimal 9",
@@ -44750,14 +44820,15 @@
     {
       "reference": "continue",
       "hypothesis": "continue",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.586,
       "sample_index": 1666,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "praha good evening easy 5497 ils 13",
@@ -48890,14 +48961,24 @@
     {
       "reference": "tower",
       "hypothesis": ".",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the transcription and reference text for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription is missing the critical word 'tower', which could lead to a loss of communication and potential safety issues.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "missing_word",
+          "reference_value": "tower",
+          "transcribed_value": ".",
+          "safety_risk": "high",
+          "explanation": "The word 'tower' is missing in the transcription, which is critical for establishing communication with the control tower."
+        }
+      ],
       "inference_time": 1.5018,
       "sample_index": 1822,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "prague tower hotel zulu mike foxtrot",
@@ -52900,14 +52981,24 @@
     {
       "reference": "122",
       "hypothesis": "takeoff report",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the specific transcription and reference values for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the runway number, which changes the meaning and poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "runway",
+          "error_name": "wrong_runway",
+          "reference_value": "122",
+          "transcribed_value": "takeoff report",
+          "safety_risk": "high",
+          "explanation": "The reference specifies a runway number (122), but the transcription incorrectly states 'takeoff report', which changes the meaning and poses a high safety risk."
+        }
+      ],
       "inference_time": 1.5018,
       "sample_index": 1974,
-      "WER": 2.0
+      "WER": 2.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "ok cleared f",
@@ -56538,14 +56629,15 @@
     {
       "reference": "number 2",
       "hypothesis": "number 2",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.4676,
       "sample_index": 2110,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "austrian 704 runway 31 cleared for takeoff wind 170 degrees 3 knots good by",
@@ -59235,14 +59327,24 @@
     {
       "reference": "not yet",
       "hypothesis": "all right",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error that changes the meaning of the response.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_response",
+          "reference_value": "not yet",
+          "transcribed_value": "all right",
+          "safety_risk": "high",
+          "explanation": "The response 'all right' is a significant deviation from 'not yet', which could lead to operational misunderstandings."
+        }
+      ],
       "inference_time": 1.5753,
       "sample_index": 2213,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "call me",
@@ -68137,14 +68239,22 @@
     {
       "reference": "land wind 200 degrees",
       "hypothesis": "12 34 56 78 9101112131415161718192021222324252627282931323333343536373839404142434445454647484950505152525354555657575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\n```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"transcription_errors\": [\n    {\n      \"entity_type\": \"callsign\",\n      \"error_name\": \"callsign_incomplete\",\n      \"reference_value\": \"12345678910111213141516171819202122232425262",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the wind direction, which could lead to unsafe operations.",
+      "transcription_errors": [
+        {
+          "entity_type": "weather",
+          "error_name": "wrong_wind_direction",
+          "reference_value": "wind 200 degrees",
+          "transcribed_value": "12 34 56 78 910111213141516171819202122232425262728293132333334353637383940414243444545464748495050515252535455565757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757575757"
+        }
+      ],
       "inference_time": 1.7993,
       "sample_index": 2545,
-      "WER": 1.25
+      "WER": 1.25,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "clear to land on",
@@ -70711,14 +70821,22 @@
     {
       "reference": "csa 6 kilo golf ruzyne tower roger",
       "hypothesis": "good day ccc g c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\n```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"transcription_errors\": [\n    {\n      \"entity_type\": \"callsign\",\n      \"error_name\": \"callsign_mismatch\",\n      \"reference_value\": \"csa 6 kilo golf\",\n      \"transcribed_value\": \"",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign, which could lead to misidentification of the aircraft.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "csa 6 kilo golf",
+          "transcribed_value": "ccc g c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t c t"
+        }
+      ],
       "inference_time": 1.5451,
       "sample_index": 2644,
-      "WER": 31.7143
+      "WER": 31.7143,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "ruzyne good morning this is the sky travel 1034 with information november request ba",
@@ -70791,14 +70909,15 @@
     {
       "reference": "102",
       "hypothesis": "102",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription text for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.5451,
       "sample_index": 2648,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "to de gaule",
@@ -70951,14 +71070,15 @@
     {
       "reference": "calibra",
       "hypothesis": ".",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription text for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference with no critical errors.",
       "transcription_errors": [],
       "inference_time": 1.5451,
       "sample_index": 2655,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "calibra tango tango",
@@ -72571,14 +72691,24 @@
     {
       "reference": "sky travel",
       "hypothesis": "of",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign, which changes the meaning and poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "sky travel",
+          "transcribed_value": "of",
+          "safety_risk": "medium",
+          "explanation": "The callsign 'sky travel' is incorrectly transcribed as 'of', which changes the meaning and could lead to misidentification of the aircraft."
+        }
+      ],
       "inference_time": 1.5451,
       "sample_index": 2713,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "standby",

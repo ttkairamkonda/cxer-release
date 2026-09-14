@@ -39,34 +39,47 @@
       "sample_index": 2
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription contains errors in the aircraft identifier and altitude, which could lead to misidentification and incorrect altitude information.",
+      "transcription_errors": [
+        "gols praha\" instead of \"golf bravo",
+        "eight\" instead of \"at"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription contains errors in the aircraft identifier and altitude, which could lead to misidentification and incorrect altitude information.\",\n  \"transcription_errors\": [\n    \"gols praha\" instead of \"golf bravo\",\n    \"eight\" instead of \"at\"\n  ]\n}\n```",
-      "sample_index": 3
+      "sample_index": 3,
+      "recovered_via": "json_repair"
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains significant errors that alter the runway number and the instruction, potentially leading to incorrect actions and severe safety risks.",
+      "transcription_errors": [
+        "cc 9 to the local\" instead of \"csa 92 delta",
+        "line up on way 3108\" instead of \"line up runway 31 and wait"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains significant errors that alter the runway number and the instruction, potentially leading to incorrect actions and severe safety risks.\",\n  \"transcription_errors\": [\n    \"cc 9 to the local\" instead of \"csa 92 delta\",\n    \"line up on way 3108\" instead of \"line up runway 31 and wait\"\n  ]\n}\n```",
-      "sample_index": 4
+      "sample_index": 4,
+      "recovered_via": "json_repair"
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The aircraft call sign and the word 'contact' are altered, which could lead to misidentification and miscommunication.",
+      "transcription_errors": [
+        "six four six zero\" instead of \"swiss four six zero",
+        "tengo\" instead of \"tango",
+        "conta\" instead of \"contact"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The aircraft call sign and the word 'contact' are altered, which could lead to misidentification and miscommunication.\",\n  \"transcription_errors\": [\n    \"six four six zero\" instead of \"swiss four six zero\",\n    \"tengo\" instead of \"tango\",\n    \"conta\" instead of \"contact\"\n  ]\n}\n```",
-      "sample_index": 5
+      "sample_index": 5,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -114,24 +127,33 @@
       "sample_index": 9
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription contains significant errors that could alter the operational understanding, such as 'motor of zulu whiskey juliet' instead of 'hotel bravo zulu whiskey juliett' and 'rotated control zone' instead of 'enter control zone'.",
+      "transcription_errors": [
+        "motor of zulu whiskey juliet\" instead of \"hotel bravo zulu whiskey juliett",
+        "rotated control zone\" instead of \"enter control zone"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription contains significant errors that could alter the operational understanding, such as 'motor of zulu whiskey juliet' instead of 'hotel bravo zulu whiskey juliett' and 'rotated control zone' instead of 'enter control zone'.\",\n  \"transcription_errors\": [\n    \"motor of zulu whiskey juliet\" instead of \"hotel bravo zulu whiskey juliett\",\n    \"rotated control zone\" instead of \"enter control zone\"\n  ]\n}\n```",
-      "sample_index": 10
+      "sample_index": 10,
+      "recovered_via": "json_repair"
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription significantly alters the call sign, aircraft identification, and the intended recipient, which could lead to miscommunication and operational errors.",
+      "transcription_errors": [
+        "wizziar four xray zulu\" is incorrectly transcribed as \"with our four x rays delivered our",
+        "ruzyne tower",
+        "is omitted entirely"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription significantly alters the call sign, aircraft identification, and the intended recipient, which could lead to miscommunication and operational errors.\",\n  \"transcription_errors\": [\n    \"wizziar four xray zulu\" is incorrectly transcribed as \"with our four x rays delivered our\",\n    \"ruzyne tower\" is omitted entirely\n  ]\n}\n```",
-      "sample_index": 11
+      "sample_index": 11,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -147,14 +169,18 @@
       "sample_index": 12
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains critical errors that change the runway and wind information, which could lead to incorrect landing instructions and pose a significant safety risk.",
+      "transcription_errors": [
+        "wing\" instead of \"wind",
+        "two right two\" instead of \"runway one six right"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains critical errors that change the runway and wind information, which could lead to incorrect landing instructions and pose a significant safety risk.\",\n  \"transcription_errors\": [\n    \"wing\" instead of \"wind\",\n    \"two right two\" instead of \"runway one six right\"\n  ]\n}\n```",
-      "sample_index": 13
+      "sample_index": 13,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -239,14 +265,19 @@
       "sample_index": 20
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains significant errors in airport and tower names, and the phrase 'established silence' instead of 'establish ils,' which could lead to miscommunication and operational errors.",
+      "transcription_errors": [
+        "prague ruzyne tower\" vs \"ruezinha taveras capilla",
+        "establish ils\" vs \"established silence",
+        "runway in sight\" vs \"runway 31 sight"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains significant errors in airport and tower names, and the phrase 'established silence' instead of 'establish ils,' which could lead to miscommunication and operational errors.\",\n  \"transcription_errors\": [\n    \"prague ruzyne tower\" vs \"ruezinha taveras capilla\",\n    \"establish ils\" vs \"established silence\",\n    \"runway in sight\" vs \"runway 31 sight\"\n  ]\n}\n```",
-      "sample_index": 21
+      "sample_index": 21,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -316,14 +347,17 @@
       "sample_index": 27
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription changes 'contact reims' to 'can the ras', which alters the instruction and could lead to confusion or miscommunication.",
+      "transcription_errors": [
+        "contact reims on 1344\" changed to \"can the ras on 1344"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription changes 'contact reims' to 'can the ras', which alters the instruction and could lead to confusion or miscommunication.\",\n  \"transcription_errors\": [\"contact reims on 1344\" changed to \"can the ras on 1344\"]\n}\n```",
-      "sample_index": 28
+      "sample_index": 28,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -366,14 +400,19 @@
       "sample_index": 32
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription contains errors that could lead to confusion or misinterpretation, such as 'talgo papa' instead of 'hotel golf papa', 'makarke one eight eight' instead of 'make a one eighty', and 'holding fried foxtrot' instead of 'holding point foxtrot'.",
+      "transcription_errors": [
+        "talgo papa\" instead of \"hotel golf papa",
+        "makarke one eight eight\" instead of \"make a one eighty",
+        "holding fried foxtrot\" instead of \"holding point foxtrot"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription contains errors that could lead to confusion or misinterpretation, such as 'talgo papa' instead of 'hotel golf papa', 'makarke one eight eight' instead of 'make a one eighty', and 'holding fried foxtrot' instead of 'holding point foxtrot'.\",\n  \"transcription_errors\": [\n    \"talgo papa\" instead of \"hotel golf papa\",\n    \"makarke one eight eight\" instead of \"make a one eighty\",\n    \"holding fried foxtrot\" instead of \"holding point foxtrot\"\n  ]\n}\n```",
-      "sample_index": 33
+      "sample_index": 33,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -431,24 +470,34 @@
       "sample_index": 38
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription changes 'twin jet 50' to 'injects 5 0 one' and 'back' to 'debate', which could lead to confusion and misinterpretation of the aircraft type and location.",
+      "transcription_errors": [
+        "twin jet 50\" changed to \"injects 5 0 one",
+        "back\" changed to \"debate"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription changes 'twin jet 50' to 'injects 5 0 one' and 'back' to 'debate', which could lead to confusion and misinterpretation of the aircraft type and location.\",\n  \"transcription_errors\": [\n    \"twin jet 50\" changed to \"injects 5 0 one\",\n    \"back\" changed to \"debate\"\n  ]\n}\n```",
-      "sample_index": 39
+      "sample_index": 39,
+      "recovered_via": "json_repair"
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains significant errors in the runway designation, frequency, and speed instruction, which could lead to operational confusion and safety risks.",
+      "transcription_errors": [
+        "vackaiva papa\" instead of \"vacate via papa",
+        "ruzyne cron\" instead of \"ruzyne ground",
+        "one three decimal nine nine\" instead of \"one two one decimal nine",
+        "expedied dober knots\" instead of \"expedite"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains significant errors in the runway designation, frequency, and speed instruction, which could lead to operational confusion and safety risks.\",\n  \"transcription_errors\": [\n    \"vackaiva papa\" instead of \"vacate via papa\",\n    \"ruzyne cron\" instead of \"ruzyne ground\",\n    \"one three decimal nine nine\" instead of \"one two one decimal nine\",\n    \"expedied dober knots\" instead of \"expedite\"\n  ]\n}\n```",
-      "sample_index": 40
+      "sample_index": 40,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -520,14 +569,18 @@
       "sample_index": 46
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription changes 'give way' to 'gifay' and 'boeing' to 'boerning', which could lead to confusion and misinterpretation of the instruction.",
+      "transcription_errors": [
+        "give way\" -> \"gifay",
+        "boeing\" -> \"boerning"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription changes 'give way' to 'gifay' and 'boeing' to 'boerning', which could lead to confusion and misinterpretation of the instruction.\",\n  \"transcription_errors\": [\n    \"give way\" -> \"gifay\",\n    \"boeing\" -> \"boerning\"\n  ]\n}\n```",
-      "sample_index": 47
+      "sample_index": 47,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -615,24 +668,31 @@
       "sample_index": 54
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription changes 'lining up runway one three' to 'line cabin wave on three', which completely alters the instruction and could lead to a serious safety risk.",
+      "transcription_errors": [
+        "lining up runway one three\" -> \"line cabin wave on three"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription changes 'lining up runway one three' to 'line cabin wave on three', which completely alters the instruction and could lead to a serious safety risk.\",\n  \"transcription_errors\": [\n    \"lining up runway one three\" -> \"line cabin wave on three\"\n  ]\n}\n```",
-      "sample_index": 55
+      "sample_index": 55,
+      "recovered_via": "json_repair"
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains significant errors that could lead to misidentification of the aircraft and incorrect instructions, posing a safety risk.",
+      "transcription_errors": [
+        "tower\" changed to \"caro",
+        "swiss four seven two echo\" changed to \"six four seven tureco"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains significant errors that could lead to misidentification of the aircraft and incorrect instructions, posing a safety risk.\",\n  \"transcription_errors\": [\n    \"tower\" changed to \"caro\",\n    \"swiss four seven two echo\" changed to \"six four seven tureco\"\n  ]\n}\n```",
-      "sample_index": 56
+      "sample_index": 56,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -657,14 +717,17 @@
       "sample_index": 58
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription changes 'cleared to land' to 'queat climb', which completely alters the instruction and could lead to a serious safety risk.",
+      "transcription_errors": [
+        "cleared to land\" -> \"queat climb"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription changes 'cleared to land' to 'queat climb', which completely alters the instruction and could lead to a serious safety risk.\",\n  \"transcription_errors\": [\"cleared to land\" -> \"queat climb\"]\n}\n```",
-      "sample_index": 59
+      "sample_index": 59,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -763,14 +826,18 @@
       "sample_index": 67
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains significant errors that alter the runway and the instruction, potentially leading to a different and unsafe operational outcome.",
+      "transcription_errors": [
+        "ruzyne tower\" changed to \"ruzyne to",
+        "line up runway three one\" changed to \"line up ram eight three one"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains significant errors that alter the runway and the instruction, potentially leading to a different and unsafe operational outcome.\",\n  \"transcription_errors\": [\n    \"ruzyne tower\" changed to \"ruzyne to\",\n    \"line up runway three one\" changed to \"line up ram eight three one\"\n  ]\n}\n```",
-      "sample_index": 68
+      "sample_index": 68,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -783,14 +850,20 @@
       "sample_index": 69
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains significant errors that alter the aircraft call sign, runway, and wind information, which could lead to severe operational and safety issues.",
+      "transcription_errors": [
+        "sister and two dota\" instead of \"csa nine two delta",
+        "on way three one\" instead of \"runway three one",
+        "one eager release three notes\" instead of \"one eight zero degrees three knots",
+        "a snow pick me at three sand two dota\" instead of \"cleared for takeoff runway three one csa nine two delta"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains significant errors that alter the aircraft call sign, runway, and wind information, which could lead to severe operational and safety issues.\",\n  \"transcription_errors\": [\n    \"sister and two dota\" instead of \"csa nine two delta\",\n    \"on way three one\" instead of \"runway three one\",\n    \"one eager release three notes\" instead of \"one eight zero degrees three knots\",\n    \"a snow pick me at three sand two dota\" instead of \"cleared for takeoff runway three one csa nine two delta\"\n  ]\n}\n```",
-      "sample_index": 70
+      "sample_index": 70,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -873,14 +946,18 @@
       "sample_index": 76
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription contains significant errors that could alter the pilot's understanding of the instructions, including 'i miray take over' and 'traftic three mart five charlie'.",
+      "transcription_errors": [
+        "i miray take over\" instead of \"immediate takeoff",
+        "traftic three mart five charlie\" instead of \"traffic three miles final"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription contains significant errors that could alter the pilot's understanding of the instructions, including 'i miray take over' and 'traftic three mart five charlie'.\",\n  \"transcription_errors\": [\n    \"i miray take over\" instead of \"immediate takeoff\",\n    \"traftic three mart five charlie\" instead of \"traffic three miles final\"\n  ]\n}\n```",
-      "sample_index": 77
+      "sample_index": 77,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Equivalent",
@@ -915,14 +992,19 @@
       "sample_index": 80
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains significant errors that alter the instructions, including 'line of clay four takeof' instead of 'clear line up and cleared for takeoff', which could lead to confusion and potential safety risks.",
+      "transcription_errors": [
+        "line of clay four takeof\" instead of \"clear line up and cleared for takeoff",
+        "nikel naschernow",
+        "is an additional phrase with no clear meaning in the context"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains significant errors that alter the instructions, including 'line of clay four takeof' instead of 'clear line up and cleared for takeoff', which could lead to confusion and potential safety risks.\",\n  \"transcription_errors\": [\n    \"line of clay four takeof\" instead of \"clear line up and cleared for takeoff\",\n    \"nikel naschernow\" is an additional phrase with no clear meaning in the context\n  ]\n}\n```",
-      "sample_index": 81
+      "sample_index": 81,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -938,14 +1020,18 @@
       "sample_index": 82
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription changes 'ruzyne ground' to 'losing ground' and 'four eight one' to 'say for eight one', which could lead to significant operational misunderstandings and safety risks.",
+      "transcription_errors": [
+        "ruzyne ground\" changed to \"losing ground",
+        "csa four eight one\" changed to \"say for eight one"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription changes 'ruzyne ground' to 'losing ground' and 'four eight one' to 'say for eight one', which could lead to significant operational misunderstandings and safety risks.\",\n  \"transcription_errors\": [\n    \"ruzyne ground\" changed to \"losing ground\",\n    \"csa four eight one\" changed to \"say for eight one\"\n  ]\n}\n```",
-      "sample_index": 83
+      "sample_index": 83,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -960,14 +1046,20 @@
       "sample_index": 84
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains significant errors that alter the runway number, wind direction, and units, which could lead to severe operational and safety issues.",
+      "transcription_errors": [
+        "kilogram year\" instead of \"kilo romeo",
+        "on way\" instead of \"runway",
+        "three one killer one twenty one eighty three degrees\" instead of \"three one clear to land wind one eight zero degrees",
+        "five minutes\" instead of \"five knots"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains significant errors that alter the runway number, wind direction, and units, which could lead to severe operational and safety issues.\",\n  \"transcription_errors\": [\n    \"kilogram year\" instead of \"kilo romeo\",\n    \"on way\" instead of \"runway\",\n    \"three one killer one twenty one eighty three degrees\" instead of \"three one clear to land wind one eight zero degrees\",\n    \"five minutes\" instead of \"five knots\"\n  ]\n}\n```",
-      "sample_index": 85
+      "sample_index": 85,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -1052,14 +1144,19 @@
       "sample_index": 92
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains significant errors that alter the course and frequency instructions, which could lead to operational confusion and safety risks.",
+      "transcription_errors": [
+        "aero lol\" instead of \"aero lloyd",
+        "sec cours\" instead of \"set course",
+        "are call three\" instead of \"direct karlsruhe"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"unsafe\",\n  \"explanation\": \"The transcription contains significant errors that alter the course and frequency instructions, which could lead to operational confusion and safety risks.\",\n  \"transcription_errors\": [\n    \"aero lol\" instead of \"aero lloyd\",\n    \"sec cours\" instead of \"set course\",\n    \"are call three\" instead of \"direct karlsruhe\"\n  ]\n}\n```",
-      "sample_index": 93
+      "sample_index": 93,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",
@@ -1084,14 +1181,18 @@
       "sample_index": 95
     },
     {
-      "contextual_status": "Error",
-      "is_critical": null,
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "json parse fail",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "is_critical": true,
+      "meaning_preserved": false,
+      "operational_safety": "potentially_unsafe",
+      "explanation": "The transcription contains a critical error in the runway number and the airline name, which could lead to confusion and potential safety issues.",
+      "transcription_errors": [
+        "runway one three\" is incorrectly transcribed as \"we to nine one three",
+        "air france\" is incorrectly transcribed as \"affance"
+      ],
       "raw_output": "```json\n{\n  \"transcription_quality\": \"Critical_Errors\",\n  \"meaning_preserved\": false,\n  \"operational_safety\": \"potentially_unsafe\",\n  \"explanation\": \"The transcription contains a critical error in the runway number and the airline name, which could lead to confusion and potential safety issues.\",\n  \"transcription_errors\": [\n    \"runway one three\" is incorrectly transcribed as \"we to nine one three\",\n    \"air france\" is incorrectly transcribed as \"affance\"\n  ]\n}\n```",
-      "sample_index": 96
+      "sample_index": 96,
+      "recovered_via": "json_repair"
     },
     {
       "contextual_status": "Critical_Errors",

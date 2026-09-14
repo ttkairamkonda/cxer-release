@@ -27448,14 +27448,24 @@
     {
       "reference": "transwede 3571 turn right 10 degrees due traffic",
       "hypothesis": "transmit 3571 turn right 10 degrees to traffic",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, let's break down this problem step by step. The user is an expert ATC evaluator, and they've provided a reference and a transcription that need to be compared. The goal is to determine the quality of the transcription and its impact on operational safety.\n\nFirst, I'll look at the reference:",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "Callsign error with high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "transwede",
+          "transcribed_value": "transmit",
+          "safety_risk": "high",
+          "explanation": "Incorrect callsign which could lead to misidentification."
+        }
+      ],
       "inference_time": 2.0402,
       "sample_index": 1130,
-      "WER": 0.25
+      "WER": 0.25,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "lufthansa 4356 is identified",
@@ -44719,14 +44729,15 @@
     {
       "reference": "no 5730",
       "hypothesis": "no 5730",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nAlright, so I'm trying to figure out how to approach this problem. The user has given me a specific task where I need to act as an expert ATC evaluator. They provided a reference and a transcription, both numbered 5730, but I don't have the actual content of those. Hmm, that's a bit tricky. \n\nFirst,",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription matches the reference exactly with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 1.6758,
       "sample_index": 1851,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "lauda 109 squawk 2746",

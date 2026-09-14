@@ -1545,26 +1545,37 @@
     {
       "reference": "jet aviation",
       "hypothesis": "jet division",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text? Please provide the text, and I will output the JSON evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "safe",
+      "explanation": "The transcription contains a critical error in the entity type 'other' due to a difference in the word 'aviation' and 'division'.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_entity",
+          "reference_value": "aviation",
+          "transcribed_value": "division",
+          "safety_risk": "low",
+          "explanation": "The reference transcript contains 'jet aviation' while the transcription contains 'jet division', which is a critical error."
+        }
+      ],
       "inference_time": 0.5866,
       "sample_index": 78,
-      "WER": 0.5
+      "WER": 0.5,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "correct",
       "hypothesis": "correct",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription matches the reference exactly.",
       "transcription_errors": [],
       "inference_time": 0.5866,
       "sample_index": 79,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "turkair 925 is identified maintain level 320 trasadingen morok",
@@ -6674,14 +6685,24 @@
     {
       "reference": "you",
       "hypothesis": "kyle",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "you",
+          "transcribed_value": "kyle",
+          "safety_risk": "medium",
+          "explanation": "The transcribed callsign 'kyle' does not match the reference callsign 'you'."
+        }
+      ],
       "inference_time": 0.622,
       "sample_index": 320,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "delta mike echo further climb clearance contact radar 133.4 bye bye",
@@ -9611,14 +9632,15 @@
     {
       "reference": "ok",
       "hypothesis": "okay",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.6046,
       "sample_index": 460,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "do you have tunis air 4802",
@@ -19071,14 +19093,15 @@
     {
       "reference": "ok",
       "hypothesis": "okay",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.5957,
       "sample_index": 930,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "delta echo bravo climb to flight level 330",
@@ -22898,14 +22921,15 @@
     {
       "reference": "ok",
       "hypothesis": "okay",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.5933,
       "sample_index": 1122,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "thank you bye bye",
@@ -28206,14 +28230,15 @@
     {
       "reference": "yes correct",
       "hypothesis": "yes correct",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription matches the reference transcript with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 0.575,
       "sample_index": 1397,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "maintain 320",
@@ -30614,14 +30639,15 @@
     {
       "reference": "yes please",
       "hypothesis": "yes please",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription matches the reference transcript exactly.",
       "transcription_errors": [],
       "inference_time": 0.5606,
       "sample_index": 1519,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "good afternoon sabena 7816 squawk 2716",
@@ -34893,14 +34919,15 @@
     {
       "reference": "exact",
       "hypothesis": "exactly",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference transcript with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 0.5553,
       "sample_index": 1720,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "delta echo bravo climb to level 330",
@@ -35174,14 +35201,15 @@
     {
       "reference": "affirm",
       "hypothesis": "fm",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text? Please provide the two texts, and I will output the JSON evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription accurately reflects the reference with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 0.5553,
       "sample_index": 1737,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "french line 9165 identified",
@@ -37320,14 +37348,15 @@
     {
       "reference": "no 5730",
       "hypothesis": "no 5730",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. Please provide the reference and transcribed text for evaluation. I will output the JSON result.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference transcript with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 0.5907,
       "sample_index": 1851,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "lauda 109 squawk 2746",
@@ -37540,14 +37569,15 @@
     {
       "reference": "who is calling",
       "hypothesis": "who is calling",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcription text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is identical to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.5907,
       "sample_index": 1862,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "alitalia 404 squawk 7532",
@@ -37691,14 +37721,15 @@
     {
       "reference": "ok",
       "hypothesis": "okay",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nI'm ready to evaluate the transcription. What is the reference and transcribed text?",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference transcript.",
       "transcription_errors": [],
       "inference_time": 0.5907,
       "sample_index": 1870,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "yeah alitalia 416 squawk 7533",

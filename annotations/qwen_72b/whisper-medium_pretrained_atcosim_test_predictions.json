@@ -6897,14 +6897,24 @@
     {
       "reference": "roger",
       "hypothesis": "ready",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the transcription and reference text for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the acknowledgment, which could lead to a misunderstanding of the instruction.",
+      "transcription_errors": [
+        {
+          "entity_type": "other",
+          "error_name": "wrong_acknowledgment",
+          "reference_value": "roger",
+          "transcribed_value": "ready",
+          "safety_risk": "high",
+          "explanation": "The acknowledgment 'ready' does not convey the same meaning as 'roger', which could lead to a misunderstanding of the instruction."
+        }
+      ],
       "inference_time": 1.4076,
       "sample_index": 281,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "alitalia 291 good afternoon radar contact maintain flight level 330 trasadingen canne",
@@ -7889,14 +7899,24 @@
     {
       "reference": "you",
       "hypothesis": "kyle",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription text for evaluation.",
-      "transcription_errors": [],
+      "contextual_status": "Critical_Errors",
+      "meaning_preserved": false,
+      "operational_safety": "unsafe",
+      "explanation": "The transcription contains a critical error in the callsign, which changes the meaning and poses a high safety risk.",
+      "transcription_errors": [
+        {
+          "entity_type": "callsign",
+          "error_name": "wrong_callsign",
+          "reference_value": "you",
+          "transcribed_value": "kyle",
+          "safety_risk": "medium",
+          "explanation": "The callsign 'you' was incorrectly transcribed as 'kyle', which changes the identity of the aircraft and poses a medium safety risk."
+        }
+      ],
       "inference_time": 1.4076,
       "sample_index": 320,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "delta mike echo further climb clearance contact radar 133.4 bye bye",
@@ -11302,14 +11322,15 @@
     {
       "reference": "confirm",
       "hypothesis": "confirm",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.4477,
       "sample_index": 456,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "alitalia 416 roger squawk 7533",
@@ -11393,14 +11414,15 @@
     {
       "reference": "ok",
       "hypothesis": "okay",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are contextually equivalent, with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 1.4477,
       "sample_index": 460,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "do you have tunis air 4802",
@@ -22297,14 +22319,15 @@
     {
       "reference": "ok",
       "hypothesis": "okay",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are contextually equivalent, with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 1.235,
       "sample_index": 930,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "delta echo bravo climb to flight level 330",
@@ -27040,14 +27063,15 @@
     {
       "reference": "ok",
       "hypothesis": "okay",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are contextually equivalent, with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 1.3545,
       "sample_index": 1122,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "thank you bye bye",
@@ -36376,14 +36400,15 @@
     {
       "reference": "yes please",
       "hypothesis": "yes please",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The transcription is equivalent to the reference with no critical errors.",
       "transcription_errors": [],
       "inference_time": 1.431,
       "sample_index": 1519,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "good afternoon sabena 7816 squawk 2716",
@@ -41749,14 +41774,15 @@
     {
       "reference": "disregard",
       "hypothesis": "disregard",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the transcription and reference text for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are identical, with no operational errors.",
       "transcription_errors": [],
       "inference_time": 1.3233,
       "sample_index": 1734,
-      "WER": 0.0
+      "WER": 0.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "air berlin 5255 contact rhein 120 decimal 92",
@@ -44665,14 +44691,15 @@
     {
       "reference": "ok",
       "hypothesis": "okay",
-      "contextual_status": "Error",
-      "meaning_preserved": null,
-      "operational_safety": null,
-      "explanation": "JSON parse failed. Raw:\nPlease provide the reference and transcription texts for evaluation.",
+      "contextual_status": "Equivalent",
+      "meaning_preserved": true,
+      "operational_safety": "safe",
+      "explanation": "The reference and transcription are contextually equivalent, with no operationally significant errors.",
       "transcription_errors": [],
       "inference_time": 1.0878,
       "sample_index": 1870,
-      "WER": 1.0
+      "WER": 1.0,
+      "recovered_via": "retry+json_repair"
     },
     {
       "reference": "yeah alitalia 416 squawk 7533",
