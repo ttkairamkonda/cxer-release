@@ -1,4 +1,0 @@
-model,consistent_correct,consistent_wrong,recoverable,catastrophic,incomplete
-qwen,218,16,19,21,23
-llama,138,8,12,18,121
-deepseek,201,12,58,24,2
