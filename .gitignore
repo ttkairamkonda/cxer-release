@@ -39,3 +39,10 @@ eval_plots/
 # Editor
 .vscode/
 .idea/
+
+# Paper source/manuscript — not part of the code release
+EMNLP_Copy.zip
+EMNLP_Copy.pdf
+*.tex
+*.bib
+paper/
