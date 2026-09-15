@@ -272,18 +272,25 @@ percentage-point change Δ = post − pre.
 "high-confidence" region *more* concentrated with critical errors — i.e. the
 metric becomes a *less* trustworthy proxy for safety exactly as it improves.
 
-Current values:
+Current values, with 95% bootstrap CIs (1000 resamples of the
+`Critical_Errors` subset per cell, τ held fixed at its estimated value —
+`analysis/table1_bootstrap_ci.py`, raw output in
+`prompt_robustness_analysis/table1_bootstrap_ci.csv`):
 
 | Metric | Model | ATCO2 | ATCC | ATCOSim |
 |---|---|---|---|---|
-| Δ_WER | Whisper | +23.9 | +34.5 | +52.6 |
-| Δ_WER | Parakeet | +14.2 | +22.7 | +31.9 |
-| Δ_WeightedWER | Whisper | +27.3 | +38.0 | +49.5 |
-| Δ_WeightedWER | Parakeet | +15.2 | +20.4 | +33.9 |
-| Δ_BERTDist | Whisper | +19.7 | +40.0 | +51.4 |
-| Δ_BERTDist | Parakeet | +8.2 | +17.1 | +30.9 |
-| Δ_SemDist | Whisper | +19.1 | +38.2 | +45.1 |
-| Δ_SemDist | Parakeet | +13.3 | +23.1 | +35.6 |
+| Δ_WER | Whisper | +23.9 [+18.9, +28.7] | +34.5 [+31.6, +37.7] | +52.6 [+46.3, +58.2] |
+| Δ_WER | Parakeet | +14.2 [+10.3, +18.3] | +22.7 [+20.8, +24.6] | +31.9 [+28.3, +36.3] |
+| Δ_WeightedWER | Whisper | +27.3 [+22.8, +32.1] | +38.0 [+34.9, +40.7] | +49.5 [+43.1, +55.2] |
+| Δ_WeightedWER | Parakeet | +15.2 [+11.5, +19.2] | +20.4 [+18.5, +22.2] | +33.9 [+29.8, +38.0] |
+| Δ_BERTDist | Whisper | +19.7 [+15.1, +24.3] | +40.0 [+37.2, +43.0] | +51.4 [+45.4, +57.4] |
+| Δ_BERTDist | Parakeet | +8.2 [+4.6, +11.9] | +17.1 [+15.4, +18.9] | +30.9 [+26.5, +35.4] |
+| Δ_SemDist | Whisper | +19.1 [+14.0, +23.8] | +38.2 [+35.1, +41.2] | +45.1 [+39.2, +51.4] |
+| Δ_SemDist | Parakeet | +13.3 [+9.6, +17.1] | +23.1 [+21.2, +25.1] | +35.6 [+31.4, +39.6] |
+
+All 24 cells exclude zero — the narrowest margin (Parakeet/BERTDist/ATCO2,
++8.2) is still [+4.6, +11.9], so the divergence is not a sampling artifact
+anywhere in the table.
 
 The WeightedWER row exists specifically to rule out the cheap fix ("just
 weight entity tokens more") — it fails almost identically to plain WER,
