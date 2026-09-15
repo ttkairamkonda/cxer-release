@@ -378,71 +378,9 @@ stable κ estimate — reported for completeness, not as a strong claim.
 - **Figure 2** (`figure2_metric_comparison.py`): grouped bar chart of the
   percentage improvement in each standard metric vs. CxER, pretrained →
   fine-tuned, across all (model, corpus) combinations.
+  
 
----
-
-## 8. Fixes applied since the original submission
-
-Two reliability issues were found and fixed while preparing this release;
-both are visible as diffs against the original submitted code/data and are
-independently re-runnable.
-
-**(a) Llama JSON-parse failures on the `compressed`/`no_examples` prompts
-(Table 3).** Root cause: those two prompts give the judge a numbered list of
-reasoning steps with no tag to contain the narration (unlike `cot_v3`, which
-bounds reasoning inside `<reasoning>` tags that get stripped before JSON
-parsing). Llama-3.3-70B would narrate the steps in prose, burn through the
-512-token generation budget doing so, and get cut off before ever emitting
-JSON — a 39.3% failure rate on `compressed`, 16.7% on `no_examples`. Fix: one
-added line telling the model to reason silently and emit only the JSON
-object (`judge/prompts/compressed.py`, `judge/prompts/no_examples.py`).
-Verified on the full 300-sample benchmark with live Llama-3.3-70B inference
-(`verify_compressed_fix.py`): failure rate drops to 0.3% / 0.0%, and F1
-*improves* (0.780→0.891) because the old failures were concentrated in the
-harder samples, not random.
-
-**(b) Residual JSON-parse failures across all judges/prompts.** Hardened
-`extract_json()` in `judge/scripts/llm_judge.py` and
-`judge/scripts/prompt_perturbation.py` with a final-resort
-[`json_repair`](https://pypi.org/project/json-repair/) pass, which correctly
-handles the two other real failure patterns found in raw model outputs
-(unescaped quotes inside string values; a missing closing quote before the
-next key — both are common LLM JSON-generation slips, not related to (a)).
-Recovery, using `recover_main_annotations.py`:
-
-| Dataset | True JSON-parse failures | Recovered |
-|---|---|---|
-| Table 3 raw outputs (full raw text already stored) | 27 | 27 (100%, pure re-parse, no new inference) |
-| Main annotations, Llama (fresh inference + re-parse) | 147 | 146 (99.3%) |
-| Main annotations, Qwen | 75 | 75 (100%) |
-| Main annotations, DeepSeek | 15 | 11 (73%) |
-
-The handful still unrecoverable (5, all DeepSeek/Whisper-pretrained) are not
-a parsing bug: the ASR hypothesis itself is degenerate hallucinated output
-(e.g. `"12 34 56 78 9101112..."` for a real ATC utterance), and the judge
-cannot format a structured response for genuinely nonsensical input either —
-left as `Parse_Failure`, excluded from CxER as intended.
-
-Separately from either fix: `eval_cache/{llama,qwen,deepseek,all}_results.csv`
-are regenerated from the corrected `annotations/` to stay consistent
-(`evaluate_asr.py`), and orphaned artifacts from an earlier, since-replaced
-analysis script (stray root-level PNGs, unreferenced
-`prompt_robustness_analysis/*.csv`/`*.png`) were removed.
-
-**Not yet adopted — flagged as a known limitation, not fixed in the numbers
-above:** pretrained Parakeet produces a **completely empty transcription**
-on 11.4% of UWB-ATCC test samples (0.9% after fine-tuning; Whisper never
-does this). These are currently excluded from both WER and CxER computation
-rather than counted as the critical failures they are, which — if anything —
-makes the Parakeet Finetuning Paradox numbers in §7's Table 1 a
-**conservative underestimate**: a corrected computation that counts empty
-output as `Critical_Errors` makes every Parakeet Δ in Table 1 larger, not
-smaller (e.g. Δ_WeightedWER on ATCC: +20.4 → +24.4). Whisper is unaffected
-(it has no empty-output failure mode).
-
----
-
-## 9. Reproducing the results
+## 8. Reproducing the results
 
 All pre-computed judge outputs and annotation data are included — steps 0–1
 need multi-GPU hardware and are optional; steps 2–5 run on a standard
@@ -482,13 +420,3 @@ list). Everything under `judge/scripts/`, `evaluate_asr.py`, and
 `analysis/*.py` has no CLI — paths and settings are constants at the top of
 each file, pointing at the locations shown in §1; edit them directly to
 change input/output paths.
-
----
-
-## 10. Before pushing this repository publicly
-
-`annotations/`, `data/`, and `prompt_robustness_outputs/` (~76MB total, well
-under GitHub's file-size limits) contain ATC-transcript-derived content.
-Confirm this is cleared for public release, or keep the repository private,
-before pushing. No secrets are tracked (`.env`, tokens, and checkpoints are
-git-ignored) — double-check `git status` before any push regardless.
