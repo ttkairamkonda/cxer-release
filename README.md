@@ -38,8 +38,8 @@ cxer-release/
 ├── annotations/{llama_70b,qwen_72b,deepseek_70b}/   36 judge-output JSONs (12 files × 3 judges)
 ├── eval_cache/                     cached corpus metrics, SME annotations, robustness benchmark
 ├── prompt_robustness_outputs/      raw judge outputs for the prompt-robustness experiment
-├── recover_main_annotations.py     one-time script: recovered JSON-parse failures in annotations/ (see §8)
-├── verify_compressed_fix.py        one-time script: verifies the compressed/no_examples prompt fix (see §8)
+├── recover_main_annotations.py     one-time script: recovered JSON-parse failures in annotations/
+├── verify_compressed_fix.py        one-time script: verifies the compressed/no_examples prompt fix
 └── requirements.txt / asr_requirements.txt / nvidia_requirements.txt
 ```
 
@@ -272,7 +272,7 @@ percentage-point change Δ = post − pre.
 "high-confidence" region *more* concentrated with critical errors — i.e. the
 metric becomes a *less* trustworthy proxy for safety exactly as it improves.
 
-Current values (post-recovery, see §8):
+Current values:
 
 | Metric | Model | ATCO2 | ATCC | ATCOSim |
 |---|---|---|---|---|
@@ -306,7 +306,7 @@ weights computed directly from the full annotated corpus's natural
 10,059 / 5,836 / 6,066 (computed dynamically by
 `table2_inter_rater_agreement.py` from `annotations/`, so it stays correct
 as the underlying data changes, e.g. after a JSON-parse-failure recovery
-pass like the one in this release — see §8).
+pass like the one applied in this release.
 
 Current values, with 95% bootstrap CIs (1000 resamples, resampling the 500
 validation rows with the two-annotator pairing preserved each replicate):
@@ -333,7 +333,7 @@ prompt's wording?
 (agreement of a judge with *itself* under different phrasings — the
 robustness signal).
 
-Current values (100% coverage — see §8 for the recovery that got it there):
+Current values (100% coverage):
 
 | Judge | cot_v3 | compressed | no_examples | lenient | mean ± std | Fleiss' κ (cross-prompt) |
 |---|---|---|---|---|---|---|
