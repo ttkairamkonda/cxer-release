@@ -142,6 +142,44 @@ def bootstrap_kappa(y1, y2, n_bootstrap=1000):
     return np.percentile(kappas, [2.5, 97.5])
 
 
+def bootstrap_avg_kappa(y_a, y_b, y_c, w=None, n_bootstrap=1000):
+    """
+    95% CI for the *averaged-over-two-annotators* kappa reported in Table 2
+    (e.g. avg of Human1-vs-Judge and Human2-vs-Judge). Resamples row indices
+    once per replicate (same indices for both annotators, preserving the
+    paired structure) so the two per-annotator kappas in each replicate come
+    from the same resampled subset, then averages them. If w is given, uses
+    population-reweighted kappa instead of plain Cohen's kappa.
+    """
+    y_a, y_b, y_c = np.array(y_a), np.array(y_b), np.array(y_c)
+    n = len(y_a)
+    vals = []
+    for _ in range(n_bootstrap):
+        idx = rng.choice(n, size=n, replace=True)
+        if w is None:
+            k1 = cohen_kappa_score(y_a[idx], y_c[idx])
+            k2 = cohen_kappa_score(y_b[idx], y_c[idx])
+        else:
+            k1 = weighted_kappa(y_a[idx], y_c[idx], w[idx])
+            k2 = weighted_kappa(y_b[idx], y_c[idx], w[idx])
+        vals.append((k1 + k2) / 2)
+    return np.percentile(vals, [2.5, 97.5])
+
+
+def bootstrap_single_kappa(y1, y2, w=None, n_bootstrap=1000):
+    """95% CI for a single (non-averaged) kappa, e.g. Human1-vs-Human2."""
+    y1, y2 = np.array(y1), np.array(y2)
+    n = len(y1)
+    vals = []
+    for _ in range(n_bootstrap):
+        idx = rng.choice(n, size=n, replace=True)
+        if w is None:
+            vals.append(cohen_kappa_score(y1[idx], y2[idx]))
+        else:
+            vals.append(weighted_kappa(y1[idx], y2[idx], w[idx]))
+    return np.percentile(vals, [2.5, 97.5])
+
+
 # ── Weighted kappa ────────────────────────────────────────────────────────────
 
 wk_h1_j1 = weighted_kappa(h1, j1, weights)
@@ -336,13 +374,25 @@ plt.savefig(out_path, dpi=300, bbox_inches="tight")
 print(f"\nSaved heatmap → {out_path}")
 
 
-# Bootstrap 95% CIs for Human–LLM pairwise (unweighted Cohen's κ)
-ci_h1_j1 = bootstrap_kappa(h1, j1)
-ci_h1_j2 = bootstrap_kappa(h1, j2)
-ci_h1_j3 = bootstrap_kappa(h1, j3)
-ci_h2_j1 = bootstrap_kappa(h2, j1)
-ci_h2_j2 = bootstrap_kappa(h2, j2)
-ci_h2_j3 = bootstrap_kappa(h2, j3)
-ci_h1_h2 = bootstrap_kappa(h1, h2)
-ci_cons   = bootstrap_kappa(h1, llm_consensus)
+# ── 95% CIs for the exact rows shown in the paper's Table 2 ──────────────────
+# (averaged-over-2-annotators kappa per judge/consensus, human-human ceiling;
+# both unweighted Cohen's kappa and population-reweighted kappa)
+
+print("\n=== TABLE 2 ROW-LEVEL 95% BOOTSTRAP CIs (1000 resamples) ===")
+
+ci_h1h2_unw = bootstrap_single_kappa(h1, h2)
+ci_h1h2_w   = bootstrap_single_kappa(h1, h2, w=weights)
+print(f"Human1-Human2 (ceiling):  Cohen's kappa 95% CI [{ci_h1h2_unw[0]:.3f}, {ci_h1h2_unw[1]:.3f}]"
+      f"   Weighted kappa 95% CI [{ci_h1h2_w[0]:.3f}, {ci_h1h2_w[1]:.3f}]")
+
+for label, judge in [("Llama", j1), ("Qwen", j2), ("DeepSeek", j3)]:
+    ci_unw = bootstrap_avg_kappa(h1, h2, judge)
+    ci_w   = bootstrap_avg_kappa(h1, h2, judge, w=weights)
+    print(f"{label:<10s} (avg. over 2 annotators):  Cohen's kappa 95% CI [{ci_unw[0]:.3f}, {ci_unw[1]:.3f}]"
+          f"   Weighted kappa 95% CI [{ci_w[0]:.3f}, {ci_w[1]:.3f}]")
+
+ci_cons_unw = bootstrap_avg_kappa(h1, h2, llm_consensus)
+ci_cons_w   = bootstrap_avg_kappa(h1, h2, llm_consensus, w=weights)
+print(f"Consensus -- Human (avg.):  Cohen's kappa 95% CI [{ci_cons_unw[0]:.3f}, {ci_cons_unw[1]:.3f}]"
+      f"   Weighted kappa 95% CI [{ci_cons_w[0]:.3f}, {ci_cons_w[1]:.3f}]")
 

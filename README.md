@@ -308,15 +308,19 @@ weights computed directly from the full annotated corpus's natural
 as the underlying data changes, e.g. after a JSON-parse-failure recovery
 pass like the one in this release — see §8).
 
-Current values:
+Current values, with 95% bootstrap CIs (1000 resamples, resampling the 500
+validation rows with the two-annotator pairing preserved each replicate):
 
-| | Cohen's κ (avg. over 2 annotators) | F1 vs. Gold |
-|---|---|---|
-| Human1 vs. Human2 (ceiling) | 0.650 | — |
-| Llama | 0.529 | 0.825 |
-| Qwen | 0.488 | 0.766 |
-| DeepSeek | 0.592 | 0.845 |
-| **Majority-vote ensemble** | **0.593** (population-reweighted: 0.657) | **0.866** |
+| | Cohen's κ (avg. over 2 annotators) | 95% CI | F1 vs. Gold |
+|---|---|---|---|
+| Human1 vs. Human2 (ceiling) | 0.650 | [0.583, 0.714] | — |
+| Llama | 0.529 | [0.459, 0.591] | 0.825 |
+| Qwen | 0.488 | [0.425, 0.551] | 0.766 |
+| DeepSeek | 0.592 | [0.531, 0.648] | 0.845 |
+| **Majority-vote ensemble** | **0.593** (population-reweighted: 0.657) | [0.537, 0.651] (reweighted: [0.603, 0.706]) | **0.866** |
+
+None of the CIs cross zero — agreement is well above chance throughout,
+including for the individual judges.
 
 ### Table 3 — Prompt Robustness (`analysis/table3_prompt_robustness.py`)
 
