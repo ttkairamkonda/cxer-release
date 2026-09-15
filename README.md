@@ -376,7 +376,7 @@ stable κ estimate — reported for completeness, not as a strong claim.
   fine-tuned, across all (model, corpus) combinations.
   
 
-## 9. Reproducing the results
+## 8. Reproducing the results
 
 All pre-computed judge outputs and annotation data are included — steps 0–1
 need multi-GPU hardware and are optional; steps 2–5 run on a standard
