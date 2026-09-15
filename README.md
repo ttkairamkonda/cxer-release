@@ -301,8 +301,12 @@ the practical agreement ceiling; F1 of each judge/ensemble against the human
 majority label ("Gold"). Because the validation set intentionally oversamples
 disagreement cases (harder than the natural corpus distribution), a
 population-reweighted κ is also reported, derived from inverse-probability
-weights over the full corpus's natural (agreed-critical, agreed-equivalent,
-disagreement) proportions (9,988 / 4,729 / 5,822).
+weights computed directly from the full annotated corpus's natural
+(agreed-critical, agreed-equivalent, disagreement) proportions — currently
+10,059 / 5,836 / 6,066 (computed dynamically by
+`table2_inter_rater_agreement.py` from `annotations/`, so it stays correct
+as the underlying data changes, e.g. after a JSON-parse-failure recovery
+pass like the one in this release — see §8).
 
 Current values:
 
@@ -312,7 +316,7 @@ Current values:
 | Llama | 0.529 | 0.825 |
 | Qwen | 0.488 | 0.766 |
 | DeepSeek | 0.592 | 0.845 |
-| **Majority-vote ensemble** | **0.593** (population-reweighted: 0.641) | **0.866** |
+| **Majority-vote ensemble** | **0.593** (population-reweighted: 0.657) | **0.866** |
 
 ### Table 3 — Prompt Robustness (`analysis/table3_prompt_robustness.py`)
 

@@ -1,8 +1,12 @@
 import os
+import json
+import glob
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+from collections import Counter
 
 from sklearn.metrics import (
     cohen_kappa_score,
@@ -17,11 +21,47 @@ _REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 LLM_FILE = os.path.join(_REPO, "eval_cache", "annotation_sheet_shared.xlsx")
 
-POP_COUNTS = {
-    "agreed_critical":   9988,
-    "agreed_equivalent": 4729,
-    "disagreed":         5822,
-}
+ANNOTATION_JUDGES = ["llama_70b", "qwen_72b", "deepseek_70b"]
+
+
+def compute_population_counts():
+    """
+    Population-level (agreed_critical, agreed_equivalent, disagreed) counts
+    over the full annotated corpus, used to population-reweight the 500-sample
+    validation set's kappa (which intentionally oversamples disagreement).
+    Computed directly from annotations/ rather than hardcoded, so it always
+    reflects the current state of the data (e.g. after a JSON-parse-failure
+    recovery pass changes how many samples are classifiable).
+    """
+    files = sorted({os.path.basename(p) for p in glob.glob(
+        os.path.join(_REPO, "annotations", ANNOTATION_JUDGES[0], "*.json"))})
+    counts = Counter()
+    for fname in files:
+        per_judge = {}
+        for judge in ANNOTATION_JUDGES:
+            path = os.path.join(_REPO, "annotations", judge, fname)
+            with open(path) as f:
+                per_judge[judge] = json.load(f)["records"]
+        n = len(per_judge[ANNOTATION_JUDGES[0]])
+        for i in range(n):
+            statuses = [
+                per_judge[j][i]["contextual_status"] for j in ANNOTATION_JUDGES
+                if per_judge[j][i]["contextual_status"] in ("Critical_Errors", "Equivalent")
+            ]
+            if len(statuses) < 2:
+                continue  # fewer than 2 judges classified this sample -- no signal
+            n_crit = statuses.count("Critical_Errors")
+            if n_crit == len(statuses):
+                counts["agreed_critical"] += 1
+            elif n_crit == 0:
+                counts["agreed_equivalent"] += 1
+            else:
+                counts["disagreed"] += 1
+    return dict(counts)
+
+
+POP_COUNTS = compute_population_counts()
+print(f"Population counts (computed from annotations/): {POP_COUNTS}")
 TOTAL_POP = sum(POP_COUNTS.values())
 
 rng = np.random.default_rng(42)
