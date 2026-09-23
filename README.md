@@ -315,16 +315,23 @@ weights computed directly from the full annotated corpus's natural
 as the underlying data changes, e.g. after a JSON-parse-failure recovery
 pass like the one applied in this release.
 
-Current values, with 95% bootstrap CIs (1000 resamples, resampling the 500
-validation rows with the two-annotator pairing preserved each replicate):
+Current values, with 95% bootstrap CIs (1000 resamples, resampling *within*
+each of the three `sample_type` strata separately — 150 agreed-equivalent,
+150 agreed-critical, 200 disagreement — holding each stratum's size fixed at
+its original count, rather than pooling all 500 rows into one resample; the
+two-annotator pairing is preserved each replicate. Earlier drafts of this
+table used a pooled resample, which lets stratum proportions drift randomly
+across replicates even though they were fixed by the validation set's design
+— that overstates sampling uncertainty and gives slightly wider CIs than the
+stratified version below; point estimates are unaffected either way):
 
 | | Cohen's κ (avg. over 2 annotators) | 95% CI | F1 vs. Gold |
 |---|---|---|---|
-| Human1 vs. Human2 (ceiling) | 0.650 | [0.583, 0.714] | — |
-| Llama | 0.529 | [0.459, 0.591] | 0.825 |
-| Qwen | 0.488 | [0.425, 0.551] | 0.766 |
-| DeepSeek | 0.592 | [0.531, 0.648] | 0.845 |
-| **Majority-vote ensemble** | **0.593** (population-reweighted: 0.657) | [0.537, 0.651] (reweighted: [0.603, 0.706]) | **0.866** |
+| Human1 vs. Human2 (ceiling) | 0.650 | [0.590, 0.712] | — |
+| Llama | 0.529 | [0.475, 0.582] | 0.825 |
+| Qwen | 0.488 | [0.434, 0.537] | 0.766 |
+| DeepSeek | 0.592 | [0.539, 0.646] | 0.845 |
+| **Majority-vote ensemble** | **0.593** (population-reweighted: 0.657) | [0.539, 0.645] (reweighted: [0.610, 0.705]) | **0.866** |
 
 None of the CIs cross zero — agreement is well above chance throughout,
 including for the individual judges.

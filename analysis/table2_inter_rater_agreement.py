@@ -132,30 +132,58 @@ def compute_metrics(name, y_true, y_pred):
     print(f"  Agreement: {agreement:.2f}%")
 
 
-def bootstrap_kappa(y1, y2, n_bootstrap=1000):
+def _resample_indices(n, strata=None):
+    """
+    Draw one bootstrap replicate's row indices.
+
+    If `strata` is given, resamples *within* each stratum separately, holding
+    each stratum's size fixed at its original count (e.g. exactly 150 from
+    the 150 agreed_equivalent rows, 150 from the 150 agreed_critical rows,
+    200 from the 200 disagreed rows), then concatenates. This respects the
+    validation set's fixed stratified sampling design -- the researchers
+    chose those three counts on purpose, they weren't randomly realized, so
+    a proper bootstrap shouldn't let them drift across replicates. A plain
+    pooled resample (`rng.choice(n, size=n)`) lets stratum proportions vary
+    randomly each replicate, which overstates the true sampling uncertainty.
+
+    If `strata` is omitted, falls back to a plain pooled resample.
+    """
+    if strata is None:
+        return rng.choice(n, size=n, replace=True)
+    strata = np.asarray(strata)
+    parts = []
+    for s in np.unique(strata):
+        pool = np.where(strata == s)[0]
+        parts.append(rng.choice(pool, size=len(pool), replace=True))
+    return np.concatenate(parts)
+
+
+def bootstrap_kappa(y1, y2, n_bootstrap=1000, strata=None):
     y1, y2 = np.array(y1), np.array(y2)
     kappas = []
     n      = len(y1)
     for _ in range(n_bootstrap):
-        idx = rng.choice(n, size=n, replace=True)
+        idx = _resample_indices(n, strata)
         kappas.append(cohen_kappa_score(y1[idx], y2[idx]))
     return np.percentile(kappas, [2.5, 97.5])
 
 
-def bootstrap_avg_kappa(y_a, y_b, y_c, w=None, n_bootstrap=1000):
+def bootstrap_avg_kappa(y_a, y_b, y_c, w=None, n_bootstrap=1000, strata=None):
     """
     95% CI for the *averaged-over-two-annotators* kappa reported in Table 2
     (e.g. avg of Human1-vs-Judge and Human2-vs-Judge). Resamples row indices
     once per replicate (same indices for both annotators, preserving the
     paired structure) so the two per-annotator kappas in each replicate come
     from the same resampled subset, then averages them. If w is given, uses
-    population-reweighted kappa instead of plain Cohen's kappa.
+    population-reweighted kappa instead of plain Cohen's kappa. If `strata`
+    is given, resamples within each stratum separately (see
+    `_resample_indices`) rather than pooling all rows together.
     """
     y_a, y_b, y_c = np.array(y_a), np.array(y_b), np.array(y_c)
     n = len(y_a)
     vals = []
     for _ in range(n_bootstrap):
-        idx = rng.choice(n, size=n, replace=True)
+        idx = _resample_indices(n, strata)
         if w is None:
             k1 = cohen_kappa_score(y_a[idx], y_c[idx])
             k2 = cohen_kappa_score(y_b[idx], y_c[idx])
@@ -166,13 +194,17 @@ def bootstrap_avg_kappa(y_a, y_b, y_c, w=None, n_bootstrap=1000):
     return np.percentile(vals, [2.5, 97.5])
 
 
-def bootstrap_single_kappa(y1, y2, w=None, n_bootstrap=1000):
-    """95% CI for a single (non-averaged) kappa, e.g. Human1-vs-Human2."""
+def bootstrap_single_kappa(y1, y2, w=None, n_bootstrap=1000, strata=None):
+    """
+    95% CI for a single (non-averaged) kappa, e.g. Human1-vs-Human2. If
+    `strata` is given, resamples within each stratum separately (see
+    `_resample_indices`) rather than pooling all rows together.
+    """
     y1, y2 = np.array(y1), np.array(y2)
     n = len(y1)
     vals = []
     for _ in range(n_bootstrap):
-        idx = rng.choice(n, size=n, replace=True)
+        idx = _resample_indices(n, strata)
         if w is None:
             vals.append(cohen_kappa_score(y1[idx], y2[idx]))
         else:
@@ -257,9 +289,10 @@ print(f"  DeepSeek: H1={kappa_h1_j3:.4f}  H2={kappa_h2_j3:.4f}  Avg={avg_k_j3:.4
 # ── Bootstrap 95% CIs ────────────────────────────────────────────────────────
 
 print("\n=== 95% CONFIDENCE INTERVALS ===")
-ci_j1_j2 = bootstrap_kappa(j1, j2)
-ci_j1_j3 = bootstrap_kappa(j1, j3)
-ci_j2_j3 = bootstrap_kappa(j2, j3)
+strata = df["sample_type"].values
+ci_j1_j2 = bootstrap_kappa(j1, j2, strata=strata)
+ci_j1_j3 = bootstrap_kappa(j1, j3, strata=strata)
+ci_j2_j3 = bootstrap_kappa(j2, j3, strata=strata)
 print(f"Llama-Qwen:     [{ci_j1_j2[0]:.4f}, {ci_j1_j2[1]:.4f}]")
 print(f"Llama-DeepSeek: [{ci_j1_j3[0]:.4f}, {ci_j1_j3[1]:.4f}]")
 print(f"Qwen-DeepSeek:  [{ci_j2_j3[0]:.4f}, {ci_j2_j3[1]:.4f}]")
@@ -378,21 +411,21 @@ print(f"\nSaved heatmap → {out_path}")
 # (averaged-over-2-annotators kappa per judge/consensus, human-human ceiling;
 # both unweighted Cohen's kappa and population-reweighted kappa)
 
-print("\n=== TABLE 2 ROW-LEVEL 95% BOOTSTRAP CIs (1000 resamples) ===")
+print("\n=== TABLE 2 ROW-LEVEL 95% BOOTSTRAP CIs (1000 resamples, stratified within sample_type) ===")
 
-ci_h1h2_unw = bootstrap_single_kappa(h1, h2)
-ci_h1h2_w   = bootstrap_single_kappa(h1, h2, w=weights)
+ci_h1h2_unw = bootstrap_single_kappa(h1, h2, strata=strata)
+ci_h1h2_w   = bootstrap_single_kappa(h1, h2, w=weights, strata=strata)
 print(f"Human1-Human2 (ceiling):  Cohen's kappa 95% CI [{ci_h1h2_unw[0]:.3f}, {ci_h1h2_unw[1]:.3f}]"
       f"   Weighted kappa 95% CI [{ci_h1h2_w[0]:.3f}, {ci_h1h2_w[1]:.3f}]")
 
 for label, judge in [("Llama", j1), ("Qwen", j2), ("DeepSeek", j3)]:
-    ci_unw = bootstrap_avg_kappa(h1, h2, judge)
-    ci_w   = bootstrap_avg_kappa(h1, h2, judge, w=weights)
+    ci_unw = bootstrap_avg_kappa(h1, h2, judge, strata=strata)
+    ci_w   = bootstrap_avg_kappa(h1, h2, judge, w=weights, strata=strata)
     print(f"{label:<10s} (avg. over 2 annotators):  Cohen's kappa 95% CI [{ci_unw[0]:.3f}, {ci_unw[1]:.3f}]"
           f"   Weighted kappa 95% CI [{ci_w[0]:.3f}, {ci_w[1]:.3f}]")
 
-ci_cons_unw = bootstrap_avg_kappa(h1, h2, llm_consensus)
-ci_cons_w   = bootstrap_avg_kappa(h1, h2, llm_consensus, w=weights)
+ci_cons_unw = bootstrap_avg_kappa(h1, h2, llm_consensus, strata=strata)
+ci_cons_w   = bootstrap_avg_kappa(h1, h2, llm_consensus, w=weights, strata=strata)
 print(f"Consensus -- Human (avg.):  Cohen's kappa 95% CI [{ci_cons_unw[0]:.3f}, {ci_cons_unw[1]:.3f}]"
       f"   Weighted kappa 95% CI [{ci_cons_w[0]:.3f}, {ci_cons_w[1]:.3f}]")
 
