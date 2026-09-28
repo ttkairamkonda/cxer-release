@@ -347,6 +347,37 @@ compute_metrics("Qwen         vs Gold", gold, j2)
 compute_metrics("DeepSeek     vs Gold", gold, j3)
 compute_metrics("LLM Consensus vs Gold", gold, llm_consensus)
 
+# ── Bootstrap 95% CIs for Precision/Recall/F1 vs Gold (for Table 2) ──────────
+# Precision/recall/F1 need one fixed ground truth to be well-defined (unlike
+# kappa, which is a symmetric pairwise agreement statistic and is legitimately
+# averaged over Human1-vs-judge and Human2-vs-judge above). So these use the
+# merged human-consensus "gold" column, not an average of two single-rater
+# comparisons against two different targets.
+
+
+def bootstrap_prf(y_true, y_pred, n_bootstrap=1000, strata_arr=None):
+    y_true, y_pred = np.array(y_true, dtype=int), np.array(y_pred, dtype=int)
+    n = len(y_true)
+    boot_p, boot_r, boot_f = [], [], []
+    for _ in range(n_bootstrap):
+        idx = _resample_indices(n, strata_arr)
+        boot_p.append(precision_score(y_true[idx], y_pred[idx], zero_division=0))
+        boot_r.append(recall_score(y_true[idx], y_pred[idx], zero_division=0))
+        boot_f.append(f1_score(y_true[idx], y_pred[idx], zero_division=0))
+    return (np.percentile(boot_p, [2.5, 97.5]), np.percentile(boot_r, [2.5, 97.5]),
+            np.percentile(boot_f, [2.5, 97.5]))
+
+
+print("\n=== PRECISION / RECALL / F1 vs GOLD, 95% BOOTSTRAP CIs (for Table 2) ===")
+for label, judge in [("Llama", j1), ("Qwen", j2), ("DeepSeek", j3), ("LLM Consensus", llm_consensus)]:
+    ci_p, ci_r, ci_f = bootstrap_prf(gold, judge, strata_arr=strata)
+    p = precision_score(gold, judge, zero_division=0)
+    r = recall_score(gold, judge, zero_division=0)
+    f = f1_score(gold, judge, zero_division=0)
+    print(f"{label:<15s} P={p:.4f} [{ci_p[0]:.4f},{ci_p[1]:.4f}]  "
+          f"R={r:.4f} [{ci_r[0]:.4f},{ci_r[1]:.4f}]  "
+          f"F1={f:.4f} [{ci_f[0]:.4f},{ci_f[1]:.4f}]")
+
 kappa_h1_consensus  = cohen_kappa_score(h1, llm_consensus)
 kappa_h2_consensus  = cohen_kappa_score(h2, llm_consensus)
 wkappa_h1_consensus = weighted_kappa(h1, llm_consensus, weights)

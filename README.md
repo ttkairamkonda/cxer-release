@@ -263,10 +263,12 @@ fine-tuning?
 **Method:** for each metric M ∈ {WER, WeightedWER, BERTDist, SemDist} and
 each (ASR family, corpus), compute the 25th-percentile threshold τ of the
 **pretrained** model's M-distribution (i.e. the "best quartile" region that
-metric calls high-confidence). Then, within that *same* threshold region,
-measure the percentage of `Critical_Errors` samples (per the `cot_v3`
-majority-vote CxER label) both before and after fine-tuning, and report the
-percentage-point change Δ = post − pre.
+metric calls high-confidence), pooled across both ASR families and all three
+corpora. Then, within that *same* threshold region, measure the percentage
+of `Critical_Errors` samples — per the majority-vote label across all three
+judges (`cot_v3`), matching CxER's definition everywhere else in the paper —
+both before and after fine-tuning, and report the percentage-point change
+Δ = post − pre.
 
 **Reading it:** a large positive Δ means fine-tuning makes the metric's
 "high-confidence" region *more* concentrated with critical errors — i.e. the
@@ -279,22 +281,32 @@ Current values, with 95% bootstrap CIs (1000 resamples of the
 
 | Metric | Model | ATCO2 | ATCC | ATCOSim |
 |---|---|---|---|---|
-| Δ_WER | Whisper | +23.9 [+18.9, +28.7] | +34.5 [+31.6, +37.7] | +52.6 [+46.3, +58.2] |
-| Δ_WER | Parakeet | +14.2 [+10.3, +18.3] | +22.7 [+20.8, +24.6] | +31.9 [+28.3, +36.3] |
-| Δ_WeightedWER | Whisper | +27.3 [+22.8, +32.1] | +38.0 [+34.9, +40.7] | +49.5 [+43.1, +55.2] |
-| Δ_WeightedWER | Parakeet | +15.2 [+11.5, +19.2] | +20.4 [+18.5, +22.2] | +33.9 [+29.8, +38.0] |
-| Δ_BERTDist | Whisper | +19.7 [+15.1, +24.3] | +40.0 [+37.2, +43.0] | +51.4 [+45.4, +57.4] |
-| Δ_BERTDist | Parakeet | +8.2 [+4.6, +11.9] | +17.1 [+15.4, +18.9] | +30.9 [+26.5, +35.4] |
-| Δ_SemDist | Whisper | +19.1 [+14.0, +23.8] | +38.2 [+35.1, +41.2] | +45.1 [+39.2, +51.4] |
-| Δ_SemDist | Parakeet | +13.3 [+9.6, +17.1] | +23.1 [+21.2, +25.1] | +35.6 [+31.4, +39.6] |
+| Δ_WER | Whisper | +21.8 [+17.0, +26.5] | +29.3 [+26.4, +32.1] | +51.2 [+44.2, +57.9] |
+| Δ_WER | Parakeet | +13.9 [+10.2, +17.8] | +22.0 [+20.1, +23.8] | +30.7 [+26.2, +34.7] |
+| Δ_WeightedWER | Whisper | +25.6 [+21.2, +29.8] | +32.8 [+29.8, +35.5] | +46.9 [+39.4, +53.8] |
+| Δ_WeightedWER | Parakeet | +15.1 [+11.5, +18.9] | +19.5 [+17.9, +21.4] | +32.2 [+28.0, +36.3] |
+| Δ_BERTDist | Whisper | +18.7 [+14.2, +23.2] | +35.0 [+31.9, +38.3] | +48.0 [+40.9, +54.9] |
+| Δ_BERTDist | Parakeet | +8.1 [+5.0, +11.6] | +16.2 [+14.6, +18.1] | +30.4 [+25.9, +34.9] |
+| Δ_SemDist | Whisper | +17.7 [+12.8, +22.7] | +32.6 [+29.5, +35.7] | +42.7 [+34.6, +49.8] |
+| Δ_SemDist | Parakeet | +13.1 [+9.2, +17.1] | +22.2 [+20.4, +24.0] | +35.3 [+30.7, +39.5] |
 
 All 24 cells exclude zero — the narrowest margin (Parakeet/BERTDist/ATCO2,
-+8.2) is still [+4.6, +11.9], so the divergence is not a sampling artifact
++8.1) is still [+5.0, +11.6], so the divergence is not a sampling artifact
 anywhere in the table.
 
 The WeightedWER row exists specifically to rule out the cheap fix ("just
 weight entity tokens more") — it fails almost identically to plain WER,
 motivating CxER's meaning-aware judgment instead of a fixed lexical weight.
+
+**Does this survive controlling for the "safe" region itself growing after
+fine-tuning?** Yes — see `analysis/table1_enrichment_analysis.py`. Coverage
+(the fraction of *all* samples below τ, not just critical ones) rises
+sharply after fine-tuning too (e.g. 43%→97% for Whisper/ATCOSim), so part of
+the raw Δ above is mechanical. Normalizing by it — the enrichment ratio,
+concentration ÷ coverage, which equals 1 if critical errors are no more
+likely than any sample to sit in the safe region — still rises in 23 of the
+24 (metric, model, dataset) cells; the sole exception is Whisper/ATCO2 under
+SemDist.
 
 ### Table 2 — CxER Validation (`analysis/table2_inter_rater_agreement.py`)
 
@@ -325,16 +337,22 @@ across replicates even though they were fixed by the validation set's design
 — that overstates sampling uncertainty and gives slightly wider CIs than the
 stratified version below; point estimates are unaffected either way):
 
-| | Cohen's κ (avg. over 2 annotators) | 95% CI | F1 vs. Gold |
-|---|---|---|---|
-| Human1 vs. Human2 (ceiling) | 0.650 | [0.590, 0.712] | — |
-| Llama | 0.529 | [0.475, 0.582] | 0.825 |
-| Qwen | 0.488 | [0.434, 0.537] | 0.766 |
-| DeepSeek | 0.592 | [0.539, 0.646] | 0.845 |
-| **Majority-vote ensemble** | **0.593** (population-reweighted: 0.657) | [0.539, 0.645] (reweighted: [0.610, 0.705]) | **0.866** |
+| | Cohen's κ (avg. over 2 annotators) | 95% CI | Precision vs. Gold | Recall vs. Gold | F1 vs. Gold |
+|---|---|---|---|---|---|
+| Human1 vs. Human2 (ceiling) | 0.650 | [0.590, 0.712] | — | — | — |
+| Llama | 0.529 | [0.475, 0.582] | 0.841 [0.802, 0.881] | 0.809 [0.767, 0.851] | 0.825 [0.793, 0.853] |
+| Qwen | 0.488 | [0.434, 0.537] | 0.920 [0.887, 0.955] | 0.656 [0.618, 0.698] | 0.766 [0.735, 0.798] |
+| DeepSeek | 0.592 | [0.539, 0.646] | 0.820 [0.779, 0.860] | 0.872 [0.835, 0.911] | 0.845 [0.817, 0.874] |
+| **Majority-vote ensemble** | **0.593** (population-reweighted: 0.657) | [0.539, 0.645] (reweighted: [0.610, 0.705]) | **0.882** [0.843, 0.917] | **0.851** [0.809, 0.887] | **0.866** [0.837, 0.892] |
 
 None of the CIs cross zero — agreement is well above chance throughout,
-including for the individual judges.
+including for the individual judges. κ is averaged separately over
+Human1-vs-judge and Human2-vs-judge (it's a symmetric pairwise agreement
+statistic, so averaging two single-rater comparisons is well-defined).
+Precision/recall/F1 instead need one fixed ground truth, so they're computed
+against the merged human-consensus "Gold" label rather than averaged over
+two individually-defined targets — see `bootstrap_prf` in
+`table2_inter_rater_agreement.py`.
 
 ### Table 3 — Prompt Robustness (`analysis/table3_prompt_robustness.py`)
 
@@ -388,10 +406,16 @@ stable κ estimate — reported for completeness, not as a strong claim.
 
 - **Figure 1** (`figure1_wer_scatter.py`): per-sample WER vs. CxER
   classification scatter, pretrained vs. fine-tuned, with the τ threshold
-  band — the visual counterpart of Table 1's mechanism.
-- **Figure 2** (`figure2_metric_comparison.py`): grouped bar chart of the
-  percentage improvement in each standard metric vs. CxER, pretrained →
-  fine-tuned, across all (model, corpus) combinations.
+  band — the visual counterpart of Table 1's mechanism. Labels are the
+  majority-vote ensemble, and the two annotated callout examples are
+  verified against the real data (exact ref/hyp text and ensemble label) by
+  an assertion the script runs every time, so a stale example fails loudly
+  instead of silently mismatching the panel it's drawn on.
+- **Figure 2** (`figure2_metric_comparison.py`): grouped bar chart, laid out
+  in a single row, of the percentage improvement in each standard metric vs.
+  CxER, pretrained → fine-tuned, across all (model, corpus) combinations.
+  CxER (CCER) is the majority-vote ensemble, recomputed from `annotations/`
+  each run rather than read from a cache.
   
 
 ## 8. Reproducing the results

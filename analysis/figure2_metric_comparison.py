@@ -1,19 +1,63 @@
 """
-ccer_improvement_gap.py
-=======================
-Original grouped bar chart (pretrained vs fine-tuned) with % improvement
-annotations bracketed between each model pair. Clean, uncluttered.
+ccer_improvement_gap_v2.py
+===========================
+Grouped bar chart (pretrained vs fine-tuned) across WER, WeightedWER,
+BERTDist, SemDist, and CxER, with % improvement annotations bracketed
+between each model pair, laid out in a single row.
+
+WER/WeightedWER/BERTDist/SemDist are judge-independent (computed from
+reference/hypothesis text only) and are read from the cached
+eval_cache/all_results.csv. CxER (CCER) is recomputed here directly from
+annotations/ as the majority vote across all three judges, matching CxER's
+definition everywhere else in the paper -- not cached, so it can't go stale
+relative to annotations/.
 """
 
 import os
+import json
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
 _REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ANNOT_ROOT = os.path.join(_REPO, "annotations")
+JUDGES = ["llama_70b", "qwen_72b", "deepseek_70b"]
+
+MODELS = ["whisper-medium", "parakeet-tdt-0.6b-v3"]
+VARIANTS = ["pretrained", "combined"]
+DATASETS_ALL = ["atco2_ood", "uwb_atcc_test", "atcosim_test"]
+
+
+def fname(model, variant, dataset):
+    return f"{model}_pretrained_{dataset}_predictions.json" if variant == "pretrained" \
+        else f"{model}-combined_{dataset}_predictions.json"
+
+
+def ensemble_ccer(model, variant, dataset):
+    per_judge = {}
+    for j in JUDGES:
+        with open(os.path.join(ANNOT_ROOT, j, fname(model, variant, dataset))) as f:
+            per_judge[j] = json.load(f)["records"]
+    n = len(per_judge["llama_70b"])
+    n_crit, n_valid = 0, 0
+    for i in range(n):
+        votes = [per_judge[j][i]["contextual_status"] for j in JUDGES
+                 if per_judge[j][i]["contextual_status"] in ("Critical_Errors", "Equivalent")]
+        if not votes:
+            continue
+        n_valid += 1
+        if votes.count("Critical_Errors") * 2 > len(votes):
+            n_crit += 1
+    return n_crit / n_valid if n_valid else float("nan")
+
 
 df = pd.read_csv(os.path.join(_REPO, "eval_cache", "all_results.csv"))
-df = df[df["judge"] == "qwen"]
+df = df[df["judge"] == "llama"].copy()  # WER/WeightedWER/BERTDist/SemDist are judge-independent
+df["CCER"] = [
+    ensemble_ccer(row.model, row.variant, row.dataset) for row in df.itertuples()
+]
+print("Ensemble CxER by (model, variant, dataset):")
+print(df[["model", "variant", "dataset", "CCER"]].to_string(index=False))
 
 DATASETS = ["atco2_ood", "uwb_atcc_test", "atcosim_test"]
 DATASET_LABELS = {
@@ -87,10 +131,9 @@ def annotate_improvement(ax, x_pre, x_ft, y_pre, y_ft, pct, is_ccer=False):
 
 os.makedirs(os.path.join(_REPO, "eval_plots"), exist_ok=True)
 
-fig, axes = plt.subplots(2, 3, figsize=(12, 6))
+fig, axes = plt.subplots(1, 5, figsize=(18, 3.4))
 fig.patch.set_facecolor("#FAFAFA")
 axes = axes.flatten()
-axes[-1].set_visible(False)   # 6th slot unused
 
 bar_width = 0.18
 x         = np.arange(len(DATASETS))
@@ -186,7 +229,7 @@ fig.legend(
 
 plt.tight_layout(rect=[0, 0, 1, 0.97])
 
-out_path = os.path.join(_REPO, "eval_plots", "ccer_improvement_gap.png")
+out_path = os.path.join(_REPO, "eval_plots", "ccer_improvement_gap_v2.png")
 plt.savefig(
     out_path,
     dpi=600,

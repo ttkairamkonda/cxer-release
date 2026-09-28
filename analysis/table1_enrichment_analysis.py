@@ -1,22 +1,34 @@
 """
-95% bootstrap CIs for Table 1 (the Finetuning Paradox) Delta values.
+Corrected Table 1: Finetuning Paradox, all four metrics.
 
-Delta = pct_critical_in_low_region(fine-tuned) - pct_critical_in_low_region(pretrained)
+Fixes relative to the original table1_finetuning_paradox.py:
+  (1) Labels are the 3-judge majority vote (llama_70b, qwen_72b, deepseek_70b)
+      -- the validated CxER ensemble reported everywhere else in the paper --
+      not llama_70b alone.
+  (2) Reports THREE quantities per (metric, model, dataset), not one:
+        - P(low | critical): fraction of critical-error samples whose metric
+          value is below tau (the original script's metric -- concentration
+          of remaining failures in the "looks safe" region).
+        - coverage: P(metric < tau) over ALL samples -- how much the "safe"
+          region itself grows after fine-tuning. Reported so the reader can
+          see the denominator shift, not just the raw delta.
+        - enrichment: P(low|critical) / coverage -- population-shift-
+          controlled version. Are critical errors over/under-represented in
+          the safe region relative to base rate, not just in absolute terms.
+  tau (per metric) is the 25th percentile of pretrained values, pooled across
+  both models and all three datasets, computed over majority-vote-valid
+  pretrained records -- same convention as table1_bootstrap_ci.py.
 
-Labels are the majority vote across all three judges (llama_70b, qwen_72b,
-deepseek_70b), matching CxER's definition everywhere else in the paper (§2.3,
-§3.1). tau is the 25th percentile of the pooled pretrained per-metric
-distribution across both models and all three corpora. Per-record metric
-computation (BERTScore/SemDist) is the expensive part and is done exactly
-once; the bootstrap itself is pure resampling over already-computed
-per-record values.
+  Supports the "Ruling out a denominator artifact" paragraph (Sec. 2.4):
+  denominator (coverage) growth alone would keep the enrichment ratio flat;
+  instead it rises in 23 of 24 (metric, model, dataset) cells.
 """
 
 import os
 import sys
 import json
-import csv
 import numpy as np
+import pandas as pd
 import torch
 from bert_score import score as bert_score_fn
 from transformers import RobertaTokenizer, RobertaModel
@@ -28,17 +40,17 @@ from weighted_wer import tokenise, entity_token_mask, _levenshtein_weighted, ENT
 
 _REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ANNOT_ROOT = os.path.join(_REPO, "annotations")
+OUT_DIR = os.path.join(_REPO, "analysis_outputs")
+os.makedirs(OUT_DIR, exist_ok=True)
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 JUDGES = ["llama_70b", "qwen_72b", "deepseek_70b"]
 MODELS = ["whisper-medium", "parakeet-tdt-0.6b-v3"]
 DATASETS = ["atco2_ood", "uwb_atcc_test", "atcosim_test"]
 METRICS = ["WER", "WeightedWER", "BERTDist", "SemDist"]
+
 MODEL_LABEL = {"whisper-medium": "Whisper", "parakeet-tdt-0.6b-v3": "Parakeet"}
 DATASET_LABEL = {"atco2_ood": "ATCO2", "uwb_atcc_test": "ATCC", "atcosim_test": "ATCOSim"}
-
-N_BOOTSTRAP = 1000
-rng = np.random.default_rng(42)
 
 
 def fname(model, variant, dataset):
@@ -61,7 +73,7 @@ class SemDist:
         return cls._instance
 
     def __init__(self):
-        print(f"[SemDist] Loading roberta-large on {DEVICE}...", flush=True)
+        print(f"[SemDist] Loading roberta-large on {DEVICE}...")
         self.tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
         self.model = RobertaModel.from_pretrained("roberta-large").to(DEVICE)
         self.model.eval()
@@ -89,7 +101,7 @@ def bertdist_per_record(refs, hyps):
     return (1.0 - F1.numpy())
 
 
-print("Loading records, majority-vote labels, and per-record metrics...", flush=True)
+print("Loading records, majority-vote labels, and per-record metrics (WER, WeightedWER, BERTDist, SemDist)...")
 data = {}
 for model in MODELS:
     for variant in ["pretrained", "combined"]:
@@ -108,7 +120,7 @@ for model in MODELS:
                 label = "Critical_Errors" if votes.count("Critical_Errors") * 2 > len(votes) else "Equivalent"
                 ref = per_judge["llama_70b"][i]["reference"]
                 hyp = per_judge["llama_70b"][i]["hypothesis"]
-                recs.append({"WER": wer, "contextual_status": label, "reference": ref, "hypothesis": hyp})
+                recs.append({"WER": wer, "label": label, "reference": ref, "hypothesis": hyp})
 
             refs = [r["reference"] for r in recs]
             hyps = [r["hypothesis"] for r in recs]
@@ -125,9 +137,11 @@ for model in MODELS:
                     r["WeightedWER"] = err / cost
                 else:
                     r["WeightedWER"] = 0.0
-            data[(model, variant, ds)] = recs
-            print(f"  {MODEL_LABEL[model]} {variant} {ds}: {len(recs)} records", flush=True)
 
+            data[(model, variant, ds)] = recs
+            print(f"  {MODEL_LABEL[model]} {variant} {ds}: {len(recs)} records")
+
+# ── thresholds: 25th pct of pooled pretrained values per metric ─────────────
 thresholds = {}
 for metric in METRICS:
     vals = []
@@ -135,56 +149,41 @@ for metric in METRICS:
         for ds in DATASETS:
             vals.extend([r[metric] for r in data[(model, "pretrained", ds)]])
     thresholds[metric] = float(np.percentile(vals, 25))
-    print(f"  tau[{metric}] = {thresholds[metric]:.6f}", flush=True)
+    print(f"tau[{metric}] = {thresholds[metric]:.4f}")
 
 
-def pct_critical_in_low_region(records, metric, threshold):
-    critical = [r for r in records if r["contextual_status"] == "Critical_Errors"]
-    if not critical:
-        return np.nan
-    low = sum(1 for r in critical if r[metric] < threshold)
-    return 100.0 * low / len(critical)
+def summarize(records, metric, tau):
+    n = len(records)
+    below = [r for r in records if r[metric] < tau]
+    crit = [r for r in records if r["label"] == "Critical_Errors"]
+    crit_below = [r for r in crit if r[metric] < tau]
+    coverage = len(below) / n
+    p_low_given_crit = len(crit_below) / len(crit) if crit else float("nan")
+    enrichment = p_low_given_crit / coverage if coverage else float("nan")
+    return coverage, p_low_given_crit, enrichment
 
 
-def bootstrap_delta(records_pre, records_ft, metric, threshold, n=N_BOOTSTRAP):
-    crit_pre = [r for r in records_pre if r["contextual_status"] == "Critical_Errors"]
-    crit_ft = [r for r in records_ft if r["contextual_status"] == "Critical_Errors"]
-    if not crit_pre or not crit_ft:
-        return (np.nan, np.nan)
-    low_pre = np.array([1 if r[metric] < threshold else 0 for r in crit_pre])
-    low_ft = np.array([1 if r[metric] < threshold else 0 for r in crit_ft])
-    n_pre, n_ft = len(low_pre), len(low_ft)
-    deltas = np.empty(n)
-    for b in range(n):
-        idx_pre = rng.integers(0, n_pre, n_pre)
-        idx_ft = rng.integers(0, n_ft, n_ft)
-        deltas[b] = 100.0 * low_ft[idx_ft].mean() - 100.0 * low_pre[idx_pre].mean()
-    return tuple(np.percentile(deltas, [2.5, 97.5]))
-
-
-print("\n=== TABLE 1 (ENSEMBLE LABELS) DELTA 95% BOOTSTRAP CIs ===", flush=True)
 rows = []
 for metric in METRICS:
-    thr = thresholds[metric]
+    tau = thresholds[metric]
     for model in MODELS:
         for ds in DATASETS:
-            pre = data[(model, "pretrained", ds)]
-            ft = data[(model, "combined", ds)]
-            point_pre = pct_critical_in_low_region(pre, metric, thr)
-            point_ft = pct_critical_in_low_region(ft, metric, thr)
-            delta = point_ft - point_pre
-            ci_lo, ci_hi = bootstrap_delta(pre, ft, metric, thr)
-            row = {"metric": metric, "model": MODEL_LABEL[model], "dataset": DATASET_LABEL[ds],
-                   "pre": round(point_pre, 1), "post": round(point_ft, 1),
-                   "delta": round(delta, 1), "ci_lo": round(ci_lo, 1), "ci_hi": round(ci_hi, 1)}
-            rows.append(row)
-            print(f"  D_{metric:12s} {MODEL_LABEL[model]:9s} {DATASET_LABEL[ds]:8s}  "
-                  f"pre={point_pre:.1f} post={point_ft:.1f} Delta={delta:+.1f}  95% CI [{ci_lo:+.1f}, {ci_hi:+.1f}]", flush=True)
+            cov_pre, low_pre, enr_pre = summarize(data[(model, "pretrained", ds)], metric, tau)
+            cov_post, low_post, enr_post = summarize(data[(model, "combined", ds)], metric, tau)
+            rows.append({
+                "Metric": metric, "Model": MODEL_LABEL[model], "Dataset": DATASET_LABEL[ds],
+                "coverage_pre": round(100 * cov_pre, 1), "coverage_post": round(100 * cov_post, 1),
+                "P(low|crit)_pre": round(100 * low_pre, 1), "P(low|crit)_post": round(100 * low_post, 1),
+                "P(low|crit)_delta": round(100 * (low_post - low_pre), 1),
+                "enrichment_pre": round(enr_pre, 3), "enrichment_post": round(enr_post, 3),
+                "enrichment_delta": round(enr_post - enr_pre, 3),
+            })
 
-out_csv = os.path.join(_REPO, "prompt_robustness_analysis", "table1_bootstrap_ci.csv")
-os.makedirs(os.path.dirname(out_csv), exist_ok=True)
-with open(out_csv, "w", newline="") as f:
-    writer = csv.DictWriter(f, fieldnames=["metric", "model", "dataset", "pre", "post", "delta", "ci_lo", "ci_hi"])
-    writer.writeheader()
-    writer.writerows(rows)
-print(f"\nSaved -> {out_csv}")
+df = pd.DataFrame(rows)
+pd.set_option("display.width", 220)
+pd.set_option("display.max_columns", 30)
+print("\n" + df.to_string(index=False))
+
+out_path = os.path.join(OUT_DIR, "table1_corrected_full.csv")
+df.to_csv(out_path, index=False)
+print(f"\nSaved: {out_path}")

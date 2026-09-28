@@ -1,3 +1,10 @@
+"""
+Table 1 (Finetuning Paradox): point-estimate Delta values (no CIs -- see
+table1_bootstrap_ci.py for the version with bootstrap CIs used in the paper).
+Labels are the majority vote across all three judges (llama_70b, qwen_72b,
+deepseek_70b), matching CxER's definition everywhere else in the paper.
+"""
+
 import os
 import sys
 import json
@@ -12,9 +19,10 @@ hf_logging.set_verbosity_error()
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from weighted_wer import tokenise, entity_token_mask, _levenshtein_weighted, ENTITY_WEIGHT
 
-_REPO    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_DIR = os.path.join(_REPO, "annotations", "llama_70b")
-DEVICE   = "cuda" if torch.cuda.is_available() else "cpu"
+_REPO      = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ANNOT_ROOT = os.path.join(_REPO, "annotations")
+JUDGES     = ["llama_70b", "qwen_72b", "deepseek_70b"]
+DEVICE     = "cuda" if torch.cuda.is_available() else "cpu"
 
 DATASETS = ["atco2_ood", "uwb_atcc_test", "atcosim_test"]
 MODELS   = ["whisper-medium", "parakeet-tdt-0.6b-v3"]
@@ -37,18 +45,31 @@ def fname(model, variant, dataset):
         return f"{model}-combined_{dataset}_predictions.json"
 
 
-def load(model, variant, dataset):
-    path = os.path.join(BASE_DIR, fname(model, variant, dataset))
+def load(judge, model, variant, dataset):
+    path = os.path.join(ANNOT_ROOT, judge, fname(model, variant, dataset))
     with open(path) as f:
         return json.load(f)["records"]
 
 
-def get_valid(records):
-    return [
-        r for r in records
-        if r["contextual_status"] in ("Critical_Errors", "Equivalent")
-        and r.get("WER") is not None
-    ]
+def get_valid_ensemble(model, variant, dataset):
+    """Records with the majority-vote label across all three judges attached
+    as `contextual_status`, matching CxER's definition everywhere else in the
+    paper -- not any single judge's own classification."""
+    per_judge = {j: load(j, model, variant, dataset) for j in JUDGES}
+    n = len(per_judge["llama_70b"])
+    out = []
+    for i in range(n):
+        base = per_judge["llama_70b"][i]
+        if base.get("WER") is None:
+            continue
+        votes = [per_judge[j][i]["contextual_status"] for j in JUDGES
+                 if per_judge[j][i]["contextual_status"] in ("Critical_Errors", "Equivalent")]
+        if not votes:
+            continue
+        label = "Critical_Errors" if votes.count("Critical_Errors") * 2 > len(votes) else "Equivalent"
+        out.append({"WER": base["WER"], "contextual_status": label,
+                     "reference": base["reference"], "hypothesis": base["hypothesis"]})
+    return out
 
 
 # ── SemDist (roberta-large cosine distance per record) ───────────────────────
@@ -110,7 +131,7 @@ data = {}   # (model, variant, dataset) → list of records with metric fields
 for model in MODELS:
     for variant in ["pretrained", "combined"]:
         for ds in DATASETS:
-            records = get_valid(load(model, variant, ds))
+            records = get_valid_ensemble(model, variant, ds)
             refs    = [r["reference"]  for r in records]
             hyps    = [r["hypothesis"] for r in records]
 
